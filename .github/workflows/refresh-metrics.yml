@@ -1,0 +1,47 @@
+name: Refresh tool metrics
+
+on:
+  schedule:
+    # 每 6 小时 — UTC 的 00 / 06 / 12 / 18 点
+    - cron: '0 */6 * * *'
+  workflow_dispatch:  # 支持手动触发(Actions 页面 → Run workflow)
+
+concurrency:
+  group: refresh-metrics
+  cancel-in-progress: false  # 数据同步不抢占,让上一个跑完
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write         # commit + push 需要
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch latest metrics from Smithery / npm / GitHub
+        id: fetch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # 5000 req/h 足够
+        run: node scripts/fetch-metrics.mjs
+
+      - name: Sync md → generated/tools.ts
+        run: npm run sync:tools
+
+      - name: Commit changes (if any)
+        run: |
+          git config user.name "agentstore-bot"
+          git config user.email "bot@agentstore.xyz"
+          git add content/tools src/lib/generated
+          if git diff --cached --quiet; then
+            echo "No metrics changed, nothing to commit."
+            exit 0
+          fi
+          git commit -m "chore(metrics): refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

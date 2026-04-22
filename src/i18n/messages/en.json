@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "title": "AgentStore — The App Store for crypto AI agents",
+    "description": "Discover, install, and master every crypto AI agent tool. Live install data, curated collections, hands-on tutorials."
+  },
+  "nav": {
+    "apps": "Apps",
+    "collections": "Collections",
+    "rankings": "Rankings",
+    "updates": "Updates",
+    "learn": "Learn",
+    "signIn": "Sign in"
+  },
+  "hero": {
+    "searchPlaceholder": "Search tools, collections, creators, tutorials…",
+    "trending": "Trending",
+    "trendingTerms": [
+      "hyperliquid",
+      "funding arbitrage",
+      "rug check",
+      "memecoin radar",
+      "claude desktop",
+      "solana sniper"
+    ],
+    "stats": {
+      "tools": "tools tracked",
+      "newThisWeek": "new this week",
+      "totalCalls": "total calls",
+      "milestoneToday": "crossed 1K today"
+    }
+  },
+  "liveTicker": {
+    "label": "LIVE"
+  },
+  "rankings": {
+    "overall": "Overall",
+    "growth": "Growth",
+    "rising": "Rising Stars",
+    "viewAll": "View full ranking",
+    "calls": "calls",
+    "installs": "installs"
+  },
+  "categories": {
+    "title": "Browse by category",
+    "cex": "CEX Tools",
+    "dex": "DEX Tools",
+    "wallet": "Wallets",
+    "data": "Data & Analytics",
+    "framework": "AI Frameworks",
+    "infra": "Infrastructure",
+    "toolsUnit": "tools",
+    "newUnit": "new/wk"
+  },
+  "collections": {
+    "title": "Featured collections",
+    "viewAll": "All collections",
+    "installs": "installed"
+  },
+  "feed": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "thisWeek": "This week",
+    "get": "GET",
+    "viewMore": "View more launches"
+  },
+  "creator": {
+    "title": "Creator of the week",
+    "toolsCount": "tools",
+    "totalCalls": "total calls",
+    "representative": "Top works",
+    "visit": "Visit profile"
+  },
+  "stories": {
+    "title": "Editor's stories",
+    "readTime": "min read",
+    "views": "views"
+  },
+  "wizard": {
+    "title": "Not sure what to install?",
+    "subtitle": "Answer 4 questions. We'll pick 5–8 tools just for you.",
+    "cta": "Start the 4-question quiz"
+  },
+  "topics": {
+    "title": "Hot topics"
+  },
+  "learn": {
+    "title": "Learn",
+    "subtitle": "From zero to using AI for crypto · 5 courses · 20 lessons · 10 hours",
+    "cta": "Start learning"
+  },
+  "subscribe": {
+    "title": "AgentStore Weekly",
+    "subtitle": "Every Monday. 10 minutes to read the entire crypto AI scene.",
+    "placeholder": "your@email.com",
+    "cta": "Subscribe"
+  },
+  "footer": {
+    "built": "Built for Web3 AI agents",
+    "product": "Product",
+    "company": "Company",
+    "resources": "Resources",
+    "legal": "Legal"
+  }
+}

@@ -1,0 +1,215 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- CSS 变量:双主题 ---------- */
+
+@layer base {
+  :root {
+    /* 浅色模式(次要) */
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --primary: 250 84% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 250 84% 60%;
+    --radius: 1rem;
+  }
+
+  .dark {
+    /* 深色模式(主打,crypto 用户主场) */
+    --background: 240 10% 3.5%;     /* #0A0A0C */
+    --foreground: 0 0% 95%;         /* #F2F2F2 */
+    --card: 240 6% 7%;              /* #111114 */
+    --card-foreground: 0 0% 95%;
+    --muted: 240 5% 12%;            /* #1C1C21 */
+    --muted-foreground: 240 5% 60%; /* #909099 */
+    --accent: 240 5% 14%;
+    --accent-foreground: 0 0% 95%;
+    --primary: 250 95% 72%;         /* 紫蓝 */
+    --primary-foreground: 240 10% 4%;
+    --secondary: 240 5% 12%;
+    --secondary-foreground: 0 0% 95%;
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5% 15%;
+    --input: 240 5% 15%;
+    --ring: 250 95% 72%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "cv11", "ss01", "ss03";
+  }
+
+  ::selection {
+    background: hsl(var(--primary) / 0.3);
+    color: hsl(var(--foreground));
+  }
+
+  /* 自定义滚动条,深色模式下更细 */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--muted));
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--muted-foreground) / 0.5);
+  }
+}
+
+/* ---------- 自定义工具类(酷炫视觉)---------- */
+
+@layer utilities {
+  /* 品牌渐变文字 */
+  .text-gradient-brand {
+    background: linear-gradient(135deg, #A78BFA 0%, #818CF8 40%, #22D3EE 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  /* 品牌渐变边框卡片 */
+  .card-gradient-border {
+    position: relative;
+    background: hsl(var(--card));
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .card-gradient-border::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: inherit;
+    background: linear-gradient(135deg,
+      rgba(139, 92, 246, 0.45),
+      rgba(99, 102, 241, 0.25) 40%,
+      rgba(6, 182, 212, 0.35));
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  /* 发光数字(实时统计用)*/
+  .glow-number {
+    text-shadow:
+      0 0 16px rgba(167, 139, 250, 0.35),
+      0 0 2px rgba(167, 139, 250, 0.6);
+  }
+
+  /* 背景网格 */
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, rgba(255,255,255,0.035) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255,255,255,0.035) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+  .bg-grid-light {
+    background-image:
+      linear-gradient(to right, rgba(0,0,0,0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(0,0,0,0.04) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+
+  /* 顶部 fade mask,让网格从上往下淡出 */
+  .mask-fade-y {
+    mask-image: linear-gradient(to bottom, black 0%, black 50%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 0%, black 50%, transparent 100%);
+  }
+
+  /* 毛玻璃导航 */
+  .glass {
+    background: hsl(var(--background) / 0.7);
+    backdrop-filter: saturate(180%) blur(18px);
+    -webkit-backdrop-filter: saturate(180%) blur(18px);
+  }
+
+  /* shimmer 扫光(用于卡片 hover 或 skeleton)*/
+  .shimmer {
+    background: linear-gradient(
+      110deg,
+      transparent 30%,
+      rgba(255, 255, 255, 0.08) 50%,
+      transparent 70%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 3s linear infinite;
+  }
+
+  /* 无缝 marquee 需要 content 复制两份,总体宽度 200%,位移 -50% */
+  .marquee-track {
+    display: flex;
+    width: max-content;
+    animation: marquee 60s linear infinite;
+  }
+  .marquee-track:hover {
+    animation-play-state: paused;
+  }
+
+  /* 细线分隔符,颜色渐变 */
+  .divider-gradient {
+    height: 1px;
+    background: linear-gradient(to right,
+      transparent,
+      hsl(var(--border)) 20%,
+      hsl(var(--border)) 80%,
+      transparent);
+  }
+
+  /* 卡片 hover 上浮 */
+  .lift-on-hover {
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+  .lift-on-hover:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px -8px rgba(139, 92, 246, 0.25);
+    border-color: hsl(var(--primary) / 0.4);
+  }
+
+  /* 辉光 orb(hero 背景氛围光)*/
+  .orb {
+    position: absolute;
+    border-radius: 9999px;
+    filter: blur(80px);
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  /* iOS safe area 底部内边距(移动端 tab bar 用)*/
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom, 0);
+  }
+}

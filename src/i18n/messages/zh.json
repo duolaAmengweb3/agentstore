@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "title": "AgentStore — 给你的 AI 装上加密世界",
+    "description": "发现、安装、玩转每一个给 AI 用的加密货币工具。实时装机数据、精选合集、手把手教程。"
+  },
+  "nav": {
+    "apps": "工具",
+    "collections": "合集",
+    "rankings": "榜单",
+    "updates": "更新",
+    "learn": "学习",
+    "signIn": "登录"
+  },
+  "hero": {
+    "searchPlaceholder": "搜工具、合集、创作者、教程…",
+    "trending": "热门",
+    "trendingTerms": [
+      "hyperliquid",
+      "funding 套利",
+      "防 rug",
+      "memecoin 雷达",
+      "claude desktop",
+      "solana 狙击"
+    ],
+    "stats": {
+      "tools": "个工具",
+      "newThisWeek": "本周新增",
+      "totalCalls": "累计调用",
+      "milestoneToday": "个今日破千"
+    }
+  },
+  "liveTicker": {
+    "label": "实时"
+  },
+  "rankings": {
+    "overall": "综合榜",
+    "growth": "本周增长",
+    "rising": "新星榜",
+    "viewAll": "查看完整榜单",
+    "calls": "调用",
+    "installs": "装机"
+  },
+  "categories": {
+    "title": "按类别浏览",
+    "cex": "交易所工具",
+    "dex": "DEX 工具",
+    "wallet": "钱包签名",
+    "data": "数据分析",
+    "framework": "AI 框架",
+    "infra": "基础设施",
+    "toolsUnit": "个工具",
+    "newUnit": "本周新"
+  },
+  "collections": {
+    "title": "精选合集",
+    "viewAll": "全部合集",
+    "installs": "人装过"
+  },
+  "feed": {
+    "today": "今日",
+    "yesterday": "昨日",
+    "thisWeek": "本周",
+    "get": "装上",
+    "viewMore": "查看更多更新"
+  },
+  "creator": {
+    "title": "本周创作者",
+    "toolsCount": "个工具",
+    "totalCalls": "累计调用",
+    "representative": "代表作",
+    "visit": "访问主页"
+  },
+  "stories": {
+    "title": "编辑精选故事",
+    "readTime": "分钟",
+    "views": "阅读"
+  },
+  "wizard": {
+    "title": "不知道装啥?",
+    "subtitle": "回答 4 个问题,AgentStore 帮你挑 5-8 个最合适的工具。",
+    "cta": "开始回答 4 个问题"
+  },
+  "topics": {
+    "title": "热门话题"
+  },
+  "learn": {
+    "title": "系统学习",
+    "subtitle": "从零开始用 AI 玩加密货币 · 5 门课 · 20 节 · 10 小时",
+    "cta": "进入学习"
+  },
+  "subscribe": {
+    "title": "AgentStore 周报",
+    "subtitle": "每周一,10 分钟读懂加密 AI 圈。",
+    "placeholder": "你的邮箱",
+    "cta": "订阅"
+  },
+  "footer": {
+    "built": "Built for Web3 AI agents",
+    "product": "产品",
+    "company": "公司",
+    "resources": "资源",
+    "legal": "法务"
+  }
+}
