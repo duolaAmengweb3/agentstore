@@ -94,10 +94,6 @@ export function Nav() {
 
         <ThemeToggle />
         <LocaleSwitch />
-
-        <button className="hidden sm:inline-flex h-9 items-center rounded-lg px-3 text-xs font-medium bg-foreground text-background hover:opacity-90 transition">
-          {t('signIn')}
-        </button>
       </div>
     </header>
   );

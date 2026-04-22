@@ -108,7 +108,6 @@ export default async function MethodologyPage({
         <ul className="space-y-2">
           <li>· {zh ? 'npm / PyPI 下载做了 CI 下载识别(固定时间段的规律性下载不计)' : 'npm / PyPI downloads filter out CI patterns (regular scheduled pulls don\'t count)'}</li>
           <li>· {zh ? '同 IP 短时间大量 Smithery 调用做限速' : 'Same-IP burst Smithery calls are rate-limited before counting'}</li>
-          <li>· {zh ? '用户评分需要登录,新账号有冷却期' : 'User reviews require login; new accounts have a cooldown'}</li>
           <li>· {zh ? '我们会监测异常,被发现刷分会降权或除名' : 'Anomalies get flagged; proven gaming leads to deranking or removal'}</li>
         </ul>
       </SectionBlock>
