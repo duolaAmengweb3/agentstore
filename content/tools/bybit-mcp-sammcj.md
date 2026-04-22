@@ -33,7 +33,7 @@ readme:
       get_instrument_info — Get detailed instrument information for a specific
       trading pair
   installCmd: pnpm i
-  lastFetched: '2026-04-22T02:53:42.781Z'
+  lastFetched: '2026-04-22T02:58:41.091Z'
 repoInfo:
   language: TypeScript
   license: MIT

@@ -25,7 +25,7 @@ readme:
     The most complete AI-powered trading toolkit for Claude and MCP clients.
     Backtesting + Live Sentiment + Yahoo Finance + 30+ Technical Analysis Tools
     — all in one MCP server.
-  lastFetched: '2026-04-22T02:54:02.897Z'
+  lastFetched: '2026-04-22T02:59:00.052Z'
 repoInfo:
   language: Python
   license: MIT

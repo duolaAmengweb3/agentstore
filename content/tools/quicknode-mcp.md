@@ -10,8 +10,7 @@ tagline_en: 'Manage endpoints, billing, usage via natural language'
 tagline_zh: 自然语言管理 endpoint / 计费 / 使用量
 metrics:
   npmMonthly: 1923
-fetch:
-  github: quicknode/quicknode-mcp
+fetch: {}
 ---
 
 

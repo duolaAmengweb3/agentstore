@@ -36,7 +36,7 @@ readme:
       whale://transactions/{blockchain} — Expose recent transactions for a
       specified blockchain as contextual data.
     - 'Prompts:'
-  lastFetched: '2026-04-22T02:53:57.032Z'
+  lastFetched: '2026-04-22T02:58:54.346Z'
 repoInfo:
   language: Python
   license: MIT

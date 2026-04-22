@@ -11,7 +11,7 @@ tagline_zh: MCP 服务器注册表 + 自动安装
 metrics:
   weeklyGrowthPct: 22
 fetch:
-  github: smithery-ai/smithery
+  github: smithery-ai/sdk
 ---
 
 

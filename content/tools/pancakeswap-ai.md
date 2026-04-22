@@ -34,7 +34,7 @@ readme:
     links
 
     /plugin install pancakeswap-farming   # Farming planner
-  lastFetched: '2026-04-22T02:54:00.205Z'
+  lastFetched: '2026-04-22T02:58:57.688Z'
 repoInfo:
   language: JavaScript
   license: null

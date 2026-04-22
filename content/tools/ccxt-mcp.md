@@ -29,7 +29,7 @@ readme:
     - Get price information for specific symbols
     - View order book information for specific symbols
     - Search historical OHLCV data
-  lastFetched: '2026-04-22T02:53:44.039Z'
+  lastFetched: '2026-04-22T02:58:42.261Z'
 repoInfo:
   language: TypeScript
   license: MIT

@@ -23,7 +23,7 @@ readme:
   about: >-
     Payments MCP is an MCP server & companion wallet app that combines wallets,
     onramps, and payments via x402 into a single solution for agentic commerce.
-  lastFetched: '2026-04-22T02:53:45.465Z'
+  lastFetched: '2026-04-22T02:58:43.386Z'
 repoInfo:
   language: TypeScript
   license: NOASSERTION

@@ -24,8 +24,13 @@ fetch:
   github: elizaOS/eliza
   npm: '@elizaos/core'
 readme:
-  about: Autonomous agents for everyone
-  lastFetched: '2026-04-22T02:53:48.933Z'
+  about: >-
+    elizaOS is an all-in-one, extensible platform for building and deploying
+    AI-powered applications. Whether you're creating sophisticated chatbots,
+    autonomous agents for business process automation, or intelligent game NPCs,
+    Eliza provides the tools you need to get started quickly and scale
+    effectively.
+  lastFetched: '2026-04-22T02:58:45.906Z'
 repoInfo:
   language: TypeScript
   license: MIT

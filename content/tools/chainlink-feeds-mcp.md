@@ -46,7 +46,7 @@ readme:
   installCmd: |-
     git clone https://github.com/kukapay/chainlink-feeds-mcp.git
        cd chainlink-feeds-mcp
-  lastFetched: '2026-04-22T02:53:43.663Z'
+  lastFetched: '2026-04-22T02:58:41.861Z'
 repoInfo:
   language: JavaScript
   license: MIT

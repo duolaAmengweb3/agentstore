@@ -20,8 +20,8 @@ metrics:
 fetch:
   github: OpenClaw/openclaw
 readme:
-  about: <strong>EXFOLIATE! EXFOLIATE!</strong>
-  lastFetched: '2026-04-22T02:53:59.969Z'
+  about: EXFOLIATE! EXFOLIATE!
+  lastFetched: '2026-04-22T02:58:58.176Z'
 repoInfo:
   language: TypeScript
   license: MIT

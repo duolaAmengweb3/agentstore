@@ -25,7 +25,7 @@ readme:
     Connects any MCP-compatible client to AEVO's 45 tools for market data,
     portfolio management, order execution, risk analysis, and options
     strategies.
-  lastFetched: '2026-04-22T02:53:39.392Z'
+  lastFetched: '2026-04-22T02:58:37.489Z'
 repoInfo:
   language: null
   license: null

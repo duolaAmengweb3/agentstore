@@ -26,7 +26,7 @@ readme:
   installCmd: |-
     [dependencies]
         jupiter-swap-api-client = { git = "https://github.com/jup-ag/jupiter-swap-api-client.git", package = "jupiter-swap-api-client"}
-  lastFetched: '2026-04-22T02:53:52.090Z'
+  lastFetched: '2026-04-22T02:58:49.276Z'
 repoInfo:
   language: Rust
   license: null

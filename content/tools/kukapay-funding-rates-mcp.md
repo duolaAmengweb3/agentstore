@@ -37,7 +37,7 @@ readme:
     - >-
       Claude Desktop Integration — Runs as an MCP server for interactive
       queries.
-  lastFetched: '2026-04-22T02:53:55.570Z'
+  lastFetched: '2026-04-22T02:58:52.500Z'
 repoInfo:
   language: Python
   license: MIT

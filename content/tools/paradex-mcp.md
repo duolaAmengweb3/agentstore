@@ -30,7 +30,7 @@ readme:
     - Place and manage orders
     - Monitor positions and balance
   installCmd: claude mcp add paradex uvx mcp-paradex
-  lastFetched: '2026-04-22T02:53:59.806Z'
+  lastFetched: '2026-04-22T02:58:57.642Z'
 repoInfo:
   language: Python
   license: MIT

@@ -32,7 +32,7 @@ readme:
       Cross-Exchange Comparison — Compare order book depth and imbalance across
       multiple exchanges in a unified Markdown table.
     - 'Supported Exchanges — Binance, Kraken, Coinbase, Bitfinex, Okx, Bybit'
-  lastFetched: '2026-04-22T02:53:55.100Z'
+  lastFetched: '2026-04-22T02:58:51.101Z'
 repoInfo:
   language: Python
   license: MIT

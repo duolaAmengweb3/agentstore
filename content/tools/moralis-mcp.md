@@ -12,7 +12,31 @@ metrics:
   npmMonthly: 6234
   githubStars: 234
 fetch:
-  github: MoralisWeb3/moralis-mcp-server
+  github: a6b8/moralis-mcp
+readme:
+  about: >-
+    A Model Context Protocol (MCP) server implementation for interacting with
+    the Moralis Web3 API, providing access to blockchain data across multiple
+    networks through a structured API interface.
+  features:
+    - Get block contents by block hash
+    - Convert date to block
+    - Get transaction details
+    - Get latest block number
+    - Get native transactions
+  installCmd: |-
+    # Install dependencies
+    npm install
+  lastFetched: '2026-04-22T02:58:56.260Z'
+repoInfo:
+  language: JavaScript
+  license: null
+  topics: []
+  contributors: 1
+  openIssues: 0
+  archived: false
+  createdAt: '2025-04-10T23:58:11Z'
+  defaultBranch: main
 ---
 
 

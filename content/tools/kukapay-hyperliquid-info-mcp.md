@@ -36,7 +36,7 @@ readme:
       get_user_funding_history — Query funding payment history with customizable
       time ranges.
     - get_user_fees — Fetch user-specific fee structures (maker/taker rates).
-  lastFetched: '2026-04-22T02:53:56.042Z'
+  lastFetched: '2026-04-22T02:58:52.979Z'
 repoInfo:
   language: Python
   license: MIT

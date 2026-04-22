@@ -10,8 +10,7 @@ tagline_en: 'MIT CLI built for autonomous HL agents — grid, DCA, market-making
 tagline_zh: 为 HL 自治 agent 做的 MIT CLI — 网格/DCA/做市
 metrics:
   githubStars: 67
-fetch:
-  github: openbroker/open-broker
+fetch: {}
 ---
 
 

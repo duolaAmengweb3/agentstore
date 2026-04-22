@@ -33,7 +33,7 @@ readme:
     - 'Parameters — network, contract address'
     - Returns — Implementation contract address
   installCmd: npm install @bankless/onchain-mcp
-  lastFetched: '2026-04-22T02:53:39.909Z'
+  lastFetched: '2026-04-22T02:58:38.172Z'
 repoInfo:
   language: TypeScript
   license: null

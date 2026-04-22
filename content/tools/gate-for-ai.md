@@ -11,8 +11,7 @@ tagline_zh: Gate MCP + 40 AI skills + CLI 三合一
 metrics:
   githubStars: 94
   weeklyGrowthPct: 18
-fetch:
-  github: gate-mirror/gate-for-ai
+fetch: {}
 ---
 
 

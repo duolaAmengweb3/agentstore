@@ -33,7 +33,7 @@ readme:
   installCmd: |-
     git clone https://github.com/Crossmint/mcp-crossmint-checkout.git
        cd mcp-crossmint-checkout
-  lastFetched: '2026-04-22T02:53:46.496Z'
+  lastFetched: '2026-04-22T02:58:43.915Z'
 repoInfo:
   language: JavaScript
   license: null

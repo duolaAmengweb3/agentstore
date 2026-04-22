@@ -36,7 +36,7 @@ readme:
       Token security analysis - Built-in GoPlus security checks for token
       verification
     - Gas-efficient operations - Smart routing for optimal gas usage on BSC
-  lastFetched: '2026-04-22T02:53:43.193Z'
+  lastFetched: '2026-04-22T02:58:41.404Z'
 repoInfo:
   language: TypeScript
   license: null

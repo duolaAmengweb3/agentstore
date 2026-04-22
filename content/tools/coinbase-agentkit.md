@@ -24,8 +24,8 @@ fetch:
   github: coinbase/agentkit
   npm: '@coinbase/agentkit'
 readme:
-  about: '<h1 style="font-size: 3em; margin-bottom: 20px;"> AgentKit'
-  lastFetched: '2026-04-22T02:53:45.897Z'
+  about: Every agent deserves a wallet.
+  lastFetched: '2026-04-22T02:58:43.405Z'
 repoInfo:
   language: TypeScript
   license: NOASSERTION

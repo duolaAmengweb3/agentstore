@@ -24,8 +24,8 @@ fetch:
   github: sendaifun/solana-agent-kit
   npm: solana-agent-kit
 readme:
-  about: "[!TIP] checkout Suzi \U0001F338  by SendAI"
-  lastFetched: '2026-04-22T02:54:02.439Z'
+  about: "checkout Suzi \U0001F338 by SendAI"
+  lastFetched: '2026-04-22T02:58:59.619Z'
 repoInfo:
   language: TypeScript
   license: Apache-2.0

@@ -41,7 +41,7 @@ readme:
       volume, liquidity, and market health
     - Public Access — No authentication required - uses Polymarket's public APIs
     - Real-time Data — Access to both Gamma Markets API and Data API
-  lastFetched: '2026-04-22T02:54:00.665Z'
+  lastFetched: '2026-04-22T02:58:58.629Z'
 repoInfo:
   language: TypeScript
   license: null

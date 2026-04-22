@@ -21,7 +21,7 @@ fetch:
   github: krakenfx/kraken-cli
 readme:
   about: 'The first AI-native CLI for trading crypto, stocks, forex, and derivatives.'
-  lastFetched: '2026-04-22T02:53:53.253Z'
+  lastFetched: '2026-04-22T02:58:49.992Z'
 repoInfo:
   language: Rust
   license: MIT

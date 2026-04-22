@@ -11,8 +11,7 @@ tagline_zh: 跨 15+ 链(含 Solana)的 agent swap
 metrics:
   githubStars: 112
   weeklyGrowthPct: 26
-fetch:
-  github: 0xProject/0x-agent-skills
+fetch: {}
 ---
 
 

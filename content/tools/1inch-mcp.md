@@ -12,8 +12,7 @@ metrics:
   npmMonthly: 8213
   githubStars: 156
   weeklyGrowthPct: 62
-fetch:
-  github: 1inch/1inch-mcp
+fetch: {}
 ---
 
 

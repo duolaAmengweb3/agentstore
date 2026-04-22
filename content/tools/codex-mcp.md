@@ -32,7 +32,7 @@ readme:
 
     # Build the project
     pnpm build
-  lastFetched: '2026-04-22T02:53:44.955Z'
+  lastFetched: '2026-04-22T02:58:42.852Z'
 repoInfo:
   language: TypeScript
   license: null

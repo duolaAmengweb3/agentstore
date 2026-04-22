@@ -23,7 +23,7 @@ readme:
   installCmd: |-
     git clone https://github.com/chatmcp/mcp-directory.git
     cd mcp-directory
-  lastFetched: '2026-04-22T02:53:57.830Z'
+  lastFetched: '2026-04-22T02:58:54.924Z'
 repoInfo:
   language: TypeScript
   license: Apache-2.0

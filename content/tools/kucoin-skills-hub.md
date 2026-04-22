@@ -23,7 +23,7 @@ readme:
     An open skills marketplace that gives AI agents read-only access to the
     KuCoin exchange via the KuCoin Classic REST API.
   installCmd: 'npx skills add https://github.com/Kucoin/kucoin-skills-hub --full-depth'
-  lastFetched: '2026-04-22T02:53:52.622Z'
+  lastFetched: '2026-04-22T02:58:50.185Z'
 repoInfo:
   language: null
   license: MIT

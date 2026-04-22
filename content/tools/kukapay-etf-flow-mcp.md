@@ -35,7 +35,7 @@ readme:
   installCmd: |-
     git clone https://github.com/kukapay/etf-flow-mcp.git
        cd etf-flow-mcp
-  lastFetched: '2026-04-22T02:53:55.547Z'
+  lastFetched: '2026-04-22T02:58:52.473Z'
 repoInfo:
   language: Python
   license: MIT

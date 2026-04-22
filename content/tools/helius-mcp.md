@@ -12,7 +12,35 @@ metrics:
   npmMonthly: 5621
   githubStars: 178
 fetch:
-  github: helius-labs/helius-mcp
+  github: helius-labs/core-ai
+readme:
+  about: >-
+    The official Helius AI tooling repository — everything you need to interact
+    with Helius and Solana from the command line, from AI assistants like
+    Claude, or autonomously as an agent.
+  features:
+    - '--api-key <key> flag'
+    - HELIUS_API_KEY environment variable
+    - ~/.helius/config.json
+  installCmd: |-
+    npm install -g helius-cli
+    # or
+    pnpm add -g helius-cli
+  lastFetched: '2026-04-22T02:58:47.792Z'
+repoInfo:
+  language: TypeScript
+  license: MIT
+  topics:
+    - ai-tools
+    - claude-skills
+    - cursor
+    - mcp
+    - solana
+  contributors: 7
+  openIssues: 3
+  archived: false
+  createdAt: '2026-02-05T10:18:06Z'
+  defaultBranch: main
 ---
 
 

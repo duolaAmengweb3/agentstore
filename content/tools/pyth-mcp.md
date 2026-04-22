@@ -39,7 +39,7 @@ readme:
     - >-
       Time-Weighted Average Prices (TWAP) — Calculate TWAP with custom time
       windows (1-600 seconds) for more stable pricing
-  lastFetched: '2026-04-22T02:54:01.517Z'
+  lastFetched: '2026-04-22T02:58:59.080Z'
 repoInfo:
   language: Python
   license: MIT

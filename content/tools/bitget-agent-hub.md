@@ -20,11 +20,11 @@ metrics:
 fetch:
   github: BitgetLimited/agent_hub
 readme:
-  about: <h1 align="center">Bitget Agent Hub</h1>
+  about: Bitget agent hub
   installCmd: |-
     # Install everything and deploy skills to Claude Code (default)
     npx bitget-hub upgrade-all --target claude
-  lastFetched: '2026-04-22T02:53:41.751Z'
+  lastFetched: '2026-04-22T02:58:40.008Z'
 repoInfo:
   language: TypeScript
   license: null

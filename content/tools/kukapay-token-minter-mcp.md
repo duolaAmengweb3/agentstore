@@ -32,7 +32,7 @@ readme:
   installCmd: |-
     git clone https://github.com/kukapay/token-minter-mcp.git
        cd token-minter-mcp/server
-  lastFetched: '2026-04-22T02:53:56.513Z'
+  lastFetched: '2026-04-22T02:58:53.879Z'
 repoInfo:
   language: JavaScript
   license: MIT

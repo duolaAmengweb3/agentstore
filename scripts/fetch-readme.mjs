@@ -60,15 +60,21 @@ function extractDescription(md) {
     // 跳过分隔符
     if (/^[-=*]{3,}$/.test(trimmed)) continue;
 
-    // 清理 markdown 内联标记
+    // 清理 markdown 内联标记 + HTML 标签
     const clean = trimmed
-      .replace(/^>\s+/, '')        // quote
-      .replace(/\*\*(.*?)\*\*/g, '$1')  // bold
-      .replace(/\*(.*?)\*/g, '$1')      // italic
-      .replace(/`(.*?)`/g, '$1')        // code
+      .replace(/^>\s+/, '')                     // quote
+      .replace(/<[^>]+>/g, '')                  // 内联 HTML 标签(如 <h1 style=...>)
+      .replace(/&[a-z]+;/gi, ' ')               // HTML 实体
+      .replace(/\*\*(.*?)\*\*/g, '$1')          // bold
+      .replace(/\*(.*?)\*/g, '$1')              // italic
+      .replace(/`(.*?)`/g, '$1')                // code
       .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')  // links
       .replace(/!\[[^\]]*\]\([^)]*\)/g, '')     // images
+      .replace(/\s+/g, ' ')
       .trim();
+
+    // 跳过只剩很少字的行(HTML 标签去完几乎为空)
+    if (clean.length < 10) continue;
 
     if (clean.length > 0) paragraph.push(clean);
     if (paragraph.join(' ').length > 400) break;

@@ -20,8 +20,7 @@ metrics:
 fetch:
   github: game-by-virtuals/game-node
 readme:
-  about: <details> <summary>Table of Contents</summary>
-  lastFetched: '2026-04-22T02:54:03.862Z'
+  lastFetched: '2026-04-22T02:59:00.561Z'
 repoInfo:
   language: TypeScript
   license: MIT

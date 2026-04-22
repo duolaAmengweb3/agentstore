@@ -24,7 +24,7 @@ readme:
   installCmd: |-
     /plugin marketplace add gmx-io/gmx-ai
     /plugin install gmx-io@gmx-ai
-  lastFetched: '2026-04-22T02:53:49.841Z'
+  lastFetched: '2026-04-22T02:58:46.853Z'
 repoInfo:
   language: null
   license: MIT

@@ -22,7 +22,7 @@ fetch:
   github: goat-sdk/goat
 readme:
   about: The leading agentic finance toolkit for AI agents
-  lastFetched: '2026-04-22T02:53:50.232Z'
+  lastFetched: '2026-04-22T02:58:46.843Z'
 repoInfo:
   language: TypeScript
   license: MIT

@@ -36,7 +36,7 @@ readme:
     - >-
       Modular Design — Indicators and strategies are categorized for easy
       maintenance.
-  lastFetched: '2026-04-22T02:53:53.716Z'
+  lastFetched: '2026-04-22T02:58:50.641Z'
 repoInfo:
   language: JavaScript
   license: MIT

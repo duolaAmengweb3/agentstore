@@ -28,7 +28,7 @@ readme:
     npm install -g @anthropic-ai/claude-code
     claude mcp add near-mcp npx @nearai/near-mcp@latest run
     claude
-  lastFetched: '2026-04-22T02:53:58.791Z'
+  lastFetched: '2026-04-22T02:58:56.694Z'
 repoInfo:
   language: TypeScript
   license: MIT

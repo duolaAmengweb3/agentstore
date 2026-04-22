@@ -29,7 +29,7 @@ readme:
     - >-
       Structured Output — Returns detailed token information including name,
       symbol, Snif score, market cap, price, supply, risks, and audit status.
-  lastFetched: '2026-04-22T02:53:56.542Z'
+  lastFetched: '2026-04-22T02:58:53.891Z'
 repoInfo:
   language: Python
   license: MIT

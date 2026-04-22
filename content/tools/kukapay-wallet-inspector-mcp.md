@@ -20,7 +20,7 @@ fetch:
   github: kukapay/wallet-inspector-mcp
 readme:
   about: >-
-    An MCP server  that empowers AI agents to inspect any wallet’s balance and
+    An MCP server that empowers AI agents to inspect any wallet’s balance and
     onchain activity across major EVM chains and Solana chain.
   features:
     - >-
@@ -29,7 +29,7 @@ readme:
     - >-
       Flexible Output — Balances in ASCII tables, activities and transactions in
       structured text.
-  lastFetched: '2026-04-22T02:53:56.548Z'
+  lastFetched: '2026-04-22T02:58:53.898Z'
 repoInfo:
   language: Python
   license: MIT

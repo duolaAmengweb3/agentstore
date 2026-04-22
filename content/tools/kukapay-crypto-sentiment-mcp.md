@@ -39,7 +39,7 @@ readme:
   installCmd: |-
     git clone https://github.com/kukapay/crypto-sentiment-mcp.git
        cd crypto-sentiment-mcp
-  lastFetched: '2026-04-22T02:53:54.625Z'
+  lastFetched: '2026-04-22T02:58:51.591Z'
 repoInfo:
   language: Python
   license: MIT

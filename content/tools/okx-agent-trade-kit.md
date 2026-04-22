@@ -48,7 +48,7 @@ readme:
 
     okx-trade-mcp setup --client vscode          # writes .mcp.json in current
     directory
-  lastFetched: '2026-04-22T02:53:59.318Z'
+  lastFetched: '2026-04-22T02:58:57.186Z'
 repoInfo:
   language: TypeScript
   license: MIT

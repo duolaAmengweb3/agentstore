@@ -20,7 +20,7 @@ fetch:
   github: block/goose
 readme:
   about: "\U0001F986 goose has moved! This project has moved from block/goose to the Agentic AI Foundation (AAIF) at the Linux Foundation. Some links and references are still being updated — please bear with us during the transition."
-  lastFetched: '2026-04-22T02:53:51.584Z'
+  lastFetched: '2026-04-22T02:58:48.302Z'
 repoInfo:
   language: Rust
   license: Apache-2.0

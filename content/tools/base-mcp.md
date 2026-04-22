@@ -32,7 +32,7 @@ readme:
     - Deploy smart contracts
     - Interact with Morpho vaults for onchain lending
     - Call contract functions
-  lastFetched: '2026-04-22T02:53:40.842Z'
+  lastFetched: '2026-04-22T02:58:39.164Z'
 repoInfo:
   language: TypeScript
   license: MIT

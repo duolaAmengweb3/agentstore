@@ -24,7 +24,7 @@ readme:
     DriftPy is the Python client for the Drift protocol. It allows you to trade
     and fetch data from Drift using Python.
   installCmd: pip install driftpy
-  lastFetched: '2026-04-22T02:53:47.943Z'
+  lastFetched: '2026-04-22T02:58:45.342Z'
 repoInfo:
   language: Python
   license: null

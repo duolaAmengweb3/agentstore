@@ -27,7 +27,7 @@ readme:
     to interact with Ethereum, Optimism, Arbitrum, Base, Polygon, and many other
     EVM chains with a unified interface through 22 tools and 10 AI-guided
     prompts.
-  lastFetched: '2026-04-22T02:53:58.312Z'
+  lastFetched: '2026-04-22T02:58:55.610Z'
 repoInfo:
   language: TypeScript
   license: MIT

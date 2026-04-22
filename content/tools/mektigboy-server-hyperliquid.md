@@ -21,7 +21,7 @@ fetch:
   github: mektigboy/server-hyperliquid
 readme:
   about: An MCP server implementation that integrates the Hyperliquid SDK.
-  lastFetched: '2026-04-22T02:53:58.289Z'
+  lastFetched: '2026-04-22T02:58:55.798Z'
 repoInfo:
   language: TypeScript
   license: MIT
