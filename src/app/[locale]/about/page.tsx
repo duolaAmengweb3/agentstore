@@ -1,6 +1,6 @@
 import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
-import { Github, Twitter, Send, Users, Package, GraduationCap, Scale } from 'lucide-react';
+import { Github, Users, Package, GraduationCap, Scale } from 'lucide-react';
 import { PageShell, SectionBlock } from '@/components/marketing/page-shell';
 
 export const metadata = { title: 'About · AgentStore' };
@@ -86,11 +86,14 @@ export default async function AboutPage({
 
       {/* Contact */}
       <SectionBlock number="04" title={zh ? '联系 / 加入' : 'Get in touch'}>
-        <p>{zh ? '三种方式:' : 'Three ways:'}</p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 not-prose">
-          <ContactCard icon={<Twitter className="h-5 w-5" />} label="Twitter" href="https://twitter.com" desc={zh ? '聊聊 + 每日更新' : 'Chat + daily updates'} />
-          <ContactCard icon={<Github className="h-5 w-5" />} label="GitHub" href="https://github.com" desc={zh ? '贡献工具 / 报 bug' : 'Contribute / report bugs'} />
-          <ContactCard icon={<Send className="h-5 w-5" />} label="Telegram" href="#" desc={zh ? '中文社区群' : 'Chinese community'} />
+        <p>{zh ? '目前就一个入口:' : 'One way in:'}</p>
+        <div className="grid grid-cols-1 not-prose">
+          <ContactCard
+            icon={<Github className="h-5 w-5" />}
+            label="GitHub"
+            href="https://github.com/duolaAmengweb3/agentstore"
+            desc={zh ? '贡献工具 / 报 bug / 看源码' : 'Contribute tools / file bugs / read the source'}
+          />
         </div>
         <p className="text-sm">
           {zh ? '想让你的工具上架?' : 'Want to list your tool?'}{' '}

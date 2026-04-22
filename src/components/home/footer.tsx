@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Sparkles, Twitter, Github, MessageCircle, Send } from 'lucide-react';
+import { Sparkles, Github } from 'lucide-react';
 import { Link } from '@/i18n/routing';
 
 export function Footer() {
@@ -26,10 +26,7 @@ export function Footer() {
               The App Store for crypto AI agents. Discover, install, master every tool.
             </p>
             <div className="mt-4 flex gap-2">
-              <Social href="https://twitter.com" icon={<Twitter className="h-4 w-4" />} />
-              <Social href="https://github.com" icon={<Github className="h-4 w-4" />} />
-              <Social href="#" icon={<MessageCircle className="h-4 w-4" />} />
-              <Social href="#" icon={<Send className="h-4 w-4" />} />
+              <Social href="https://github.com/duolaAmengweb3/agentstore" icon={<Github className="h-4 w-4" />} label="GitHub" />
             </div>
           </div>
 
@@ -81,12 +78,13 @@ function Column({ title, items }: { title: string; items: { label: string; href:
   );
 }
 
-function Social({ href, icon }: { href: string; icon: React.ReactNode }) {
+function Social({ href, icon, label }: { href: string; icon: React.ReactNode; label: string }) {
   return (
     <a
       href={href}
       target="_blank"
       rel="noopener noreferrer"
+      aria-label={label}
       className="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-border/60 bg-card/40 text-muted-foreground hover:text-foreground hover:border-border transition"
     >
       {icon}

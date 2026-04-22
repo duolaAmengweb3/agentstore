@@ -1,5 +1,5 @@
 import { setRequestLocale } from 'next-intl/server';
-import { Rss, Bell, TrendingUp, Package, AlertTriangle, Star, Sparkles, Zap } from 'lucide-react';
+import { Bell, TrendingUp, Package, AlertTriangle, Star, Sparkles, Zap } from 'lucide-react';
 import { Link } from '@/i18n/routing';
 import { Nav } from '@/components/home/nav';
 import { Footer } from '@/components/home/footer';
@@ -65,15 +65,9 @@ export default async function UpdatesPage({
             </h1>
             <p className="text-muted-foreground max-w-2xl mb-6">
               {locale === 'zh'
-                ? '新品发布、版本更新、里程碑、告警、行业大事件 — 全部实时流。订阅邮件 / RSS / Telegram / Discord。'
-                : 'Launches, version bumps, milestones, warnings, industry events — live stream. Subscribe via email / RSS / Telegram / Discord.'}
+                ? '新品发布、版本更新、里程碑、告警、行业大事件 — 全部实时流。'
+                : 'Launches, version bumps, milestones, warnings, industry events — live stream.'}
             </p>
-            <div className="flex flex-wrap gap-2">
-              <SubscribeBtn icon={<Bell className="h-3 w-3" />} label="Email" />
-              <SubscribeBtn icon={<Rss className="h-3 w-3" />} label="RSS" />
-              <SubscribeBtn icon={<span>📱</span>} label="Telegram" />
-              <SubscribeBtn icon={<span>💬</span>} label="Discord" />
-            </div>
           </div>
         </section>
 
@@ -105,10 +99,6 @@ export default async function UpdatesPage({
                   ? '批次 B 我们会接 GitHub release / npm publish / Smithery metrics webhook,实时推送工具发布、版本更新、里程碑、告警。'
                   : 'Batch B will wire up GitHub release / npm publish / Smithery metrics webhooks to stream launches, version bumps, milestones, and warnings in real time.'}
               </p>
-              <div className="mt-5 inline-flex items-center gap-2 text-xs text-muted-foreground">
-                <Rss className="h-3 w-3" />
-                {locale === 'zh' ? '订阅邮件 / RSS 上线时通知你' : 'Subscribe email / RSS to get notified when it lands'}
-              </div>
             </div>
           ) : (
             <div className="rounded-2xl border border-border/60 bg-card/30 divide-y divide-border/60">
@@ -251,11 +241,3 @@ export default async function UpdatesPage({
   );
 }
 
-function SubscribeBtn({ icon, label }: { icon: React.ReactNode; label: string }) {
-  return (
-    <button className="inline-flex items-center gap-2 h-9 px-4 rounded-full border border-border/60 bg-card/40 text-xs hover:border-primary/40 hover:bg-card transition">
-      {icon}
-      {label}
-    </button>
-  );
-}
