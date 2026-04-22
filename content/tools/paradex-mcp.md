@@ -13,7 +13,7 @@ tagline_zh: 'Paradex(Starknet L3 perp)社区 MCP,质量高,官方 SDK 是 parade
 metrics:
   smitheryCalls: 823
   githubStars: 9
-  weeklyGrowthPct: 52
+  weeklyGrowthPct: 0
   lastPush: '2026-03-03T05:45:12Z'
   archived: false
   _history:
@@ -21,7 +21,9 @@ metrics:
       v: 90
     - t: '2026-04-22T07:26:00.618Z'
       v: 90
-  lastAutoUpdated: '2026-04-22T07:26:00.618Z'
+    - t: '2026-04-22T13:16:43.760Z'
+      v: 90
+  lastAutoUpdated: '2026-04-22T13:16:43.760Z'
 fetch:
   github: sv/mcp-paradex-py
 readme:
@@ -37,7 +39,7 @@ readme:
     - claude mcp add paradex uvx mcp-paradex
     - npx -y @smithery/cli install @sv/mcp-paradex-py --client claude
   installCmd: claude mcp add paradex uvx mcp-paradex
-  lastFetched: '2026-04-22T07:26:08.455Z'
+  lastFetched: '2026-04-22T13:16:51.961Z'
 repoInfo:
   language: Python
   license: MIT

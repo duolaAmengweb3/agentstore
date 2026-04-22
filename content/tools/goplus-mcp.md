@@ -13,7 +13,7 @@ tagline_zh: 'GoPlus 官方安全 MCP:代币安全 / 地址风险 / Web3 威胁�
 metrics:
   npmMonthly: 3421
   githubStars: 7
-  weeklyGrowthPct: 45
+  weeklyGrowthPct: 0
   lastPush: '2025-05-29T04:31:38Z'
   archived: false
   _history:
@@ -21,7 +21,9 @@ metrics:
       v: 3491
     - t: '2026-04-22T07:25:58.400Z'
       v: 3491
-  lastAutoUpdated: '2026-04-22T07:25:58.400Z'
+    - t: '2026-04-22T13:16:41.006Z'
+      v: 3491
+  lastAutoUpdated: '2026-04-22T13:16:41.006Z'
 fetch:
   github: GoPlusSecurity/goplus-mcp
 readme:
@@ -32,7 +34,7 @@ readme:
     Through this server, LLM Client can directly access and analyze blockchain
     security data, helping users with token security analysis, address risk
     assessment, and comprehensive Web3 security checks.
-  lastFetched: '2026-04-22T07:26:05.460Z'
+  lastFetched: '2026-04-22T13:16:48.791Z'
 repoInfo:
   language: TypeScript
   license: Apache-2.0
