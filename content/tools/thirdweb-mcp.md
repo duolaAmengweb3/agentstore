@@ -22,7 +22,9 @@ metrics:
       v: 170408
     - t: '2026-04-22T13:16:44.369Z'
       v: 167565
-  lastAutoUpdated: '2026-04-22T13:16:44.369Z'
+    - t: '2026-04-22T19:06:44.935Z'
+      v: 167565
+  lastAutoUpdated: '2026-04-22T19:06:44.935Z'
   weeklyGrowthPct: -2
 fetch:
   npm: thirdweb

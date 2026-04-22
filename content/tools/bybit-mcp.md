@@ -20,14 +20,16 @@ metrics:
       v: 60
     - t: '2026-04-22T13:16:38.980Z'
       v: 60
-  lastAutoUpdated: '2026-04-22T13:16:38.980Z'
+    - t: '2026-04-22T19:06:40.276Z'
+      v: 60
+  lastAutoUpdated: '2026-04-22T19:06:40.276Z'
 fetch:
   github: bybit-exchange/bybit-mcp
 readme:
   about: >-
     The most comprehensive MCP server for Bybit — 247 tools covering the entire
     Bybit V5 API
-  lastFetched: '2026-04-22T13:16:46.301Z'
+  lastFetched: '2026-04-22T19:06:47.208Z'
 repoInfo:
   language: Python
   license: MIT
