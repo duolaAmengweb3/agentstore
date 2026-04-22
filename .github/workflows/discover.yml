@@ -1,0 +1,117 @@
+name: Discover new tools
+
+on:
+  schedule:
+    # 每天 UTC 01:00(北京时间早上 9 点)
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: discover-new-tools
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write      # 写 discoveries json + 自动 onboard 信任源
+      issues: write        # 建 issue 让你审 review 候选
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # 需要完整历史才能 push
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Scan Smithery / npm / GitHub for new crypto AI tools
+        id: discover
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/discover-new-tools.mjs
+
+      - name: Auto-onboard trusted sources
+        id: onboard
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/onboard-candidate.mjs --all-trusted
+
+      - name: Sync md → generated/tools.ts
+        run: npm run sync:tools
+
+      - name: Commit discoveries + any auto-onboarded tools
+        id: commit
+        run: |
+          git config user.name "agentstore-bot"
+          git config user.email "bot@agentstore.xyz"
+          git add content/discoveries content/tools src/lib/generated
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            echo "committed=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          MSG="chore(discover): $(date -u +'%Y-%m-%d') — ${{ steps.discover.outputs.total || 0 }} candidates, ${{ steps.onboard.outputs.onboarded || 0 }} auto-onboarded"
+          git commit -m "$MSG"
+          git push
+          echo "committed=true" >> $GITHUB_OUTPUT
+
+      - name: Create review issue for community candidates
+        if: steps.discover.outputs.review_count != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE=$(date -u +'%Y-%m-%d')
+          FILE="content/discoveries/${DATE}.json"
+
+          if [ ! -f "$FILE" ]; then
+            echo "no discovery file, skip"
+            exit 0
+          fi
+
+          # 用 jq 拆出 review 列表的前 20 条,写成 issue body
+          BODY=$(node -e "
+            const d = require('./$FILE');
+            const review = (d.review || []).slice(0, 20);
+            console.log('### ' + review.length + ' candidates need your review');
+            console.log('');
+            console.log('Auto-onboarded trusted sources: **${{ steps.onboard.outputs.onboarded || 0 }}**');
+            console.log('');
+            console.log('Below are community-submitted candidates. For each:');
+            console.log('- ✅ Onboard: post a comment with \`/onboard <slug>\`');
+            console.log('- ❌ Skip: no action needed, they expire with next scan');
+            console.log('');
+            console.log('---');
+            console.log('');
+            for (const c of review) {
+              const badge = c.source === 'smithery' ? '📦' : c.source === 'npm' ? '📘' : '🐙';
+              console.log(\`#### \${badge} \\\`\${c.slug}\\\`  [\${c.source}]\`);
+              console.log('');
+              console.log(\`**\${c.displayName || c.slug}**  — \${c.description?.slice(0, 200) || 'no description'}\`);
+              console.log('');
+              const metrics = [];
+              if (c.stars) metrics.push(\`⭐ \${c.stars}\`);
+              if (c.useCount) metrics.push(\`📊 \${c.useCount} calls\`);
+              if (c.score) metrics.push(\`score \${c.score.toFixed(2)}\`);
+              if (metrics.length) console.log(metrics.join(' · '));
+              if (c.url) console.log(\`<\${c.url}>\`);
+              console.log('');
+              console.log(\`To add: \\\`/onboard \${c.slug}\\\`\`);
+              console.log('');
+              console.log('---');
+              console.log('');
+            }
+            if ((d.review || []).length > 20) {
+              console.log('*(\' + ((d.review || []).length - 20) + \' more in \' + '$FILE' + \')*');
+            }
+          ")
+
+          echo "$BODY" > /tmp/issue_body.md
+          gh issue create \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "🔍 Tool candidates for ${DATE} — ${{ steps.discover.outputs.review_count }} new" \
+            --body-file /tmp/issue_body.md \
+            --label "discover,new-tools" || true

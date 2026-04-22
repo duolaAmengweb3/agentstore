@@ -28,3 +28,6 @@ pnpm-debug.log*
 .idea
 .vscode
 .env*.local
+
+# 本地 dry-run 产生的临时文件(CI 会提交正式的)
+# 不 ignore — 让 GH Actions 能提交

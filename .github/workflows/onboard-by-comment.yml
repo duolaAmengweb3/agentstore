@@ -1,0 +1,64 @@
+name: Onboard tool by comment
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  onboard:
+    # 只在 issue 评论 + 以 /onboard 开头
+    if: |
+      github.event.issue.pull_request == null
+      && startsWith(github.event.comment.body, '/onboard ')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Parse slug from comment
+        id: parse
+        run: |
+          SLUG=$(echo "${{ github.event.comment.body }}" | head -n1 | sed 's|^/onboard ||' | tr -d ' \r\n')
+          echo "slug=$SLUG" >> $GITHUB_OUTPUT
+
+      - name: Run onboard script
+        run: node scripts/onboard-candidate.mjs "${{ steps.parse.outputs.slug }}"
+
+      - name: Sync to TS
+        run: npm run sync:tools
+
+      - name: Create PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH="onboard/${{ steps.parse.outputs.slug }}-$(date -u +%s)"
+          git config user.name "agentstore-bot"
+          git config user.email "bot@agentstore.xyz"
+          git checkout -b "$BRANCH"
+          git add content/tools src/lib/generated
+          if git diff --cached --quiet; then
+            gh issue comment "${{ github.event.issue.number }}" \
+              --body "⚠️ Could not onboard \`${{ steps.parse.outputs.slug }}\` — candidate not found or already exists."
+            exit 0
+          fi
+          git commit -m "feat(tool): onboard ${{ steps.parse.outputs.slug }}"
+          git push origin "$BRANCH"
+          PR_URL=$(gh pr create \
+            --title "feat(tool): onboard ${{ steps.parse.outputs.slug }}" \
+            --body "Triggered by /onboard comment on #${{ github.event.issue.number }} by @${{ github.event.comment.user.login }}" \
+            --base main \
+            --head "$BRANCH" \
+            --label "new-tool")
+          gh issue comment "${{ github.event.issue.number }}" \
+            --body "✅ Onboarded \`${{ steps.parse.outputs.slug }}\` — see $PR_URL"
