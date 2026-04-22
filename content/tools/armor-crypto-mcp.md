@@ -19,6 +19,24 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:39.828Z'
 fetch:
   github: armorwallet/armor-crypto-mcp
+readme:
+  about: Alpha Test version 0.1.24
+  lastFetched: '2026-04-22T02:53:39.901Z'
+repoInfo:
+  language: Python
+  license: GPL-3.0
+  topics:
+    - ai
+    - ai-agents
+    - cryptocurrency
+    - mcp
+    - tradingbot
+    - wallet
+  contributors: 5
+  openIssues: 3
+  archived: false
+  createdAt: '2025-03-22T12:05:35Z'
+  defaultBranch: main
 ---
 
 

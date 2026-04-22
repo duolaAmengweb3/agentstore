@@ -18,6 +18,26 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:43.994Z'
 fetch:
   github: chatmcp/mcp-directory
+readme:
+  about: a directory for Awesome MCP Servers.
+  installCmd: |-
+    git clone https://github.com/chatmcp/mcp-directory.git
+    cd mcp-directory
+  lastFetched: '2026-04-22T02:53:57.830Z'
+repoInfo:
+  language: TypeScript
+  license: Apache-2.0
+  topics:
+    - awesome-mcp-servers
+    - mcp
+    - mcp-server-store
+    - mcp-servers
+    - mcp-servers-directory
+  contributors: 2
+  openIssues: 1637
+  archived: false
+  createdAt: '2024-12-06T02:22:42Z'
+  defaultBranch: main
 ---
 
 

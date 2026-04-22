@@ -18,6 +18,22 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:42.372Z'
 fetch:
   github: block/goose
+readme:
+  about: "\U0001F986 goose has moved! This project has moved from block/goose to the Agentic AI Foundation (AAIF) at the Linux Foundation. Some links and references are still being updated — please bear with us during the transition."
+  lastFetched: '2026-04-22T02:53:51.584Z'
+repoInfo:
+  language: Rust
+  license: Apache-2.0
+  topics:
+    - acp
+    - ai
+    - ai-agents
+    - mcp
+  contributors: 431
+  openIssues: 375
+  archived: false
+  createdAt: '2024-08-23T19:03:36Z'
+  defaultBranch: main
 ---
 
 

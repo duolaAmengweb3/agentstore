@@ -20,6 +20,26 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:44.782Z'
 fetch:
   github: sv/mcp-paradex-py
+readme:
+  about: >-
+    Model Context Protocol (MCP) server implementation for the Paradex trading
+    platform.
+  features:
+    - Retrieve market data from Paradex
+    - Manage trading accounts and vaults
+    - Place and manage orders
+    - Monitor positions and balance
+  installCmd: claude mcp add paradex uvx mcp-paradex
+  lastFetched: '2026-04-22T02:53:59.806Z'
+repoInfo:
+  language: Python
+  license: MIT
+  topics: []
+  contributors: 3
+  openIssues: 2
+  archived: false
+  createdAt: '2025-03-07T03:32:57Z'
+  defaultBranch: main
 ---
 
 

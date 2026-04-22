@@ -18,6 +18,42 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:44.488Z'
 fetch:
   github: noditlabs/nodit-mcp-server
+readme:
+  about: >-
+    A Model Context Protocol (MCP) server that connects AI agents and developers
+    to structured, context-ready blockchain data across multiple networks
+    through Nodit's Web3 infrastructure.
+  features:
+    - >-
+      Build AI agents that query, analyze, and act on real-time blockchain data
+      across EVM-compatible and non-EVM networks.
+    - >-
+      Develope Web3-integrated applications without requiring specialized
+      blockchain development expertise.
+    - >-
+      Leverage Nodit's reliable node infrastructure, Web3 Data APIs, and GraphQL
+      indexing services through a unified access layer.
+    - >-
+      Easily develop with blockchain MCP in both local and remote integration,
+      depending on your workflow needs.
+  lastFetched: '2026-04-22T02:53:59.270Z'
+repoInfo:
+  language: TypeScript
+  license: Apache-2.0
+  topics:
+    - ai
+    - blockchain
+    - blockchain-data
+    - blockchain-node
+    - llm
+    - mcp
+    - mcp-server
+    - onchain
+  contributors: 4
+  openIssues: 3
+  archived: false
+  createdAt: '2025-04-25T06:23:57Z'
+  defaultBranch: main
 ---
 
 

@@ -20,6 +20,23 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:45.459Z'
 fetch:
   github: sendaifun/solana-mcp
+readme:
+  about: '<span style="color:#222;font-weight:600;">Check on Phala</span>'
+  features:
+    - Interact with Solana blockchain
+    - Execute transactions
+    - Query account information
+    - Manage Solana wallets
+  lastFetched: '2026-04-22T02:54:02.404Z'
+repoInfo:
+  language: Shell
+  license: Apache-2.0
+  topics: []
+  contributors: 3
+  openIssues: 2
+  archived: false
+  createdAt: '2025-03-10T13:18:32Z'
+  defaultBranch: main
 ---
 
 

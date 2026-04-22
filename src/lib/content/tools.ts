@@ -31,6 +31,35 @@ export type ToolFromMarkdown = {
   score: number;
 };
 
+/** 详情页专用:含 README / repoInfo 等服务端字段 */
+export type ToolDetailData = {
+  // README 自动抓取
+  readme?: {
+    about?: string;
+    features?: string[];
+    installCmd?: string;
+    lastFetched?: string;
+  };
+  // GitHub repo meta 自动抓取
+  repoInfo?: {
+    language?: string;
+    license?: string;
+    topics?: string[];
+    contributors?: number;
+    openIssues?: number;
+    archived?: boolean;
+    createdAt?: string;
+    defaultBranch?: string;
+  };
+  // fetch 数据源(给"官方链接"区域用)
+  fetch?: {
+    github?: string;
+    npm?: string;
+    smithery?: string;
+    pypi?: string;
+  };
+};
+
 const CONTENT_DIR = path.join(process.cwd(), 'content/tools');
 
 /** 读一次,整进程生命周期缓存 */
@@ -78,6 +107,26 @@ export function loadToolsFromMarkdown(): ToolFromMarkdown[] {
 
   cache = list;
   return list;
+}
+
+/**
+ * 服务端专用:读某个工具的完整 detail 数据(含 readme / repoInfo)
+ * 不会进 client bundle(因为只在 server component 里 import)
+ */
+export function getToolDetailData(slug: string): ToolDetailData | null {
+  const filepath = path.join(CONTENT_DIR, `${slug}.md`);
+  if (!fs.existsSync(filepath)) return null;
+  try {
+    const raw = fs.readFileSync(filepath, 'utf8');
+    const { data } = matter(raw);
+    return {
+      readme: data.readme,
+      repoInfo: data.repoInfo,
+      fetch: data.fetch,
+    };
+  } catch {
+    return null;
+  }
 }
 
 /** 合并 md 源 + 内存 fallback,按 slug 去重(md 优先) */

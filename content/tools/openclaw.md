@@ -19,6 +19,25 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:44.504Z'
 fetch:
   github: OpenClaw/openclaw
+readme:
+  about: <strong>EXFOLIATE! EXFOLIATE!</strong>
+  lastFetched: '2026-04-22T02:53:59.969Z'
+repoInfo:
+  language: TypeScript
+  license: MIT
+  topics:
+    - ai
+    - assistant
+    - crustacean
+    - molty
+    - openclaw
+    - own-your-data
+    - personal
+  contributors: 365
+  openIssues: 19226
+  archived: false
+  createdAt: '2025-11-24T10:16:47Z'
+  defaultBranch: main
 ---
 
 

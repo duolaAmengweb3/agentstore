@@ -18,6 +18,25 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:41.592Z'
 fetch:
   github: dcSpark/mcp-server-defillama
+readme:
+  about: >-
+    This repository contains a Model Context Protocol (MCP) server that provides
+    Claude with access to DeFi data via the DefiLlama API. The server enables
+    Claude to perform operations like retrieving protocol TVL data, chain TVL
+    data, token prices, and stablecoin information.
+  features:
+    - defillama_get_protocols — List all protocols tracked by DefiLlama
+    - defillama_get_protocol_tvl — Get TVL data for a specific protocol
+  lastFetched: '2026-04-22T02:53:47.457Z'
+repoInfo:
+  language: TypeScript
+  license: MIT
+  topics: []
+  contributors: 3
+  openIssues: 0
+  archived: false
+  createdAt: '2025-03-02T06:59:36Z'
+  defaultBranch: main
 ---
 
 

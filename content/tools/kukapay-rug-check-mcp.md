@@ -18,6 +18,27 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:43.388Z'
 fetch:
   github: kukapay/rug-check-mcp
+readme:
+  about: >-
+    An MCP server that detects potential risks in Solana meme tokens, helping AI
+    agents avoid rug pulls and unsafe projects.
+  features:
+    - >-
+      Token Analysis Tool — The analysis_token tool retrieves and processes
+      Solana token data from the Solsniffer API.
+    - >-
+      Structured Output — Returns detailed token information including name,
+      symbol, Snif score, market cap, price, supply, risks, and audit status.
+  lastFetched: '2026-04-22T02:53:56.542Z'
+repoInfo:
+  language: Python
+  license: MIT
+  topics: []
+  contributors: 2
+  openIssues: 3
+  archived: false
+  createdAt: '2025-03-26T14:34:14Z'
+  defaultBranch: main
 ---
 
 

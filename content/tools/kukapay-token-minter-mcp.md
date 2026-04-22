@@ -18,6 +18,30 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:43.839Z'
 fetch:
   github: kukapay/token-minter-mcp
+readme:
+  about: >-
+    An MCP server providing tools for AI agents to mint ERC-20 tokens,
+    supporting 21 blockchains.
+  features:
+    - Deploy new ERC-20 tokens with customizable parameters.
+    - 'Query token metadata (name, symbol, decimals, total supply).'
+    - Initiate token transfers (returns transaction hash without confirmation).
+    - Retrieve transaction details by hash.
+    - Check native token balance of the current account.
+    - Access token metadata via URI.
+  installCmd: |-
+    git clone https://github.com/kukapay/token-minter-mcp.git
+       cd token-minter-mcp/server
+  lastFetched: '2026-04-22T02:53:56.513Z'
+repoInfo:
+  language: JavaScript
+  license: MIT
+  topics: []
+  contributors: 2
+  openIssues: 4
+  archived: false
+  createdAt: '2025-03-19T14:18:31Z'
+  defaultBranch: main
 ---
 
 

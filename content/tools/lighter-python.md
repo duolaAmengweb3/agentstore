@@ -19,6 +19,33 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:43.827Z'
 fetch:
   github: elliottech/lighter-python
+readme:
+  about: Python SDK for Lighter
+  installCmd: |-
+    import lighter
+    import asyncio
+
+    async def main():
+        client = lighter.ApiClient()
+        try:
+            account_api = lighter.AccountApi(client)
+            account = await account_api.account(by="index", value="1")
+            print(account)
+        finally:
+            await client.close()  # Make sure connection is cleanly closed
+
+    if __name__ == "__main__":
+        asyncio.run(main())
+  lastFetched: '2026-04-22T02:53:57.061Z'
+repoInfo:
+  language: Python
+  license: Apache-2.0
+  topics: []
+  contributors: 19
+  openIssues: 41
+  archived: false
+  createdAt: '2025-02-03T09:58:17Z'
+  defaultBranch: main
 ---
 
 

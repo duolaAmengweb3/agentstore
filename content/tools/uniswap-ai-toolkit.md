@@ -19,6 +19,36 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:45.462Z'
 fetch:
   github: Uniswap/ai-toolkit
+readme:
+  about: >-
+    The AI Toolkit is a standardized collection of AI agents, skills, and
+    commands designed for Claude Code workflows. Its goal is to allow anyone at
+    Uniswap to enhance Claude Code with powerful plugins via the Claude Code
+    Marketplace.
+  features:
+    - >-
+      Plugin Marketplace — Install curated plugins that bundle agents, skills,
+      commands, and MCP servers
+    - >-
+      Pre-built AI Agents — Specialized subagents for code explanation,
+      refactoring, testing, research, and more. Claude Code will use these
+      automatically without any need for manual direction by the user
+    - >-
+      MCP Server Integrations — Pre-configured MCP servers for Linear, Notion,
+      Graphite, and more
+    - >-
+      Standardized Patterns — Create a common toolset of Claude Code commands
+      and agents shared by everyone at Uniswap
+  lastFetched: '2026-04-22T02:54:03.430Z'
+repoInfo:
+  language: TypeScript
+  license: MIT
+  topics: []
+  contributors: 9
+  openIssues: 17
+  archived: false
+  createdAt: '2025-08-15T23:18:16Z'
+  defaultBranch: next
 ---
 
 

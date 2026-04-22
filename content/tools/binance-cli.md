@@ -18,6 +18,27 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:40.091Z'
 fetch:
   github: binance/binance-cli
+readme:
+  about: A simple CLI that interacts with the Binance API
+  installCmd: |-
+    # Install from npm
+    npm install -g @binance/binance-cli
+  lastFetched: '2026-04-22T02:53:40.791Z'
+repoInfo:
+  language: TypeScript
+  license: null
+  topics:
+    - binance-api
+    - cli
+    - command-line
+    - futures
+    - market-data
+    - spot
+  contributors: 3
+  openIssues: 0
+  archived: false
+  createdAt: '2022-02-22T08:38:11Z'
+  defaultBranch: master
 ---
 
 

@@ -20,6 +20,22 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:42.164Z'
 fetch:
   github: goat-sdk/goat
+readme:
+  about: The leading agentic finance toolkit for AI agents
+  lastFetched: '2026-04-22T02:53:50.232Z'
+repoInfo:
+  language: TypeScript
+  license: MIT
+  topics:
+    - agents
+    - ai
+    - blockchain
+    - crypto
+  contributors: 70
+  openIssues: 49
+  archived: false
+  createdAt: '2024-11-26T18:46:09Z'
+  defaultBranch: main
 ---
 
 

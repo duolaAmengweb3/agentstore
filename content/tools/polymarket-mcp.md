@@ -20,6 +20,40 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:44.895Z'
 fetch:
   github: aryankeluskar/polymarket-mcp
+readme:
+  about: >-
+    A comprehensive Model Context Protocol (MCP) server for accessing
+    Polymarket's prediction markets through Claude AI. Build market analysis
+    tools, trading assistants, event outcome analyzers, and educational
+    platforms that make prediction markets more accessible.
+  features:
+    - >-
+      Market Discovery — Search and filter prediction markets by tags, volume,
+      liquidity, and more
+    - >-
+      Event Analysis — Access grouped markets and event clusters (e.g.,
+      elections, sports, economics)
+    - >-
+      Trading Data — View recent trades, analyze trading patterns and market
+      sentiment
+    - >-
+      Comprehensive Analysis — Get AI-friendly insights with probabilities,
+      volume, liquidity, and market health
+    - Public Access — No authentication required - uses Polymarket's public APIs
+    - Real-time Data — Access to both Gamma Markets API and Data API
+  lastFetched: '2026-04-22T02:54:00.665Z'
+repoInfo:
+  language: TypeScript
+  license: null
+  topics:
+    - mcp
+    - mcp-server
+    - polymarket
+  contributors: 1
+  openIssues: 1
+  archived: false
+  createdAt: '2025-11-08T17:52:44Z'
+  defaultBranch: master
 ---
 
 

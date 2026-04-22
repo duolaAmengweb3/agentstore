@@ -18,6 +18,32 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:44.797Z'
 fetch:
   github: pancakeswap/pancakeswap-ai
+readme:
+  about: >-
+    PancakeSwap-specific AI tools (skills, plugins, agents) for developers and
+    AI agents integrating the PancakeSwap ecosystem.
+  installCmd: >-
+    # Claude Code plugin marketplace
+
+    /plugin marketplace add pancakeswap/pancakeswap-ai
+
+
+    # Install individual plugins
+
+    /plugin install pancakeswap-driver    # Swap & liquidity planning + deep
+    links
+
+    /plugin install pancakeswap-farming   # Farming planner
+  lastFetched: '2026-04-22T02:54:00.205Z'
+repoInfo:
+  language: JavaScript
+  license: null
+  topics: []
+  contributors: 6
+  openIssues: 16
+  archived: false
+  createdAt: '2026-02-27T15:28:59Z'
+  defaultBranch: main
 ---
 
 

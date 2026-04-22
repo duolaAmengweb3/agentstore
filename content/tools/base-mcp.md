@@ -20,6 +20,28 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:40.073Z'
 fetch:
   github: base/base-mcp
+readme:
+  about: >-
+    A Model Context Protocol (MCP) server that provides onchain tools for AI
+    applications like Claude Desktop and Cursor, allowing them to interact with
+    the Base Network and Coinbase API.
+  features:
+    - Retrieve wallet addresses
+    - List wallet balances
+    - Transfer funds between wallets
+    - Deploy smart contracts
+    - Interact with Morpho vaults for onchain lending
+    - Call contract functions
+  lastFetched: '2026-04-22T02:53:40.842Z'
+repoInfo:
+  language: TypeScript
+  license: MIT
+  topics: []
+  contributors: 7
+  openIssues: 46
+  archived: false
+  createdAt: '2025-03-06T21:57:34Z'
+  defaultBranch: master
 ---
 
 

@@ -18,6 +18,37 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:42.288Z'
 fetch:
   github: gizatechxyz/giza-agents
+readme:
+  about: >-
+    Giza Agents is a framework for trust-minimized integration of machine
+    learning into on-chain strategy and action, featuring mechanisms for agentic
+    memory and reflection that improve performance over their lifecycle.
+  installCmd: |-
+    $ python -m venv .env
+
+    # Activate the virtual environment. On Linux and MacOs
+    $ source .env/bin/activate
+
+    # Activate Virtual environment on Windows:
+    $ .env/Scripts/activate
+  lastFetched: '2026-04-22T02:53:49.841Z'
+repoInfo:
+  language: Python
+  license: MIT
+  topics:
+    - agents
+    - ai
+    - ape
+    - blockchain
+    - machine-learning
+    - python
+    - zero-knowledge
+    - zk
+  contributors: 13
+  openIssues: 4
+  archived: false
+  createdAt: '2023-11-24T10:27:45Z'
+  defaultBranch: main
 ---
 
 

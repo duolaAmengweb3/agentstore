@@ -23,6 +23,47 @@ metrics:
 fetch:
   github: okx/agent-trade-kit
   npm: '@okx_ai/okx-trade-mcp'
+readme:
+  about: >-
+    OKX trading MCP server — connect AI agents to spot, swap, futures, options &
+    grid bots via the Model Context Protocol.  
+  installCmd: >-
+    # 1. Install
+
+    npm install -g @okx_ai/okx-trade-mcp @okx_ai/okx-trade-cli
+
+
+    # 2. Configure OKX API credentials (interactive wizard)
+
+    okx config init
+
+
+    # 3. Register the MCP server with your AI client
+
+    okx-trade-mcp setup --client claude-desktop
+
+    okx-trade-mcp setup --client cursor
+
+    okx-trade-mcp setup --client claude-code
+
+    okx-trade-mcp setup --client vscode          # writes .mcp.json in current
+    directory
+  lastFetched: '2026-04-22T02:53:59.318Z'
+repoInfo:
+  language: TypeScript
+  license: MIT
+  topics:
+    - ai-agent
+    - crypto-trading
+    - mcp
+    - model-context-protocol
+    - okx
+    - typescript
+  contributors: 1
+  openIssues: 3
+  archived: false
+  createdAt: '2026-03-03T11:35:24Z'
+  defaultBranch: master
 ---
 
 

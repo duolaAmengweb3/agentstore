@@ -23,6 +23,26 @@ metrics:
 fetch:
   github: elizaOS/eliza
   npm: '@elizaos/core'
+readme:
+  about: Autonomous agents for everyone
+  lastFetched: '2026-04-22T02:53:48.933Z'
+repoInfo:
+  language: TypeScript
+  license: MIT
+  topics:
+    - agent
+    - agentic
+    - ai
+    - autonomous
+    - chatbot
+    - crypto
+    - discord
+    - eliza
+  contributors: 359
+  openIssues: 8
+  archived: false
+  createdAt: '2024-07-09T07:55:40Z'
+  defaultBranch: develop
 ---
 
 

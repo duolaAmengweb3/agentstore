@@ -18,6 +18,34 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:42.622Z'
 fetch:
   github: heurist-network/heurist-mesh-mcp-server
+readme:
+  about: >-
+    A Model Context Protocol (MCP) server that connects to Heurist Mesh APIs -
+    your gateway to Web3 intelligence.
+  features:
+    - >-
+      Gateway to Web3 Intelligence — Access 30+ specialized crypto analytics
+      agents via MCP
+    - >-
+      Optimized for AI — Input/output formats optimized for AI agents - fewer
+      tool calls, less token usage
+    - Supports both SSE and stdio transports
+    - >-
+      Works with Claude, Cursor, Claude Desktop, and other MCP-compatible
+      interfaces
+    - >-
+      Use one API key to access multiple services (CoinGecko, DexScreener,
+      Twitter analytics, and more)
+  lastFetched: '2026-04-22T02:53:52.073Z'
+repoInfo:
+  language: Python
+  license: MIT
+  topics: []
+  contributors: 6
+  openIssues: 4
+  archived: false
+  createdAt: '2025-03-14T03:31:31Z'
+  defaultBranch: main
 ---
 
 

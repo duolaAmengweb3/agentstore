@@ -19,6 +19,20 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:40.607Z'
 fetch:
   github: bybit-exchange/bybit-mcp
+readme:
+  about: >-
+    The most comprehensive MCP server for Bybit — 247 tools covering the entire
+    Bybit V5 API
+  lastFetched: '2026-04-22T02:53:42.745Z'
+repoInfo:
+  language: Python
+  license: MIT
+  topics: []
+  contributors: 0
+  openIssues: 0
+  archived: false
+  createdAt: '2026-03-07T08:16:18Z'
+  defaultBranch: main
 ---
 
 

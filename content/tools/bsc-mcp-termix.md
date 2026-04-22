@@ -18,6 +18,34 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:40.540Z'
 fetch:
   github: TermiX-official/bsc-mcp
+readme:
+  about: >-
+    A comprehensive blockchain tool server for BNB, BEP-20 tokens, smart
+    contract deployment and interaction built on BNB Smart Chain (BSC) and
+    compatible with other EVM networks.
+  features:
+    - Low-cost BNB & BEP-20 transfers - Optimized for BSC's low gas fees
+    - >-
+      PancakeSwap V2/V3 integration - Automated swaps, liquidity management, and
+      position tracking
+    - 'Four.Meme platform support - Create, buy, and sell meme tokens directly'
+    - >-
+      Security-first architecture - AES-256 encrypted private keys with bcrypt
+      password protection
+    - >-
+      Token security analysis - Built-in GoPlus security checks for token
+      verification
+    - Gas-efficient operations - Smart routing for optimal gas usage on BSC
+  lastFetched: '2026-04-22T02:53:43.193Z'
+repoInfo:
+  language: TypeScript
+  license: null
+  topics: []
+  contributors: 3
+  openIssues: 4
+  archived: false
+  createdAt: '2025-03-17T03:48:56Z'
+  defaultBranch: main
 ---
 
 

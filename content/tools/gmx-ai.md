@@ -19,6 +19,28 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:42.153Z'
 fetch:
   github: gmx-io/gmx-ai
+readme:
+  about: Agent skills for trading and providing liquidity on GMX V2.
+  installCmd: |-
+    /plugin marketplace add gmx-io/gmx-ai
+    /plugin install gmx-io@gmx-ai
+  lastFetched: '2026-04-22T02:53:49.841Z'
+repoInfo:
+  language: null
+  license: MIT
+  topics:
+    - agent-skills
+    - claude-code-skill
+    - claude-skills
+    - defi
+    - gmx
+    - liquidity
+    - trading
+  contributors: 1
+  openIssues: 0
+  archived: false
+  createdAt: '2026-03-04T09:28:08Z'
+  defaultBranch: main
 ---
 
 

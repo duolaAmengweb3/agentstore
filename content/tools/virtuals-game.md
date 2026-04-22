@@ -19,6 +19,18 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:45.713Z'
 fetch:
   github: game-by-virtuals/game-node
+readme:
+  about: <details> <summary>Table of Contents</summary>
+  lastFetched: '2026-04-22T02:54:03.862Z'
+repoInfo:
+  language: TypeScript
+  license: MIT
+  topics: []
+  contributors: 46
+  openIssues: 35
+  archived: false
+  createdAt: '2025-01-09T08:56:42Z'
+  defaultBranch: main
 ---
 
 

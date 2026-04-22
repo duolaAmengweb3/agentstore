@@ -18,6 +18,30 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:40.847Z'
 fetch:
   github: Codex-Data/codex-mcp
+readme:
+  about: >-
+    An MCP server that provides enriched blockchain data from Codex. This server
+    can be used with any MCP-compatible client like Claude Desktop.
+  installCmd: |-
+    # Clone the repository
+    git clone https://github.com/codex-data/codex-mcp.git
+    cd codex-mcp
+
+    # Install dependencies
+    pnpm install
+
+    # Build the project
+    pnpm build
+  lastFetched: '2026-04-22T02:53:44.955Z'
+repoInfo:
+  language: TypeScript
+  license: null
+  topics: []
+  contributors: 1
+  openIssues: 2
+  archived: false
+  createdAt: '2025-03-31T00:17:57Z'
+  defaultBranch: main
 ---
 
 

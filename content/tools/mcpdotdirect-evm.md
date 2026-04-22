@@ -20,6 +20,29 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:44.237Z'
 fetch:
   github: mcpdotdirect/evm-mcp-server
+readme:
+  about: >-
+    A comprehensive Model Context Protocol (MCP) server that provides blockchain
+    services across 60+ EVM-compatible networks. This server enables AI agents
+    to interact with Ethereum, Optimism, Arbitrum, Base, Polygon, and many other
+    EVM chains with a unified interface through 22 tools and 10 AI-guided
+    prompts.
+  lastFetched: '2026-04-22T02:53:58.312Z'
+repoInfo:
+  language: TypeScript
+  license: MIT
+  topics:
+    - agent
+    - blockchain
+    - ethereum
+    - evm
+    - mcp
+    - mcp-server
+  contributors: 9
+  openIssues: 7
+  archived: false
+  createdAt: '2025-03-08T23:00:04Z'
+  defaultBranch: main
 ---
 
 

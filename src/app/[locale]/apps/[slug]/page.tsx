@@ -3,11 +3,13 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import {
   Star, ArrowUpRight, Github, Package, Activity, TrendingUp,
   Shield, Lock, DollarSign, Zap, ChevronLeft, Check, X,
+  Clock, Users, Scale, FileCode, ExternalLink, GitCommitHorizontal,
 } from 'lucide-react';
 import { routing } from '@/i18n/routing';
 import { Link } from '@/i18n/routing';
 import { tools } from '@/lib/mock-data';
 import { getToolDetails } from '@/lib/mock-details';
+import { getToolDetailData } from '@/lib/content/tools';
 import { formatCompact, formatNumber } from '@/lib/utils';
 import { Nav } from '@/components/home/nav';
 import { Footer } from '@/components/home/footer';
@@ -51,6 +53,7 @@ export default async function ToolDetailPage({
   if (!tool) notFound();
 
   const details = getToolDetails(slug, tool.name);
+  const detailData = getToolDetailData(slug);  // readme / repoInfo / fetch 源
   const t = await getTranslations();
 
   // 相关推荐:tool.detail 指定的 + 同分类 top 3
@@ -60,6 +63,36 @@ export default async function ToolDetailPage({
   const related = relatedSlugs
     .map((s) => tools.find((x) => x.slug === s))
     .filter(Boolean) as typeof tools;
+
+  // 同类对比:在 tool.category 里看 tool 排第几 / 百分位
+  const peers = tools.filter((x) => x.category === tool.category);
+  const peerByCalls = [...peers].sort((a, b) => (b.metrics.smitheryCalls || 0) - (a.metrics.smitheryCalls || 0));
+  const peerByStars = [...peers].sort((a, b) => (b.metrics.githubStars || 0) - (a.metrics.githubStars || 0));
+  const peerByScore = [...peers].sort((a, b) => b.score - a.score);
+  const rankInCat = {
+    calls: peerByCalls.findIndex((x) => x.slug === slug) + 1,
+    stars: peerByStars.findIndex((x) => x.slug === slug) + 1,
+    score: peerByScore.findIndex((x) => x.slug === slug) + 1,
+    total: peers.length,
+  };
+  const catMedianCalls = (() => {
+    const arr = peers.map((p) => p.metrics.smitheryCalls || 0).sort((a, b) => a - b);
+    return arr[Math.floor(arr.length / 2)] || 0;
+  })();
+  const callsVsMedian =
+    tool.metrics.smitheryCalls && catMedianCalls
+      ? Math.round((tool.metrics.smitheryCalls / catMedianCalls - 1) * 100)
+      : null;
+
+  // 活跃度:根据 repoInfo.lastPush 或 metrics.lastPush 算
+  const lastPush = detailData?.repoInfo?.createdAt; // 先占位,真正的 lastPush 在 metrics
+  // 从 md frontmatter 里读 lastPush(fetch-metrics 写的)
+  const freshness = (() => {
+    // 从 md 的 metrics 里取(sync 到 TS 时没保留,所以从 detailData 拿不到)
+    // 这里直接基于 detailData.repoInfo 判断归档状态
+    if (detailData?.repoInfo?.archived) return { state: 'archived', labelEn: 'Archived', labelZh: '已归档', color: 'text-rose-400' };
+    return null;
+  })();
 
   const pageUrl = `${BASE}/${locale}/apps/${slug}`;
 
@@ -208,43 +241,51 @@ export default async function ToolDetailPage({
           </section>
         )}
 
-        {/* ===== Screenshots(渐变色块占位,批次 B 换真图)===== */}
-        <section className="container py-6 md:py-8">
-          <div className="flex items-baseline justify-between mb-4">
-            <h2 className="text-lg md:text-xl font-semibold">{locale === 'zh' ? '截图' : 'Screenshots'}</h2>
-          </div>
-          <div className="flex gap-4 overflow-x-auto pb-4 -mx-6 px-6 snap-x snap-mandatory">
-            {details.screenshots.map((grad, i) => (
-              <div key={i} className={`shrink-0 snap-start relative rounded-2xl w-[85%] md:w-[520px] aspect-[16/10] bg-gradient-to-br ${grad} overflow-hidden border border-border/60`}>
-                <div className="absolute inset-0 bg-grid opacity-20 mix-blend-overlay" />
-                <div className="absolute inset-0 flex items-center justify-center text-white/70 font-mono text-sm">
-                  screenshot #{i + 1}
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* ===== 关于 ===== */}
+        {/* ===== 关于(优先用真实 README)===== */}
         <section className="container py-8 md:py-10">
           <h2 className="text-lg md:text-xl font-semibold mb-4">
             {locale === 'zh' ? '关于这个工具' : 'About'}
           </h2>
-          <p className="text-base leading-relaxed text-foreground/90 max-w-3xl">
-            {details.description[locale]}
-          </p>
-
-          {/* Features(仅在有数据时展示) */}
-          {details.features[locale].length > 0 && (
-            <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-3xl">
-              {details.features[locale].map((f, i) => (
-                <div key={i} className="flex items-start gap-2 text-sm">
-                  <Check className="h-4 w-4 shrink-0 mt-0.5 text-emerald-400" />
-                  <span className="text-foreground/80">{f}</span>
-                </div>
-              ))}
-            </div>
+          {detailData?.readme?.about ? (
+            <>
+              <p className="text-base leading-relaxed text-foreground/90 max-w-3xl whitespace-pre-line">
+                {detailData.readme.about}
+              </p>
+              <div className="mt-2 text-xs text-muted-foreground inline-flex items-center gap-1">
+                <Github className="h-3 w-3" />
+                {locale === 'zh' ? '来自作者的 README' : 'From the project README'}
+              </div>
+            </>
+          ) : (
+            <p className="text-base leading-relaxed text-foreground/90 max-w-3xl">
+              {tool.tagline[locale]}
+            </p>
           )}
+
+          {/* Features:优先 README,然后 mock-details */}
+          {(() => {
+            const readmeFeatures = detailData?.readme?.features;
+            const handcrafted = details.features[locale];
+            const features = (readmeFeatures && readmeFeatures.length > 0)
+              ? readmeFeatures
+              : handcrafted;
+            if (!features || features.length === 0) return null;
+            return (
+              <div className="mt-8 max-w-3xl">
+                <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-3">
+                  {locale === 'zh' ? '核心能力' : 'Key capabilities'}
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {features.slice(0, 8).map((f, i) => (
+                    <div key={i} className="flex items-start gap-2 text-sm">
+                      <Check className="h-4 w-4 shrink-0 mt-0.5 text-emerald-400" />
+                      <span className="text-foreground/85">{f}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            );
+          })()}
 
           {/* Pros / Cons(仅在有数据时展示) */}
           {(details.pros[locale].length > 0 || details.cons[locale].length > 0) && (
@@ -313,6 +354,194 @@ export default async function ToolDetailPage({
             </ul>
           </div>
         </section>
+
+        {/* ===== 活跃度脉搏(仓库元数据)===== */}
+        {detailData?.repoInfo && (
+          <section className="container py-8 md:py-10">
+            <h2 className="text-lg md:text-xl font-semibold mb-2">
+              {locale === 'zh' ? '项目活跃度' : 'Project pulse'}
+            </h2>
+            <p className="text-sm text-muted-foreground mb-5 max-w-2xl">
+              {locale === 'zh'
+                ? '从 GitHub 实时拉取,看这个项目到底活不活。'
+                : 'Live from GitHub — see if the project is actually maintained.'}
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 max-w-4xl">
+              {detailData.repoInfo.language && (
+                <PulseCard
+                  icon={<FileCode className="h-4 w-4" />}
+                  label={locale === 'zh' ? '语言' : 'Language'}
+                  value={detailData.repoInfo.language}
+                  accent="text-violet-400"
+                />
+              )}
+              {detailData.repoInfo.license && (
+                <PulseCard
+                  icon={<Scale className="h-4 w-4" />}
+                  label={locale === 'zh' ? '许可证' : 'License'}
+                  value={detailData.repoInfo.license}
+                  accent="text-cyan-400"
+                />
+              )}
+              {detailData.repoInfo.contributors != null && (
+                <PulseCard
+                  icon={<Users className="h-4 w-4" />}
+                  label={locale === 'zh' ? '贡献者' : 'Contributors'}
+                  value={String(detailData.repoInfo.contributors)}
+                  accent="text-emerald-400"
+                />
+              )}
+              {detailData.repoInfo.openIssues != null && (
+                <PulseCard
+                  icon={<GitCommitHorizontal className="h-4 w-4" />}
+                  label={locale === 'zh' ? '未解决 issues' : 'Open issues'}
+                  value={String(detailData.repoInfo.openIssues)}
+                  accent={detailData.repoInfo.openIssues > 50 ? 'text-amber-400' : 'text-emerald-400'}
+                />
+              )}
+              {detailData.repoInfo.createdAt && (
+                <PulseCard
+                  icon={<Clock className="h-4 w-4" />}
+                  label={locale === 'zh' ? '创建于' : 'Created'}
+                  value={new Date(detailData.repoInfo.createdAt).toLocaleDateString(
+                    locale === 'zh' ? 'zh-CN' : 'en-US',
+                    { year: 'numeric', month: 'short' }
+                  )}
+                  accent="text-muted-foreground"
+                />
+              )}
+              {detailData.repoInfo.archived && (
+                <PulseCard
+                  icon={<Shield className="h-4 w-4" />}
+                  label={locale === 'zh' ? '状态' : 'Status'}
+                  value={locale === 'zh' ? '已归档' : 'Archived'}
+                  accent="text-rose-400"
+                />
+              )}
+            </div>
+
+            {/* topics */}
+            {detailData.repoInfo.topics && detailData.repoInfo.topics.length > 0 && (
+              <div className="mt-5 max-w-4xl">
+                <div className="text-xs uppercase tracking-wider text-muted-foreground mb-2">
+                  {locale === 'zh' ? '标签' : 'Topics'}
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {detailData.repoInfo.topics.map((t) => (
+                    <span key={t} className="inline-flex rounded-full bg-muted px-3 py-1 text-xs text-foreground/80">
+                      {t}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* 外部链接 */}
+            {detailData?.fetch && (
+              <div className="mt-5 flex flex-wrap gap-2">
+                {detailData.fetch.github && (
+                  <a
+                    href={`https://github.com/${detailData.fetch.github}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 h-9 px-3.5 rounded-full border border-border/60 bg-card/50 text-xs hover:bg-card transition"
+                  >
+                    <Github className="h-3.5 w-3.5" />
+                    {detailData.fetch.github}
+                    <ExternalLink className="h-3 w-3 text-muted-foreground" />
+                  </a>
+                )}
+                {detailData.fetch.npm && (
+                  <a
+                    href={`https://www.npmjs.com/package/${detailData.fetch.npm}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 h-9 px-3.5 rounded-full border border-border/60 bg-card/50 text-xs hover:bg-card transition"
+                  >
+                    <Package className="h-3.5 w-3.5" />
+                    {detailData.fetch.npm}
+                    <ExternalLink className="h-3 w-3 text-muted-foreground" />
+                  </a>
+                )}
+                {detailData.fetch.smithery && (
+                  <a
+                    href={`https://smithery.ai/server/${detailData.fetch.smithery}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 h-9 px-3.5 rounded-full border border-border/60 bg-card/50 text-xs hover:bg-card transition"
+                  >
+                    📦 Smithery
+                    <ExternalLink className="h-3 w-3 text-muted-foreground" />
+                  </a>
+                )}
+              </div>
+            )}
+          </section>
+        )}
+
+        {/* ===== 与同类对比 ===== */}
+        {rankInCat.total > 1 && (
+          <section className="container py-8 md:py-10">
+            <h2 className="text-lg md:text-xl font-semibold mb-2">
+              {locale === 'zh' ? '和同类工具对比' : 'How it compares'}
+            </h2>
+            <p className="text-sm text-muted-foreground mb-5 max-w-2xl">
+              {locale === 'zh'
+                ? `在 ${rankInCat.total} 个同类(${t(`categories.${tool.category}`)})工具里的位置`
+                : `Position among ${rankInCat.total} tools in the ${tool.category} category`}
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3 max-w-4xl">
+              <RankCard
+                label={locale === 'zh' ? '按调用量' : 'By calls'}
+                rank={rankInCat.calls}
+                total={rankInCat.total}
+                accent="from-violet-500/20 to-fuchsia-500/20"
+              />
+              <RankCard
+                label={locale === 'zh' ? '按 Star 数' : 'By stars'}
+                rank={rankInCat.stars}
+                total={rankInCat.total}
+                accent="from-amber-500/20 to-orange-500/20"
+              />
+              <RankCard
+                label={locale === 'zh' ? '按综合分' : 'By AgentStore Score'}
+                rank={rankInCat.score}
+                total={rankInCat.total}
+                accent="from-emerald-500/20 to-teal-500/20"
+              />
+            </div>
+
+            {/* 对比文案 */}
+            {callsVsMedian != null && (
+              <div className="mt-5 max-w-3xl rounded-xl border border-border/60 bg-muted/20 p-4 text-sm text-foreground/85 leading-relaxed">
+                {locale === 'zh' ? (
+                  <>
+                    {tool.name} 的调用量是同类中位数的{' '}
+                    <span className={callsVsMedian > 0 ? 'text-emerald-400 font-semibold' : 'text-rose-400 font-semibold'}>
+                      {callsVsMedian > 0 ? `+${callsVsMedian}%` : `${callsVsMedian}%`}
+                    </span>
+                    {callsVsMedian > 100 ? ' — 显著高于同类,反映有真实用户基础。' :
+                     callsVsMedian > 0 ? ' — 略高于同类。' :
+                     callsVsMedian < -30 ? ' — 低于同类中位数,可能是新工具或小众。' :
+                     ' — 和同类相近。'}
+                  </>
+                ) : (
+                  <>
+                    {tool.name} is{' '}
+                    <span className={callsVsMedian > 0 ? 'text-emerald-400 font-semibold' : 'text-rose-400 font-semibold'}>
+                      {callsVsMedian > 0 ? `+${callsVsMedian}%` : `${callsVsMedian}%`}
+                    </span>{' '}
+                    vs the category median on install volume
+                    {callsVsMedian > 100 ? ' — significantly ahead, indicating real user adoption.' :
+                     callsVsMedian > 0 ? ' — slightly ahead.' :
+                     callsVsMedian < -30 ? ' — below median (likely new or niche).' :
+                     ' — roughly in line with peers.'}
+                  </>
+                )}
+              </div>
+            )}
+          </section>
+        )}
 
         {/* ===== Prompts(仅在有数据时展示) ===== */}
         {details.prompts.length > 0 && (
@@ -530,6 +759,47 @@ export default async function ToolDetailPage({
       <Footer />
       <StickyGet toolName={tool.name} toolIcon={tool.icon} score={tool.score} locale={locale} />
     </>
+  );
+}
+
+function PulseCard({
+  icon, label, value, accent,
+}: { icon: React.ReactNode; label: string; value: string; accent: string }) {
+  return (
+    <div className="rounded-xl border border-border/60 bg-card/40 p-4">
+      <div className="flex items-center gap-2 text-xs text-muted-foreground mb-1">
+        <span className={accent}>{icon}</span>
+        <span>{label}</span>
+      </div>
+      <div className={`text-lg font-semibold tabular-nums ${accent}`}>{value}</div>
+    </div>
+  );
+}
+
+function RankCard({
+  label, rank, total, accent,
+}: { label: string; rank: number; total: number; accent: string }) {
+  const pct = Math.round((1 - (rank - 1) / total) * 100);  // 百分位(越高越前)
+  return (
+    <div className="relative overflow-hidden rounded-2xl border border-border/60 bg-card/40 p-5">
+      <div className={`absolute inset-0 bg-gradient-to-br ${accent} opacity-60`} />
+      <div className="relative">
+        <div className="text-xs text-muted-foreground mb-2">{label}</div>
+        <div className="flex items-baseline gap-1.5">
+          <span className="text-3xl font-semibold tabular-nums">#{rank}</span>
+          <span className="text-sm text-muted-foreground">/ {total}</span>
+        </div>
+        <div className="mt-3 h-1.5 rounded-full bg-muted/60 overflow-hidden">
+          <div
+            className="h-full bg-gradient-to-r from-violet-500 via-indigo-500 to-cyan-500"
+            style={{ width: `${pct}%` }}
+          />
+        </div>
+        <div className="mt-1.5 text-[11px] text-muted-foreground tabular-nums">
+          top {100 - pct < 1 ? '<1' : Math.max(1, 100 - pct)}%
+        </div>
+      </div>
+    </div>
   );
 }
 

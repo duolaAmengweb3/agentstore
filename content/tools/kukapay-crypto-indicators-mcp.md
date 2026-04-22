@@ -18,6 +18,34 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:42.835Z'
 fetch:
   github: kukapay/crypto-indicators-mcp
+readme:
+  about: >-
+    An MCP server providing a range of cryptocurrency technical analysis
+    indicators and strategies, empowering AI trading agents to efficiently
+    analyze market trends and develop robust quantitative strategies.
+  features:
+    - >-
+      Technical Indicators — 50+ indicators across trend, momentum, volatility,
+      and volume categories.
+    - >-
+      Trading Strategies — Corresponding strategies outputting signals: -1
+      (SELL), 0 (HOLD), 1 (BUY).
+    - >-
+      Flexible Data Source — Defaults to Binance, configurable to any
+      ccxt-supported exchange.
+    - >-
+      Modular Design — Indicators and strategies are categorized for easy
+      maintenance.
+  lastFetched: '2026-04-22T02:53:53.716Z'
+repoInfo:
+  language: JavaScript
+  license: MIT
+  topics: []
+  contributors: 1
+  openIssues: 6
+  archived: false
+  createdAt: '2025-03-23T04:38:09Z'
+  defaultBranch: main
 ---
 
 

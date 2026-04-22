@@ -19,6 +19,33 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:43.379Z'
 fetch:
   github: kukapay/hyperliquid-info-mcp
+readme:
+  about: >-
+    An MCP server that provides real-time data and insights from the Hyperliquid
+    perp DEX for use in bots, dashboards, and analytics.
+  features:
+    - 'User Data Queries:'
+    - >-
+      get_user_state — Fetch user positions, margin, and withdrawable balance
+      for perpetuals or spot markets.
+    - get_user_open_orders — Retrieve all open orders for a user account.
+    - >-
+      get_user_trade_history — Get trade fill history with details like symbol,
+      size, and price.
+    - >-
+      get_user_funding_history — Query funding payment history with customizable
+      time ranges.
+    - get_user_fees — Fetch user-specific fee structures (maker/taker rates).
+  lastFetched: '2026-04-22T02:53:56.042Z'
+repoInfo:
+  language: Python
+  license: MIT
+  topics: []
+  contributors: 1
+  openIssues: 0
+  archived: false
+  createdAt: '2025-05-31T07:59:59Z'
+  defaultBranch: main
 ---
 
 

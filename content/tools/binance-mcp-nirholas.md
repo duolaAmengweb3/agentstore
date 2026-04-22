@@ -19,6 +19,38 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:40.037Z'
 fetch:
   github: nirholas/Binance-MCP
+readme:
+  about: >-
+    The most comprehensive Model Context Protocol server for Binance — 478+
+    tools covering the entire Binance.com API
+  installCmd: |-
+    # Clone the repository
+    git clone https://github.com/nirholas/Binance-MCP.git
+    cd Binance-MCP
+
+    # Install dependencies
+    npm install
+
+    # Build the project
+    npm run build
+  lastFetched: '2026-04-22T02:53:40.853Z'
+repoInfo:
+  language: TypeScript
+  license: Apache-2.0
+  topics:
+    - algo
+    - api
+    - binance
+    - crypto
+    - cryptocurrency
+    - mining
+    - nft
+    - npm
+  contributors: 4
+  openIssues: 1
+  archived: false
+  createdAt: '2026-01-20T12:14:36Z'
+  defaultBranch: main
 ---
 
 

@@ -31,6 +31,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # 5000 req/h 足够
         run: node scripts/fetch-metrics.mjs
 
+      - name: Fetch README + repo info(让详情页有深度)
+        id: readme
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/fetch-readme.mjs
+
       - name: Sync md → generated/tools.ts
         run: npm run sync:tools
 

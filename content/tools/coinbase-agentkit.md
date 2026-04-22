@@ -23,6 +23,18 @@ metrics:
 fetch:
   github: coinbase/agentkit
   npm: '@coinbase/agentkit'
+readme:
+  about: '<h1 style="font-size: 3em; margin-bottom: 20px;"> AgentKit'
+  lastFetched: '2026-04-22T02:53:45.897Z'
+repoInfo:
+  language: TypeScript
+  license: NOASSERTION
+  topics: []
+  contributors: 89
+  openIssues: 217
+  archived: false
+  createdAt: '2024-10-31T20:40:22Z'
+  defaultBranch: main
 ---
 
 

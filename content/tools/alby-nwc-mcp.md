@@ -18,6 +18,18 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:39.830Z'
 fetch:
   github: getalby/nwc-mcp-server
+readme:
+  about: Please use Alby MCP instead!
+  lastFetched: '2026-04-22T02:53:39.897Z'
+repoInfo:
+  language: TypeScript
+  license: null
+  topics: []
+  contributors: 1
+  openIssues: 0
+  archived: true
+  createdAt: '2025-03-14T08:35:13Z'
+  defaultBranch: master
 ---
 
 

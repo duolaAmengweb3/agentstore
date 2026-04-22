@@ -18,6 +18,38 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:43.385Z'
 fetch:
   github: kukapay/polymarket-predictions-mcp
+readme:
+  about: >-
+    An MCP server that delivers real-time market odds from Polymarket, enabling
+    AI agents and analysts to access, compare, and act on decentralized
+    prediction data.
+  features:
+    - >-
+      Event Retrieval — Fetch Polymarket events with details (title,
+      description, endDate, volume) and associated markets in a tabulated
+      format.
+    - >-
+      Market Retrieval — Retrieve markets with key fields (question, zipped
+      outcomes and outcomePrices, endDate, volume, closed) in a table.
+    - >-
+      Event Search — Search for events using Polymarket's /public-search
+      endpoint with comprehensive query parameters.
+    - >-
+      Prompt Support — Includes a prompt template for analyzing specific
+      markets.
+    - >-
+      Formatted Outputs — Uses tabulate for clean, readable table outputs and
+      handles JSON parsing for outcomes and prices.
+  lastFetched: '2026-04-22T02:53:56.042Z'
+repoInfo:
+  language: Python
+  license: MIT
+  topics: []
+  contributors: 1
+  openIssues: 0
+  archived: false
+  createdAt: '2025-09-23T08:30:36Z'
+  defaultBranch: main
 ---
 
 

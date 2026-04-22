@@ -19,6 +19,21 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:40.286Z'
 fetch:
   github: BitgetLimited/agent_hub
+readme:
+  about: <h1 align="center">Bitget Agent Hub</h1>
+  installCmd: |-
+    # Install everything and deploy skills to Claude Code (default)
+    npx bitget-hub upgrade-all --target claude
+  lastFetched: '2026-04-22T02:53:41.751Z'
+repoInfo:
+  language: TypeScript
+  license: null
+  topics: []
+  contributors: 0
+  openIssues: 3
+  archived: false
+  createdAt: '2026-02-11T11:12:12Z'
+  defaultBranch: main
 ---
 
 

@@ -19,6 +19,18 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:41.598Z'
 fetch:
   github: dydxprotocol/v4-clients
+readme:
+  about: <h1 align="center">dYdX Chain Clients</h1>
+  lastFetched: '2026-04-22T02:53:47.995Z'
+repoInfo:
+  language: JavaScript
+  license: NOASSERTION
+  topics: []
+  contributors: 43
+  openIssues: 34
+  archived: false
+  createdAt: '2023-08-16T05:00:21Z'
+  defaultBranch: main
 ---
 
 

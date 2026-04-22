@@ -18,6 +18,31 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:41.346Z'
 fetch:
   github: Crossmint/mcp-crossmint-checkout
+readme:
+  about: >-
+    Crossmint's Checkout allows programmatic purchase of physical and virtual
+    goods and services, with programmable money. It enables your AI agent to
+    reliably purchase over 1 billion items, without any cost overhead, nor
+    hassle and unreliability of having to use virtual debit cards and browser
+    use to pay in online forms.
+  features:
+    - The item is delivered with expedited shipping
+    - A receipt is generated
+    - Sales tax is properly collected
+    - Returns and refunds are allowed
+  installCmd: |-
+    git clone https://github.com/Crossmint/mcp-crossmint-checkout.git
+       cd mcp-crossmint-checkout
+  lastFetched: '2026-04-22T02:53:46.496Z'
+repoInfo:
+  language: JavaScript
+  license: null
+  topics: []
+  contributors: 6
+  openIssues: 1
+  archived: false
+  createdAt: '2025-05-02T01:17:14Z'
+  defaultBranch: main
 ---
 
 

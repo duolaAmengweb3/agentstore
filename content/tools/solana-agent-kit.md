@@ -23,6 +23,24 @@ metrics:
 fetch:
   github: sendaifun/solana-agent-kit
   npm: solana-agent-kit
+readme:
+  about: "[!TIP] checkout Suzi \U0001F338  by SendAI"
+  lastFetched: '2026-04-22T02:54:02.439Z'
+repoInfo:
+  language: TypeScript
+  license: Apache-2.0
+  topics:
+    - ai
+    - langchain
+    - langchain-js
+    - solana
+    - solana-langchain
+    - web3js
+  contributors: 86
+  openIssues: 34
+  archived: false
+  createdAt: '2024-11-17T09:10:19Z'
+  defaultBranch: v2
 ---
 
 

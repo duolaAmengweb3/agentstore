@@ -19,6 +19,30 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:40.536Z'
 fetch:
   github: sammcj/bybit-mcp
+readme:
+  about: >-
+    A Model Context Protocol (MCP) server that provides read-only access to
+    Bybit's cryptocurrency exchange API.
+  features:
+    - get_ticker — Get real-time ticker information for a trading pair
+    - get_orderbook — Get orderbook (market depth) data for a trading pair
+    - get_kline — Get kline/candlestick data for a trading pair
+    - get_market_info — Get detailed market information for trading pairs
+    - get_trades — Get recent trades for a trading pair
+    - >-
+      get_instrument_info — Get detailed instrument information for a specific
+      trading pair
+  installCmd: pnpm i
+  lastFetched: '2026-04-22T02:53:42.781Z'
+repoInfo:
+  language: TypeScript
+  license: MIT
+  topics: []
+  contributors: 1
+  openIssues: 1
+  archived: true
+  createdAt: '2024-12-13T00:48:54Z'
+  defaultBranch: main
 ---
 
 

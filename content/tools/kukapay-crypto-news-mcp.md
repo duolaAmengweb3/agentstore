@@ -18,6 +18,30 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:43.123Z'
 fetch:
   github: kukapay/crypto-news-mcp
+readme:
+  about: >-
+    An MCP server that provides real-time cryptocurrency news sourced from
+    NewsData for AI agents.
+  features:
+    - >-
+      Tool — Latest News Headlines - Fetch the most recent cryptocurrency news
+      headlines.
+    - >-
+      Tool — Crypto News Search - Search for news articles by cryptocurrency or
+      keyword with pagination support using the nextPage API feature.
+    - >-
+      Prompt — News Summary - Generate a prompt to summarize news for a given
+      cryptocurrency or topic.
+  lastFetched: '2026-04-22T02:53:54.658Z'
+repoInfo:
+  language: Python
+  license: MIT
+  topics: []
+  contributors: 2
+  openIssues: 2
+  archived: false
+  createdAt: '2025-04-07T10:41:36Z'
+  defaultBranch: main
 ---
 
 

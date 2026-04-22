@@ -18,6 +18,31 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:41.594Z'
 fetch:
   github: openSVM/dexscreener-mcp-server
+readme:
+  about: >-
+    An MCP server implementation for accessing the DexScreener API, providing
+    real-time access to DEX pair data, token information, and market statistics
+    across multiple blockchains.
+  features:
+    - Rate-limited API access (respects DexScreener's rate limits)
+    - Comprehensive error handling
+    - Type-safe interfaces
+    - Support for all DexScreener API endpoints
+    - Integration tests
+  installCmd: |-
+    npm install
+    npm run build
+    npm run setup
+  lastFetched: '2026-04-22T02:53:47.971Z'
+repoInfo:
+  language: JavaScript
+  license: Unlicense
+  topics: []
+  contributors: 1
+  openIssues: 1
+  archived: false
+  createdAt: '2025-01-05T14:23:42Z'
+  defaultBranch: main
 ---
 
 

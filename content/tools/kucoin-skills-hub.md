@@ -18,6 +18,21 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:42.898Z'
 fetch:
   github: Kucoin/kucoin-skills-hub
+readme:
+  about: >-
+    An open skills marketplace that gives AI agents read-only access to the
+    KuCoin exchange via the KuCoin Classic REST API.
+  installCmd: 'npx skills add https://github.com/Kucoin/kucoin-skills-hub --full-depth'
+  lastFetched: '2026-04-22T02:53:52.622Z'
+repoInfo:
+  language: null
+  license: MIT
+  topics: []
+  contributors: 3
+  openIssues: 1
+  archived: false
+  createdAt: '2026-03-14T12:17:19Z'
+  defaultBranch: main
 ---
 
 

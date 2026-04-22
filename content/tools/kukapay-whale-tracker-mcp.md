@@ -19,6 +19,33 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:43.846Z'
 fetch:
   github: kukapay/whale-tracker-mcp
+readme:
+  about: >-
+    A Model Context Protocol (MCP) server for tracking cryptocurrency whale
+    transactions using the Whale Alert API
+  features:
+    - 'Tools:'
+    - >-
+      get_recent_transactions — Fetch recent whale transactions with optional
+      filters for blockchain, minimum value, and limit.
+    - >-
+      get_transaction_details — Retrieve detailed information about a specific
+      transaction by its ID.
+    - 'Resources:'
+    - >-
+      whale://transactions/{blockchain} — Expose recent transactions for a
+      specified blockchain as contextual data.
+    - 'Prompts:'
+  lastFetched: '2026-04-22T02:53:57.032Z'
+repoInfo:
+  language: Python
+  license: MIT
+  topics: []
+  contributors: 2
+  openIssues: 5
+  archived: false
+  createdAt: '2025-03-13T16:19:15Z'
+  defaultBranch: main
 ---
 
 
