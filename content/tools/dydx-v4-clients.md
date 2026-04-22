@@ -9,8 +9,14 @@ score: 7.4
 tagline_en: Official dYdX Cosmos-SDK clients (TS / Python / Rust)
 tagline_zh: dYdX Cosmos-SDK 官方客户端(TS / Python / Rust)
 metrics:
-  githubStars: 234
+  githubStars: 119
   weeklyGrowthPct: 8
+  lastPush: '2026-04-05T12:07:13Z'
+  archived: false
+  _history:
+    - t: '2026-04-22T02:27:41.598Z'
+      v: 1190
+  lastAutoUpdated: '2026-04-22T02:27:41.598Z'
 fetch:
   github: dydxprotocol/v4-clients
 ---

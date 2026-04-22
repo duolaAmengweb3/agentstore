@@ -10,7 +10,13 @@ tagline_en: Solana perp DEX SDK — integrated with Solana Agent Kit
 tagline_zh: Solana 永续 DEX SDK — 已集成 Solana Agent Kit
 metrics:
   npmMonthly: 2134
-  githubStars: 178
+  githubStars: 110
+  lastPush: '2026-03-06T04:51:39Z'
+  archived: false
+  _history:
+    - t: '2026-04-22T02:27:41.571Z'
+      v: 3234
+  lastAutoUpdated: '2026-04-22T02:27:41.571Z'
 fetch:
   github: drift-labs/driftpy
 ---

@@ -14,7 +14,9 @@ metrics:
   _history:
     - t: '2026-04-22T02:19:49.211Z'
       v: 170408
-  lastAutoUpdated: '2026-04-22T02:19:49.211Z'
+    - t: '2026-04-22T02:27:45.270Z'
+      v: 170408
+  lastAutoUpdated: '2026-04-22T02:27:45.270Z'
 fetch:
   npm: thirdweb
 ---

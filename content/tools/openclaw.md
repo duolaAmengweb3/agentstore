@@ -9,8 +9,14 @@ score: 7.2
 tagline_en: Open-source agent runtime inspired by Claude Code
 tagline_zh: 开源 agent runtime(对标 Claude Code)
 metrics:
-  githubStars: 1823
+  githubStars: 361919
   weeklyGrowthPct: -8
+  lastPush: '2026-04-22T02:25:57Z'
+  archived: false
+  _history:
+    - t: '2026-04-22T02:27:44.504Z'
+      v: 3619190
+  lastAutoUpdated: '2026-04-22T02:27:44.504Z'
 fetch:
   github: OpenClaw/openclaw
 ---

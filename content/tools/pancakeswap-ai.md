@@ -9,7 +9,13 @@ score: 7.2
 tagline_en: 'Swap / LP / farming planners — planner-only, no direct execution'
 tagline_zh: Swap / LP / 挖矿规划器 — 只规划不直接执行
 metrics:
-  githubStars: 78
+  githubStars: 22
+  lastPush: '2026-04-17T00:12:49Z'
+  archived: false
+  _history:
+    - t: '2026-04-22T02:27:44.797Z'
+      v: 220
+  lastAutoUpdated: '2026-04-22T02:27:44.797Z'
 fetch:
   github: pancakeswap/pancakeswap-ai
 ---

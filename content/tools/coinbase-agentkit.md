@@ -10,12 +10,16 @@ tagline_en: Every AI agent deserves a wallet — 50+ actions
 tagline_zh: 每个 AI agent 都该有钱包 — 50+ 动作
 metrics:
   npmMonthly: 44056
-  githubStars: 1204
+  githubStars: 1205
   weeklyGrowthPct: 18
   _history:
     - t: '2026-04-22T02:19:45.307Z'
       v: 56096
-  lastAutoUpdated: '2026-04-22T02:19:45.307Z'
+    - t: '2026-04-22T02:27:40.927Z'
+      v: 56106
+  lastAutoUpdated: '2026-04-22T02:27:40.927Z'
+  lastPush: '2026-04-21T22:57:14Z'
+  archived: false
 fetch:
   github: coinbase/agentkit
   npm: '@coinbase/agentkit'

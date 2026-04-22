@@ -9,7 +9,13 @@ score: 6.8
 tagline_en: Aggregated crypto news feed for agents
 tagline_zh: 加密新闻聚合流给 agent
 metrics:
-  githubStars: 34
+  githubStars: 13
+  lastPush: '2025-12-10T10:47:52Z'
+  archived: false
+  _history:
+    - t: '2026-04-22T02:27:43.123Z'
+      v: 130
+  lastAutoUpdated: '2026-04-22T02:27:43.123Z'
 fetch:
   github: kukapay/crypto-news-mcp
 ---

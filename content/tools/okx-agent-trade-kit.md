@@ -10,12 +10,16 @@ tagline_en: '140 tools covering spot, perp, options, bots and more'
 tagline_zh: 140 个工具覆盖现货 / 合约 / 期权 / bot
 metrics:
   npmMonthly: 9864
-  githubStars: 204
+  githubStars: 206
   weeklyGrowthPct: 340
   _history:
     - t: '2026-04-22T02:19:48.271Z'
       v: 11904
-  lastAutoUpdated: '2026-04-22T02:19:48.271Z'
+    - t: '2026-04-22T02:27:44.551Z'
+      v: 11924
+  lastAutoUpdated: '2026-04-22T02:27:44.551Z'
+  lastPush: '2026-04-20T09:53:26Z'
+  archived: false
 fetch:
   github: okx/agent-trade-kit
   npm: '@okx_ai/okx-trade-mcp'

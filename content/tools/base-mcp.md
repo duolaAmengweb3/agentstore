@@ -12,6 +12,12 @@ metrics:
   npmMonthly: 4821
   githubStars: 346
   weeklyGrowthPct: 22
+  lastPush: '2025-06-17T13:47:28Z'
+  archived: false
+  _history:
+    - t: '2026-04-22T02:27:40.073Z'
+      v: 8281
+  lastAutoUpdated: '2026-04-22T02:27:40.073Z'
 fetch:
   github: base/base-mcp
 ---

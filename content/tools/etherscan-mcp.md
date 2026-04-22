@@ -10,8 +10,14 @@ tagline_en: Official Etherscan MCP across 60+ chains
 tagline_zh: 'Etherscan 官方 MCP,覆盖 60+ 链'
 metrics:
   smitheryCalls: 9834
-  githubStars: 156
+  githubStars: 29
   weeklyGrowthPct: 28
+  lastPush: '2024-12-31T17:34:18Z'
+  archived: false
+  _history:
+    - t: '2026-04-22T02:27:41.907Z'
+      v: 290
+  lastAutoUpdated: '2026-04-22T02:27:41.907Z'
 fetch:
   github: crazyrabbitLTC/mcp-etherscan-server
 ---

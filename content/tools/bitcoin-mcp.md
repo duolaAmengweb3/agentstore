@@ -9,7 +9,13 @@ score: 7.4
 tagline_en: 'Bitcoin + Lightning — keygen, validate, decode, query'
 tagline_zh: Bitcoin + Lightning — 生成/校验/解码/查询
 metrics:
-  githubStars: 42
+  githubStars: 74
+  lastPush: '2025-08-01T09:38:50Z'
+  archived: false
+  _history:
+    - t: '2026-04-22T02:27:40.323Z'
+      v: 740
+  lastAutoUpdated: '2026-04-22T02:27:40.323Z'
 fetch:
   github: AbdelStark/bitcoin-mcp
 ---

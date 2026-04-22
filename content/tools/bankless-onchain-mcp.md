@@ -11,6 +11,12 @@ tagline_zh: Bankless 链上 API — 组合 / 协议 / 治理
 metrics:
   npmMonthly: 2871
   githubStars: 78
+  lastPush: '2026-02-27T05:21:19Z'
+  archived: false
+  _history:
+    - t: '2026-04-22T02:27:40.088Z'
+      v: 3651
+  lastAutoUpdated: '2026-04-22T02:27:40.088Z'
 fetch:
   github: Bankless/onchain-mcp
 ---

@@ -12,6 +12,12 @@ metrics:
   npmMonthly: 6421
   githubStars: 983
   weeklyGrowthPct: 28
+  lastPush: '2026-04-14T00:50:29Z'
+  archived: false
+  _history:
+    - t: '2026-04-22T02:27:42.164Z'
+      v: 16251
+  lastAutoUpdated: '2026-04-22T02:27:42.164Z'
 fetch:
   github: goat-sdk/goat
 ---

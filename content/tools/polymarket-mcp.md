@@ -12,6 +12,12 @@ metrics:
   smitheryCalls: 54822
   githubStars: 6
   weeklyGrowthPct: 18
+  lastPush: '2025-11-08T20:08:48Z'
+  archived: false
+  _history:
+    - t: '2026-04-22T02:27:44.895Z'
+      v: 60
+  lastAutoUpdated: '2026-04-22T02:27:44.895Z'
 fetch:
   github: aryankeluskar/polymarket-mcp
 ---

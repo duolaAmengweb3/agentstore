@@ -12,6 +12,12 @@ metrics:
   npmMonthly: 8921
   githubStars: 374
   weeklyGrowthPct: 18
+  lastPush: '2025-11-26T17:09:23Z'
+  archived: false
+  _history:
+    - t: '2026-04-22T02:27:44.237Z'
+      v: 12661
+  lastAutoUpdated: '2026-04-22T02:27:44.237Z'
 fetch:
   github: mcpdotdirect/evm-mcp-server
 ---

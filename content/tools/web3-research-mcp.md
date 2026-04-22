@@ -11,6 +11,12 @@ tagline_zh: '"加密深度研究"本地版'
 metrics:
   githubStars: 148
   weeklyGrowthPct: 58
+  lastPush: '2026-04-18T07:40:51Z'
+  archived: false
+  _history:
+    - t: '2026-04-22T02:27:45.675Z'
+      v: 1480
+  lastAutoUpdated: '2026-04-22T02:27:45.675Z'
 fetch:
   github: aaronjmars/web3-research-mcp
 ---

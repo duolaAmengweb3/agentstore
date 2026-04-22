@@ -15,7 +15,11 @@ metrics:
   _history:
     - t: '2026-04-22T02:19:48.928Z'
       v: 22875
-  lastAutoUpdated: '2026-04-22T02:19:48.928Z'
+    - t: '2026-04-22T02:27:45.196Z'
+      v: 22875
+  lastAutoUpdated: '2026-04-22T02:27:45.196Z'
+  lastPush: '2026-03-31T18:42:47Z'
+  archived: false
 fetch:
   github: sendaifun/solana-agent-kit
   npm: solana-agent-kit
