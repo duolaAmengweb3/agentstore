@@ -7,7 +7,7 @@ import { LiveTicker } from '@/components/home/live-ticker';
 import { RankingsGrid } from '@/components/home/rankings-grid';
 import { CategoryTiles } from '@/components/home/category-tiles';
 import { CollectionsGrid } from '@/components/home/collections-grid';
-import { TodayFeed } from '@/components/home/today-feed';
+import { CategoryShowdown } from '@/components/home/category-showdown';
 import { CreatorStories } from '@/components/home/creator-stories';
 import { WizardCta } from '@/components/home/wizard-cta';
 import { TopicTiles } from '@/components/home/topic-tiles';
@@ -30,10 +30,11 @@ export default async function HomePage({
         {/* 编辑策展:先帮用户定位"你想做什么 + 编辑推荐谁" */}
         <Scenarios />
         <EditorPicks />
+        {/* 按板块同类 top-3 对比 —— 让用户直观看到"同类选谁" */}
+        <CategoryShowdown />
         {/* 浏览入口 */}
         <CategoryTiles />
         <CollectionsGrid />
-        <TodayFeed />
         {/* 数据榜单 — 给愿意看 metric 的用户,位置下沉 */}
         <LiveTicker />
         <RankingsGrid />
