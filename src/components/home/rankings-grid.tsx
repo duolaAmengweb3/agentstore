@@ -115,8 +115,8 @@ function RankingCard({
               </div>
               <div className="flex-1 min-w-0">
                 <div className="text-sm font-medium truncate">{tool.name}</div>
-                <div className="text-xs text-muted-foreground truncate">
-                  {tool.author}
+                <div className="text-xs text-muted-foreground line-clamp-1" title={tool.tagline[locale]}>
+                  {tool.tagline[locale]}
                 </div>
               </div>
               <div className="text-right shrink-0">
