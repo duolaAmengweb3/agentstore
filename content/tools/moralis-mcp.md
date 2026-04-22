@@ -12,7 +12,13 @@ tagline_en: >-
 tagline_zh: '多链钱包 / 代币 / NFT / DeFi 仓位查询(社区版,因官方 repo 较新)'
 metrics:
   npmMonthly: 6234
-  githubStars: 234
+  githubStars: 1
+  lastPush: '2025-04-11T00:03:27Z'
+  archived: false
+  _history:
+    - t: '2026-04-22T07:26:00.045Z'
+      v: 6244
+  lastAutoUpdated: '2026-04-22T07:26:00.045Z'
 fetch:
   github: a6b8/moralis-mcp
 readme:
@@ -23,7 +29,7 @@ readme:
   installCmd: |-
     # Install dependencies
     npm install
-  lastFetched: '2026-04-22T03:05:50.325Z'
+  lastFetched: '2026-04-22T07:26:07.981Z'
 repoInfo:
   language: JavaScript
   license: null
