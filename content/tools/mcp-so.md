@@ -20,10 +20,18 @@ fetch:
   github: chatmcp/mcp-directory
 readme:
   about: a directory for Awesome MCP Servers.
+  examples:
+    - 'git clone https://github.com/chatmcp/mcp-directory.git'
+    - cd mcp-directory
+    - pnpm install
+    - SUPABASE_URL=""
+    - SUPABASE_ANON_KEY=""
+    - 'NEXT_PUBLIC_WEB_URL="http://localhost:3000"'
+    - pnpm dev
   installCmd: |-
     git clone https://github.com/chatmcp/mcp-directory.git
     cd mcp-directory
-  lastFetched: '2026-04-22T02:58:54.924Z'
+  lastFetched: '2026-04-22T03:05:49.152Z'
 repoInfo:
   language: TypeScript
   license: Apache-2.0

@@ -36,7 +36,16 @@ readme:
     - >-
       Use one API key to access multiple services (CoinGecko, DexScreener,
       Twitter analytics, and more)
-  lastFetched: '2026-04-22T02:58:48.780Z'
+  examples:
+    - '"command": "uv",'
+    - '"args": ['
+    - '"--directory",'
+    - '"/path/to/heurist-mesh-mcp-server/mesh_mcp_server",  // Update this path'
+    - '"run",'
+    - '"mesh-tool-server"'
+    - '],'
+    - '"HEURIST_API_KEY": "your-api-key-here"  // Update this key'
+  lastFetched: '2026-04-22T03:05:43.299Z'
 repoInfo:
   language: Python
   license: MIT

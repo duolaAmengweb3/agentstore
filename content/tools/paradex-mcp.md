@@ -29,8 +29,11 @@ readme:
     - Manage trading accounts and vaults
     - Place and manage orders
     - Monitor positions and balance
+  examples:
+    - claude mcp add paradex uvx mcp-paradex
+    - npx -y @smithery/cli install @sv/mcp-paradex-py --client claude
   installCmd: claude mcp add paradex uvx mcp-paradex
-  lastFetched: '2026-04-22T02:58:57.642Z'
+  lastFetched: '2026-04-22T03:05:51.450Z'
 repoInfo:
   language: Python
   license: MIT

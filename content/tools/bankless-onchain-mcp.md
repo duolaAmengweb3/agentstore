@@ -23,17 +23,8 @@ readme:
   about: >-
     MCP (Model Context Protocol) server for blockchain data interaction through
     the Bankless API.
-  features:
-    - >-
-      Read Contract State (read_contract) — Read state from smart contracts on
-      various blockchain networks.
-    - 'Parameters — network, contract address, method, inputs, outputs'
-    - Returns — Contract call results with typed values
-    - Get Proxy (get_proxy) — Retrieve proxy implementation contract addresses.
-    - 'Parameters — network, contract address'
-    - Returns — Implementation contract address
   installCmd: npm install @bankless/onchain-mcp
-  lastFetched: '2026-04-22T02:58:38.172Z'
+  lastFetched: '2026-04-22T03:05:32.610Z'
 repoInfo:
   language: TypeScript
   license: null

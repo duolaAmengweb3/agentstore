@@ -22,7 +22,54 @@ fetch:
   github: goat-sdk/goat
 readme:
   about: The leading agentic finance toolkit for AI agents
-  lastFetched: '2026-04-22T02:58:46.843Z'
+  modules:
+    - name: 0x
+      description: Get quotes and swap on 0x · @goat-sdk/plugin-0x
+    - name: 1inch
+      description: >-
+        Get the balances of a wallet using 1inch API · @goat-sdk/plugin-1inch ·
+        goat-sdk-plugin-1inch
+    - name: Allora
+      description: >-
+        Get price predictions using Allora API · @goat-sdk/plugin-allora ·
+        goat-sdk-plugin-allora
+    - name: Avnu
+      description: Swap tokens on Starknet · @goat-sdk/plugin-avnu
+    - name: Balancer
+      description: >-
+        Swap tokens and provide liquidity on Balancer ·
+        @goat-sdk/plugin-balancer
+    - name: Balmy
+      description: Swap tokens on Balmy · @goat-sdk/plugin-balmy
+    - name: BetSwirl
+      description: Play casino games · @goat-sdk/plugin-betswirl
+    - name: BirdEye
+      description: Get token insights using BirdEye API · @goat-sdk/plugin-birdeye
+    - name: BMX
+      description: Get token insights using BMX API · @goat-sdk/plugin-bmx
+    - name: CoinGecko
+      description: >-
+        Get coin information using CoinGecko API · @goat-sdk/plugin-coingecko ·
+        goat-sdk-plugin-coingecko
+    - name: Coinmarketcap
+      description: >-
+        Get coin information using Coinmarketcap API ·
+        @goat-sdk/plugin-coinmarketcap
+    - name: Cosmosbank
+      description: Interact with Cosmos tokens · @goat-sdk/plugin-cosmosbank
+    - name: Crossmint Headless Checkout
+      description: >-
+        Purchase any NFT on any chain using Crossmint ·
+        @goat-sdk/plugin-crossmint-headless-checkout
+    - name: 'Crossmint Mint, Faucet, Wallets'
+      description: >-
+        Create a wallet, mint tokens and get test tokens on any chain using
+        Crossmint · @goat-sdk/plugin-crossmint-mint-faucet-wallets
+    - name: DeBridge
+      description: >-
+        Bridge tokens on DeBridge · @goat-sdk/plugin-debridge ·
+        goat-sdk-plugin-debridge
+  lastFetched: '2026-04-22T03:05:41.309Z'
 repoInfo:
   language: TypeScript
   license: MIT

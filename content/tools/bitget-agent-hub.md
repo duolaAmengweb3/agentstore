@@ -21,10 +21,38 @@ fetch:
   github: BitgetLimited/agent_hub
 readme:
   about: Bitget agent hub
+  modules:
+    - name: spot
+      count: 13
+      description: ✅
+    - name: futures
+      count: 14
+      description: ✅
+    - name: account
+      count: 8
+      description: ✅
+    - name: margin
+      count: 7
+      description: —
+    - name: copytrading
+      count: 5
+      description: —
+    - name: convert
+      count: 3
+      description: —
+    - name: earn
+      count: 3
+      description: —
+    - name: p2p
+      count: 2
+      description: —
+    - name: broker
+      count: 3
+      description: —
   installCmd: |-
     # Install everything and deploy skills to Claude Code (default)
     npx bitget-hub upgrade-all --target claude
-  lastFetched: '2026-04-22T02:58:40.008Z'
+  lastFetched: '2026-04-22T03:05:34.027Z'
 repoInfo:
   language: TypeScript
   license: null

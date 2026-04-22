@@ -40,7 +40,7 @@ readme:
     - >-
       Formatted Outputs — Uses tabulate for clean, readable table outputs and
       handles JSON parsing for outcomes and prices.
-  lastFetched: '2026-04-22T02:58:53.435Z'
+  lastFetched: '2026-04-22T03:05:46.628Z'
 repoInfo:
   language: Python
   license: MIT

@@ -23,7 +23,7 @@ fetch:
 readme:
   about: SDK for Hyperliquid API trading with Python.
   installCmd: pip install hyperliquid-python-sdk
-  lastFetched: '2026-04-22T02:58:48.798Z'
+  lastFetched: '2026-04-22T03:05:43.263Z'
 repoInfo:
   language: Python
   license: MIT

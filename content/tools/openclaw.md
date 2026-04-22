@@ -21,7 +21,25 @@ fetch:
   github: OpenClaw/openclaw
 readme:
   about: EXFOLIATE! EXFOLIATE!
-  lastFetched: '2026-04-22T02:58:58.176Z'
+  features:
+    - >-
+      Local-first Gateway — single control plane for sessions, channels, tools,
+      and events.
+    - >-
+      Multi-agent routing — route inbound channels/accounts/peers to isolated
+      agents (workspaces + per-agent sessions).
+    - >-
+      Voice Wake + Talk Mode — wake words on macOS/iOS and continuous voice on
+      Android (ElevenLabs + system TTS fallback).
+    - Live Canvas — agent-driven visual workspace with A2UI.
+    - >-
+      First-class tools — browser, canvas, nodes, cron, sessions, and
+      Discord/Slack actions.
+    - Companion apps — macOS menu bar app + iOS/Android nodes.
+    - >-
+      Onboarding + skills — onboarding-driven setup with
+      bundled/managed/workspace skills.
+  lastFetched: '2026-04-22T03:05:51.585Z'
 repoInfo:
   language: TypeScript
   license: MIT
@@ -34,7 +52,7 @@ repoInfo:
     - own-your-data
     - personal
   contributors: 365
-  openIssues: 19226
+  openIssues: 19228
   archived: false
   createdAt: '2025-11-24T10:16:47Z'
   defaultBranch: main

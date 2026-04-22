@@ -23,23 +23,7 @@ readme:
     An MCP server that provides real-time access to Pyth Network's decentralized
     oracle price feeds via the Hermes API, optimized for seamless integration
     into AI agents and autonomous systems.
-  features:
-    - >-
-      Search Price Feeds — Search and filter through 1,930+ price feeds by
-      symbol or asset type across 107+ blockchains
-    - >-
-      Get Latest Prices — Fetch real-time price updates for specific price feed
-      IDs with parsed data (no binary clutter)
-    - >-
-      Historical Price Data — Query price updates at specific timestamps for
-      backtesting and analysis
-    - >-
-      Publisher Stake Caps — Access the latest publisher stake caps data from
-      the Pyth network
-    - >-
-      Time-Weighted Average Prices (TWAP) — Calculate TWAP with custom time
-      windows (1-600 seconds) for more stable pricing
-  lastFetched: '2026-04-22T02:58:59.080Z'
+  lastFetched: '2026-04-22T03:05:52.979Z'
 repoInfo:
   language: Python
   license: MIT

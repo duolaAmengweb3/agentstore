@@ -42,7 +42,7 @@ readme:
   installCmd: |-
     git clone https://github.com/kukapay/memecoin-radar-mcp.git
        cd memecoin-radar-mcp
-  lastFetched: '2026-04-22T02:58:53.361Z'
+  lastFetched: '2026-04-22T03:05:47.027Z'
 repoInfo:
   language: Python
   license: MIT

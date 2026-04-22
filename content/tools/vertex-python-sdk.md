@@ -22,7 +22,7 @@ fetch:
 readme:
   about: This is the Python SDK for the Vertex Protocol API.
   installCmd: pip install vertex-protocol
-  lastFetched: '2026-04-22T02:59:00.565Z'
+  lastFetched: '2026-04-22T03:05:54.766Z'
 repoInfo:
   language: Python
   license: null

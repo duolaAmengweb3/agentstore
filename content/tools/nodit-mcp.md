@@ -36,7 +36,7 @@ readme:
     - >-
       Easily develop with blockchain MCP in both local and remote integration,
       depending on your workflow needs.
-  lastFetched: '2026-04-22T02:58:57.192Z'
+  lastFetched: '2026-04-22T03:05:50.957Z'
 repoInfo:
   language: TypeScript
   license: Apache-2.0

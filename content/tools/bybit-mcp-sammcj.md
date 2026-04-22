@@ -32,8 +32,18 @@ readme:
     - >-
       get_instrument_info — Get detailed instrument information for a specific
       trading pair
+    - >-
+      get_wallet_balance — Get wallet balance information for the authenticated
+      user
+    - >-
+      get_positions — Get current positions information for the authenticated
+      user
+  examples:
+    - pnpm i
+    - cp .env.example .env
+    - code .env
   installCmd: pnpm i
-  lastFetched: '2026-04-22T02:58:41.091Z'
+  lastFetched: '2026-04-22T03:05:35.408Z'
 repoInfo:
   language: TypeScript
   license: MIT

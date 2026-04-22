@@ -29,7 +29,9 @@ readme:
     - Get price information for specific symbols
     - View order book information for specific symbols
     - Search historical OHLCV data
-  lastFetched: '2026-04-22T02:58:42.261Z'
+    - 'Trading Functions:'
+    - Create market/limit orders
+  lastFetched: '2026-04-22T03:05:36.436Z'
 repoInfo:
   language: TypeScript
   license: MIT

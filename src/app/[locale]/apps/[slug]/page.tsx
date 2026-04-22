@@ -324,6 +324,66 @@ export default async function ToolDetailPage({
           )}
         </section>
 
+        {/* ===== 能做什么(模块 / 动作)===== */}
+        {detailData?.readme?.modules && detailData.readme.modules.length > 0 && (
+          <section className="container py-8 md:py-10">
+            <h2 className="text-lg md:text-xl font-semibold mb-2">
+              {locale === 'zh' ? '具体能做什么' : 'What you can actually do'}
+            </h2>
+            <p className="text-sm text-muted-foreground mb-5 max-w-2xl">
+              {locale === 'zh'
+                ? '按模块拆解,每个模块里的工具对应能执行的动作。'
+                : 'Broken down by module — each lists the real actions available.'}
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              {detailData.readme.modules.map((m, i) => (
+                <div key={i} className="rounded-2xl border border-border/60 bg-card/40 p-5 lift-on-hover">
+                  <div className="flex items-baseline justify-between mb-2">
+                    <div className="font-mono text-sm text-primary">{m.name}</div>
+                    {m.count != null && (
+                      <div className="text-xs text-muted-foreground tabular-nums">
+                        {m.count} {locale === 'zh' ? '个工具' : 'tools'}
+                      </div>
+                    )}
+                  </div>
+                  <p className="text-sm text-foreground/80 leading-relaxed">
+                    {m.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* ===== 示例命令 / Prompts(优先 readme.examples,fallback mock-details.prompts)===== */}
+        {(() => {
+          const readmeExamples = detailData?.readme?.examples;
+          const handwritten = details.prompts;
+          const items = (readmeExamples && readmeExamples.length > 0)
+            ? readmeExamples.map((ex) => ({ en: ex, zh: ex, isCommand: true }))
+            : handwritten.map((p) => ({ ...p, isCommand: false }));
+          if (items.length === 0) return null;
+          return (
+            <section className="container py-8 md:py-10">
+              <h2 className="text-lg md:text-xl font-semibold mb-2">
+                {locale === 'zh'
+                  ? (readmeExamples?.length ? '真实示例命令' : '装完你可以这么问 Claude')
+                  : (readmeExamples?.length ? 'Real example commands' : 'Try asking your Claude')}
+              </h2>
+              <p className="text-sm text-muted-foreground mb-5 max-w-2xl">
+                {readmeExamples?.length
+                  ? (locale === 'zh' ? '这些命令从作者 README 里真实抽取,点"复制"在你本地试。' : 'Pulled straight from the project README — copy and run locally.')
+                  : (locale === 'zh' ? '点击任意一条复制,粘贴到 Claude Desktop 试试。' : 'Click any prompt to copy. Paste into Claude Desktop.')}
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 max-w-4xl">
+                {items.slice(0, 8).map((p, i) => (
+                  <PromptChip key={i} en={p.en} zh={p.zh} locale={locale} />
+                ))}
+              </div>
+            </section>
+          );
+        })()}
+
         {/* ===== Install ===== */}
         <section id="install" className="container py-8 md:py-10">
           <h2 className="text-lg md:text-xl font-semibold mb-4">
@@ -543,24 +603,7 @@ export default async function ToolDetailPage({
           </section>
         )}
 
-        {/* ===== Prompts(仅在有数据时展示) ===== */}
-        {details.prompts.length > 0 && (
-        <section className="container py-8 md:py-10">
-          <h2 className="text-lg md:text-xl font-semibold mb-2">
-            {locale === 'zh' ? '装完你可以这么问 Claude' : 'Try asking your Claude'}
-          </h2>
-          <p className="text-sm text-muted-foreground mb-5 max-w-2xl">
-            {locale === 'zh'
-              ? '点击任意一条复制到剪贴板,粘贴到你的 Claude Desktop 试试。'
-              : 'Click any prompt to copy. Paste it into Claude Desktop to see what happens.'}
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 max-w-4xl">
-            {details.prompts.map((p, i) => (
-              <PromptChip key={i} en={p.en} zh={p.zh} locale={locale} />
-            ))}
-          </div>
-        </section>
-        )}
+        {/* Prompts 已经合并到前面的"示例/Prompts"板块(优先 readme.examples)*/}
 
         {/* ===== Actions(tool 暴露的动作,仅在有数据时展示)===== */}
         {details.actions.length > 0 && (

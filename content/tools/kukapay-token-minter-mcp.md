@@ -29,10 +29,20 @@ readme:
     - Retrieve transaction details by hash.
     - Check native token balance of the current account.
     - Access token metadata via URI.
+    - Interactive prompt for deployment guidance.
+  examples:
+    - 'Token deployment initiated on Arbitrum (chainId: 42161)!'
+    - 'Name: RewardToken'
+    - 'Symbol: RWD'
+    - 'Decimals: 6'
+    - 'Initial Supply: 5000000 tokens'
+    - 'Transaction Hash: 0xabc123...'
+    - 'Note: Use ''getTransactionInfo'' to check deployment status.'
+    - 'Account Balance on Polygon (chainId: 137):'
   installCmd: |-
     git clone https://github.com/kukapay/token-minter-mcp.git
        cd token-minter-mcp/server
-  lastFetched: '2026-04-22T02:58:53.879Z'
+  lastFetched: '2026-04-22T03:05:47.490Z'
 repoInfo:
   language: JavaScript
   license: MIT

@@ -36,7 +36,13 @@ readme:
       get_user_funding_history — Query funding payment history with customizable
       time ranges.
     - get_user_fees — Fetch user-specific fee structures (maker/taker rates).
-  lastFetched: '2026-04-22T02:58:52.979Z'
+    - >-
+      get_user_staking_summary & get_user_staking_rewards — Access staking
+      details and rewards.
+    - >-
+      get_user_order_by_oid & get_user_order_by_cloid — Retrieve specific order
+      details by order ID or client order ID.
+  lastFetched: '2026-04-22T03:05:46.632Z'
 repoInfo:
   language: Python
   license: MIT

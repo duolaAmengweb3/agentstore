@@ -24,10 +24,7 @@ readme:
     Claude with access to DeFi data via the DefiLlama API. The server enables
     Claude to perform operations like retrieving protocol TVL data, chain TVL
     data, token prices, and stablecoin information.
-  features:
-    - defillama_get_protocols — List all protocols tracked by DefiLlama
-    - defillama_get_protocol_tvl — Get TVL data for a specific protocol
-  lastFetched: '2026-04-22T02:58:44.442Z'
+  lastFetched: '2026-04-22T03:05:39.004Z'
 repoInfo:
   language: TypeScript
   license: MIT

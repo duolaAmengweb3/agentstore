@@ -21,7 +21,7 @@ fetch:
   github: aaronjmars/web3-research-mcp
 readme:
   about: "Deep Research for crypto - free & fully local \U0001F9E0"
-  lastFetched: '2026-04-22T02:59:01.092Z'
+  lastFetched: '2026-04-22T03:05:55.689Z'
 repoInfo:
   language: TypeScript
   license: MIT

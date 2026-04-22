@@ -30,7 +30,7 @@ readme:
     - Execute transactions
     - Query account information
     - Manage Solana wallets
-  lastFetched: '2026-04-22T02:58:59.551Z'
+  lastFetched: '2026-04-22T03:05:53.835Z'
 repoInfo:
   language: Shell
   license: Apache-2.0

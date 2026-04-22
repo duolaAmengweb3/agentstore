@@ -27,6 +27,84 @@ readme:
   about: >-
     OKX trading MCP server — connect AI agents to spot, swap, futures, options &
     grid bots via the Model Context Protocol.  
+  features:
+    - >-
+      140 tools across 10 modules — Full trading lifecycle: market data → orders
+      → algo orders → account management → earn → trading bots → event contracts
+      → news
+    - >-
+      Algo orders built-in — Conditional, OCO take-profit/stop-loss, trailing
+      stop
+    - >-
+      Safety controls — --read-only flag, per-module filtering, built-in rate
+      limiter
+    - 'Zero infrastructure — Local stdio process, no server or database required'
+    - >-
+      MCP standard — Works with Claude Desktop, Cursor, openCxxW, and any
+      MCP-compatible client
+    - >-
+      Agent Skills included — Pre-built skill files for AI agent frameworks —
+      drop-in instructions covering market data, trading, portfolio, bots, and
+      earn
+    - 'Open source — MIT license, API keys never leave your machine'
+  modules:
+    - name: market
+      count: 19
+      description: >-
+        Ticker, orderbook, candles (+history), index ticker, index candles,
+        price limit, funding rate, mark price, open interest, stock tokens,
+        technical indicators (70+ indicators:
+        MA/EMA/RSI/MACD/BB/ATR/KDJ/BTCRAINBOW/AHR999 and more — no auth
+        required), indicator list, market filter (screen by price/chan
+    - name: spot
+      count: 13
+      description: >-
+        Place/cancel/amend orders, batch orders, fills (+archive), order history
+        (+archive), conditional orders, OCO ·
+    - name: swap
+      count: 17
+      description: >-
+        Perpetual trading, batch orders, positions, leverage, conditional
+        orders, OCO, trailing stop ·
+    - name: futures
+      count: 18
+      description: >-
+        Delivery contract trading, positions, fills, order history,
+        amend/close/leverage, batch orders, algo orders (TP/SL, OCO, trailing
+        stop) ·
+    - name: option
+      count: 10
+      description: >-
+        Options trading: place/cancel/amend/batch-cancel, order history,
+        positions (with Greeks), fills, option chain, IV + Greeks ·
+    - name: account
+      count: 14
+      description: >-
+        Balance, bills (+archive), positions, positions history, fee rates,
+        config, position mode, max withdrawal, max avail size, audit log ·
+    - name: event
+      count: 9
+      description: >-
+        Event contract trading: browse, series, events, markets (query); place,
+        amend, cancel, orders, fills (private). Semantic outcome values:
+        UP/YES/DOWN/NO ·
+    - name: earn
+      count: 23
+      description: >-
+        Simple Earn: balance, purchase, redeem, lending rate, fixed-term orders
+        (10). On-chain staking/DeFi (6). Dual Currency Deposit/双币赢 (6). Flash
+        Earn (1). Sub-modules: earn.savings, earn.onchain, earn.dcd, earn.flash.
+        Included in all. ·
+    - name: bot
+      count: 10
+      description: >-
+        Trading bots: Grid (5) and DCA — Spot & Contract (5). Sub-modules:
+        bot.grid, bot.dca ·
+    - name: news
+      count: 7
+      description: >-
+        Crypto news: latest news, by-coin filter, full-text search, article
+        detail, news sources, coin sentiment (snapshot + trend) ·
   installCmd: >-
     # 1. Install
 
@@ -48,7 +126,7 @@ readme:
 
     okx-trade-mcp setup --client vscode          # writes .mcp.json in current
     directory
-  lastFetched: '2026-04-22T02:58:57.186Z'
+  lastFetched: '2026-04-22T03:05:50.951Z'
 repoInfo:
   language: TypeScript
   license: MIT

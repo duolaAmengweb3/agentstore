@@ -23,10 +23,29 @@ readme:
     The jup-swap-api-client is a Rust client library designed to simplify the
     integration of the Jupiter Swap API, enabling seamless swaps on the Solana
     blockchain.
+  examples:
+    - >-
+      quote::QuoteRequest, swap::SwapRequest,
+      transaction_config::TransactionConfig,
+    - 'JupiterSwapApiClient,'
+    - '};'
+    - 'use solana_sdk::pubkey::Pubkey;'
+    - >-
+      const USDC_MINT: Pubkey =
+      pubkey!("EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v");
+    - >-
+      const NATIVE_MINT: Pubkey =
+      pubkey!("So11111111111111111111111111111111111111112");
+    - >-
+      const TEST_WALLET: Pubkey =
+      pubkey!("2AQdpHJ2JpcEgPiATUXjQxA8QmafFegfQwSLWSprPicm");
+    - >-
+      let jupiter_swap_api_client =
+      JupiterSwapApiClient::new("https://quote-api.jup.ag/v6");
   installCmd: |-
     [dependencies]
         jupiter-swap-api-client = { git = "https://github.com/jup-ag/jupiter-swap-api-client.git", package = "jupiter-swap-api-client"}
-  lastFetched: '2026-04-22T02:58:49.276Z'
+  lastFetched: '2026-04-22T03:05:43.295Z'
 repoInfo:
   language: Rust
   license: null

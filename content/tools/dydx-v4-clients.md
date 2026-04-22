@@ -20,7 +20,7 @@ metrics:
 fetch:
   github: dydxprotocol/v4-clients
 readme:
-  lastFetched: '2026-04-22T02:58:45.371Z'
+  lastFetched: '2026-04-22T03:05:39.526Z'
 repoInfo:
   language: JavaScript
   license: NOASSERTION

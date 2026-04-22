@@ -20,14 +20,7 @@ fetch:
   github: AbdelStark/bitcoin-mcp
 readme:
   about: Documentation Try with Claude Try with Goose
-  features:
-    - ₿itcoin \& Lightning Network MCP Server
-    - Overview
-    - "\U0001F3AE Demo"
-    - "\U0001F4BC Table of Contents"
-    - "\U0001F527 Features"
-    - "\U0001F511 Claude Desktop Integration"
-  lastFetched: '2026-04-22T02:58:40.038Z'
+  lastFetched: '2026-04-22T03:05:34.019Z'
 repoInfo:
   language: TypeScript
   license: MIT

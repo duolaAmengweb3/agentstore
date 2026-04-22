@@ -25,7 +25,7 @@ readme:
     access to crypto: both centralized and decentralized. Search tokens, execute
     trades, track wallets, monitor signals, and interact with DeFi protocols,
     all through natural language.
-  lastFetched: '2026-04-22T02:58:40.020Z'
+  lastFetched: '2026-04-22T03:05:34.440Z'
 repoInfo:
   language: Python
   license: null

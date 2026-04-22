@@ -25,7 +25,16 @@ fetch:
   npm: solana-agent-kit
 readme:
   about: "checkout Suzi \U0001F338 by SendAI"
-  lastFetched: '2026-04-22T02:58:59.619Z'
+  examples:
+    - import TokenPlugin from "@solana-agent-kit/plugin-token";
+    - import NFTPlugin from "@solana-agent-kit/plugin-nft";
+    - import DefiPlugin from "@solana-agent-kit/plugin-defi";
+    - import MiscPlugin from "@solana-agent-kit/plugin-misc";
+    - import BlinksPlugin from "@solana-agent-kit/plugin-blinks";
+    - const keyPair = Keypair.fromSecretKey(bs58.decode("YOUR_SECRET_KEY"))
+    - const wallet = new KeypairWallet(keyPair)
+    - const agent = new SolanaAgentKit(
+  lastFetched: '2026-04-22T03:05:53.664Z'
 repoInfo:
   language: TypeScript
   license: Apache-2.0

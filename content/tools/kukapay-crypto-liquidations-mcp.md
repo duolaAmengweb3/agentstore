@@ -35,7 +35,11 @@ readme:
     - Retrieves the latest liquidation events in a Markdown table.
     - 'Columns — Symbol, Side, Price, Quantity, Time (HH:MM:SS format).'
     - Parameters — limit (default 10).
-  lastFetched: '2026-04-22T02:58:50.634Z'
+    - 'Prompt — analyze_liquidations:'
+    - >-
+      Generates a prompt to analyze liquidation trends across all symbols,
+      leveraging the get_latest_liquidations tool.
+  lastFetched: '2026-04-22T03:05:44.754Z'
 repoInfo:
   language: Python
   license: MIT

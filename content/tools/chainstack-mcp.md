@@ -18,8 +18,10 @@ readme:
     The Chainstack MCP server gives AI agents direct access to the Chainstack
     platform — deploy blockchain nodes, search documentation, and check platform
     status from any coding environment.
+  examples:
+    - get mcp.chainstack.com
   installCmd: get mcp.chainstack.com
-  lastFetched: '2026-04-22T02:58:42.348Z'
+  lastFetched: '2026-04-22T03:05:36.376Z'
 repoInfo:
   language: null
   license: null

@@ -20,7 +20,7 @@ fetch:
   github: getalby/nwc-mcp-server
 readme:
   about: Please use Alby MCP instead!
-  lastFetched: '2026-04-22T02:58:38.404Z'
+  lastFetched: '2026-04-22T03:05:32.032Z'
 repoInfo:
   language: TypeScript
   license: null

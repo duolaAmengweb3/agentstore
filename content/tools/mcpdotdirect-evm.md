@@ -27,7 +27,40 @@ readme:
     to interact with Ethereum, Optimism, Arbitrum, Base, Polygon, and many other
     EVM chains with a unified interface through 22 tools and 10 AI-guided
     prompts.
-  lastFetched: '2026-04-22T02:58:55.610Z'
+  modules:
+    - name: get_wallet_address
+      description: Get the address of the configured wallet (from EVM_PRIVATE_KEY) · none
+    - name: Tool Name
+      description: Description · Key Parameters
+    - name: '------------------------'
+      description: '----------------------------------- · --------------'
+    - name: get_chain_info
+      description: Get network information · network
+    - name: get_supported_networks
+      description: List all supported EVM networks · none
+    - name: get_gas_price
+      description: Get current gas prices on a network · network
+    - name: Tool Name
+      description: Description · Key Parameters
+    - name: '--------------------'
+      description: '---------------------------------- · --------------------'
+    - name: resolve_ens_name
+      description: 'Resolve ENS name to address · ensName, network'
+    - name: lookup_ens_address
+      description: 'Reverse lookup address to ENS name · address, network'
+    - name: Tool Name
+      description: Description · Key Parameters
+    - name: '-------------------------'
+      description: >-
+        --------------------------------- ·
+        ---------------------------------------
+    - name: get_block
+      description: 'Get block data · blockNumber or blockHash, network'
+    - name: get_latest_block
+      description: Get latest block data · network
+    - name: get_transaction
+      description: 'Get transaction details · txHash, network'
+  lastFetched: '2026-04-22T03:05:49.844Z'
 repoInfo:
   language: TypeScript
   license: MIT

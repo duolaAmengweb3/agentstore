@@ -25,7 +25,7 @@ fetch:
   npm: '@coinbase/agentkit'
 readme:
   about: Every agent deserves a wallet.
-  lastFetched: '2026-04-22T02:58:43.405Z'
+  lastFetched: '2026-04-22T03:05:37.547Z'
 repoInfo:
   language: TypeScript
   license: NOASSERTION

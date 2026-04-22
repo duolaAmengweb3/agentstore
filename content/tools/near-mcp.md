@@ -24,11 +24,15 @@ readme:
     interacting with the NEAR blockchain. This tool provides a way for LLMs and
     AI agents to securely access and interact with NEAR accounts and blockchain
     functionality.
+  examples:
+    - npm install -g @anthropic-ai/claude-code
+    - claude mcp add near-mcp npx @nearai/near-mcp@latest run
+    - claude
   installCmd: |-
     npm install -g @anthropic-ai/claude-code
     claude mcp add near-mcp npx @nearai/near-mcp@latest run
     claude
-  lastFetched: '2026-04-22T02:58:56.694Z'
+  lastFetched: '2026-04-22T03:05:50.454Z'
 repoInfo:
   language: TypeScript
   license: MIT

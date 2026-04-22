@@ -36,7 +36,7 @@ readme:
   installCmd: |-
     git clone [your-repo-url]
     cd mcp-etherscan-server
-  lastFetched: '2026-04-22T02:58:45.831Z'
+  lastFetched: '2026-04-22T03:05:40.344Z'
 repoInfo:
   language: TypeScript
   license: MIT

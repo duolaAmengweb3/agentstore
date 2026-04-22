@@ -36,7 +36,13 @@ readme:
       Token security analysis - Built-in GoPlus security checks for token
       verification
     - Gas-efficient operations - Smart routing for optimal gas usage on BSC
-  lastFetched: '2026-04-22T02:58:41.404Z'
+    - >-
+      AI-ready MCP protocol - Seamless integration with Claude Desktop and AI
+      agents
+    - >-
+      Real-time wallet monitoring - Track balances and positions across multiple
+      tokens
+  lastFetched: '2026-04-22T03:05:35.895Z'
 repoInfo:
   language: TypeScript
   license: null

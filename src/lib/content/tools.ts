@@ -37,6 +37,8 @@ export type ToolDetailData = {
   readme?: {
     about?: string;
     features?: string[];
+    modules?: { name: string; count?: number; description: string }[];
+    examples?: string[];
     installCmd?: string;
     lastFetched?: string;
   };

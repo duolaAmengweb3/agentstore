@@ -36,7 +36,15 @@ readme:
       whale://transactions/{blockchain} — Expose recent transactions for a
       specified blockchain as contextual data.
     - 'Prompts:'
-  lastFetched: '2026-04-22T02:58:54.346Z'
+    - >-
+      query_whale_activity — A reusable template for analyzing whale transaction
+      patterns, optionally filtered by blockchain.
+    - >-
+      Asynchronous API Calls — Uses httpx for efficient, non-blocking requests
+      to the Whale Alert API.
+  examples:
+    - mcp dev whale_tracker.py --with-editable .
+  lastFetched: '2026-04-22T03:05:48.354Z'
 repoInfo:
   language: Python
   license: MIT

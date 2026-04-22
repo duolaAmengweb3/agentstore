@@ -32,7 +32,7 @@ readme:
     - >-
       Prompt — News Summary - Generate a prompt to summarize news for a given
       cryptocurrency or topic.
-  lastFetched: '2026-04-22T02:58:51.100Z'
+  lastFetched: '2026-04-22T03:05:45.269Z'
 repoInfo:
   language: Python
   license: MIT

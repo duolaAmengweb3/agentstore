@@ -28,7 +28,7 @@ readme:
     Through this server, LLM Client can directly access and analyze blockchain
     security data, helping users with token security analysis, address risk
     assessment, and comprehensive Web3 security checks.
-  lastFetched: '2026-04-22T02:58:47.782Z'
+  lastFetched: '2026-04-22T03:05:42.656Z'
 repoInfo:
   language: TypeScript
   license: Apache-2.0

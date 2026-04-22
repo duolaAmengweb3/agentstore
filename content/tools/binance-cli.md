@@ -23,7 +23,7 @@ readme:
   installCmd: |-
     # Install from npm
     npm install -g @binance/binance-cli
-  lastFetched: '2026-04-22T02:58:39.134Z'
+  lastFetched: '2026-04-22T03:05:33.148Z'
 repoInfo:
   language: TypeScript
   license: null

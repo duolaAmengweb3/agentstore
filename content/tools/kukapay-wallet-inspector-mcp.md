@@ -29,7 +29,7 @@ readme:
     - >-
       Flexible Output — Balances in ASCII tables, activities and transactions in
       structured text.
-  lastFetched: '2026-04-22T02:58:53.898Z'
+  lastFetched: '2026-04-22T03:05:47.513Z'
 repoInfo:
   language: Python
   license: MIT

@@ -36,10 +36,31 @@ readme:
     - >-
       Trending Words — Identify the most popular terms trending in
       cryptocurrency discussions.
+  modules:
+    - name: get_sentiment_balance
+      description: >-
+        Get the average sentiment balance for an asset over a specified period.
+        · asset: str, days: int = 7
+    - name: get_social_volume
+      description: >-
+        Fetch the total number of social media mentions for an asset. · asset:
+        str, days: int = 7
+    - name: alert_social_shift
+      description: >-
+        Detect significant spikes or drops in social volume compared to the
+        previous average. · asset: str, threshold: float = 50.0, days: int = 7
+    - name: get_trending_words
+      description: >-
+        Retrieve the top trending words in crypto discussions, ranked by score
+        over a period. · days: int = 7, top_n: int = 5
+    - name: get_social_dominance
+      description: >-
+        Measure the percentage of crypto media discussions dominated by an
+        asset. · asset: str, days: int = 7
   installCmd: |-
     git clone https://github.com/kukapay/crypto-sentiment-mcp.git
        cd crypto-sentiment-mcp
-  lastFetched: '2026-04-22T02:58:51.591Z'
+  lastFetched: '2026-04-22T03:05:45.702Z'
 repoInfo:
   language: Python
   license: MIT

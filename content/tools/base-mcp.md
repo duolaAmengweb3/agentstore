@@ -32,7 +32,9 @@ readme:
     - Deploy smart contracts
     - Interact with Morpho vaults for onchain lending
     - Call contract functions
-  lastFetched: '2026-04-22T02:58:39.164Z'
+    - Onramp funds via Coinbase
+    - Manage ERC20 tokens
+  lastFetched: '2026-04-22T03:05:33.128Z'
 repoInfo:
   language: TypeScript
   license: MIT

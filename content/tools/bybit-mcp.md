@@ -23,7 +23,7 @@ readme:
   about: >-
     The most comprehensive MCP server for Bybit — 247 tools covering the entire
     Bybit V5 API
-  lastFetched: '2026-04-22T02:58:41.058Z'
+  lastFetched: '2026-04-22T03:05:35.498Z'
 repoInfo:
   language: Python
   license: MIT

@@ -18,16 +18,10 @@ readme:
     A Model Context Protocol (MCP) server implementation for interacting with
     the Moralis Web3 API, providing access to blockchain data across multiple
     networks through a structured API interface.
-  features:
-    - Get block contents by block hash
-    - Convert date to block
-    - Get transaction details
-    - Get latest block number
-    - Get native transactions
   installCmd: |-
     # Install dependencies
     npm install
-  lastFetched: '2026-04-22T02:58:56.260Z'
+  lastFetched: '2026-04-22T03:05:50.325Z'
 repoInfo:
   language: JavaScript
   license: null

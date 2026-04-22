@@ -18,15 +18,15 @@ readme:
     The official Helius AI tooling repository — everything you need to interact
     with Helius and Solana from the command line, from AI assistants like
     Claude, or autonomously as an agent.
-  features:
-    - '--api-key <key> flag'
-    - HELIUS_API_KEY environment variable
-    - ~/.helius/config.json
+  examples:
+    - helius config set-api-key <your-api-key>
+    - helius keygen
+    - helius signup
   installCmd: |-
     npm install -g helius-cli
     # or
     pnpm add -g helius-cli
-  lastFetched: '2026-04-22T02:58:47.792Z'
+  lastFetched: '2026-04-22T03:05:42.273Z'
 repoInfo:
   language: TypeScript
   license: MIT

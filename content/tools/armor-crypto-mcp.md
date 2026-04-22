@@ -21,7 +21,7 @@ fetch:
   github: armorwallet/armor-crypto-mcp
 readme:
   about: Alpha Test version 0.1.24
-  lastFetched: '2026-04-22T02:58:38.634Z'
+  lastFetched: '2026-04-22T03:05:32.219Z'
 repoInfo:
   language: Python
   license: GPL-3.0

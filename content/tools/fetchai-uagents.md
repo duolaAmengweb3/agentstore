@@ -25,7 +25,7 @@ readme:
     autonomous AI agents in Python. With simple and expressive decorators, you
     can have an agent that performs various tasks on a schedule or takes action
     on various events.
-  lastFetched: '2026-04-22T02:58:46.347Z'
+  lastFetched: '2026-04-22T03:05:40.815Z'
 repoInfo:
   language: Python
   license: Apache-2.0

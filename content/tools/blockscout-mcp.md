@@ -25,7 +25,7 @@ readme:
     The Model Context Protocol (MCP) is an open protocol designed to allow AI
     agents, IDEs, and automation tools to consume, query, and analyze structured
     data through context-aware APIs.
-  lastFetched: '2026-04-22T02:58:40.537Z'
+  lastFetched: '2026-04-22T03:05:34.945Z'
 repoInfo:
   language: Python
   license: MIT
