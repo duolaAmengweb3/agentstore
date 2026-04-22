@@ -60,58 +60,36 @@ jobs:
           echo "committed=true" >> $GITHUB_OUTPUT
 
       - name: Create review issue for community candidates
-        if: steps.discover.outputs.review_count != '0'
+        if: steps.discover.outputs.review_count != '0' && steps.discover.outputs.review_count != ''
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ONBOARDED: ${{ steps.onboard.outputs.onboarded || 0 }}
         run: |
           DATE=$(date -u +'%Y-%m-%d')
           FILE="content/discoveries/${DATE}.json"
 
           if [ ! -f "$FILE" ]; then
-            echo "no discovery file, skip"
+            echo "no discovery file for today, skip"
             exit 0
           fi
 
-          # 用 jq 拆出 review 列表的前 20 条,写成 issue body
-          BODY=$(node -e "
-            const d = require('./$FILE');
-            const review = (d.review || []).slice(0, 20);
-            console.log('### ' + review.length + ' candidates need your review');
-            console.log('');
-            console.log('Auto-onboarded trusted sources: **${{ steps.onboard.outputs.onboarded || 0 }}**');
-            console.log('');
-            console.log('Below are community-submitted candidates. For each:');
-            console.log('- ✅ Onboard: post a comment with \`/onboard <slug>\`');
-            console.log('- ❌ Skip: no action needed, they expire with next scan');
-            console.log('');
-            console.log('---');
-            console.log('');
-            for (const c of review) {
-              const badge = c.source === 'smithery' ? '📦' : c.source === 'npm' ? '📘' : '🐙';
-              console.log(\`#### \${badge} \\\`\${c.slug}\\\`  [\${c.source}]\`);
-              console.log('');
-              console.log(\`**\${c.displayName || c.slug}**  — \${c.description?.slice(0, 200) || 'no description'}\`);
-              console.log('');
-              const metrics = [];
-              if (c.stars) metrics.push(\`⭐ \${c.stars}\`);
-              if (c.useCount) metrics.push(\`📊 \${c.useCount} calls\`);
-              if (c.score) metrics.push(\`score \${c.score.toFixed(2)}\`);
-              if (metrics.length) console.log(metrics.join(' · '));
-              if (c.url) console.log(\`<\${c.url}>\`);
-              console.log('');
-              console.log(\`To add: \\\`/onboard \${c.slug}\\\`\`);
-              console.log('');
-              console.log('---');
-              console.log('');
-            }
-            if ((d.review || []).length > 20) {
-              console.log('*(\' + ((d.review || []).length - 20) + \' more in \' + '$FILE' + \')*');
-            }
-          ")
+          # 把 onboarded 数字注入 json(给 build-issue-body 用)
+          node -e "
+            const fs = require('fs');
+            const d = JSON.parse(fs.readFileSync('$FILE', 'utf8'));
+            d.onboarded = Number(process.env.ONBOARDED || 0);
+            fs.writeFileSync('$FILE', JSON.stringify(d, null, 2));
+          "
 
-          echo "$BODY" > /tmp/issue_body.md
+          # 生成 issue body
+          node scripts/build-issue-body.mjs "$FILE" > /tmp/issue_body.md
+
+          # labels 先确保存在(幂等)
+          gh label create discover   --color 0052cc --description "Tool discovery" --force || true
+          gh label create new-tools  --color c5def5 --description "New tool candidates" --force || true
+
           gh issue create \
             --repo "$GITHUB_REPOSITORY" \
             --title "🔍 Tool candidates for ${DATE} — ${{ steps.discover.outputs.review_count }} new" \
             --body-file /tmp/issue_body.md \
-            --label "discover,new-tools" || true
+            --label "discover,new-tools"
