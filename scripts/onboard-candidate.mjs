@@ -117,18 +117,15 @@ ${candidate.url ? `[${candidate.source} ↗](${candidate.url})` : ''}
 
 async function main() {
   const args = process.argv.slice(2);
-  const slugs = args.filter((a) => !a.startsWith('--'));
-  if (slugs.length === 0) {
-    console.error('Usage: node scripts/onboard-candidate.mjs <slug> [<slug2> ...]');
-    console.error('  Or:   node scripts/onboard-candidate.mjs --all-trusted');
-    process.exit(1);
-  }
 
-  // --all-trusted: 从最新 discoveries 拿所有 trusted 的一次性 onboard
-  if (slugs.includes('--all-trusted') || args.includes('--all-trusted')) {
+  // --all-trusted 优先:从最新 discoveries 一次性 onboard 所有信任源
+  if (args.includes('--all-trusted')) {
     const files = (await fs.readdir(DISCOVERIES_DIR).catch(() => [])).filter((f) => f.endsWith('.json')).sort().reverse();
     if (files.length === 0) {
-      console.log('no discoveries, nothing to onboard');
+      console.log('[onboard] no discoveries found, nothing to do');
+      if (process.env.GITHUB_OUTPUT) {
+        await fs.appendFile(process.env.GITHUB_OUTPUT, `onboarded=0\n`);
+      }
       return;
     }
     const latest = JSON.parse(await fs.readFile(path.join(DISCOVERIES_DIR, files[0]), 'utf8'));
@@ -148,6 +145,13 @@ async function main() {
       await fs.appendFile(process.env.GITHUB_OUTPUT, `onboarded=${count}\n`);
     }
     return;
+  }
+
+  const slugs = args.filter((a) => !a.startsWith('--'));
+  if (slugs.length === 0) {
+    console.error('Usage: node scripts/onboard-candidate.mjs <slug> [<slug2> ...]');
+    console.error('  Or:   node scripts/onboard-candidate.mjs --all-trusted');
+    process.exit(1);
   }
 
   // 逐个 onboard
