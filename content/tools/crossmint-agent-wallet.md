@@ -6,8 +6,10 @@ category: wallet
 icon: "\U0001FA99"
 official: true
 score: 8.2
-tagline_en: Smart-contract agent wallets with spending limits
-tagline_zh: 带额度的智能合约 agent 钱包
+tagline_en: >-
+  Crossmint smart-contract agent wallets with built-in spending limits +
+  card-network payments
+tagline_zh: 'Crossmint 智能合约 agent 钱包:内置消费限额,可支付卡网络'
 metrics:
   githubStars: 1
   lastPush: '2026-02-09T21:35:15Z'
@@ -43,6 +45,14 @@ repoInfo:
   archived: false
   createdAt: '2025-05-02T01:17:14Z'
   defaultBranch: main
+summary_en: >-
+  Designed for "agents spending on your behalf." April 2026 integrated with Visa
+  / Mastercard so agents can swipe cards for digital goods like a human. A
+  different take from Coinbase x402 — traditional payment rails + smart-contract
+  limits.
+summary_zh: >-
+  面向"agent 替用户消费"场景。2026-04 对接了 Visa / Mastercard,agent 可以像人一样刷卡买数字商品服务。是
+  Coinbase x402 的另一思路:走传统支付网络 + 智能合约限额。
 ---
 
 

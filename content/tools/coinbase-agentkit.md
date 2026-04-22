@@ -6,8 +6,10 @@ category: framework
 icon: "\U0001F537"
 official: true
 score: 9.2
-tagline_en: Every AI agent deserves a wallet — 50+ actions
-tagline_zh: 每个 AI agent 都该有钱包 — 50+ 动作
+tagline_en: >-
+  Coinbase official — "every AI agent deserves a wallet" (EVM + Solana + Base,
+  50+ actions)
+tagline_zh: 'Coinbase 官方:给 AI agent 一个钱包(EVM + Solana + Base),50+ 动作'
 metrics:
   npmMonthly: 44056
   githubStars: 1205
@@ -35,6 +37,13 @@ repoInfo:
   archived: false
   createdAt: '2024-10-31T20:40:22Z'
   defaultBranch: main
+summary_en: >-
+  The npm download champion of the whole crypto agent space (44K/mo). Note:
+  Coinbase's focus is on-chain agent payments (x402), NOT CEX trading — if you
+  want CEX trading on Coinbase, this isn't the primary path.
+summary_zh: >-
+  整个加密 agent 领域 npm 下载冠军(44K/月)。注意:Coinbase 的重心在链上 agent 支付(x402)而非 CEX 交易 — 想用
+  Coinbase 做 CEX 交易这不是主力选择。
 ---
 
 

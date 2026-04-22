@@ -6,8 +6,8 @@ category: data
 icon: "\U0001F3E6"
 official: true
 score: 7.9
-tagline_en: 'Bankless onchain API — portfolio, protocols, governance'
-tagline_zh: Bankless 链上 API — 组合 / 协议 / 治理
+tagline_en: Bankless official onchain MCP — portfolio + protocols + governance
+tagline_zh: 'Bankless 官方链上 MCP:portfolio + 协议 + 治理'
 metrics:
   npmMonthly: 2871
   githubStars: 78
@@ -34,6 +34,10 @@ repoInfo:
   archived: false
   createdAt: '2025-03-10T13:26:32Z'
   defaultBranch: main
+summary_en: >-
+  78 stars. Bankless' data angle is governance / protocol participation — more
+  editorial than pure data. A match for DeFi research agents.
+summary_zh: '78 star。Bankless 的数据角度偏"治理 / 协议参与",比纯数据更有编辑观点。适合做 DeFi 研究 agent。'
 ---
 
 

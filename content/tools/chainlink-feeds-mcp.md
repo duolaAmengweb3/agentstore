@@ -6,8 +6,8 @@ category: data
 icon: "\U0001F517"
 official: false
 score: 7.3
-tagline_en: On-chain Chainlink price feeds for any agent
-tagline_zh: 任意 agent 可用的 Chainlink 链上价格源
+tagline_en: Chainlink onchain price feeds MCP
+tagline_zh: Chainlink 链上价格源 MCP
 metrics:
   githubStars: 6
   lastPush: '2025-07-24T13:18:32Z'
@@ -56,6 +56,10 @@ repoInfo:
   archived: false
   createdAt: '2025-04-17T09:37:04Z'
   defaultBranch: main
+summary_en: >-
+  Chainlink is the canonical decentralized oracle. When the agent needs a
+  "verifiable onchain price," Chainlink feeds is the standard.
+summary_zh: 'Chainlink 是最老牌的去中心化预言机。agent 要"链上可验证的价",Chainlink feeds 是标准。'
 ---
 
 

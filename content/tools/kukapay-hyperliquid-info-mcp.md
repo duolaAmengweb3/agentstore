@@ -6,8 +6,8 @@ category: data
 icon: ⚡
 official: false
 score: 7.5
-tagline_en: Hyperliquid public data wrapped for LLMs
-tagline_zh: HL 公开数据封装给 LLM
+tagline_en: kukapay Hyperliquid info query — 27 stars
+tagline_zh: 'kukapay HL 信息查询,27 star'
 metrics:
   smitheryCalls: 1023
   githubStars: 27
@@ -52,6 +52,10 @@ repoInfo:
   archived: false
   createdAt: '2025-05-31T07:59:59Z'
   defaultBranch: main
+summary_en: >-
+  Wraps HL public endpoints (mids / candles / L2 book). Read-only. Slightly more
+  active than mektigboy's version.
+summary_zh: Hyperliquid 公开数据(mids / candles / L2 book)封装。只读。比 mektigboy 的版本活跃度高一点。
 ---
 
 

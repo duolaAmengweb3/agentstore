@@ -6,8 +6,8 @@ category: data
 icon: ☀️
 official: true
 score: 8.7
-tagline_en: 'Solana RPC + 60 tools for tx send, webhooks, streams'
-tagline_zh: Solana RPC + 60 个工具(tx/webhook/stream)
+tagline_en: Helius official MCP (Solana) — 60 tools across RPC / tx / webhooks / streams
+tagline_zh: 'Helius 官方 MCP(Solana):60 个工具覆盖 RPC / tx / webhook / stream'
 metrics:
   npmMonthly: 5621
   githubStars: 178
@@ -41,6 +41,10 @@ repoInfo:
   archived: false
   createdAt: '2026-02-05T10:18:06Z'
   defaultBranch: main
+summary_en: >-
+  Top Solana data infra provider. If your Solana agent touches RPC or onchain
+  data, Helius is nearly impossible to skip.
+summary_zh: 'Solana 数据基础设施头部。如果你做 Solana agent 要链上数据 + RPC,Helius 几乎绕不过。'
 ---
 
 

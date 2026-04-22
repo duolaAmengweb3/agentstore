@@ -6,8 +6,8 @@ category: data
 icon: "\U0001F4DA"
 official: true
 score: 7.8
-tagline_en: Official Codex.io token and market data
-tagline_zh: Codex.io 官方代币 / 市场数据
+tagline_en: Codex.io official MCP — token + market data
+tagline_zh: 'Codex.io 官方 MCP:代币 + 市场数据'
 metrics:
   githubStars: 23
   lastPush: '2025-04-05T16:29:23Z'
@@ -42,6 +42,10 @@ repoInfo:
   archived: false
   createdAt: '2025-03-31T00:17:57Z'
   defaultBranch: main
+summary_en: >-
+  Codex.io is a DeFi data API — use this when the agent needs per-token price /
+  liquidity / volume.
+summary_zh: 'Codex.io 是 DeFi 数据 API,agent 需要 token 级别的价格 / 流动性 / 交易量可用这个。'
 ---
 
 

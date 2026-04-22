@@ -6,8 +6,8 @@ category: data
 icon: "\U0001F4D0"
 official: false
 score: 7
-tagline_en: 50+ TA-Lib indicators as MCP actions
-tagline_zh: 50+ 个 TA-Lib 指标 MCP 化
+tagline_en: 'kukapay — 50+ TA-Lib indicators wrapped as MCP, 122 GitHub stars'
+tagline_zh: 'kukapay 50+ TA-Lib 指标 MCP 化,122 GitHub star'
 metrics:
   githubStars: 122
   lastPush: '2025-12-06T01:07:31Z'
@@ -46,6 +46,13 @@ repoInfo:
   archived: false
   createdAt: '2025-03-23T04:38:09Z'
   defaultBranch: main
+summary_en: >-
+  One of the highest-starred kukapay MCPs — but PyPI downloads are low, a
+  classic "stars ≠ installs" case. Main value: saves you from wiring TA-Lib
+  yourself.
+summary_zh: >-
+  GitHub star 数最高的 kukapay MCP 之一,但 PyPI 下载量其实很少 — 典型"star 高但实际装机少"。主要价值是省你接
+  TA-Lib 的麻烦。
 ---
 
 

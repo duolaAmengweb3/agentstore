@@ -6,8 +6,8 @@ category: dex
 icon: "\U0001FA90"
 official: true
 score: 8.3
-tagline_en: Rust client for Jupiter Swap API V6 — quote + execute
-tagline_zh: Jupiter Swap V6 Rust 客户端 — 报价 + 执行
+tagline_en: Jupiter official Rust SDK (Swap API V6) — quote → swap two-phase execution
+tagline_zh: 'Jupiter 官方 Rust SDK(Swap API V6):quote → swap 两阶段执行'
 metrics:
   githubStars: 191
   lastPush: '2026-04-02T16:29:44Z'
@@ -55,6 +55,10 @@ repoInfo:
   archived: false
   createdAt: '2023-08-25T00:08:27Z'
   defaultBranch: main
+summary_en: >-
+  If your agent is in Rust, use this directly. Otherwise stick to Jupiter's HTTP
+  API or Solana Agent Kit.
+summary_zh: '如果你的 agent 是 Rust,直接用这个。否则走 Jupiter HTTP API / Solana Agent Kit 即可。'
 ---
 
 

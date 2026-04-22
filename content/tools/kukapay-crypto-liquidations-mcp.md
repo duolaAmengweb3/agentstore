@@ -6,8 +6,8 @@ category: data
 icon: "\U0001F4A5"
 official: false
 score: 7
-tagline_en: Real-time Binance liquidation stream
-tagline_zh: 实时 Binance 清算流
+tagline_en: Binance liquidation real-time stream
+tagline_zh: Binance 清算实时流
 metrics:
   smitheryCalls: 312
   githubStars: 7
@@ -49,6 +49,10 @@ repoInfo:
   archived: false
   createdAt: '2025-05-02T07:38:40Z'
   defaultBranch: main
+summary_en: >-
+  Plugs into Binance's liquidation feed — which coin, which side, how big. 7
+  stars, niche but valuable for high-frequency traders.
+summary_zh: '接 Binance liquidation feed,看哪个币、哪个方向、多大规模爆仓。7 star,小众但高频交易者有用。'
 ---
 
 

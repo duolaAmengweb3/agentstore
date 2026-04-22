@@ -6,8 +6,10 @@ category: wallet
 icon: "\U0001F7E6"
 official: true
 score: 8.6
-tagline_en: Official Base L2 onchain toolkit with CDP wallet
-tagline_zh: Base L2 官方链上工具包 + CDP 钱包
+tagline_en: >-
+  Base L2 official toolkit (with CDP wallet) — onchain ops + transactions +
+  analytics
+tagline_zh: 'Base L2 官方工具包(含 CDP 钱包):链上操作 + 事务 + 分析'
 metrics:
   npmMonthly: 4821
   githubStars: 346
@@ -44,6 +46,12 @@ repoInfo:
   archived: false
   createdAt: '2025-03-06T21:57:34Z'
   defaultBranch: master
+summary_en: >-
+  346-star Base-chain MCP, incubated by Coinbase. The go-to if you're building
+  agent workflows on Base — sibling product to Coinbase AgentKit.
+summary_zh: >-
+  346 star 的 Base 链 MCP,Coinbase 孵化。想在 Base 上做 agent 工作流的首选 — 和 Coinbase
+  AgentKit 是兄弟产品。
 ---
 
 

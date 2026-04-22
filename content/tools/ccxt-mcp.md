@@ -6,8 +6,8 @@ category: cex
 icon: "\U0001F500"
 official: false
 score: 8.3
-tagline_en: CCXT universal exchange interface as MCP — 100+ exchanges
-tagline_zh: CCXT 统一交易所接口 MCP — 100+ 家交易所
+tagline_en: CCXT library wrapped as MCP — 100+ exchanges through one interface
+tagline_zh: 'CCXT 库的 MCP 包装,100+ 交易所统一接口'
 metrics:
   smitheryCalls: 4231
   githubStars: 81
@@ -49,6 +49,13 @@ repoInfo:
   archived: false
   createdAt: '2025-03-29T03:45:12Z'
   defaultBranch: master
+summary_en: >-
+  The most practical community multi-CEX MCP (489 Smithery calls, top of
+  multi-exchange category). Downside: requires raw API keys in env — not
+  non-custodial.
+summary_zh: >-
+  多 CEX 交易最实用的社区 MCP(Smithery 调用量 489,是多交易所类第一)。但:需把 API key 放 env 里,不是非托管 —
+  安全底线低。
 ---
 
 

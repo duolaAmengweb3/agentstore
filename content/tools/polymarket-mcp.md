@@ -6,8 +6,10 @@ category: data
 icon: "\U0001F3AF"
 official: false
 score: 9.4
-tagline_en: Query odds and place predictions via natural language
-tagline_zh: 用自然语言查赔率、下预测仓位
+tagline_en: >-
+  Polymarket prediction markets MCP — 54,822 calls, #1 most-installed crypto MCP
+  overall
+tagline_zh: 'Polymarket 预测市场 MCP:54,822 次调用 — 装机量整个加密 MCP 圈第一'
 metrics:
   smitheryCalls: 54822
   githubStars: 6
@@ -54,6 +56,13 @@ repoInfo:
   archived: false
   createdAt: '2025-11-08T17:52:44Z'
   defaultBranch: master
+summary_en: >-
+  Only 6 GitHub stars but #1 in Smithery calls — living proof that stars lie.
+  45+ actions covering markets / odds / positions / trades / analytics. Both
+  read and write.
+summary_zh: >-
+  GitHub 只有 6 star 但 Smithery 上是所有加密 MCP 的调用量第一。反过来证明"star 骗人"。45+ 动作覆盖市场 / 赔率 /
+  仓位 / 交易 / 分析。读写都有。
 ---
 
 

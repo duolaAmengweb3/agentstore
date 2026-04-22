@@ -6,8 +6,8 @@ category: data
 icon: "\U0001F4CA"
 official: false
 score: 7.7
-tagline_en: DexScreener pairs + charts + new pool feed
-tagline_zh: DexScreener 交易对 + K 线 + 新池
+tagline_en: 'DexScreener MCP — pair data + charts + new-pool discovery, free API'
+tagline_zh: 'DexScreener MCP:pair 数据 + K 线 + 新池发现,免费 API'
 metrics:
   githubStars: 19
   lastPush: '2025-01-06T14:59:12Z'
@@ -43,6 +43,11 @@ repoInfo:
   archived: false
   createdAt: '2025-01-05T14:23:42Z'
   defaultBranch: main
+summary_en: >-
+  DexScreener is the best free DEX-data layer, though risk labels come from
+  GoPlus (not their own). Use it when the agent looks up a pair or hunts new
+  pools.
+summary_zh: 'DexScreener 是 DEX 数据免费层最好用的,但它自带 GoPlus 风控标记(不是自研)。agent 查某个币对 / 找新池用它。'
 ---
 
 

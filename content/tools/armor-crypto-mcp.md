@@ -6,8 +6,8 @@ category: wallet
 icon: "\U0001F6E1️"
 official: false
 score: 7.8
-tagline_en: Managed wallet with swaps and strategic planning
-tagline_zh: 托管钱包 + swap + 策略规划
+tagline_en: Armor commercial managed wallet + swap + strategic planning
+tagline_zh: Armor 商业托管钱包 + swap + 策略规划
 metrics:
   githubStars: 184
   weeklyGrowthPct: 15
@@ -37,6 +37,10 @@ repoInfo:
   archived: false
   createdAt: '2025-03-22T12:05:35Z'
   defaultBranch: main
+summary_en: >-
+  Custodial (opposite of non-custodial), for users who don't want to manage
+  keys. 184 stars — an MCP surface to a commercial product.
+summary_zh: '托管式(和非托管相反),适合不想管钥匙的用户。184 star,是商业产品的 MCP 接口。'
 ---
 
 

@@ -6,8 +6,8 @@ category: dex
 icon: "\U0001F95E"
 official: true
 score: 7.2
-tagline_en: 'Swap / LP / farming planners — planner-only, no direct execution'
-tagline_zh: Swap / LP / 挖矿规划器 — 只规划不直接执行
+tagline_en: 'PancakeSwap official AI — planner-only mode, never executes on your behalf'
+tagline_zh: 'PancakeSwap 官方 AI(BNB 链):Planner-only 模式,只给计划不下单'
 metrics:
   githubStars: 22
   lastPush: '2026-04-17T00:12:49Z'
@@ -44,6 +44,11 @@ repoInfo:
   archived: false
   createdAt: '2026-02-27T15:28:59Z'
   defaultBranch: main
+summary_en: >-
+  Different from other DEX tools — agent only reads data + simulates + emits
+  deep links, user clicks execute in the web UI. A good template for
+  conservative users or strict compliance scenarios.
+summary_zh: '和其它 DEX 很不一样:agent 只查数据 + 模拟 + 输出深链,让用户自己在 Web 上点击执行。对保守用户 / 合规严格场景是模板。'
 ---
 
 

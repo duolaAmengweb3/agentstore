@@ -6,8 +6,8 @@ category: cex
 icon: "\U0001F537"
 official: true
 score: 6.5
-tagline_en: 'Read-only skills for spot, margin, futures, earn'
-tagline_zh: 现货/margin/合约/earn 只读 skills
+tagline_en: 'KuCoin official Skills — read-only (no orders, cancels, or transfers)'
+tagline_zh: KuCoin 官方 Skills(但只读)— 无法下单 / 撤单 / 转账
 metrics:
   githubStars: 25
   lastPush: '2026-03-17T15:34:46Z'
@@ -38,6 +38,12 @@ repoInfo:
   archived: false
   createdAt: '2026-03-14T12:17:19Z'
   defaultBranch: main
+summary_en: >-
+  Experimental — GET-only, can't trade. 25 stars, one cycle behind Binance's
+  738-star Skills Hub. Community MCPs actually do more on KuCoin.
+summary_zh: >-
+  实验性,只能 GET。25 star,落后 Binance 的 738 Skills Hub 一个 cycle。真的要用 KuCoin 做交易,第三方
+  MCP 反而更完整。
 ---
 
 

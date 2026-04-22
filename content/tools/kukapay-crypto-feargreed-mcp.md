@@ -6,8 +6,8 @@ category: data
 icon: "\U0001F628"
 official: false
 score: 7.1
-tagline_en: Alt.me fear & greed index on tap
-tagline_zh: Alt.me 恐惧贪婪指数接口
+tagline_en: Alt.me fear & greed index interface — 53 stars
+tagline_zh: 'Alt.me 恐惧贪婪指数接口,53 star'
 metrics:
   githubStars: 53
   lastPush: '2025-05-10T14:16:11Z'
@@ -48,6 +48,10 @@ repoInfo:
   archived: false
   createdAt: '2025-03-15T11:46:17Z'
   defaultBranch: main
+summary_en: >-
+  Single data point: market sentiment 0–100. Good as part of an agent's daily
+  briefing.
+summary_zh: '单一数据点:市场情绪 0-100。适合放到你 agent 每日简报的一部分。'
 ---
 
 

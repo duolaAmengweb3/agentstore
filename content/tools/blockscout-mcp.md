@@ -6,8 +6,8 @@ category: data
 icon: "\U0001F50E"
 official: true
 score: 9
-tagline_en: 'Onchain explorer across 60+ chains, ready for Claude'
-tagline_zh: '60+ 链的链上浏览器,给 Claude 准备好'
+tagline_en: Blockscout official MCP — onchain explorer across 60+ chains
+tagline_zh: 'Blockscout 官方 MCP,60+ 链的链上浏览器'
 metrics:
   smitheryCalls: 17711
   githubStars: 37
@@ -35,6 +35,10 @@ repoInfo:
   archived: false
   createdAt: '2025-06-03T21:08:52Z'
   defaultBranch: main
+summary_en: >-
+  17,711 Smithery calls, #2 in the data category. A default for any "let my
+  agent look up onchain state" workflow.
+summary_zh: '17,711 Smithery 调用,加密数据类第二名。适合 agent "查链上"最基础的默认工具。'
 ---
 
 

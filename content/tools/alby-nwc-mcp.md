@@ -6,8 +6,8 @@ category: wallet
 icon: ⚡
 official: true
 score: 7.6
-tagline_en: Lightning via Nostr Wallet Connect — non-custodial pay
-tagline_zh: 通过 Nostr Wallet Connect 走 Lightning — 非托管付款
+tagline_en: Lightning Network MCP via Nostr Wallet Connect — non-custodial payments
+tagline_zh: '闪电网络 MCP(基于 Nostr Wallet Connect),非托管付款'
 metrics:
   githubStars: 13
   lastPush: '2025-06-20T09:16:43Z'
@@ -30,6 +30,10 @@ repoInfo:
   archived: true
   createdAt: '2025-03-14T08:35:13Z'
   defaultBranch: master
+summary_en: >-
+  The agent MCP choice for BTC / Lightning payments. Non-custodial — funds stay
+  in the user's wallet, NWC only brokers signing requests.
+summary_zh: 'BTC / 闪电付款场景的 agent MCP 选择。非托管 — 钱在用户自己钱包,NWC 只做签名请求。'
 ---
 
 

@@ -6,8 +6,10 @@ category: dex
 icon: "\U0001FA90"
 official: true
 score: 9
-tagline_en: Best-route Solana swaps for AI agents
-tagline_zh: Solana 最优路由 swap
+tagline_en: >-
+  Jupiter Ultra — Solana best-route aggregation + RFQ, clearing 90% of Solana
+  swap volume
+tagline_zh: 'Jupiter Ultra:Solana 最佳路由聚合 + RFQ,吞吐 Solana 90% swap 成交'
 metrics:
   npmMonthly: 12453
   githubStars: 191
@@ -57,6 +59,13 @@ repoInfo:
   archived: false
   createdAt: '2023-08-25T00:08:27Z'
   defaultBranch: main
+summary_en: >-
+  Skipping Jupiter basically means skipping Solana spot. Jupiter docs call
+  themselves "built for AI agents and LLM-powered development" with pre-built
+  context files + MCP. Default inside Solana Agent Kit.
+summary_zh: >-
+  不接 Jupiter 基本等于没接 Solana 现货。Jupiter docs 自称"为 AI agent 和开发者同时设计",有 pre-built
+  context files + MCP 访问。Solana Agent Kit 默认内置。
 ---
 
 

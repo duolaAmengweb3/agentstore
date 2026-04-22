@@ -6,8 +6,10 @@ category: data
 icon: "\U0001F50D"
 official: true
 score: 9.1
-tagline_en: Official Etherscan MCP across 60+ chains
-tagline_zh: 'Etherscan 官方 MCP,覆盖 60+ 链'
+tagline_en: >-
+  Etherscan official MCP — onchain transactions / contracts / ABIs across 60+
+  chains
+tagline_zh: 'Etherscan 官方 MCP:60+ 链链上事务 / 合约 / ABI 查询'
 metrics:
   smitheryCalls: 9834
   githubStars: 29
@@ -46,6 +48,10 @@ repoInfo:
   archived: false
   createdAt: '2024-12-31T17:33:50Z'
   defaultBranch: main
+summary_en: >-
+  The default for agents looking up onchain transactions or contracts. Overlaps
+  with Blockscout — but official Etherscan tends to have better-quality data.
+summary_zh: 'agent 查链上 tx / 合约的默认工具。和 Blockscout 定位重叠但数据覆盖 / 速度不同:选 Etherscan 官方的通常更准。'
 ---
 
 

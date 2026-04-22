@@ -6,8 +6,10 @@ category: data
 icon: "\U0001F310"
 official: true
 score: 8.4
-tagline_en: 'Multi-chain wallet, token, NFT, DeFi positions'
-tagline_zh: 多链钱包 / 代币 / NFT / DeFi 仓位
+tagline_en: >-
+  Multi-chain wallet / token / NFT / DeFi positions (community version —
+  official is newer)
+tagline_zh: '多链钱包 / 代币 / NFT / DeFi 仓位查询(社区版,因官方 repo 较新)'
 metrics:
   npmMonthly: 6234
   githubStars: 234
@@ -31,6 +33,13 @@ repoInfo:
   archived: false
   createdAt: '2025-04-10T23:58:11Z'
   defaultBranch: main
+summary_en: >-
+  Moralis has broad data coverage, especially for portfolio queries. The
+  community a6b8/moralis-mcp is what's usable today; MoralisWeb3's own cortex
+  MCP exists but is docs-focused on the paid tier.
+summary_zh: >-
+  Moralis 数据覆盖面广,是 portfolio 类查询的强项。社区版本(a6b8/moralis-mcp)是目前能用的;MoralisWeb3
+  官方有自己的 cortex MCP 但文档集中在付费层。
 ---
 
 

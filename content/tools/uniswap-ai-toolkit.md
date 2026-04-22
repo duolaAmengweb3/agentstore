@@ -6,8 +6,8 @@ category: dex
 icon: "\U0001F984"
 official: true
 score: 8
-tagline_en: 'Official Uniswap skills, plugins, and agent-first docs'
-tagline_zh: Uniswap 官方 skills / plugin / AI-first docs
+tagline_en: Uniswap official AI toolkit — skills + plugins + agents for any coding agent
+tagline_zh: 'Uniswap 官方 AI 工具链(skills + plugins + agents),适配任意 coding agent'
 metrics:
   githubStars: 34
   weeklyGrowthPct: 11
@@ -49,6 +49,13 @@ repoInfo:
   archived: false
   createdAt: '2025-08-15T23:18:16Z'
   defaultBranch: next
+summary_en: >-
+  Uniswap launched an AI-first Developer Platform in Feb 2026 after an internal
+  survey found 85% of devs already used autonomous agents. Still no dedicated
+  MCP — community kukapay/uniswap-trader-mcp is the execution-layer go-to.
+summary_zh: >-
+  Uniswap 2026-02 出了 AI-first Developer Platform。内部调研 85% 开发者有自治 agent 经验,所以主动引入
+  AI 工具。但还没专门的 MCP — 社区 kukapay/uniswap-trader-mcp 是执行层首选。
 ---
 
 

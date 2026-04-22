@@ -6,8 +6,8 @@ category: cex
 icon: "\U0001F7E0"
 official: true
 score: 7.9
-tagline_en: Official Bybit V5 API wrapper for AI agents
-tagline_zh: Bybit V5 API 官方 MCP 封装
+tagline_en: Bybit official MCP (early days) — V5 API wrapper
+tagline_zh: 'Bybit 官方 MCP(刚起步),基于 V5 API'
 metrics:
   githubStars: 6
   weeklyGrowthPct: 32
@@ -33,6 +33,10 @@ repoInfo:
   archived: false
   createdAt: '2026-03-07T08:16:18Z'
   defaultBranch: main
+summary_en: >-
+  Launched in 2026, docs still being filled in — one cycle behind OKX / Binance.
+  The community MCP (sammcj/bybit-mcp) is actually more mature for now.
+summary_zh: '2026 年才起步,文档还在完善,比 OKX / 币安晚一个周期。社区 MCP(sammcj/bybit-mcp)反而更成熟。'
 ---
 
 

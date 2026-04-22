@@ -6,8 +6,10 @@ category: cex
 icon: "\U0001F7E1"
 official: false
 score: 7.2
-tagline_en: '478+ Binance endpoints across spot, margin, staking, NFT, pay'
-tagline_zh: '478+ 个 Binance endpoint,覆盖现货/margin/staking/NFT/pay'
+tagline_en: >-
+  Community Binance MCP — 478+ endpoints across spot / margin / staking / NFT /
+  pay
+tagline_zh: '社区最全的币安 MCP:478+ 个 endpoint 覆盖现货 / margin / staking / NFT / pay'
 metrics:
   githubStars: 23
   weeklyGrowthPct: 28
@@ -51,6 +53,11 @@ repoInfo:
   archived: false
   createdAt: '2026-01-20T12:14:36Z'
   defaultBranch: main
+summary_en: >-
+  Unofficial but the most exhaustive community Binance MCP — 478+ endpoints. Low
+  stars (22) but deep coverage, good for niche Binance features not in official
+  skills.
+summary_zh: 不是官方但社区里最全的 binance MCP。star 数不多(22)但端点覆盖最广。适合需要 Binance 某个冷门功能的场景。
 ---
 
 

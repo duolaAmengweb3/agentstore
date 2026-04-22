@@ -6,8 +6,8 @@ category: infra
 icon: "\U0001F4C7"
 official: true
 score: 8
-tagline_en: Popular MCP listing platform
-tagline_zh: 知名 MCP 列表平台
+tagline_en: mcp.so — popular MCP listing platform
+tagline_zh: 'mcp.so:知名 MCP 列表平台'
 metrics:
   githubStars: 1994
   lastPush: '2025-03-26T16:29:02Z'
@@ -46,6 +46,8 @@ repoInfo:
   archived: false
   createdAt: '2024-12-06T02:22:42Z'
   defaultBranch: main
+summary_en: Another MCP ecosystem discovery site. SEO-heavy.
+summary_zh: MCP 生态的另一个 discovery 站。重 SEO。
 ---
 
 

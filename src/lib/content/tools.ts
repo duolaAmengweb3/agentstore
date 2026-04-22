@@ -19,6 +19,8 @@ export type ToolFromMarkdown = {
   name: string;
   author: string;
   tagline: { en: string; zh: string };
+  /** 编辑写的 2-3 句判断(editorial-content.mjs) */
+  summary?: { en: string; zh: string };
   category: 'cex' | 'dex' | 'wallet' | 'data' | 'framework' | 'infra';
   icon: string;
   official?: boolean;
@@ -33,6 +35,8 @@ export type ToolFromMarkdown = {
 
 /** 详情页专用:含 README / repoInfo 等服务端字段 */
 export type ToolDetailData = {
+  /** 编辑写的 2-3 句判断(editorial-content.mjs,详情页 hero 下面展示) */
+  summary?: { en: string; zh: string };
   // README 自动抓取
   readme?: {
     about?: string;
@@ -91,6 +95,12 @@ export function loadToolsFromMarkdown(): ToolFromMarkdown[] {
           en: String(data.tagline_en || ''),
           zh: String(data.tagline_zh || data.tagline_en || ''),
         },
+        summary: data.summary_en || data.summary_zh
+          ? {
+              en: String(data.summary_en || data.summary_zh || ''),
+              zh: String(data.summary_zh || data.summary_en || ''),
+            }
+          : undefined,
         category: (data.category || 'data') as ToolFromMarkdown['category'],
         icon: String(data.icon || '📦'),
         official: !!data.official,
@@ -121,7 +131,14 @@ export function getToolDetailData(slug: string): ToolDetailData | null {
   try {
     const raw = fs.readFileSync(filepath, 'utf8');
     const { data } = matter(raw);
+    const summary = data.summary_en || data.summary_zh
+      ? {
+          en: String(data.summary_en || data.summary_zh || ''),
+          zh: String(data.summary_zh || data.summary_en || ''),
+        }
+      : undefined;
     return {
+      summary,
       readme: data.readme,
       repoInfo: data.repoInfo,
       fetch: data.fetch,

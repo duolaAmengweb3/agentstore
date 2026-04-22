@@ -52,6 +52,10 @@ repoInfo:
   archived: false
   createdAt: '2025-06-15T02:39:22Z'
   defaultBranch: main
+summary_en: >-
+  Track memecoin pump trends + see what known KOLs just bought. A degen agent's
+  radar.
+summary_zh: 追 memecoin pump 趋势 + 看已知 KOL 最近买了啥。给 degen agent 的 radar。
 ---
 
 

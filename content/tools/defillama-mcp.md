@@ -6,8 +6,8 @@ category: data
 icon: "\U0001F999"
 official: false
 score: 7.8
-tagline_en: 'TVL, yields, and protocol rankings for agents'
-tagline_zh: TVL / 收益 / 协议排行给 agent
+tagline_en: DefiLlama MCP — TVL / yields / protocol rankings
+tagline_zh: 'DefiLlama MCP:TVL / yields / 协议排行'
 metrics:
   githubStars: 8
   lastPush: '2025-03-17T22:20:54Z'
@@ -34,6 +34,10 @@ repoInfo:
   archived: false
   createdAt: '2025-03-02T06:59:36Z'
   defaultBranch: main
+summary_en: >-
+  DeFi's default infra-data layer, community-implemented by dcSpark. Mandatory
+  for yield-farming / TVL-analysis agents.
+summary_zh: 'DeFi 行业基础设施数据,dcSpark 实现的社区版。要做 yield farming / TVL 分析 agent 必装。'
 ---
 
 

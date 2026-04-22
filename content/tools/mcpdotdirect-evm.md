@@ -6,8 +6,8 @@ category: wallet
 icon: "\U0001F537"
 official: false
 score: 8.3
-tagline_en: 'Generic EVM MCP — any chain, wallet, ERC-20, tx sign'
-tagline_zh: 通用 EVM MCP — 任意链 / 钱包 / ERC-20 / 签名
+tagline_en: 'Generic EVM MCP — any chain, any wallet, ERC-20 support, 374 stars'
+tagline_zh: '通用 EVM MCP:任意 EVM 链 + 任意钱包 + ERC-20 + 签名,374 star'
 metrics:
   npmMonthly: 8921
   githubStars: 374
@@ -76,6 +76,11 @@ repoInfo:
   archived: false
   createdAt: '2025-03-08T23:00:04Z'
   defaultBranch: main
+summary_en: >-
+  The most popular community generic-EVM MCP. Configurable RPC, wallet + token
+  transfers + contract interactions. Caveat: raw private key in env —
+  custodial-ish, not truly non-custodial.
+summary_zh: '社区最流行的通用 EVM MCP。可配任意 RPC,支持钱包 + 代币转账 + 合约交互。注意:私钥在 env 里,是原始密钥模式,不非托管。'
 ---
 
 

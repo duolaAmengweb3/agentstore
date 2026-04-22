@@ -6,8 +6,8 @@ category: data
 icon: "\U0001F5C3️"
 official: true
 score: 7.5
-tagline_en: Multi-chain indexed data with ready-to-query schema
-tagline_zh: 多链索引数据 + 即用 schema
+tagline_en: Nodit official MCP — multi-chain indexed data with ready-to-query schemas
+tagline_zh: 'Nodit 官方 MCP:多链索引数据 + 即用 schema'
 metrics:
   githubStars: 21
   lastPush: '2026-02-25T05:24:56Z'
@@ -54,6 +54,10 @@ repoInfo:
   archived: false
   createdAt: '2025-04-25T06:23:57Z'
   defaultBranch: main
+summary_en: >-
+  Nodit's pitch is "structure the onchain data." 54 stars (modest) but its
+  out-of-the-box schema is the differentiator.
+summary_zh: 'Nodit 是主打"把链上数据结构化"的新基建。54 star 不算多,但数据 schema 开箱即用是卖点。'
 ---
 
 

@@ -6,8 +6,8 @@ category: wallet
 icon: "\U0001F7E0"
 official: false
 score: 7.4
-tagline_en: 'Bitcoin + Lightning — keygen, validate, decode, query'
-tagline_zh: Bitcoin + Lightning — 生成/校验/解码/查询
+tagline_en: Bitcoin + Lightning basic operations MCP — keygen / validate / decode / query
+tagline_zh: 'Bitcoin + Lightning 基础操作 MCP:生成 / 校验 / 解码 / 查询'
 metrics:
   githubStars: 74
   lastPush: '2025-08-01T09:38:50Z'
@@ -36,6 +36,10 @@ repoInfo:
   archived: false
   createdAt: '2025-02-05T17:03:12Z'
   defaultBranch: main
+summary_en: >-
+  No trading — just BTC basics. 74 stars, solid fundamentals. For trading /
+  payments, pair with Alby NWC or Breez.
+summary_zh: '不做交易,只做 BTC 基础操作。74 star,基础扎实。要做 BTC 交易 / 付款,配 Alby NWC / Breez。'
 ---
 
 

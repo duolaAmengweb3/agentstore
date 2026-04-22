@@ -6,8 +6,10 @@ category: cex
 icon: "\U0001F7E2"
 official: true
 score: 8.5
-tagline_en: 58 tools across 9 modules
-tagline_zh: '58 个工具,9 个模块'
+tagline_en: >-
+  Bitget official Agent Hub — 58 tools across 9 modules
+  (spot/futures/margin/copy/earn)
+tagline_zh: 'Bitget 官方 Agent Hub:9 模块 58 个工具(spot/futures/margin/copy/earn 等)'
 metrics:
   githubStars: 182
   weeklyGrowthPct: 22
@@ -62,6 +64,11 @@ repoInfo:
   archived: false
   createdAt: '2026-02-11T11:12:12Z'
   defaultBranch: main
+summary_en: >-
+  Second-tier (after OKX / Binance) but tracks them closely. March 2026 added 5
+  AI analytics skills and 19 data tools. Pairs with Bitget's own agent trader,
+  GetClaw.
+summary_zh: 紧跟 OKX / 币安的第二梯队。2026-03 追加了 5 个 AI 分析 skill + 19 个数据工具。配套有自家 AI 交易代理 GetClaw。
 ---
 
 

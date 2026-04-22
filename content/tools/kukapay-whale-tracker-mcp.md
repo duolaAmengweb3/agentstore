@@ -6,8 +6,8 @@ category: data
 icon: "\U0001F433"
 official: false
 score: 7.4
-tagline_en: Whale Alert wrapper — >$1M transfers feed
-tagline_zh: Whale Alert 封装 — >$1M 转账流
+tagline_en: 'kukapay whale tracker — Whale Alert API wrapper, 52 stars'
+tagline_zh: 'kukapay 鲸鱼追踪:Whale Alert API 封装,52 star'
 metrics:
   smitheryCalls: 421
   githubStars: 52
@@ -54,6 +54,10 @@ repoInfo:
   archived: false
   createdAt: '2025-03-13T16:19:15Z'
   defaultBranch: main
+summary_en: >-
+  The most-starred kukapay (52). Watches >$1M transfers across chains. Tracks
+  the chain not individual addresses — for per-address, use wallet-inspector.
+summary_zh: 'kukapay 里 star 最高的一个(52)。查 >$1M 大额转账流。盯的是"链"不是"单个地址",地址级追踪请用 wallet-inspector。'
 ---
 
 

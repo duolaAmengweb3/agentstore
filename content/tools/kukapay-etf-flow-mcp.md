@@ -6,7 +6,7 @@ category: data
 icon: "\U0001F4B0"
 official: false
 score: 7.2
-tagline_en: BTC / ETH ETF net flows
+tagline_en: BTC / ETH spot ETF net flows
 tagline_zh: BTC / ETH 现货 ETF 净流入
 metrics:
   githubStars: 8
@@ -45,6 +45,10 @@ repoInfo:
   archived: false
   createdAt: '2025-04-25T09:05:52Z'
   defaultBranch: main
+summary_en: >-
+  After ETF approval in 2024, institutional flows became a key signal. Lets the
+  agent see "how much institutional money came in yesterday."
+summary_zh: '2024 年 ETF 通过后,机构资金流向变成重要信号。给 agent 看"昨天有多少机构钱进来"。'
 ---
 
 

@@ -6,8 +6,8 @@ category: data
 icon: "\U0001F517"
 official: true
 score: 8.1
-tagline_en: Developer portal + RPC across EVM + Solana
-tagline_zh: 开发者入口 + EVM / Solana RPC
+tagline_en: Chainstack official MCP — multi-chain RPC + developer portal (EVM + Solana)
+tagline_zh: 'Chainstack 官方 MCP:多链 RPC + developer portal(EVM + Solana)'
 metrics:
   npmMonthly: 3102
   githubStars: 89
@@ -33,6 +33,10 @@ repoInfo:
   archived: false
   createdAt: '2026-04-09T10:07:06Z'
   defaultBranch: main
+summary_en: >-
+  Chainstack started pushing into agents in 2026 as a path to monetize RPC. Pick
+  it if Chainstack is already your RPC provider.
+summary_zh: 'Chainstack 2026 年开始发力 agent,是 RPC 商业化的路径。适合已经用 Chainstack 当 RPC provider 的用户。'
 ---
 
 

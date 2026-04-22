@@ -6,8 +6,10 @@ category: dex
 icon: "\U0001F53A"
 official: true
 score: 6.8
-tagline_en: Arbitrum perp + spot unified account SDK
-tagline_zh: Arbitrum 永续 + 现货统一账户 SDK
+tagline_en: >-
+  Arbitrum perp + spot unified account SDK (Python) — no agent-specific
+  affordances
+tagline_zh: 'Arbitrum perp + 现货统一账户 SDK(Python),无 agent 特化'
 metrics:
   npmMonthly: 423
   githubStars: 22
@@ -32,6 +34,12 @@ repoInfo:
   archived: false
   createdAt: '2023-05-14T16:42:57Z'
   defaultBranch: main
+summary_en: >-
+  Solid basics, zero agent-specific work — no MCP, no agent-wallet primitive, no
+  agent docs. Want to use Vertex in an agent? Bring your own wrapper.
+summary_zh: >-
+  基础扎实,但 agent 特化完全没做 — 没 MCP / 没 agent wallet 原语 / 文档无 agent 章节。想在 agent 里用
+  Vertex,准备自己封装。
 ---
 
 

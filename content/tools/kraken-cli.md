@@ -6,8 +6,10 @@ category: cex
 icon: "\U0001F991"
 official: true
 score: 9.1
-tagline_en: 'The first AI-native CLI for crypto, stocks, forex'
-tagline_zh: '首个 AI 原生 CLI,覆盖加密 / 股票 / 外汇'
+tagline_en: >-
+  Rust single-binary CLI with built-in MCP, NDJSON output — first truly
+  AI-native CLI
+tagline_zh: 'Rust 单文件二进制,内置 MCP,NDJSON 输出 — 首个真正 AI-native 的 CLI'
 metrics:
   githubStars: 493
   weeklyGrowthPct: 45
@@ -85,6 +87,14 @@ repoInfo:
   archived: false
   createdAt: '2026-03-06T22:18:12Z'
   defaultBranch: main
+summary_en: >-
+  The developer experience benchmark for CEX agent tools. Zero-dependency Rust
+  binary, NDJSON output (machine-first), built-in stdio MCP, danger-action
+  confirmation by default. Covers crypto + 79 tokenized stocks + forex + 317
+  perp contracts. Worth studying as a reference architecture.
+summary_zh: >-
+  整个 CEX 圈开发者体验天花板。Rust 零依赖单文件、NDJSON 输出(machine-first)、内置 stdio
+  MCP、默认模式下危险操作要确认。覆盖 crypto / 股票 / 外汇 / 永续 317 合约。架构值得抄。
 ---
 
 

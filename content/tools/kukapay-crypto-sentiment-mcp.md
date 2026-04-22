@@ -6,8 +6,8 @@ category: data
 icon: "\U0001F3AD"
 official: false
 score: 7.1
-tagline_en: Sentiment index for top coins
-tagline_zh: 头部币种情绪指数
+tagline_en: Top-coin sentiment index — 47 stars
+tagline_zh: '头部币种情绪指数,47 star'
 metrics:
   githubStars: 47
   lastPush: '2025-03-27T22:59:59Z'
@@ -70,6 +70,10 @@ repoInfo:
   archived: false
   createdAt: '2025-03-23T16:00:02Z'
   defaultBranch: main
+summary_en: >-
+  Gives the agent a "market buzz / panic / euphoria" dimension. Pairs well with
+  the fear-greed index.
+summary_zh: 给 agent 一个"市场热度 / 恐慌 / 狂热"的数值维度。配 fear-greed 指数用。
 ---
 
 

@@ -6,8 +6,8 @@ category: data
 icon: "\U0001F578️"
 official: false
 score: 7.4
-tagline_en: Heurist Mesh — decentralized agent compute
-tagline_zh: Heurist Mesh — 去中心化 agent 算力
+tagline_en: 'Heurist Mesh — decentralized agent compute MCP, 64 stars'
+tagline_zh: 'Heurist Mesh:去中心化 agent 算力 MCP,64 star'
 metrics:
   githubStars: 64
   lastPush: '2026-03-25T17:30:33Z'
@@ -55,6 +55,10 @@ repoInfo:
   archived: false
   createdAt: '2025-03-14T03:31:31Z'
   defaultBranch: main
+summary_en: >-
+  Agent needs to run models without paying Anthropic / OpenAI? Heurist Mesh is a
+  decentralized inference network. Niche but interesting.
+summary_zh: agent 想跑模型但不想付 Anthropic / OpenAI?Heurist Mesh 是去中心化的 inference 网络。小众但有意思。
 ---
 
 

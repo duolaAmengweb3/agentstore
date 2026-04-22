@@ -6,8 +6,8 @@ category: cex
 icon: ⚫
 official: true
 score: 8.9
-tagline_en: '140 tools covering spot, perp, options, bots and more'
-tagline_zh: 140 个工具覆盖现货 / 合约 / 期权 / bot
+tagline_en: OKX official MCP + CLI — 140 tools across spot / perp / options / bots / earn
+tagline_zh: 'OKX 官方 MCP + CLI,140 个工具覆盖现货 / 合约 / 期权 / bot / earn'
 metrics:
   npmMonthly: 9864
   githubStars: 206
@@ -142,6 +142,14 @@ repoInfo:
   archived: false
   createdAt: '2026-03-03T11:35:24Z'
   defaultBranch: master
+summary_en: >-
+  Most complete CEX agent toolkit (10 modules including 70+ TA indicators). API
+  keys stay local, with built-in read-only mode, per-module filtering, and rate
+  limiting. If you want to trade OKX via an agent, this is the only serious
+  choice.
+summary_zh: >-
+  CEX 类功能覆盖最全的一家(10 模块,含 70+ 技术指标)。API key 只在本地,内置只读模式 + 模块过滤 + 限速。想用 OKX 做
+  agent 交易直接选这个,没有替代方案。
 ---
 
 

@@ -6,8 +6,10 @@ category: dex
 icon: "\U0001F4A0"
 official: true
 score: 7.6
-tagline_en: '45 tools covering options, perp, pre-launch futures'
-tagline_zh: 45 个工具覆盖期权/永续/pre-launch
+tagline_en: >-
+  Aevo official — 45 tools as Agent Skills covering options + perp + pre-launch
+  futures
+tagline_zh: 'Aevo 官方 45 个 tools 的 Agent Skills:期权 + 永续 + pre-launch 一个保证金账户'
 metrics:
   githubStars: 0
   weeklyGrowthPct: 14
@@ -35,6 +37,13 @@ repoInfo:
   archived: false
   createdAt: '2026-02-27T03:58:32Z'
   defaultBranch: master
+summary_en: >-
+  March 2026 skill bundle — Aevo's only agent-specific tooling. Unified margin
+  across options + perp + pre-launch futures is the differentiator, especially
+  useful for structured strategies.
+summary_zh: >-
+  2026-03 出的 skill 包,是 Aevo 唯一 agent 专用工具。期权 + 永续 + pre-launch
+  统一保证金是卖点,对结构化策略很有用。
 ---
 
 

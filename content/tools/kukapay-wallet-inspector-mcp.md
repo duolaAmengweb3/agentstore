@@ -6,8 +6,8 @@ category: data
 icon: "\U0001F50E"
 official: false
 score: 6.9
-tagline_en: Multi-chain wallet history via Dune
-tagline_zh: 跨链钱包历史(Dune 底层)
+tagline_en: Per-wallet multichain history / holdings (Dune-powered)
+tagline_zh: 单钱包多链历史 / 持仓查询(Dune 底层)
 metrics:
   githubStars: 8
   lastPush: '2025-06-01T09:39:07Z'
@@ -39,6 +39,10 @@ repoInfo:
   archived: false
   createdAt: '2025-06-01T09:38:13Z'
   defaultBranch: main
+summary_en: >-
+  Give the agent an address, let it list that wallet's activity / holdings
+  across chains. Not realtime — historical snapshot.
+summary_zh: '给 agent 一个地址,让它查这个人所有链上的活动 / 持仓。不是实时,是历史快照。'
 ---
 
 

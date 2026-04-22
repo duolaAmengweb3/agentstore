@@ -6,7 +6,7 @@ category: data
 icon: "\U0001FA99"
 official: false
 score: 7
-tagline_en: Mint ERC-20 across 21 chains via MCP
+tagline_en: ERC-20 minting across 21 chains
 tagline_zh: 21 链 ERC-20 铸币 MCP
 metrics:
   githubStars: 18
@@ -52,6 +52,10 @@ repoInfo:
   archived: false
   createdAt: '2025-03-19T14:18:31Z'
   defaultBranch: main
+summary_en: >-
+  Lets the agent mint ERC-20s for you — uncommon need. Fits memecoin-launchpad
+  agents.
+summary_zh: '让 agent 帮你发 ERC-20,不常见需求。适合做 memecoin launchpad agent。'
 ---
 
 

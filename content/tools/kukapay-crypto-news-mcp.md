@@ -6,8 +6,8 @@ category: data
 icon: "\U0001F4F0"
 official: false
 score: 6.8
-tagline_en: Aggregated crypto news feed for agents
-tagline_zh: 加密新闻聚合流给 agent
+tagline_en: Crypto news aggregation feed (multi-source) — 34 stars
+tagline_zh: '加密新闻聚合流(多源),34 star'
 metrics:
   githubStars: 13
   lastPush: '2025-12-10T10:47:52Z'
@@ -42,6 +42,10 @@ repoInfo:
   archived: false
   createdAt: '2025-04-07T10:41:36Z'
   defaultBranch: main
+summary_en: >-
+  Unifies crypto media RSS behind one MCP. Good for "daily briefing" or "major
+  event monitoring" bots.
+summary_zh: 把加密媒体 RSS 统一接口给 agent。适合构建"每日简报"或"重大事件监控"。
 ---
 
 

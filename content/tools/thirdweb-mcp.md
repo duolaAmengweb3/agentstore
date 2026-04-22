@@ -6,8 +6,10 @@ category: wallet
 icon: "\U0001F536"
 official: true
 score: 8
-tagline_en: Contracts + transactions + analytics via natural language
-tagline_zh: '合约 + 交易 + 分析,自然语言调用'
+tagline_en: >-
+  thirdweb official MCP — contracts + transactions + analytics via natural
+  language
+tagline_zh: 'thirdweb 官方 MCP:合约 + 交易 + 分析,自然语言调用'
 metrics:
   npmMonthly: 169178
   githubStars: 123
@@ -19,6 +21,13 @@ metrics:
   lastAutoUpdated: '2026-04-22T02:27:45.270Z'
 fetch:
   npm: thirdweb
+summary_en: >-
+  Already building on thirdweb? Add this MCP and let Claude drive your
+  contracts. 169K npm/mo — though most of that is from the SDK rather than the
+  MCP itself, the ecosystem backing guarantees traction.
+summary_zh: >-
+  如果你已经在 thirdweb 生态里搭应用,加这个 MCP 让 Claude 操作你的合约。169K/月 npm 下载 — 实际大部分来自 SDK 而非
+  MCP,但背景生态保证有用户。
 ---
 
 

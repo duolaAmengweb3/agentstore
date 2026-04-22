@@ -6,8 +6,10 @@ category: framework
 icon: "\U0001F53A"
 official: true
 score: 8
-tagline_en: Python autonomous agents with on-chain identity and economy
-tagline_zh: Python 自治 agent + 链上身份 + 经济
+tagline_en: >-
+  Fetch.ai uAgents — Python autonomous agents with onchain identity + Almanac
+  contract registration
+tagline_zh: 'Fetch.ai uAgents:Python 自治 agent + 链上身份 + Almanac 合约注册'
 metrics:
   npmMonthly: 4231
   githubStars: 1584
@@ -40,6 +42,13 @@ repoInfo:
   archived: false
   createdAt: '2022-09-28T17:31:19Z'
   defaultBranch: main
+summary_en: >-
+  Veteran agent economy player, focused on "agents paying each other for
+  services." Agent-to-agent tx grew +340% YoY in 2026. Worth studying its
+  identity + economic-incentive model.
+summary_zh: >-
+  老牌 agent 经济,偏"agent 之间互相付费 / 调用"场景。2026 年 agent-to-agent 交易同比 +340%。值得学它的
+  agent 身份 / 经济激励模型。
 ---
 
 

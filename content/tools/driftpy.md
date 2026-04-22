@@ -6,8 +6,10 @@ category: dex
 icon: "\U0001F30A"
 official: true
 score: 8.1
-tagline_en: Solana perp DEX SDK — integrated with Solana Agent Kit
-tagline_zh: Solana 永续 DEX SDK — 已集成 Solana Agent Kit
+tagline_en: >-
+  Drift official Python SDK — already integrated into Solana Agent Kit, callable
+  from Eliza / LangChain
+tagline_zh: 'Drift 官方 Python SDK;已集成 Solana Agent Kit,可被 Eliza / LangChain 直接调用'
 metrics:
   npmMonthly: 2134
   githubStars: 110
@@ -36,6 +38,13 @@ repoInfo:
   archived: false
   createdAt: '2022-01-18T18:11:23Z'
   defaultBranch: master
+summary_en: >-
+  The official SDK of Solana's most mature perp DEX. Since Jan 2026, reachable
+  via Solana Agent Kit — so most users consume Drift via that rather than
+  directly.
+summary_zh: >-
+  Solana 最成熟的 perp DEX 的官方 SDK。自 2026-01 起通过 Solana Agent Kit 进了 agent
+  生态,用户不用直接接它,接 Solana Agent Kit 就能操 Drift。
 ---
 
 

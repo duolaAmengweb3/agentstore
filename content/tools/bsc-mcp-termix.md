@@ -6,8 +6,8 @@ category: wallet
 icon: "\U0001F7E1"
 official: false
 score: 7.3
-tagline_en: 'BNB Chain — send BNB, BEP-20, deploy contracts'
-tagline_zh: BNB 链 — 发 BNB / BEP-20 / 部署合约
+tagline_en: BNB Chain MCP — send BNB / BEP-20 / deploy contracts
+tagline_zh: 'BNB 链 MCP:发 BNB / BEP-20 / 部署合约'
 metrics:
   githubStars: 104
   lastPush: '2025-08-30T03:22:04Z'
@@ -52,6 +52,10 @@ repoInfo:
   archived: false
   createdAt: '2025-03-17T03:48:56Z'
   defaultBranch: main
+summary_en: >-
+  104 stars, steady in the BSC community. Contract deployment is the
+  differentiator. Like mcpdotdirect/evm-mcp, needs a private key in env.
+summary_zh: '104 star,BSC 圈子稳定用。支持部署合约是亮点。和 mcpdotdirect/evm-mcp 一样,需要 env 里的私钥。'
 ---
 
 

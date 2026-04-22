@@ -6,8 +6,8 @@ category: infra
 icon: "\U0001FABF"
 official: true
 score: 7.8
-tagline_en: Block's open-source on-machine AI agent
-tagline_zh: Block 开源的本机 AI agent
+tagline_en: 'Block''s open-source on-device AI agent, MCP-capable'
+tagline_zh: 'Block 开源的本机 AI agent,支持 MCP'
 metrics:
   githubStars: 42952
   lastPush: '2026-04-22T02:25:29Z'
@@ -34,6 +34,10 @@ repoInfo:
   archived: false
   createdAt: '2024-08-23T19:03:36Z'
   defaultBranch: main
+summary_en: >-
+  Block (Jack Dorsey's company) ships this local agent — 534 stars. "Runs on
+  your own machine," privacy-first.
+summary_zh: 'Block(Jack Dorsey 的公司)出的本地 agent,534 star。注重"跑在你自己机器上",隐私向。'
 ---
 
 

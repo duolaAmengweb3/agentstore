@@ -6,8 +6,8 @@ category: wallet
 icon: "\U0001F7E2"
 official: true
 score: 7.2
-tagline_en: Official NEAR Protocol MCP with keychain signing
-tagline_zh: 'NEAR 官方 MCP,keychain 签名'
+tagline_en: NEAR Protocol official MCP — signs via NEAR keychain
+tagline_zh: 'NEAR 官方 MCP,用 NEAR keychain 签名'
 metrics:
   githubStars: 29
   lastPush: '2025-05-04T07:32:50Z'
@@ -42,6 +42,10 @@ repoInfo:
   archived: false
   createdAt: '2025-03-11T15:02:48Z'
   defaultBranch: main
+summary_en: >-
+  29 stars, NEAR's official front door for AI agents. NEAR is also pushing its
+  own "Intents" + agent narrative.
+summary_zh: '29 star,NEAR 在 AI agent 方向的官方门面。NEAR 自己也在推 "Intents" + agent 路线。'
 ---
 
 

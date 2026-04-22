@@ -6,8 +6,10 @@ category: data
 icon: "\U0001F6E1️"
 official: true
 score: 8.5
-tagline_en: 'Token security, address risk, Web3 threat intel'
-tagline_zh: 代币安全 / 地址风险 / Web3 威胁情报
+tagline_en: >-
+  GoPlus official security MCP — token safety / address risk / Web3 threat
+  intel, 40+ chains
+tagline_zh: 'GoPlus 官方安全 MCP:代币安全 / 地址风险 / Web3 威胁情报,40+ 链'
 metrics:
   npmMonthly: 3421
   githubStars: 7
@@ -38,6 +40,13 @@ repoInfo:
   archived: false
   createdAt: '2025-04-28T12:13:26Z'
   defaultBranch: main
+summary_en: >-
+  GoPlus's 700M monthly calls make it the de facto Web3 security layer. March
+  2026 shipped an x402-native version specifically for AI agents — the top
+  choice for rug detection.
+summary_zh: >-
+  GoPlus 月 7 亿次调用是整个 Web3 安全 layer 的事实标杆。2026-03 专门为 AI agent 出了 x402 版本,agent
+  检测 rug 的首选。
 ---
 
 

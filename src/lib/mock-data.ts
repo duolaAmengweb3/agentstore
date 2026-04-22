@@ -21,6 +21,8 @@ export type Tool = {
   name: string;
   author: string;
   tagline: { en: string; zh: string };
+  /** 编辑手写的 2-3 句判断(可选,md 有就有,mock fallback 没有) */
+  summary?: { en: string; zh: string };
   category: Category;
   icon: string;
   official?: boolean;

@@ -6,8 +6,8 @@ category: data
 icon: "\U0001F6A8"
 official: false
 score: 7.2
-tagline_en: Solana rug detection via RugCheck.xyz
-tagline_zh: 通过 RugCheck.xyz 检 Solana rug
+tagline_en: Solana rug detection via RugCheck.xyz — 19 stars
+tagline_zh: 'Solana rug 检测(通过 RugCheck.xyz),19 star'
 metrics:
   githubStars: 19
   lastPush: '2025-05-06T08:52:14Z'
@@ -39,6 +39,10 @@ repoInfo:
   archived: false
   createdAt: '2025-03-26T14:34:14Z'
   defaultBranch: main
+summary_en: >-
+  A must-run before buying any memecoin. Solana-only — for EVM chains use
+  honeypot-detector-mcp or GoPlus.
+summary_zh: 'memecoin 买前必跑的检查。只覆盖 Solana,EVM 链用 honeypot-detector-mcp 或 GoPlus。'
 ---
 
 

@@ -6,8 +6,8 @@ category: data
 icon: "\U0001F3AF"
 official: false
 score: 6.8
-tagline_en: 'Odds query wrapper (no trading, read-only)'
-tagline_zh: '赔率查询封装(只读,不交易)'
+tagline_en: 'kukapay''s Polymarket odds query (read-only, no trading)'
+tagline_zh: 'kukapay 的 Polymarket 赔率查询(只读,不交易)'
 metrics:
   githubStars: 3
   lastPush: '2025-09-23T08:30:54Z'
@@ -50,6 +50,10 @@ repoInfo:
   archived: false
   createdAt: '2025-09-23T08:30:36Z'
   defaultBranch: main
+summary_en: >-
+  Read-only version. For placing orders, use aryankeluskar/polymarket-mcp (the
+  54,822-calls one).
+summary_zh: '只读版。要下单请用 aryankeluskar/polymarket-mcp(54,822 调用那个)。'
 ---
 
 

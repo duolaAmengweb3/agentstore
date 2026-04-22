@@ -6,7 +6,7 @@ category: framework
 icon: "\U0001F7E3"
 official: true
 score: 8.8
-tagline_en: The Solana Agent Kit exposed as MCP server
+tagline_en: Solana Agent Kit exposed as an MCP server
 tagline_zh: Solana Agent Kit 的 MCP 服务器版本
 metrics:
   npmMonthly: 12483
@@ -40,6 +40,10 @@ repoInfo:
   archived: false
   createdAt: '2025-03-10T13:18:32Z'
   defaultBranch: main
+summary_en: >-
+  Don't want to integrate Solana Agent Kit as code? Use the MCP version in
+  Claude Desktop / Cursor directly.
+summary_zh: '不想写代码集成 Solana Agent Kit,直接用它的 MCP 版给 Claude Desktop / Cursor 即可。'
 ---
 
 

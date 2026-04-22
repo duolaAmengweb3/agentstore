@@ -222,6 +222,28 @@ export default async function ToolDetailPage({
           </div>
         </section>
 
+        {/* ===== Editor's take(人手写的判断,帮用户快速决策)===== */}
+        {detailData?.summary && (
+          <section className="container pt-8 md:pt-10">
+            <div className="relative max-w-3xl overflow-hidden rounded-3xl border border-primary/30 bg-gradient-to-br from-primary/10 via-primary/5 to-transparent p-6 md:p-7">
+              <div className="absolute inset-0 bg-grid opacity-[0.08]" />
+              <div className="relative">
+                <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-primary/15 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-primary">
+                  <span>{locale === 'zh' ? '编辑判断' : "Editor's take"}</span>
+                </div>
+                <p className="text-base md:text-lg leading-relaxed text-foreground/95">
+                  {detailData.summary[locale]}
+                </p>
+                <div className="mt-3 text-[11px] text-muted-foreground">
+                  {locale === 'zh'
+                    ? '由 AgentStore 研究团队基于文档 + 代码 + 真实调用数据手写'
+                    : 'Hand-written by the AgentStore research team from docs + code + live usage data'}
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* ===== Rankings ===== */}
         {details.rankings.length > 0 && (
           <section className="container py-8">

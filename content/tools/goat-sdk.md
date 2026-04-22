@@ -6,8 +6,8 @@ category: framework
 icon: "\U0001F410"
 official: true
 score: 8.9
-tagline_en: '200+ integrations across EVM + Solana, built-in MCP adapter'
-tagline_zh: 'EVM + Solana 200+ 集成,自带 MCP adapter'
+tagline_en: 200+ integrations multi-chain agent toolkit with built-in MCP adapter
+tagline_zh: '200+ 集成的多链 agent 工具包,内置 MCP adapter'
 metrics:
   npmMonthly: 6421
   githubStars: 983
@@ -83,6 +83,13 @@ repoInfo:
   archived: false
   createdAt: '2024-11-26T18:46:09Z'
   defaultBranch: main
+summary_en: >-
+  Led by Crossmint. Covers EVM + Solana with Uniswap / Jupiter / Morpho / 1inch
+  / ENS / CoinGecko / OpenSea / Alchemy. 983 stars, the most feature-rich
+  multichain toolkit.
+summary_zh: >-
+  Crossmint 主导。EVM + Solana 都有,包 Uniswap / Jupiter / Morpho / 1inch / ENS /
+  CoinGecko / OpenSea / Alchemy。983 star,功能最丰富的多链 toolkit。
 ---
 
 

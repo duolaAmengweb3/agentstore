@@ -33,7 +33,7 @@ async function main() {
   for (const filename of files) {
     const raw = await fs.readFile(path.join(INPUT_DIR, filename), 'utf8');
     const { data } = matter(raw);
-    tools.push({
+    const entry = {
       slug: String(data.slug || filename.replace(/\.md$/, '')),
       name: String(data.name || data.slug),
       author: String(data.author || 'unknown'),
@@ -51,7 +51,14 @@ async function main() {
         ...(data.metrics?.weeklyGrowthPct != null && { weeklyGrowthPct: data.metrics.weeklyGrowthPct }),
       },
       score: typeof data.score === 'number' ? data.score : 7.0,
-    });
+    };
+    if (data.summary_en || data.summary_zh) {
+      entry.summary = {
+        en: String(data.summary_en || data.summary_zh || ''),
+        zh: String(data.summary_zh || data.summary_en || ''),
+      };
+    }
+    tools.push(entry);
   }
 
   // 按 slug 去重 + 排序(稳定 diff)
