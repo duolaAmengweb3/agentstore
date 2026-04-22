@@ -35,7 +35,13 @@ export type Tool = {
   score: number;
 };
 
-export const tools: Tool[] = [
+import { toolsFromMarkdown } from './generated/tools';
+
+/**
+ * 硬编码的 fallback 顺序 + metrics。
+ * editorial 字段(tagline / summary)会用 md 生成的数据覆盖,保证首页 / 列表显示的都是编辑手写版本。
+ */
+const _toolsRaw: Tool[] = [
   // ===== 榜单头部(真实数据)=====
   {
     slug: 'polymarket-mcp',
@@ -367,6 +373,29 @@ export const tools: Tool[] = [
   { slug: 'gemini-cli', name: 'Gemini CLI', author: 'google', tagline: { en: 'Google Gemini CLI — MCP compatible', zh: 'Google Gemini CLI — 兼容 MCP' }, category: 'infra', icon: '💎', official: true, metrics: { weeklyGrowthPct: 8 }, score: 8.3 },
   { slug: 'windsurf', name: 'Windsurf', author: 'codeium', tagline: { en: 'Codeium\'s AI editor with native MCP', zh: 'Codeium AI 编辑器,原生 MCP' }, category: 'infra', icon: '🌊', official: true, metrics: { weeklyGrowthPct: 12 }, score: 8.2 },
   { slug: 'moonpay-agents', name: 'MoonPay Agents', author: 'moonpay', tagline: { en: 'Onramp / offramp / trading for AI agents', zh: 'Onramp / offramp / 交易给 AI agent' }, category: 'infra', icon: '🌕', official: true, metrics: { githubStars: 92 }, score: 7.9 },
+];
+
+/**
+ * 最终导出的 tools 数组:
+ *  - 顺序:来自 _toolsRaw(原始手排的榜单顺序)
+ *  - tagline / summary:优先 md 生成的 editorial(含人手写判断)
+ *  - metrics / icon / score 等:保持 _toolsRaw(那边是最新的手动数据)
+ *  - md 有但 _toolsRaw 没有的工具:追加到尾部
+ */
+const _mdBySlug = new Map(toolsFromMarkdown.map((t) => [t.slug, t]));
+const _rawBySlug = new Set(_toolsRaw.map((t) => t.slug));
+
+export const tools: Tool[] = [
+  ..._toolsRaw.map((t) => {
+    const md = _mdBySlug.get(t.slug);
+    if (!md) return t;
+    return {
+      ...t,
+      tagline: md.tagline?.en ? md.tagline : t.tagline,
+      summary: md.summary ?? t.summary,
+    };
+  }),
+  ...toolsFromMarkdown.filter((t) => !_rawBySlug.has(t.slug)),
 ];
 
 // ===== 合集 =====
