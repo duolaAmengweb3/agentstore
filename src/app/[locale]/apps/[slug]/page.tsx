@@ -17,7 +17,6 @@ import { InstallHelper } from '@/components/tool/install-helper';
 import { PromptChip } from '@/components/tool/prompt-chip';
 import { GetButton } from '@/components/tool/get-button';
 import { StickyGet } from '@/components/tool/sticky-get';
-import { TryInBrowser } from '@/components/tool/try-in-browser';
 import { JsonLd, buildToolSoftwareSchema, buildBreadcrumbSchema } from '@/components/seo/json-ld';
 
 const BASE = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://agentstore.xyz';
@@ -192,8 +191,19 @@ export default async function ToolDetailPage({
                 </div>
 
                 <div className="mt-6 flex flex-wrap items-center gap-3">
-                  <GetButton locale={locale} size="lg" />
-                  <TryInBrowser locale={locale} />
+                  <GetButton locale={locale} size="lg" smitheryId={detailData?.fetch?.smithery} />
+                  {detailData?.fetch?.github && (
+                    <a
+                      href={`https://github.com/${detailData.fetch.github}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 h-11 px-4 rounded-full border border-border bg-card/60 text-sm hover:bg-card transition"
+                    >
+                      <Github className="h-3.5 w-3.5" />
+                      <span>GitHub</span>
+                      <ExternalLink className="h-3 w-3 text-muted-foreground" />
+                    </a>
+                  )}
                   <Link
                     href={`/compare?tools=${tool.slug}` as any}
                     className="inline-flex items-center gap-1.5 h-11 px-4 rounded-full border border-border bg-card/60 text-sm hover:bg-card transition"
