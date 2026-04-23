@@ -28,12 +28,14 @@ metrics:
       v: 1480
     - t: '2026-04-23T13:16:42.940Z'
       v: 1480
-  lastAutoUpdated: '2026-04-23T13:16:42.940Z'
+    - t: '2026-04-23T19:01:58.488Z'
+      v: 1480
+  lastAutoUpdated: '2026-04-23T19:01:58.488Z'
 fetch:
   github: aaronjmars/web3-research-mcp
 readme:
   about: "Deep Research for crypto - free & fully local \U0001F9E0"
-  lastFetched: '2026-04-23T13:16:54.518Z'
+  lastFetched: '2026-04-23T19:02:11.751Z'
 repoInfo:
   language: TypeScript
   license: MIT

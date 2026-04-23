@@ -31,7 +31,9 @@ metrics:
       v: 57446
     - t: '2026-04-23T13:16:37.846Z'
       v: 58207
-  lastAutoUpdated: '2026-04-23T13:16:37.846Z'
+    - t: '2026-04-23T19:01:52.784Z'
+      v: 58207
+  lastAutoUpdated: '2026-04-23T19:01:52.784Z'
   lastPush: '2026-04-21T22:57:14Z'
   archived: false
 fetch:
@@ -39,7 +41,7 @@ fetch:
   npm: '@coinbase/agentkit'
 readme:
   about: Every agent deserves a wallet.
-  lastFetched: '2026-04-23T13:16:45.982Z'
+  lastFetched: '2026-04-23T19:02:01.947Z'
 repoInfo:
   language: TypeScript
   license: NOASSERTION
