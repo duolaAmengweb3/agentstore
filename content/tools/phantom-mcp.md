@@ -27,7 +27,9 @@ metrics:
       v: 6857
     - t: '2026-04-23T02:08:48.003Z'
       v: 6857
-  lastAutoUpdated: '2026-04-23T02:08:48.003Z'
+    - t: '2026-04-23T07:29:50.122Z'
+      v: 6857
+  lastAutoUpdated: '2026-04-23T07:29:50.122Z'
 fetch:
   npm: '@phantom/mcp-server'
 summary_en: >-

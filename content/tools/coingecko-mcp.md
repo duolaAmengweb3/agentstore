@@ -27,7 +27,9 @@ metrics:
       v: 4923
     - t: '2026-04-23T02:08:44.722Z'
       v: 4923
-  lastAutoUpdated: '2026-04-23T02:08:44.722Z'
+    - t: '2026-04-23T07:29:46.519Z'
+      v: 4923
+  lastAutoUpdated: '2026-04-23T07:29:46.519Z'
 fetch:
   npm: '@coingecko/coingecko-mcp'
 summary_en: >-
