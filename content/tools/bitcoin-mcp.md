@@ -21,13 +21,15 @@ metrics:
       v: 740
     - t: '2026-04-22T19:06:39.930Z'
       v: 740
-  lastAutoUpdated: '2026-04-22T19:06:39.930Z'
+    - t: '2026-04-23T02:08:43.825Z'
+      v: 740
+  lastAutoUpdated: '2026-04-23T02:08:43.825Z'
   weeklyGrowthPct: 0
 fetch:
   github: AbdelStark/bitcoin-mcp
 readme:
   about: Documentation Try with Claude Try with Goose
-  lastFetched: '2026-04-22T19:06:46.676Z'
+  lastFetched: '2026-04-23T02:08:49.833Z'
 repoInfo:
   language: TypeScript
   license: MIT
