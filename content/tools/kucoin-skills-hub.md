@@ -9,7 +9,7 @@ score: 6.5
 tagline_en: 'KuCoin official Skills — read-only (no orders, cancels, or transfers)'
 tagline_zh: KuCoin 官方 Skills(但只读)— 无法下单 / 撤单 / 转账
 metrics:
-  githubStars: 25
+  githubStars: 26
   lastPush: '2026-03-17T15:34:46Z'
   archived: false
   _history:
@@ -29,8 +29,10 @@ metrics:
       v: 250
     - t: '2026-04-23T19:01:55.132Z'
       v: 250
-  lastAutoUpdated: '2026-04-23T19:01:55.132Z'
-  weeklyGrowthPct: 0
+    - t: '2026-04-24T02:09:03.669Z'
+      v: 260
+  lastAutoUpdated: '2026-04-24T02:09:03.669Z'
+  weeklyGrowthPct: 4
 fetch:
   github: Kucoin/kucoin-skills-hub
 readme:
@@ -43,7 +45,7 @@ readme:
       npx skills add https://github.com/Kucoin/kucoin-skills-hub --full-depth
       --skill spot
   installCmd: 'npx skills add https://github.com/Kucoin/kucoin-skills-hub --full-depth'
-  lastFetched: '2026-04-23T19:02:05.476Z'
+  lastFetched: '2026-04-24T02:09:09.962Z'
 repoInfo:
   language: null
   license: MIT

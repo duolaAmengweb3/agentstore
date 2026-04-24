@@ -29,7 +29,9 @@ metrics:
       v: 210
     - t: '2026-04-23T19:01:56.905Z'
       v: 210
-  lastAutoUpdated: '2026-04-23T19:01:56.905Z'
+    - t: '2026-04-24T02:09:05.008Z'
+      v: 210
+  lastAutoUpdated: '2026-04-24T02:09:05.008Z'
   weeklyGrowthPct: 0
 fetch:
   github: noditlabs/nodit-mcp-server
@@ -51,7 +53,7 @@ readme:
     - >-
       Easily develop with blockchain MCP in both local and remote integration,
       depending on your workflow needs.
-  lastFetched: '2026-04-23T19:02:08.889Z'
+  lastFetched: '2026-04-24T02:09:11.678Z'
 repoInfo:
   language: TypeScript
   license: Apache-2.0
