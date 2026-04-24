@@ -35,7 +35,9 @@ metrics:
       v: 12248
     - t: '2026-04-24T07:55:29.789Z'
       v: 12533
-  lastAutoUpdated: '2026-04-24T07:55:29.789Z'
+    - t: '2026-04-24T13:12:50.823Z'
+      v: 12533
+  lastAutoUpdated: '2026-04-24T13:12:50.823Z'
   lastPush: '2026-04-20T09:53:26Z'
   archived: false
 fetch:
@@ -144,7 +146,7 @@ readme:
 
     okx-trade-mcp setup --client vscode          # writes .mcp.json in current
     directory
-  lastFetched: '2026-04-24T07:55:38.578Z'
+  lastFetched: '2026-04-24T13:12:58.559Z'
 repoInfo:
   language: TypeScript
   license: MIT

@@ -37,7 +37,9 @@ metrics:
       v: 23012
     - t: '2026-04-24T07:55:30.446Z'
       v: 22971
-  lastAutoUpdated: '2026-04-24T07:55:30.446Z'
+    - t: '2026-04-24T13:12:51.393Z'
+      v: 22971
+  lastAutoUpdated: '2026-04-24T13:12:51.393Z'
   lastPush: '2026-03-31T18:42:47Z'
   archived: false
 fetch:
@@ -54,7 +56,7 @@ readme:
     - const keyPair = Keypair.fromSecretKey(bs58.decode("YOUR_SECRET_KEY"))
     - const wallet = new KeypairWallet(keyPair)
     - const agent = new SolanaAgentKit(
-  lastFetched: '2026-04-24T07:55:39.861Z'
+  lastFetched: '2026-04-24T13:12:59.976Z'
 repoInfo:
   language: TypeScript
   license: Apache-2.0

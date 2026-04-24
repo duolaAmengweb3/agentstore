@@ -37,7 +37,9 @@ metrics:
       v: 7136
     - t: '2026-04-24T07:55:29.927Z'
       v: 7190
-  lastAutoUpdated: '2026-04-24T07:55:29.927Z'
+    - t: '2026-04-24T13:12:51.156Z'
+      v: 7190
+  lastAutoUpdated: '2026-04-24T13:12:51.156Z'
 fetch:
   npm: '@phantom/mcp-server'
 summary_en: >-
