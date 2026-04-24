@@ -11,7 +11,7 @@ tagline_zh: 'kukapay 跨 CEX 资金费率合并,一张表看套利机会'
 metrics:
   smitheryCalls: 1170
   githubStars: 7
-  pypiMonthly: 36
+  pypiMonthly: 32
   _history:
     - t: '2026-04-22T02:19:47.762Z'
       v: 544
@@ -33,7 +33,9 @@ metrics:
       v: 106
     - t: '2026-04-24T02:09:04.328Z'
       v: 106
-  lastAutoUpdated: '2026-04-24T02:09:04.328Z'
+    - t: '2026-04-24T07:55:28.895Z'
+      v: 102
+  lastAutoUpdated: '2026-04-24T07:55:28.895Z'
   lastPush: '2025-04-21T08:32:58Z'
   archived: false
   weeklyGrowthPct: -81
@@ -54,7 +56,7 @@ readme:
     - >-
       Claude Desktop Integration — Runs as an MCP server for interactive
       queries.
-  lastFetched: '2026-04-24T02:09:10.430Z'
+  lastFetched: '2026-04-24T07:55:36.943Z'
 repoInfo:
   language: Python
   license: MIT

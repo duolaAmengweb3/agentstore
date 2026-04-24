@@ -32,11 +32,13 @@ metrics:
       v: 1190
     - t: '2026-04-24T02:09:02.716Z'
       v: 1190
-  lastAutoUpdated: '2026-04-24T02:09:02.716Z'
+    - t: '2026-04-24T07:55:27.074Z'
+      v: 1190
+  lastAutoUpdated: '2026-04-24T07:55:27.074Z'
 fetch:
   github: dydxprotocol/v4-clients
 readme:
-  lastFetched: '2026-04-24T02:09:08.394Z'
+  lastFetched: '2026-04-24T07:55:34.276Z'
 repoInfo:
   language: JavaScript
   license: NOASSERTION
