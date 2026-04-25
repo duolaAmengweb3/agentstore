@@ -11,13 +11,11 @@ tagline_en: >-
   (spot/futures/margin/copy/earn)
 tagline_zh: 'Bitget 官方 Agent Hub:9 模块 58 个工具(spot/futures/margin/copy/earn 等)'
 metrics:
-  githubStars: 184
+  githubStars: 185
   weeklyGrowthPct: 1
   lastPush: '2026-03-19T09:46:49Z'
   archived: false
   _history:
-    - t: '2026-04-22T19:06:39.943Z'
-      v: 1830
     - t: '2026-04-23T02:08:43.811Z'
       v: 1830
     - t: '2026-04-23T07:29:45.716Z'
@@ -40,7 +38,9 @@ metrics:
       v: 1840
     - t: '2026-04-25T12:54:41.390Z'
       v: 1840
-  lastAutoUpdated: '2026-04-25T12:54:41.390Z'
+    - t: '2026-04-25T18:42:34.354Z'
+      v: 1850
+  lastAutoUpdated: '2026-04-25T18:42:34.354Z'
 fetch:
   github: BitgetLimited/agent_hub
 readme:
@@ -76,7 +76,7 @@ readme:
   installCmd: |-
     # Install everything and deploy skills to Claude Code (default)
     npx bitget-hub upgrade-all --target claude
-  lastFetched: '2026-04-25T12:54:47.128Z'
+  lastFetched: '2026-04-25T18:42:41.573Z'
 repoInfo:
   language: TypeScript
   license: null
