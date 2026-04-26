@@ -13,8 +13,6 @@ metrics:
   lastPush: '2025-09-23T08:30:54Z'
   archived: false
   _history:
-    - t: '2026-04-23T07:29:48.625Z'
-      v: 30
     - t: '2026-04-23T13:16:40.465Z'
       v: 30
     - t: '2026-04-23T19:01:55.689Z'
@@ -37,7 +35,9 @@ metrics:
       v: 30
     - t: '2026-04-26T02:12:43.733Z'
       v: 30
-  lastAutoUpdated: '2026-04-26T02:12:43.733Z'
+    - t: '2026-04-26T07:22:24.071Z'
+      v: 30
+  lastAutoUpdated: '2026-04-26T07:22:24.071Z'
   weeklyGrowthPct: 0
 fetch:
   github: kukapay/polymarket-predictions-mcp
@@ -63,7 +63,7 @@ readme:
     - >-
       Formatted Outputs — Uses tabulate for clean, readable table outputs and
       handles JSON parsing for outcomes and prices.
-  lastFetched: '2026-04-26T02:12:53.177Z'
+  lastFetched: '2026-04-26T07:22:31.845Z'
 repoInfo:
   language: Python
   license: MIT
