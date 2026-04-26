@@ -17,8 +17,6 @@ metrics:
   lastPush: '2026-03-03T05:45:12Z'
   archived: false
   _history:
-    - t: '2026-04-23T19:01:57.386Z'
-      v: 90
     - t: '2026-04-24T02:09:05.196Z'
       v: 90
     - t: '2026-04-24T07:55:29.973Z'
@@ -41,7 +39,9 @@ metrics:
       v: 90
     - t: '2026-04-26T12:56:26.267Z'
       v: 90
-  lastAutoUpdated: '2026-04-26T12:56:26.267Z'
+    - t: '2026-04-26T18:43:45.684Z'
+      v: 90
+  lastAutoUpdated: '2026-04-26T18:43:45.684Z'
 fetch:
   github: sv/mcp-paradex-py
 readme:
@@ -57,7 +57,7 @@ readme:
     - claude mcp add paradex uvx mcp-paradex
     - npx -y @smithery/cli install @sv/mcp-paradex-py --client claude
   installCmd: claude mcp add paradex uvx mcp-paradex
-  lastFetched: '2026-04-26T12:56:33.021Z'
+  lastFetched: '2026-04-26T18:43:55.708Z'
 repoInfo:
   language: Python
   license: MIT
