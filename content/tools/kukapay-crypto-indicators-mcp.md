@@ -13,8 +13,6 @@ metrics:
   lastPush: '2025-12-06T01:07:31Z'
   archived: false
   _history:
-    - t: '2026-04-23T02:08:46.060Z'
-      v: 1220
     - t: '2026-04-23T07:29:48.128Z'
       v: 1220
     - t: '2026-04-23T13:16:39.894Z'
@@ -37,7 +35,9 @@ metrics:
       v: 1220
     - t: '2026-04-25T18:42:36.994Z'
       v: 1220
-  lastAutoUpdated: '2026-04-25T18:42:36.994Z'
+    - t: '2026-04-26T02:12:43.238Z'
+      v: 1220
+  lastAutoUpdated: '2026-04-26T02:12:43.238Z'
   weeklyGrowthPct: 0
 fetch:
   github: kukapay/crypto-indicators-mcp
@@ -59,7 +59,7 @@ readme:
     - >-
       Modular Design — Indicators and strategies are categorized for easy
       maintenance.
-  lastFetched: '2026-04-25T18:42:46.379Z'
+  lastFetched: '2026-04-26T02:12:52.333Z'
 repoInfo:
   language: JavaScript
   license: MIT

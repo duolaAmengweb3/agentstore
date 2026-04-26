@@ -15,8 +15,6 @@ metrics:
   lastPush: '2026-02-09T21:35:15Z'
   archived: false
   _history:
-    - t: '2026-04-23T02:08:44.814Z'
-      v: 10
     - t: '2026-04-23T07:29:46.593Z'
       v: 10
     - t: '2026-04-23T13:16:38.080Z'
@@ -39,7 +37,9 @@ metrics:
       v: 10
     - t: '2026-04-25T18:42:35.307Z'
       v: 10
-  lastAutoUpdated: '2026-04-25T18:42:35.307Z'
+    - t: '2026-04-26T02:12:41.441Z'
+      v: 10
+  lastAutoUpdated: '2026-04-26T02:12:41.441Z'
   weeklyGrowthPct: 0
 fetch:
   github: Crossmint/mcp-crossmint-checkout
@@ -58,7 +58,7 @@ readme:
   installCmd: |-
     git clone https://github.com/Crossmint/mcp-crossmint-checkout.git
        cd mcp-crossmint-checkout
-  lastFetched: '2026-04-25T18:42:43.379Z'
+  lastFetched: '2026-04-26T02:12:49.303Z'
 repoInfo:
   language: JavaScript
   license: null

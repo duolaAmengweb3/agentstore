@@ -14,8 +14,6 @@ metrics:
   npmMonthly: 164672
   githubStars: 123
   _history:
-    - t: '2026-04-23T02:08:48.438Z'
-      v: 167565
     - t: '2026-04-23T07:29:50.718Z'
       v: 167565
     - t: '2026-04-23T13:16:42.645Z'
@@ -38,7 +36,9 @@ metrics:
       v: 165902
     - t: '2026-04-25T18:42:39.919Z'
       v: 165902
-  lastAutoUpdated: '2026-04-25T18:42:39.919Z'
+    - t: '2026-04-26T02:12:45.956Z'
+      v: 165902
+  lastAutoUpdated: '2026-04-26T02:12:45.956Z'
   weeklyGrowthPct: -1
 fetch:
   npm: thirdweb
