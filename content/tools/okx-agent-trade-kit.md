@@ -9,12 +9,10 @@ score: 8.9
 tagline_en: OKX official MCP + CLI — 140 tools across spot / perp / options / bots / earn
 tagline_zh: 'OKX 官方 MCP + CLI,140 个工具覆盖现货 / 合约 / 期权 / bot / earn'
 metrics:
-  npmMonthly: 10417
-  githubStars: 232
-  weeklyGrowthPct: 2
+  npmMonthly: 10008
+  githubStars: 242
+  weeklyGrowthPct: -1
   _history:
-    - t: '2026-04-24T07:55:29.789Z'
-      v: 12533
     - t: '2026-04-24T13:12:50.823Z'
       v: 12533
     - t: '2026-04-24T18:42:10.467Z'
@@ -37,8 +35,10 @@ metrics:
       v: 12707
     - t: '2026-04-27T02:14:46.815Z'
       v: 12737
-  lastAutoUpdated: '2026-04-27T02:14:46.815Z'
-  lastPush: '2026-04-20T09:53:26Z'
+    - t: '2026-04-27T08:14:05.670Z'
+      v: 12428
+  lastAutoUpdated: '2026-04-27T08:14:05.670Z'
+  lastPush: '2026-04-27T05:54:21Z'
   archived: false
 fetch:
   github: okx/agent-trade-kit
@@ -49,9 +49,9 @@ readme:
     grid bots via the Model Context Protocol.  
   features:
     - >-
-      140 tools across 10 modules — Full trading lifecycle: market data → orders
+      145 tools across 11 modules — Full trading lifecycle: market data → orders
       → algo orders → account management → earn → trading bots → event contracts
-      → news
+      → news → smart money signals
     - >-
       Algo orders built-in — Conditional, OCO take-profit/stop-loss, trailing
       stop
@@ -125,6 +125,12 @@ readme:
       description: >-
         Crypto news: latest news, by-coin filter, full-text search, article
         detail, news sources, coin sentiment (snapshot + trend) ·
+    - name: smartmoney
+      count: 5
+      description: >-
+        Smart money signals: multi-currency overview, single-currency consensus
+        signal, signal history timeline, trader leaderboard, trader detail
+        (composite) — all read-only ·
   installCmd: >-
     # 1. Install
 
@@ -146,7 +152,7 @@ readme:
 
     okx-trade-mcp setup --client vscode          # writes .mcp.json in current
     directory
-  lastFetched: '2026-04-27T02:14:54.098Z'
+  lastFetched: '2026-04-27T08:14:17.557Z'
 repoInfo:
   language: TypeScript
   license: MIT
