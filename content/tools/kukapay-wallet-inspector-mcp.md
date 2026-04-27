@@ -13,8 +13,6 @@ metrics:
   lastPush: '2025-06-01T09:39:07Z'
   archived: false
   _history:
-    - t: '2026-04-24T18:42:09.430Z'
-      v: 80
     - t: '2026-04-25T01:59:09.830Z'
       v: 80
     - t: '2026-04-25T07:08:01.826Z'
@@ -37,7 +35,9 @@ metrics:
       v: 80
     - t: '2026-04-27T13:29:07.597Z'
       v: 80
-  lastAutoUpdated: '2026-04-27T13:29:07.597Z'
+    - t: '2026-04-27T19:12:06.644Z'
+      v: 80
+  lastAutoUpdated: '2026-04-27T19:12:06.644Z'
   weeklyGrowthPct: 0
 fetch:
   github: kukapay/wallet-inspector-mcp
@@ -52,7 +52,7 @@ readme:
     - >-
       Flexible Output — Balances in ASCII tables, activities and transactions in
       structured text.
-  lastFetched: '2026-04-27T13:29:16.625Z'
+  lastFetched: '2026-04-27T19:12:15.511Z'
 repoInfo:
   language: Python
   license: MIT
