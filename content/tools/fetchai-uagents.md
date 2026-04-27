@@ -12,12 +12,10 @@ tagline_en: >-
 tagline_zh: 'Fetch.ai uAgents:Python 自治 agent + 链上身份 + Almanac 合约注册'
 metrics:
   npmMonthly: 4231
-  githubStars: 1588
+  githubStars: 1589
   lastPush: '2026-04-23T15:10:34Z'
   archived: false
   _history:
-    - t: '2026-04-24T02:09:03.053Z'
-      v: 20081
     - t: '2026-04-24T07:55:27.470Z'
       v: 20081
     - t: '2026-04-24T13:12:48.114Z'
@@ -40,7 +38,9 @@ metrics:
       v: 20101
     - t: '2026-04-26T18:43:42.107Z'
       v: 20111
-  lastAutoUpdated: '2026-04-26T18:43:42.107Z'
+    - t: '2026-04-27T02:14:44.170Z'
+      v: 20121
+  lastAutoUpdated: '2026-04-27T02:14:44.170Z'
   weeklyGrowthPct: 0
 fetch:
   github: fetchai/uAgents
@@ -50,7 +50,7 @@ readme:
     autonomous AI agents in Python. With simple and expressive decorators, you
     can have an agent that performs various tasks on a schedule or takes action
     on various events.
-  lastFetched: '2026-04-26T18:43:51.122Z'
+  lastFetched: '2026-04-27T02:14:50.762Z'
 repoInfo:
   language: Python
   license: Apache-2.0
@@ -61,7 +61,7 @@ repoInfo:
     - llm
     - multi-agent-systems
   contributors: 63
-  openIssues: 45
+  openIssues: 47
   archived: false
   createdAt: '2022-09-28T17:31:19Z'
   defaultBranch: main
