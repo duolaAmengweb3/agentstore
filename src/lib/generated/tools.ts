@@ -209,7 +209,7 @@ export const toolsFromMarkdown: Tool[] = [
     "icon": "🟡",
     "official": true,
     "metrics": {
-      "githubStars": 783,
+      "githubStars": 784,
       "weeklyGrowthPct": 3
     },
     "score": 8.7,
@@ -842,7 +842,7 @@ export const toolsFromMarkdown: Tool[] = [
     "official": true,
     "metrics": {
       "npmMonthly": 152248,
-      "githubStars": 18257,
+      "githubStars": 18265,
       "weeklyGrowthPct": 2
     },
     "score": 9.3,
@@ -886,7 +886,7 @@ export const toolsFromMarkdown: Tool[] = [
     "official": true,
     "metrics": {
       "npmMonthly": 4231,
-      "githubStars": 1590,
+      "githubStars": 1589,
       "weeklyGrowthPct": 0
     },
     "score": 8,
@@ -1032,8 +1032,8 @@ export const toolsFromMarkdown: Tool[] = [
     "icon": "🪿",
     "official": true,
     "metrics": {
-      "githubStars": 43389,
-      "weeklyGrowthPct": 0
+      "githubStars": 43412,
+      "weeklyGrowthPct": 1
     },
     "score": 7.8,
     "summary": {
@@ -1119,7 +1119,7 @@ export const toolsFromMarkdown: Tool[] = [
     "official": true,
     "metrics": {
       "npmMonthly": 18883,
-      "githubStars": 1566,
+      "githubStars": 1568,
       "weeklyGrowthPct": 0
     },
     "score": 8.9,
@@ -1183,8 +1183,8 @@ export const toolsFromMarkdown: Tool[] = [
     "icon": "🦑",
     "official": true,
     "metrics": {
-      "githubStars": 558,
-      "weeklyGrowthPct": 6
+      "githubStars": 559,
+      "weeklyGrowthPct": 4
     },
     "score": 9.1,
     "summary": {
@@ -1204,8 +1204,8 @@ export const toolsFromMarkdown: Tool[] = [
     "icon": "🔷",
     "official": true,
     "metrics": {
-      "githubStars": 27,
-      "weeklyGrowthPct": 4
+      "githubStars": 25,
+      "weeklyGrowthPct": -4
     },
     "score": 6.5,
     "summary": {
@@ -1396,7 +1396,7 @@ export const toolsFromMarkdown: Tool[] = [
     "metrics": {
       "smitheryCalls": 1170,
       "githubStars": 7,
-      "weeklyGrowthPct": -4
+      "weeklyGrowthPct": 5
     },
     "score": 7.5,
     "summary": {
@@ -1757,7 +1757,7 @@ export const toolsFromMarkdown: Tool[] = [
     "official": true,
     "metrics": {
       "npmMonthly": 10008,
-      "githubStars": 251,
+      "githubStars": 254,
       "weeklyGrowthPct": 0
     },
     "score": 8.9,
@@ -1798,8 +1798,8 @@ export const toolsFromMarkdown: Tool[] = [
     "icon": "🦞",
     "official": false,
     "metrics": {
-      "githubStars": 365275,
-      "weeklyGrowthPct": 0
+      "githubStars": 365397,
+      "weeklyGrowthPct": 1
     },
     "score": 7.2,
     "summary": {
@@ -2098,7 +2098,7 @@ export const toolsFromMarkdown: Tool[] = [
     "official": false,
     "metrics": {
       "smitheryCalls": 2065,
-      "githubStars": 2197,
+      "githubStars": 2202,
       "weeklyGrowthPct": 2
     },
     "score": 8.7,
