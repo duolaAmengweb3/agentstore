@@ -9,13 +9,11 @@ score: 7.2
 tagline_en: OpenClaw — open-source agent runtime (open-source counterpart to Claude Code)
 tagline_zh: 'OpenClaw:开源 agent runtime(Claude Code 的开源对标)'
 metrics:
-  githubStars: 366668
+  githubStars: 366755
   weeklyGrowthPct: 0
-  lastPush: '2026-04-30T13:43:47Z'
+  lastPush: '2026-04-30T19:03:42Z'
   archived: false
   _history:
-    - t: '2026-04-27T13:29:08.220Z'
-      v: 3651660
     - t: '2026-04-27T19:12:07.216Z'
       v: 3652750
     - t: '2026-04-28T02:31:06.271Z'
@@ -38,7 +36,9 @@ metrics:
       v: 3665320
     - t: '2026-04-30T13:45:05.851Z'
       v: 3666680
-  lastAutoUpdated: '2026-04-30T13:45:05.851Z'
+    - t: '2026-04-30T19:12:54.047Z'
+      v: 3667550
+  lastAutoUpdated: '2026-04-30T19:12:54.047Z'
 fetch:
   github: OpenClaw/openclaw
 readme:
@@ -61,7 +61,7 @@ readme:
     - >-
       Onboarding + skills — onboarding-driven setup with
       bundled/managed/workspace skills.
-  lastFetched: '2026-04-30T13:45:30.921Z'
+  lastFetched: '2026-04-30T19:13:03.685Z'
 repoInfo:
   language: TypeScript
   license: MIT
@@ -73,8 +73,8 @@ repoInfo:
     - openclaw
     - own-your-data
     - personal
-  contributors: 369
-  openIssues: 6936
+  contributors: 370
+  openIssues: 6809
   archived: false
   createdAt: '2025-11-24T10:16:47Z'
   defaultBranch: main
