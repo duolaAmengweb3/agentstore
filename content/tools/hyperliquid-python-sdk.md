@@ -12,13 +12,11 @@ tagline_en: >-
 tagline_zh: 'HL 官方 Python SDK,原生支持 agent wallet 签名(可下单不可提币)'
 metrics:
   npmMonthly: 18883
-  githubStars: 1570
+  githubStars: 1571
   weeklyGrowthPct: 0
   lastPush: '2026-04-14T21:53:41Z'
   archived: false
   _history:
-    - t: '2026-04-26T18:43:42.949Z'
-      v: 34503
     - t: '2026-04-27T02:14:44.697Z'
       v: 34513
     - t: '2026-04-27T08:14:03.348Z'
@@ -41,13 +39,15 @@ metrics:
       v: 34583
     - t: '2026-04-29T19:17:46.659Z'
       v: 34583
-  lastAutoUpdated: '2026-04-29T19:17:46.659Z'
+    - t: '2026-04-30T02:31:51.154Z'
+      v: 34593
+  lastAutoUpdated: '2026-04-30T02:31:51.154Z'
 fetch:
   github: hyperliquid-dex/hyperliquid-python-sdk
 readme:
   about: SDK for Hyperliquid API trading with Python.
   installCmd: pip install hyperliquid-python-sdk
-  lastFetched: '2026-04-29T19:17:54.549Z'
+  lastFetched: '2026-04-30T02:31:59.436Z'
 repoInfo:
   language: Python
   license: MIT
