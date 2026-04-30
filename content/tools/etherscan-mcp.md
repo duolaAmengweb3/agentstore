@@ -12,13 +12,11 @@ tagline_en: >-
 tagline_zh: 'Etherscan 官方 MCP:60+ 链链上事务 / 合约 / ABI 查询'
 metrics:
   smitheryCalls: 9834
-  githubStars: 29
-  weeklyGrowthPct: 0
+  githubStars: 30
+  weeklyGrowthPct: 3
   lastPush: '2024-12-31T17:34:18Z'
   archived: false
   _history:
-    - t: '2026-04-27T02:14:44.136Z'
-      v: 290
     - t: '2026-04-27T08:14:02.517Z'
       v: 290
     - t: '2026-04-27T13:29:05.368Z'
@@ -41,7 +39,9 @@ metrics:
       v: 290
     - t: '2026-04-30T02:31:50.460Z'
       v: 290
-  lastAutoUpdated: '2026-04-30T02:31:50.460Z'
+    - t: '2026-04-30T08:12:45.798Z'
+      v: 300
+  lastAutoUpdated: '2026-04-30T08:12:45.798Z'
 fetch:
   github: crazyrabbitLTC/mcp-etherscan-server
 readme:
@@ -60,7 +60,7 @@ readme:
   installCmd: |-
     git clone [your-repo-url]
     cd mcp-etherscan-server
-  lastFetched: '2026-04-30T02:31:58.084Z'
+  lastFetched: '2026-04-30T08:12:54.235Z'
 repoInfo:
   language: TypeScript
   license: MIT
