@@ -12,13 +12,11 @@ tagline_en: >-
 tagline_zh: 'Base L2 官方工具包(含 CDP 钱包):链上操作 + 事务 + 分析'
 metrics:
   npmMonthly: 4821
-  githubStars: 347
+  githubStars: 348
   weeklyGrowthPct: 0
   lastPush: '2025-06-17T13:47:28Z'
   archived: false
   _history:
-    - t: '2026-04-30T19:12:49.619Z'
-      v: 8291
     - t: '2026-05-01T02:37:07.161Z'
       v: 8291
     - t: '2026-05-01T08:06:49.833Z'
@@ -41,7 +39,9 @@ metrics:
       v: 8291
     - t: '2026-05-03T12:58:39.979Z'
       v: 8291
-  lastAutoUpdated: '2026-05-03T12:58:39.979Z'
+    - t: '2026-05-03T18:52:41.374Z'
+      v: 8301
+  lastAutoUpdated: '2026-05-03T18:52:41.374Z'
 fetch:
   github: base/base-mcp
 readme:
@@ -58,7 +58,7 @@ readme:
     - Call contract functions
     - Onramp funds via Coinbase
     - Manage ERC20 tokens
-  lastFetched: '2026-05-03T12:58:46.644Z'
+  lastFetched: '2026-05-03T18:52:47.987Z'
 repoInfo:
   language: TypeScript
   license: MIT
