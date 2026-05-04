@@ -11,10 +11,8 @@ tagline_zh: 'kukapay 跨 CEX 资金费率合并,一张表看套利机会'
 metrics:
   smitheryCalls: 1170
   githubStars: 7
-  pypiMonthly: 25
+  pypiMonthly: 23
   _history:
-    - t: '2026-05-01T08:06:53.102Z'
-      v: 98
     - t: '2026-05-01T13:09:42.347Z'
       v: 98
     - t: '2026-05-01T19:05:36.351Z'
@@ -37,10 +35,12 @@ metrics:
       v: 95
     - t: '2026-05-04T02:27:38.125Z'
       v: 95
-  lastAutoUpdated: '2026-05-04T02:27:38.125Z'
+    - t: '2026-05-04T08:23:57.295Z'
+      v: 93
+  lastAutoUpdated: '2026-05-04T08:23:57.295Z'
   lastPush: '2025-04-21T08:32:58Z'
   archived: false
-  weeklyGrowthPct: -3
+  weeklyGrowthPct: -5
 fetch:
   github: kukapay/funding-rates-mcp
   pypi: funding-rates-mcp
@@ -58,7 +58,7 @@ readme:
     - >-
       Claude Desktop Integration — Runs as an MCP server for interactive
       queries.
-  lastFetched: '2026-05-04T02:27:46.715Z'
+  lastFetched: '2026-05-04T08:24:04.501Z'
 repoInfo:
   language: Python
   license: MIT
