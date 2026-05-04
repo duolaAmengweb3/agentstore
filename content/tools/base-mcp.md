@@ -17,8 +17,6 @@ metrics:
   lastPush: '2025-06-17T13:47:28Z'
   archived: false
   _history:
-    - t: '2026-05-01T02:37:07.161Z'
-      v: 8291
     - t: '2026-05-01T08:06:49.833Z'
       v: 8291
     - t: '2026-05-01T13:09:38.555Z'
@@ -41,7 +39,9 @@ metrics:
       v: 8291
     - t: '2026-05-03T18:52:41.374Z'
       v: 8301
-  lastAutoUpdated: '2026-05-03T18:52:41.374Z'
+    - t: '2026-05-04T02:27:34.489Z'
+      v: 8301
+  lastAutoUpdated: '2026-05-04T02:27:34.489Z'
 fetch:
   github: base/base-mcp
 readme:
@@ -58,7 +58,7 @@ readme:
     - Call contract functions
     - Onramp funds via Coinbase
     - Manage ERC20 tokens
-  lastFetched: '2026-05-03T18:52:47.987Z'
+  lastFetched: '2026-05-04T02:27:41.468Z'
 repoInfo:
   language: TypeScript
   license: MIT
