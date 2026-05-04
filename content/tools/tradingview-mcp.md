@@ -15,8 +15,6 @@ metrics:
   lastPush: '2026-05-02T17:12:45Z'
   archived: false
   _history:
-    - t: '2026-05-01T13:09:44.594Z'
-      v: 22450
     - t: '2026-05-01T19:05:37.961Z'
       v: 22480
     - t: '2026-05-02T02:12:43.908Z'
@@ -39,7 +37,9 @@ metrics:
       v: 22890
     - t: '2026-05-04T08:23:58.984Z'
       v: 22890
-  lastAutoUpdated: '2026-05-04T08:23:58.984Z'
+    - t: '2026-05-04T13:47:46.679Z'
+      v: 22890
+  lastAutoUpdated: '2026-05-04T13:47:46.679Z'
 fetch:
   github: atilaahmettaner/tradingview-mcp
 readme:
@@ -47,7 +47,7 @@ readme:
     The most complete AI-powered trading toolkit for Claude and MCP clients.
     Backtesting + Live Sentiment + Yahoo Finance + 30+ Technical Analysis Tools
     — all in one MCP server.
-  lastFetched: '2026-05-04T08:24:07.306Z'
+  lastFetched: '2026-05-04T13:47:58.454Z'
 repoInfo:
   language: Python
   license: MIT
