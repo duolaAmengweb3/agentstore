@@ -10,13 +10,11 @@ tagline_en: 'TradingView MCP — live crypto / stock screener + advanced TA, 206
 tagline_zh: 'TradingView MCP:实时 crypto / 股票筛选 + 高级 TA 指标,2065 star'
 metrics:
   smitheryCalls: 2065
-  githubStars: 2294
+  githubStars: 2297
   weeklyGrowthPct: 2
   lastPush: '2026-05-02T17:12:45Z'
   archived: false
   _history:
-    - t: '2026-05-02T02:12:43.908Z'
-      v: 22500
     - t: '2026-05-02T07:25:34.208Z'
       v: 22550
     - t: '2026-05-02T12:59:39.577Z'
@@ -39,7 +37,9 @@ metrics:
       v: 22890
     - t: '2026-05-04T19:22:25.948Z'
       v: 22940
-  lastAutoUpdated: '2026-05-04T19:22:25.948Z'
+    - t: '2026-05-05T02:22:43.927Z'
+      v: 22970
+  lastAutoUpdated: '2026-05-05T02:22:43.927Z'
 fetch:
   github: atilaahmettaner/tradingview-mcp
 readme:
@@ -47,7 +47,7 @@ readme:
     The most complete AI-powered trading toolkit for Claude and MCP clients.
     Backtesting + Live Sentiment + Yahoo Finance + 30+ Technical Analysis Tools
     — all in one MCP server.
-  lastFetched: '2026-05-04T19:22:35.036Z'
+  lastFetched: '2026-05-05T02:22:53.483Z'
 repoInfo:
   language: Python
   license: MIT
