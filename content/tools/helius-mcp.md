@@ -14,8 +14,6 @@ metrics:
   lastPush: '2026-05-05T17:20:15Z'
   archived: false
   _history:
-    - t: '2026-05-03T18:52:43.802Z'
-      v: 5771
     - t: '2026-05-04T02:27:37.075Z'
       v: 5771
     - t: '2026-05-04T08:23:56.478Z'
@@ -38,7 +36,9 @@ metrics:
       v: 5771
     - t: '2026-05-06T13:56:36.716Z'
       v: 5771
-  lastAutoUpdated: '2026-05-06T13:56:36.716Z'
+    - t: '2026-05-06T19:30:11.774Z'
+      v: 5771
+  lastAutoUpdated: '2026-05-06T19:30:11.774Z'
   weeklyGrowthPct: 0
 fetch:
   github: helius-labs/core-ai
@@ -55,7 +55,7 @@ readme:
     npm install -g helius-cli
     # or
     pnpm add -g helius-cli
-  lastFetched: '2026-05-06T13:56:48.154Z'
+  lastFetched: '2026-05-06T19:30:22.958Z'
 repoInfo:
   language: TypeScript
   license: MIT
