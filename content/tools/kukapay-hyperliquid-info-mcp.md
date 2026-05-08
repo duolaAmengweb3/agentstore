@@ -14,8 +14,6 @@ metrics:
   lastPush: '2025-05-31T08:00:16Z'
   archived: false
   _history:
-    - t: '2026-05-05T02:22:41.597Z'
-      v: 270
     - t: '2026-05-05T08:02:39.255Z'
       v: 270
     - t: '2026-05-05T13:27:25.532Z'
@@ -38,7 +36,9 @@ metrics:
       v: 270
     - t: '2026-05-07T19:38:44.078Z'
       v: 270
-  lastAutoUpdated: '2026-05-07T19:38:44.078Z'
+    - t: '2026-05-08T02:35:30.606Z'
+      v: 270
+  lastAutoUpdated: '2026-05-08T02:35:30.606Z'
   weeklyGrowthPct: 0
 fetch:
   github: kukapay/hyperliquid-info-mcp
@@ -65,7 +65,7 @@ readme:
     - >-
       get_user_order_by_oid & get_user_order_by_cloid — Retrieve specific order
       details by order ID or client order ID.
-  lastFetched: '2026-05-07T19:38:54.525Z'
+  lastFetched: '2026-05-08T02:35:38.030Z'
 repoInfo:
   language: Python
   license: MIT
