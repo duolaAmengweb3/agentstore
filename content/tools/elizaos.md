@@ -12,11 +12,9 @@ tagline_en: >-
 tagline_zh: '加密自治 agent 第一框架:TS 多 agent 模拟,45+ plugin,超一半新 AI crypto 项目在用'
 metrics:
   npmMonthly: 198594
-  githubStars: 18326
+  githubStars: 18327
   weeklyGrowthPct: 3
   _history:
-    - t: '2026-05-05T19:12:27.822Z'
-      v: 371357
     - t: '2026-05-06T02:26:23.947Z'
       v: 371397
     - t: '2026-05-06T08:16:51.741Z'
@@ -39,8 +37,10 @@ metrics:
       v: 381327
     - t: '2026-05-08T13:21:47.181Z'
       v: 381854
-  lastAutoUpdated: '2026-05-08T13:21:47.181Z'
-  lastPush: '2026-05-08T13:16:06Z'
+    - t: '2026-05-08T19:10:18.216Z'
+      v: 381864
+  lastAutoUpdated: '2026-05-08T19:10:18.216Z'
+  lastPush: '2026-05-08T13:52:50Z'
   archived: false
 fetch:
   github: elizaOS/eliza
@@ -52,7 +52,7 @@ readme:
     autonomous agents for business process automation, or intelligent game NPCs,
     Eliza provides the tools you need to get started quickly and scale
     effectively.
-  lastFetched: '2026-05-08T13:21:57.004Z'
+  lastFetched: '2026-05-08T19:10:26.904Z'
 repoInfo:
   language: TypeScript
   license: MIT
@@ -66,7 +66,7 @@ repoInfo:
     - discord
     - eliza
   contributors: 353
-  openIssues: 22
+  openIssues: 28
   archived: false
   createdAt: '2024-07-09T07:55:40Z'
   defaultBranch: develop
