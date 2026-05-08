@@ -9,12 +9,10 @@ score: 7.8
 tagline_en: 'Pyth Hermes price feeds MCP — 1,930+ feeds + TWAP + history'
 tagline_zh: 'Pyth Hermes 价格源 MCP:1930+ 源 + TWAP + 历史'
 metrics:
-  githubStars: 4
+  githubStars: 5
   lastPush: '2025-10-15T15:25:30Z'
   archived: false
   _history:
-    - t: '2026-05-05T08:02:40.726Z'
-      v: 40
     - t: '2026-05-05T13:27:27.881Z'
       v: 40
     - t: '2026-05-05T19:12:31.700Z'
@@ -37,8 +35,10 @@ metrics:
       v: 40
     - t: '2026-05-08T02:35:31.995Z'
       v: 40
-  lastAutoUpdated: '2026-05-08T02:35:31.995Z'
-  weeklyGrowthPct: 0
+    - t: '2026-05-08T07:22:54.018Z'
+      v: 50
+  lastAutoUpdated: '2026-05-08T07:22:54.018Z'
+  weeklyGrowthPct: 25
 fetch:
   github: itsOmSarraf/pyth-network-mcp
 readme:
@@ -46,7 +46,7 @@ readme:
     An MCP server that provides real-time access to Pyth Network's decentralized
     oracle price feeds via the Hermes API, optimized for seamless integration
     into AI agents and autonomous systems.
-  lastFetched: '2026-05-08T02:35:40.172Z'
+  lastFetched: '2026-05-08T07:23:05.775Z'
 repoInfo:
   language: Python
   license: MIT
