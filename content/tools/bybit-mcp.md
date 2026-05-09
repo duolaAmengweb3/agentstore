@@ -14,8 +14,6 @@ metrics:
   lastPush: '2026-04-16T10:23:16Z'
   archived: false
   _history:
-    - t: '2026-05-06T19:30:08.966Z'
-      v: 70
     - t: '2026-05-07T02:27:58.117Z'
       v: 70
     - t: '2026-05-07T08:27:09.662Z'
@@ -38,14 +36,16 @@ metrics:
       v: 70
     - t: '2026-05-09T13:05:21.967Z'
       v: 70
-  lastAutoUpdated: '2026-05-09T13:05:21.967Z'
+    - t: '2026-05-09T18:53:38.796Z'
+      v: 70
+  lastAutoUpdated: '2026-05-09T18:53:38.796Z'
 fetch:
   github: bybit-exchange/bybit-mcp
 readme:
   about: >-
     The most comprehensive MCP server for Bybit — 247 tools covering the entire
     Bybit V5 API
-  lastFetched: '2026-05-09T13:05:28.987Z'
+  lastFetched: '2026-05-09T18:53:46.172Z'
 repoInfo:
   language: Python
   license: MIT
