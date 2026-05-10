@@ -13,10 +13,8 @@ tagline_zh: 'Phantom 官方 MCP(2026-02 发布):Solana + EVM + Bitcoin + Sui 非
 metrics:
   npmMonthly: 6852
   githubStars: 89
-  weeklyGrowthPct: -6
+  weeklyGrowthPct: -7
   _history:
-    - t: '2026-05-07T02:28:03.061Z'
-      v: 8268
     - t: '2026-05-07T08:27:14.758Z'
       v: 8310
     - t: '2026-05-07T13:54:37.323Z'
@@ -39,7 +37,9 @@ metrics:
       v: 7742
     - t: '2026-05-09T18:53:43.192Z'
       v: 7742
-  lastAutoUpdated: '2026-05-09T18:53:43.192Z'
+    - t: '2026-05-10T02:31:36.512Z'
+      v: 7742
+  lastAutoUpdated: '2026-05-10T02:31:36.512Z'
 fetch:
   npm: '@phantom/mcp-server'
 summary_en: >-
