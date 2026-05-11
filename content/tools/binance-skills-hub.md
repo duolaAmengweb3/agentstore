@@ -9,13 +9,11 @@ score: 8.7
 tagline_en: 'Binance official Skills Hub — 20+ agent skills, npx-installable'
 tagline_zh: '币安官方 20+ Skills(Markdown + YAML 格式,可 npx skills add 安装)'
 metrics:
-  githubStars: 829
+  githubStars: 831
   weeklyGrowthPct: 1
   lastPush: '2026-04-28T10:05:44Z'
   archived: false
   _history:
-    - t: '2026-05-08T13:21:45.150Z'
-      v: 8230
     - t: '2026-05-08T19:10:16.553Z'
       v: 8230
     - t: '2026-05-09T02:28:27.832Z'
@@ -38,7 +36,9 @@ metrics:
       v: 8290
     - t: '2026-05-11T09:31:47.848Z'
       v: 8290
-  lastAutoUpdated: '2026-05-11T09:31:47.848Z'
+    - t: '2026-05-11T14:38:28.096Z'
+      v: 8310
+  lastAutoUpdated: '2026-05-11T14:38:28.096Z'
 fetch:
   github: binance/binance-skills-hub
 readme:
@@ -47,7 +47,7 @@ readme:
     access to crypto: both centralized and decentralized. Search tokens, execute
     trades, track wallets, monitor signals, and interact with DeFi protocols,
     all through natural language.
-  lastFetched: '2026-05-11T09:31:56.904Z'
+  lastFetched: '2026-05-11T14:38:37.018Z'
 repoInfo:
   language: Python
   license: null
