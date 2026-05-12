@@ -14,11 +14,9 @@ metrics:
   npmMonthly: 4821
   githubStars: 348
   weeklyGrowthPct: 0
-  lastPush: '2025-06-17T13:47:28Z'
+  lastPush: '2026-05-12T18:47:45Z'
   archived: false
   _history:
-    - t: '2026-05-09T18:53:38.169Z'
-      v: 8301
     - t: '2026-05-10T02:31:32.059Z'
       v: 8301
     - t: '2026-05-10T08:02:45.438Z'
@@ -41,29 +39,19 @@ metrics:
       v: 8301
     - t: '2026-05-12T14:09:29.654Z'
       v: 8301
-  lastAutoUpdated: '2026-05-12T14:09:29.654Z'
+    - t: '2026-05-12T19:43:49.576Z'
+      v: 8301
+  lastAutoUpdated: '2026-05-12T19:43:49.576Z'
 fetch:
   github: base/base-mcp
 readme:
-  about: >-
-    A Model Context Protocol (MCP) server that provides onchain tools for AI
-    applications like Claude Desktop and Cursor, allowing them to interact with
-    the Base Network and Coinbase API.
-  features:
-    - Retrieve wallet addresses
-    - List wallet balances
-    - Transfer funds between wallets
-    - Deploy smart contracts
-    - Interact with Morpho vaults for onchain lending
-    - Call contract functions
-    - Onramp funds via Coinbase
-    - Manage ERC20 tokens
-  lastFetched: '2026-05-12T14:09:37.307Z'
+  about: This repository has been archived and is no longer maintained.
+  lastFetched: '2026-05-12T19:43:56.573Z'
 repoInfo:
   language: TypeScript
   license: MIT
   topics: []
-  contributors: 7
+  contributors: 8
   openIssues: 48
   archived: false
   createdAt: '2025-03-06T21:57:34Z'
