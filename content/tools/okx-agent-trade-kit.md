@@ -9,12 +9,10 @@ score: 8.9
 tagline_en: OKX official MCP + CLI — 140 tools across spot / perp / options / bots / earn
 tagline_zh: 'OKX 官方 MCP + CLI,140 个工具覆盖现货 / 合约 / 期权 / bot / earn'
 metrics:
-  npmMonthly: 7708
-  githubStars: 293
-  weeklyGrowthPct: -6
+  npmMonthly: 7677
+  githubStars: 294
+  weeklyGrowthPct: -7
   _history:
-    - t: '2026-05-09T07:50:05.830Z'
-      v: 11371
     - t: '2026-05-09T13:05:25.880Z'
       v: 11371
     - t: '2026-05-09T18:53:43.036Z'
@@ -37,8 +35,10 @@ metrics:
       v: 10638
     - t: '2026-05-12T02:34:08.609Z'
       v: 10638
-  lastAutoUpdated: '2026-05-12T02:34:08.609Z'
-  lastPush: '2026-04-27T05:54:21Z'
+    - t: '2026-05-12T08:33:11.922Z'
+      v: 10617
+  lastAutoUpdated: '2026-05-12T08:33:11.922Z'
+  lastPush: '2026-05-12T03:57:42Z'
   archived: false
 fetch:
   github: okx/agent-trade-kit
@@ -49,7 +49,7 @@ readme:
     grid bots via the Model Context Protocol.  
   features:
     - >-
-      145 tools across 11 modules — Full trading lifecycle: market data → orders
+      150 tools across 11 modules — Full trading lifecycle: market data → orders
       → algo orders → account management → earn → trading bots → event contracts
       → news → smart money signals
     - >-
@@ -126,11 +126,13 @@ readme:
         Crypto news: latest news, by-coin filter, full-text search, article
         detail, news sources, coin sentiment (snapshot + trend) ·
     - name: smartmoney
-      count: 5
+      count: 10
       description: >-
-        Smart money signals: multi-currency overview, single-currency consensus
-        signal, signal history timeline, trader leaderboard, trader detail
-        (composite) — all read-only ·
+        Smart money analytics: leaderboard ranking, trader performance /
+        positions / position history / order history, top-coin signals,
+        single-asset signal (by coin / by traders), signal history (by coin / by
+        traders) — all read-only, split by entry mode for AI-agent
+        disambiguation ·
   installCmd: >-
     # 1. Install
 
@@ -152,7 +154,7 @@ readme:
 
     okx-trade-mcp setup --client vscode          # writes .mcp.json in current
     directory
-  lastFetched: '2026-05-12T02:34:16.981Z'
+  lastFetched: '2026-05-12T08:33:24.149Z'
 repoInfo:
   language: TypeScript
   license: MIT
@@ -167,7 +169,7 @@ repoInfo:
   openIssues: 8
   archived: false
   createdAt: '2026-03-03T11:35:24Z'
-  defaultBranch: master
+  defaultBranch: github-main
 summary_en: >-
   Most complete CEX agent toolkit (10 modules including 70+ TA indicators). API
   keys stay local, with built-in read-only mode, per-module filtering, and rate
