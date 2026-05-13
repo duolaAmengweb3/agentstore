@@ -14,8 +14,6 @@ metrics:
   lastPush: '2026-05-09T14:46:39Z'
   archived: false
   _history:
-    - t: '2026-05-10T18:54:54.101Z'
-      v: 3447
     - t: '2026-05-11T02:41:06.885Z'
       v: 3447
     - t: '2026-05-11T09:31:52.610Z'
@@ -38,7 +36,9 @@ metrics:
       v: 3447
     - t: '2026-05-13T14:22:03.058Z'
       v: 3447
-  lastAutoUpdated: '2026-05-13T14:22:03.058Z'
+    - t: '2026-05-13T19:48:17.533Z'
+      v: 3447
+  lastAutoUpdated: '2026-05-13T19:48:17.533Z'
   weeklyGrowthPct: 0
 fetch:
   github: elliottech/lighter-python
@@ -59,7 +59,7 @@ readme:
 
     if __name__ == "__main__":
         asyncio.run(main())
-  lastFetched: '2026-05-13T14:22:13.493Z'
+  lastFetched: '2026-05-13T19:48:27.223Z'
 repoInfo:
   language: Python
   license: Apache-2.0
