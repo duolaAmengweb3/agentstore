@@ -15,8 +15,6 @@ metrics:
   githubStars: 1679
   weeklyGrowthPct: 2
   _history:
-    - t: '2026-05-11T19:41:33.137Z'
-      v: 25492
     - t: '2026-05-12T02:34:09.145Z'
       v: 25492
     - t: '2026-05-12T08:33:13.372Z'
@@ -39,8 +37,10 @@ metrics:
       v: 25911
     - t: '2026-05-14T13:58:17.004Z'
       v: 25901
-  lastAutoUpdated: '2026-05-14T13:58:17.004Z'
-  lastPush: '2026-05-14T10:04:25Z'
+    - t: '2026-05-14T19:40:40.650Z'
+      v: 25901
+  lastAutoUpdated: '2026-05-14T19:40:40.650Z'
+  lastPush: '2026-05-14T18:46:54Z'
   archived: false
 fetch:
   github: sendaifun/solana-agent-kit
@@ -56,7 +56,7 @@ readme:
     - const keyPair = Keypair.fromSecretKey(bs58.decode("YOUR_SECRET_KEY"))
     - const wallet = new KeypairWallet(keyPair)
     - const agent = new SolanaAgentKit(
-  lastFetched: '2026-05-14T13:58:30.175Z'
+  lastFetched: '2026-05-14T19:40:53.379Z'
 repoInfo:
   language: TypeScript
   license: Apache-2.0
@@ -67,8 +67,8 @@ repoInfo:
     - solana
     - solana-langchain
     - web3js
-  contributors: 86
-  openIssues: 41
+  contributors: 87
+  openIssues: 40
   archived: false
   createdAt: '2024-11-17T09:10:19Z'
   defaultBranch: v2
