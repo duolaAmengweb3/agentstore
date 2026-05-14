@@ -14,11 +14,9 @@ metrics:
   npmMonthly: 4821
   githubStars: 348
   weeklyGrowthPct: 0
-  lastPush: '2026-05-13T19:44:26Z'
-  archived: false
+  lastPush: '2026-05-13T20:07:50Z'
+  archived: true
   _history:
-    - t: '2026-05-11T02:41:03.704Z'
-      v: 8301
     - t: '2026-05-11T09:31:47.806Z'
       v: 8301
     - t: '2026-05-11T14:38:28.042Z'
@@ -41,19 +39,21 @@ metrics:
       v: 8301
     - t: '2026-05-13T19:48:13.291Z'
       v: 8301
-  lastAutoUpdated: '2026-05-13T19:48:13.291Z'
+    - t: '2026-05-14T02:41:02.094Z'
+      v: 8301
+  lastAutoUpdated: '2026-05-14T02:41:02.094Z'
 fetch:
   github: base/base-mcp
 readme:
   about: This repository has been archived and is no longer maintained.
-  lastFetched: '2026-05-13T19:48:20.740Z'
+  lastFetched: '2026-05-14T02:41:09.987Z'
 repoInfo:
   language: TypeScript
   license: MIT
   topics: []
   contributors: 8
   openIssues: 48
-  archived: false
+  archived: true
   createdAt: '2025-03-06T21:57:34Z'
   defaultBranch: master
 summary_en: >-
