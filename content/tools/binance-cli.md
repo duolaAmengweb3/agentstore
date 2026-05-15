@@ -13,8 +13,6 @@ metrics:
   lastPush: '2026-04-13T08:53:13Z'
   archived: false
   _history:
-    - t: '2026-05-12T19:43:49.590Z'
-      v: 500
     - t: '2026-05-13T02:40:38.387Z'
       v: 500
     - t: '2026-05-13T08:38:28.448Z'
@@ -37,7 +35,9 @@ metrics:
       v: 500
     - t: '2026-05-15T13:55:16.765Z'
       v: 500
-  lastAutoUpdated: '2026-05-15T13:55:16.765Z'
+    - t: '2026-05-15T19:24:27.229Z'
+      v: 500
+  lastAutoUpdated: '2026-05-15T19:24:27.229Z'
   weeklyGrowthPct: 0
 fetch:
   github: binance/binance-cli
@@ -46,7 +46,7 @@ readme:
   installCmd: |-
     # Install from npm
     npm install -g @binance/binance-cli
-  lastFetched: '2026-05-15T13:55:24.457Z'
+  lastFetched: '2026-05-15T19:24:33.371Z'
 repoInfo:
   language: TypeScript
   license: null
