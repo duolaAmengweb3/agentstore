@@ -12,12 +12,10 @@ tagline_en: >-
 tagline_zh: 'Aevo 官方 45 个 tools 的 Agent Skills:期权 + 永续 + pre-launch 一个保证金账户'
 metrics:
   githubStars: 1
-  weeklyGrowthPct: 14
+  weeklyGrowthPct: 0
   lastPush: '2026-03-10T13:19:03Z'
   archived: false
   _history:
-    - t: '2026-05-15T19:24:27.034Z'
-      v: 0
     - t: '2026-05-16T02:31:11.980Z'
       v: 10
     - t: '2026-05-16T07:57:14.711Z'
@@ -40,7 +38,9 @@ metrics:
       v: 10
     - t: '2026-05-18T15:19:10.119Z'
       v: 10
-  lastAutoUpdated: '2026-05-18T15:19:10.119Z'
+    - t: '2026-05-18T19:40:18.149Z'
+      v: 10
+  lastAutoUpdated: '2026-05-18T19:40:18.149Z'
 fetch:
   github: ribbon-finance/aevo-trading-skills
 readme:
@@ -49,7 +49,7 @@ readme:
     Connects any MCP-compatible client to AEVO's 45 tools for market data,
     portfolio management, order execution, risk analysis, and options
     strategies.
-  lastFetched: '2026-05-18T15:19:18.967Z'
+  lastFetched: '2026-05-18T19:40:25.355Z'
 repoInfo:
   language: null
   license: null
