@@ -9,12 +9,10 @@ score: 7
 tagline_en: 'kukapay — 50+ TA-Lib indicators wrapped as MCP, 122 GitHub stars'
 tagline_zh: 'kukapay 50+ TA-Lib 指标 MCP 化,122 GitHub star'
 metrics:
-  githubStars: 122
+  githubStars: 123
   lastPush: '2025-12-06T01:07:31Z'
   archived: false
   _history:
-    - t: '2026-05-16T02:31:15.051Z'
-      v: 1220
     - t: '2026-05-16T07:57:17.223Z'
       v: 1220
     - t: '2026-05-16T13:11:55.369Z'
@@ -37,8 +35,10 @@ metrics:
       v: 1220
     - t: '2026-05-18T19:40:21.623Z'
       v: 1220
-  lastAutoUpdated: '2026-05-18T19:40:21.623Z'
-  weeklyGrowthPct: 0
+    - t: '2026-05-19T02:46:21.380Z'
+      v: 1230
+  lastAutoUpdated: '2026-05-19T02:46:21.380Z'
+  weeklyGrowthPct: 1
 fetch:
   github: kukapay/crypto-indicators-mcp
 readme:
@@ -59,7 +59,7 @@ readme:
     - >-
       Modular Design — Indicators and strategies are categorized for easy
       maintenance.
-  lastFetched: '2026-05-18T19:40:31.398Z'
+  lastFetched: '2026-05-19T02:46:28.813Z'
 repoInfo:
   language: JavaScript
   license: MIT
