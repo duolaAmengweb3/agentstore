@@ -17,8 +17,6 @@ metrics:
   lastPush: '2026-04-14T21:53:41Z'
   archived: false
   _history:
-    - t: '2026-05-16T13:11:55.154Z'
-      v: 34853
     - t: '2026-05-16T18:57:49.014Z'
       v: 34853
     - t: '2026-05-17T02:38:38.995Z'
@@ -41,13 +39,15 @@ metrics:
       v: 34883
     - t: '2026-05-19T09:34:19.846Z'
       v: 34883
-  lastAutoUpdated: '2026-05-19T09:34:19.846Z'
+    - t: '2026-05-19T14:49:34.786Z'
+      v: 34883
+  lastAutoUpdated: '2026-05-19T14:49:34.786Z'
 fetch:
   github: hyperliquid-dex/hyperliquid-python-sdk
 readme:
   about: SDK for Hyperliquid API trading with Python.
   installCmd: pip install hyperliquid-python-sdk
-  lastFetched: '2026-05-19T09:34:30.806Z'
+  lastFetched: '2026-05-19T14:49:44.678Z'
 repoInfo:
   language: Python
   license: MIT
