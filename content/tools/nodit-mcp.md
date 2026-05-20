@@ -10,11 +10,9 @@ tagline_en: Nodit official MCP — multi-chain indexed data with ready-to-query 
 tagline_zh: 'Nodit 官方 MCP:多链索引数据 + 即用 schema'
 metrics:
   githubStars: 22
-  lastPush: '2026-05-11T10:31:30Z'
+  lastPush: '2026-05-20T06:18:35Z'
   archived: false
   _history:
-    - t: '2026-05-17T08:14:33.525Z'
-      v: 220
     - t: '2026-05-17T13:09:02.341Z'
       v: 220
     - t: '2026-05-17T19:01:16.290Z'
@@ -37,7 +35,9 @@ metrics:
       v: 220
     - t: '2026-05-20T02:46:59.773Z'
       v: 220
-  lastAutoUpdated: '2026-05-20T02:46:59.773Z'
+    - t: '2026-05-20T08:59:11.530Z'
+      v: 220
+  lastAutoUpdated: '2026-05-20T08:59:11.530Z'
   weeklyGrowthPct: 0
 fetch:
   github: noditlabs/nodit-mcp-server
@@ -59,7 +59,7 @@ readme:
     - >-
       Easily develop with blockchain MCP in both local and remote integration,
       depending on your workflow needs.
-  lastFetched: '2026-05-20T02:47:09.615Z'
+  lastFetched: '2026-05-20T08:59:21.646Z'
 repoInfo:
   language: TypeScript
   license: Apache-2.0

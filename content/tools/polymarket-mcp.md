@@ -17,8 +17,6 @@ metrics:
   lastPush: '2025-11-08T20:08:48Z'
   archived: false
   _history:
-    - t: '2026-05-17T08:14:33.904Z'
-      v: 60
     - t: '2026-05-17T13:09:02.996Z'
       v: 60
     - t: '2026-05-17T19:01:16.604Z'
@@ -41,7 +39,9 @@ metrics:
       v: 60
     - t: '2026-05-20T02:47:00.506Z'
       v: 60
-  lastAutoUpdated: '2026-05-20T02:47:00.506Z'
+    - t: '2026-05-20T08:59:12.192Z'
+      v: 60
+  lastAutoUpdated: '2026-05-20T08:59:12.192Z'
 fetch:
   github: aryankeluskar/polymarket-mcp
 readme:
@@ -65,7 +65,7 @@ readme:
       volume, liquidity, and market health
     - Public Access — No authentication required - uses Polymarket's public APIs
     - Real-time Data — Access to both Gamma Markets API and Data API
-  lastFetched: '2026-05-20T02:47:10.109Z'
+  lastFetched: '2026-05-20T08:59:22.176Z'
 repoInfo:
   language: TypeScript
   license: null
