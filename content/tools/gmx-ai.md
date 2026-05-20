@@ -16,8 +16,6 @@ metrics:
   lastPush: '2026-03-20T08:59:28Z'
   archived: false
   _history:
-    - t: '2026-05-17T02:38:38.764Z'
-      v: 80
     - t: '2026-05-17T08:14:31.520Z'
       v: 80
     - t: '2026-05-17T13:09:00.626Z'
@@ -40,7 +38,9 @@ metrics:
       v: 80
     - t: '2026-05-19T19:47:05.586Z'
       v: 80
-  lastAutoUpdated: '2026-05-19T19:47:05.586Z'
+    - t: '2026-05-20T02:46:58.092Z'
+      v: 80
+  lastAutoUpdated: '2026-05-20T02:46:58.092Z'
 fetch:
   github: gmx-io/gmx-ai
 readme:
@@ -48,7 +48,7 @@ readme:
   installCmd: |-
     /plugin marketplace add gmx-io/gmx-ai
     /plugin install gmx-io@gmx-ai
-  lastFetched: '2026-05-19T19:47:14.264Z'
+  lastFetched: '2026-05-20T02:47:06.120Z'
 repoInfo:
   language: null
   license: MIT
