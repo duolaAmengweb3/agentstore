@@ -17,8 +17,6 @@ metrics:
   lastPush: '2024-12-31T17:34:18Z'
   archived: false
   _history:
-    - t: '2026-05-18T09:52:24.138Z'
-      v: 300
     - t: '2026-05-18T15:19:13.212Z'
       v: 300
     - t: '2026-05-18T19:40:20.610Z'
@@ -41,7 +39,9 @@ metrics:
       v: 300
     - t: '2026-05-21T02:49:32.606Z'
       v: 300
-  lastAutoUpdated: '2026-05-21T02:49:32.606Z'
+    - t: '2026-05-21T09:30:42.458Z'
+      v: 300
+  lastAutoUpdated: '2026-05-21T09:30:42.458Z'
 fetch:
   github: crazyrabbitLTC/mcp-etherscan-server
 readme:
@@ -60,7 +60,7 @@ readme:
   installCmd: |-
     git clone [your-repo-url]
     cd mcp-etherscan-server
-  lastFetched: '2026-05-21T02:49:39.579Z'
+  lastFetched: '2026-05-21T09:30:52.374Z'
 repoInfo:
   language: TypeScript
   license: MIT
