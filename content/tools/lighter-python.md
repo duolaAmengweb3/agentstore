@@ -11,11 +11,9 @@ tagline_zh: 'Lighter(ETH zkRollup perp)官方 Python SDK,含链上 signer'
 metrics:
   npmMonthly: 287
   githubStars: 315
-  lastPush: '2026-05-20T17:33:50Z'
+  lastPush: '2026-05-21T18:56:31Z'
   archived: false
   _history:
-    - t: '2026-05-18T19:40:22.786Z'
-      v: 3447
     - t: '2026-05-19T02:46:22.367Z'
       v: 3447
     - t: '2026-05-19T09:34:21.540Z'
@@ -38,34 +36,22 @@ metrics:
       v: 3437
     - t: '2026-05-21T14:54:52.427Z'
       v: 3437
-  lastAutoUpdated: '2026-05-21T14:54:52.427Z'
+    - t: '2026-05-21T19:47:42.032Z'
+      v: 3437
+  lastAutoUpdated: '2026-05-21T19:47:42.032Z'
   weeklyGrowthPct: -0.0
 fetch:
   github: elliottech/lighter-python
 readme:
-  about: Python SDK for Lighter
-  installCmd: |-
-    import lighter
-    import asyncio
-
-    async def main():
-        client = lighter.ApiClient()
-        try:
-            account_api = lighter.AccountApi(client)
-            account = await account_api.account(by="index", value="1")
-            print(account)
-        finally:
-            await client.close()  # Make sure connection is cleanly closed
-
-    if __name__ == "__main__":
-        asyncio.run(main())
-  lastFetched: '2026-05-21T14:55:05.443Z'
+  about: Python SDK for Lighter (zkLighter perpetuals exchange).
+  installCmd: 'pip install git+https://github.com/elliottech/zklighter-perps-python.git'
+  lastFetched: '2026-05-21T19:47:52.954Z'
 repoInfo:
   language: Python
   license: Apache-2.0
   topics: []
   contributors: 19
-  openIssues: 45
+  openIssues: 44
   archived: false
   createdAt: '2025-02-03T09:58:17Z'
   defaultBranch: main

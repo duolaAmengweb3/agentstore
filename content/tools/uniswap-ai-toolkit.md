@@ -11,11 +11,9 @@ tagline_zh: 'Uniswap 官方 AI 工具链(skills + plugins + agents),适配任意
 metrics:
   githubStars: 37
   weeklyGrowthPct: 0
-  lastPush: '2026-05-21T00:01:02Z'
+  lastPush: '2026-05-21T19:13:21Z'
   archived: false
   _history:
-    - t: '2026-05-18T19:40:24.544Z'
-      v: 370
     - t: '2026-05-19T02:46:23.761Z'
       v: 370
     - t: '2026-05-19T09:34:23.470Z'
@@ -38,7 +36,9 @@ metrics:
       v: 370
     - t: '2026-05-21T14:54:54.303Z'
       v: 370
-  lastAutoUpdated: '2026-05-21T14:54:54.303Z'
+    - t: '2026-05-21T19:47:44.118Z'
+      v: 370
+  lastAutoUpdated: '2026-05-21T19:47:44.118Z'
 fetch:
   github: Uniswap/ai-toolkit
 readme:
@@ -61,7 +61,7 @@ readme:
     - >-
       Standardized Patterns — Create a common toolset of Claude Code commands
       and agents shared by everyone at Uniswap
-  lastFetched: '2026-05-21T14:55:11.100Z'
+  lastFetched: '2026-05-21T19:47:56.721Z'
 repoInfo:
   language: TypeScript
   license: MIT
