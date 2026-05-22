@@ -11,11 +11,9 @@ tagline_zh: '币安官方 20+ Skills(Markdown + YAML 格式,可 npx skills add �
 metrics:
   githubStars: 854
   weeklyGrowthPct: 0
-  lastPush: '2026-05-22T07:31:50Z'
+  lastPush: '2026-05-22T10:05:17Z'
   archived: false
   _history:
-    - t: '2026-05-19T14:49:31.304Z'
-      v: 8510
     - t: '2026-05-19T19:47:02.988Z'
       v: 8510
     - t: '2026-05-20T02:46:56.087Z'
@@ -38,7 +36,9 @@ metrics:
       v: 8540
     - t: '2026-05-22T08:54:35.716Z'
       v: 8540
-  lastAutoUpdated: '2026-05-22T08:54:35.716Z'
+    - t: '2026-05-22T14:28:25.371Z'
+      v: 8540
+  lastAutoUpdated: '2026-05-22T14:28:25.371Z'
 fetch:
   github: binance/binance-skills-hub
 readme:
@@ -47,7 +47,7 @@ readme:
     access to crypto: both centralized and decentralized. Search tokens, execute
     trades, track wallets, monitor signals, and interact with DeFi protocols,
     all through natural language.
-  lastFetched: '2026-05-22T08:54:42.740Z'
+  lastFetched: '2026-05-22T14:28:33.099Z'
 repoInfo:
   language: Python
   license: null
