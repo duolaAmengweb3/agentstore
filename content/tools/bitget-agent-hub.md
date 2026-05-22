@@ -16,8 +16,6 @@ metrics:
   lastPush: '2026-03-19T09:46:49Z'
   archived: false
   _history:
-    - t: '2026-05-19T19:47:03.297Z'
-      v: 1960
     - t: '2026-05-20T02:46:56.349Z'
       v: 1960
     - t: '2026-05-20T08:59:07.451Z'
@@ -40,7 +38,9 @@ metrics:
       v: 1980
     - t: '2026-05-22T14:28:25.709Z'
       v: 1980
-  lastAutoUpdated: '2026-05-22T14:28:25.709Z'
+    - t: '2026-05-22T19:28:09.489Z'
+      v: 1980
+  lastAutoUpdated: '2026-05-22T19:28:09.489Z'
 fetch:
   github: BitgetLimited/agent_hub
 readme:
@@ -76,7 +76,7 @@ readme:
   installCmd: |-
     # Install everything and deploy skills to Claude Code (default)
     npx bitget-hub upgrade-all --target claude
-  lastFetched: '2026-05-22T14:28:33.080Z'
+  lastFetched: '2026-05-22T19:28:15.796Z'
 repoInfo:
   language: TypeScript
   license: null

@@ -9,13 +9,11 @@ score: 7.9
 tagline_en: Bybit official MCP (early days) — V5 API wrapper
 tagline_zh: 'Bybit 官方 MCP(刚起步),基于 V5 API'
 metrics:
-  githubStars: 7
-  weeklyGrowthPct: 0
+  githubStars: 8
+  weeklyGrowthPct: 14
   lastPush: '2026-04-16T10:23:16Z'
   archived: false
   _history:
-    - t: '2026-05-19T19:47:03.592Z'
-      v: 70
     - t: '2026-05-20T02:46:56.664Z'
       v: 70
     - t: '2026-05-20T08:59:07.725Z'
@@ -38,14 +36,16 @@ metrics:
       v: 70
     - t: '2026-05-22T14:28:26.039Z'
       v: 70
-  lastAutoUpdated: '2026-05-22T14:28:26.039Z'
+    - t: '2026-05-22T19:28:09.778Z'
+      v: 80
+  lastAutoUpdated: '2026-05-22T19:28:09.778Z'
 fetch:
   github: bybit-exchange/bybit-mcp
 readme:
   about: >-
     The most comprehensive MCP server for Bybit — 247 tools covering the entire
     Bybit V5 API
-  lastFetched: '2026-05-22T14:28:33.665Z'
+  lastFetched: '2026-05-22T19:28:16.229Z'
 repoInfo:
   language: Python
   license: MIT
