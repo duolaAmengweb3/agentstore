@@ -13,12 +13,10 @@ tagline_zh: 'Base L2 官方工具包(含 CDP 钱包):链上操作 + 事务 + 分
 metrics:
   npmMonthly: 4821
   githubStars: 346
-  weeklyGrowthPct: -0.0
+  weeklyGrowthPct: 0
   lastPush: '2026-05-13T20:07:50Z'
   archived: true
   _history:
-    - t: '2026-05-21T19:47:38.434Z'
-      v: 8291
     - t: '2026-05-22T02:50:15.949Z'
       v: 8281
     - t: '2026-05-22T08:54:35.868Z'
@@ -41,12 +39,14 @@ metrics:
       v: 8281
     - t: '2026-05-24T13:14:34.548Z'
       v: 8281
-  lastAutoUpdated: '2026-05-24T13:14:34.548Z'
+    - t: '2026-05-24T19:10:11.182Z'
+      v: 8281
+  lastAutoUpdated: '2026-05-24T19:10:11.182Z'
 fetch:
   github: base/base-mcp
 readme:
   about: This repository has been archived and is no longer maintained.
-  lastFetched: '2026-05-24T13:14:42.259Z'
+  lastFetched: '2026-05-24T19:10:17.098Z'
 repoInfo:
   language: TypeScript
   license: MIT
