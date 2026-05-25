@@ -9,12 +9,10 @@ score: 7.8
 tagline_en: DefiLlama MCP — TVL / yields / protocol rankings
 tagline_zh: 'DefiLlama MCP:TVL / yields / 协议排行'
 metrics:
-  githubStars: 8
+  githubStars: 9
   lastPush: '2025-03-17T22:20:54Z'
   archived: false
   _history:
-    - t: '2026-05-22T08:54:37.277Z'
-      v: 80
     - t: '2026-05-22T14:28:27.424Z'
       v: 80
     - t: '2026-05-22T19:28:10.606Z'
@@ -37,8 +35,10 @@ metrics:
       v: 80
     - t: '2026-05-25T02:55:18.544Z'
       v: 80
-  lastAutoUpdated: '2026-05-25T02:55:18.544Z'
-  weeklyGrowthPct: 0
+    - t: '2026-05-25T09:56:50.157Z'
+      v: 90
+  lastAutoUpdated: '2026-05-25T09:56:50.157Z'
+  weeklyGrowthPct: 13
 fetch:
   github: dcSpark/mcp-server-defillama
 readme:
@@ -47,7 +47,7 @@ readme:
     Claude with access to DeFi data via the DefiLlama API. The server enables
     Claude to perform operations like retrieving protocol TVL data, chain TVL
     data, token prices, and stablecoin information.
-  lastFetched: '2026-05-25T02:55:26.888Z'
+  lastFetched: '2026-05-25T09:56:56.792Z'
 repoInfo:
   language: TypeScript
   license: MIT
