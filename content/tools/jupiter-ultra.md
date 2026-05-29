@@ -17,8 +17,6 @@ metrics:
   lastPush: '2026-05-05T04:08:48Z'
   archived: false
   _history:
-    - t: '2026-05-26T20:02:48.574Z'
-      v: 14383
     - t: '2026-05-27T02:53:54.540Z'
       v: 14383
     - t: '2026-05-27T09:37:16.106Z'
@@ -41,7 +39,9 @@ metrics:
       v: 14393
     - t: '2026-05-29T14:52:06.502Z'
       v: 14393
-  lastAutoUpdated: '2026-05-29T14:52:06.502Z'
+    - t: '2026-05-29T20:13:37.441Z'
+      v: 14393
+  lastAutoUpdated: '2026-05-29T20:13:37.441Z'
 fetch:
   github: jup-ag/jupiter-swap-api-client
 readme:
@@ -71,7 +71,7 @@ readme:
   installCmd: |-
     [dependencies]
         jupiter-swap-api-client = { git = "https://github.com/jup-ag/jupiter-swap-api-client.git", package = "jupiter-swap-api-client"}
-  lastFetched: '2026-05-29T14:52:15.392Z'
+  lastFetched: '2026-05-29T20:13:45.728Z'
 repoInfo:
   language: Rust
   license: null
