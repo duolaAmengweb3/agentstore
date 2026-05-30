@@ -9,12 +9,10 @@ score: 8.9
 tagline_en: OKX official MCP + CLI — 140 tools across spot / perp / options / bots / earn
 tagline_zh: 'OKX 官方 MCP + CLI,140 个工具覆盖现货 / 合约 / 期权 / bot / earn'
 metrics:
-  npmMonthly: 5147
-  githubStars: 314
-  weeklyGrowthPct: -4
+  npmMonthly: 5093
+  githubStars: 315
+  weeklyGrowthPct: -5
   _history:
-    - t: '2026-05-27T09:37:18.522Z'
-      v: 8662
     - t: '2026-05-27T15:26:05.010Z'
       v: 8662
     - t: '2026-05-27T20:08:28.326Z'
@@ -37,7 +35,9 @@ metrics:
       v: 8287
     - t: '2026-05-30T02:38:42.425Z'
       v: 8287
-  lastAutoUpdated: '2026-05-30T02:38:42.425Z'
+    - t: '2026-05-30T08:22:38.126Z'
+      v: 8243
+  lastAutoUpdated: '2026-05-30T08:22:38.126Z'
   lastPush: '2026-05-20T09:45:54Z'
   archived: false
 fetch:
@@ -154,7 +154,7 @@ readme:
 
     okx-trade-mcp setup --client vscode          # writes .mcp.json in current
     directory
-  lastFetched: '2026-05-30T02:38:50.528Z'
+  lastFetched: '2026-05-30T08:22:47.247Z'
 repoInfo:
   language: TypeScript
   license: MIT
