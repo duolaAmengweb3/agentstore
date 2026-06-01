@@ -13,8 +13,6 @@ metrics:
   lastPush: '2026-03-25T17:30:33Z'
   archived: false
   _history:
-    - t: '2026-05-29T09:44:06.359Z'
-      v: 640
     - t: '2026-05-29T14:52:06.477Z'
       v: 640
     - t: '2026-05-29T20:13:37.457Z'
@@ -37,7 +35,9 @@ metrics:
       v: 640
     - t: '2026-06-01T03:32:11.341Z'
       v: 640
-  lastAutoUpdated: '2026-06-01T03:32:11.341Z'
+    - t: '2026-06-01T11:22:40.290Z'
+      v: 640
+  lastAutoUpdated: '2026-06-01T11:22:40.290Z'
   weeklyGrowthPct: 0
 fetch:
   github: heurist-network/heurist-mesh-mcp-server
@@ -68,7 +68,7 @@ readme:
     - '"mesh-tool-server"'
     - '],'
     - '"HEURIST_API_KEY": "your-api-key-here"  // Update this key'
-  lastFetched: '2026-06-01T03:32:18.686Z'
+  lastFetched: '2026-06-01T11:22:49.945Z'
 repoInfo:
   language: Python
   license: MIT
