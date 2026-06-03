@@ -9,12 +9,10 @@ score: 7.2
 tagline_en: NEAR Protocol official MCP — signs via NEAR keychain
 tagline_zh: 'NEAR 官方 MCP,用 NEAR keychain 签名'
 metrics:
-  githubStars: 30
+  githubStars: 31
   lastPush: '2025-05-04T07:32:50Z'
   archived: false
   _history:
-    - t: '2026-05-31T02:56:04.137Z'
-      v: 300
     - t: '2026-05-31T08:38:52.627Z'
       v: 300
     - t: '2026-05-31T13:26:14.745Z'
@@ -37,8 +35,10 @@ metrics:
       v: 300
     - t: '2026-06-02T20:41:19.500Z'
       v: 300
-  lastAutoUpdated: '2026-06-02T20:41:19.500Z'
-  weeklyGrowthPct: 0
+    - t: '2026-06-03T03:36:48.594Z'
+      v: 310
+  lastAutoUpdated: '2026-06-03T03:36:48.594Z'
+  weeklyGrowthPct: 3
 fetch:
   github: nearai/near-mcp
 readme:
@@ -55,7 +55,7 @@ readme:
     npm install -g @anthropic-ai/claude-code
     claude mcp add near-mcp npx @nearai/near-mcp@latest run
     claude
-  lastFetched: '2026-06-02T20:41:29.972Z'
+  lastFetched: '2026-06-03T03:36:59.082Z'
 repoInfo:
   language: TypeScript
   license: MIT
