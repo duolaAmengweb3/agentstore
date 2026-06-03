@@ -9,12 +9,10 @@ score: 8
 tagline_en: mcp.so — popular MCP listing platform
 tagline_zh: 'mcp.so:知名 MCP 列表平台'
 metrics:
-  githubStars: 2010
+  githubStars: 2011
   lastPush: '2025-03-26T16:29:02Z'
   archived: false
   _history:
-    - t: '2026-05-31T08:38:52.319Z'
-      v: 20110
     - t: '2026-05-31T13:26:14.394Z'
       v: 20110
     - t: '2026-05-31T19:08:37.185Z'
@@ -37,8 +35,10 @@ metrics:
       v: 20100
     - t: '2026-06-03T03:36:48.026Z'
       v: 20100
-  lastAutoUpdated: '2026-06-03T03:36:48.026Z'
-  weeklyGrowthPct: -0.0
+    - t: '2026-06-03T10:50:16.167Z'
+      v: 20110
+  lastAutoUpdated: '2026-06-03T10:50:16.167Z'
+  weeklyGrowthPct: 0
 fetch:
   github: chatmcp/mcp-directory
 readme:
@@ -54,7 +54,7 @@ readme:
   installCmd: |-
     git clone https://github.com/chatmcp/mcp-directory.git
     cd mcp-directory
-  lastFetched: '2026-06-03T03:36:58.331Z'
+  lastFetched: '2026-06-03T10:50:25.961Z'
 repoInfo:
   language: TypeScript
   license: Apache-2.0
@@ -65,7 +65,7 @@ repoInfo:
     - mcp-servers
     - mcp-servers-directory
   contributors: 2
-  openIssues: 1958
+  openIssues: 1962
   archived: false
   createdAt: '2024-12-06T02:22:42Z'
   defaultBranch: main
