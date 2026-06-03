@@ -13,8 +13,6 @@ metrics:
   githubStars: 320
   weeklyGrowthPct: -0.0
   _history:
-    - t: '2026-05-31T13:26:14.937Z'
-      v: 8263
     - t: '2026-05-31T19:08:38.013Z'
       v: 8263
     - t: '2026-06-01T03:32:13.283Z'
@@ -37,8 +35,10 @@ metrics:
       v: 8182
     - t: '2026-06-03T10:50:17.187Z'
       v: 8226
-  lastAutoUpdated: '2026-06-03T10:50:17.187Z'
-  lastPush: '2026-06-02T09:04:53Z'
+    - t: '2026-06-03T16:28:33.214Z'
+      v: 8226
+  lastAutoUpdated: '2026-06-03T16:28:33.214Z'
+  lastPush: '2026-06-03T15:35:39Z'
   archived: false
 fetch:
   github: okx/agent-trade-kit
@@ -49,9 +49,9 @@ readme:
     grid bots via the Model Context Protocol.  
   features:
     - >-
-      150 tools across 11 modules — Full trading lifecycle: market data → orders
-      → algo orders → account management → earn → trading bots → event contracts
-      → news → smart money signals
+      163 tools across 11 modules (17 sub-modules) — Full trading lifecycle:
+      market data → orders → algo orders → account management → earn → trading
+      bots → event contracts → news → smart money signals
     - >-
       Algo orders built-in — Conditional, OCO take-profit/stop-loss, trailing
       stop
@@ -109,12 +109,12 @@ readme:
         amend, cancel, orders, fills (private). Semantic outcome values:
         UP/YES/DOWN/NO ·
     - name: earn
-      count: 23
+      count: 24
       description: >-
-        Simple Earn: balance, purchase, redeem, lending rate, fixed-term orders
-        (10). On-chain staking/DeFi (6). Dual Currency Deposit/双币赢 (6). Flash
-        Earn (1). Sub-modules: earn.savings, earn.onchain, earn.dcd, earn.flash.
-        Included in all. ·
+        Simple Earn: balance, purchase, redeem, lending rate, fixed-term
+        products query, fixed-term orders (10). On-chain staking/DeFi (6). Dual
+        Currency Deposit/双币赢 (6). Flash Earn (1). Sub-modules: earn.savings,
+        earn.onchain, earn.dcd, earn.flash. Included in all. ·
     - name: bot
       count: 10
       description: >-
@@ -154,7 +154,7 @@ readme:
 
     okx-trade-mcp setup --client vscode          # writes .mcp.json in current
     directory
-  lastFetched: '2026-06-03T10:50:26.731Z'
+  lastFetched: '2026-06-03T16:28:45.478Z'
 repoInfo:
   language: TypeScript
   license: MIT
