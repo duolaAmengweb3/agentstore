@@ -188,8 +188,8 @@ export const toolsFromMarkdown: Tool[] = [
     "icon": "🟡",
     "official": false,
     "metrics": {
-      "githubStars": 28,
-      "weeklyGrowthPct": 4
+      "githubStars": 29,
+      "weeklyGrowthPct": 7
     },
     "score": 7.2,
     "summary": {
@@ -209,7 +209,7 @@ export const toolsFromMarkdown: Tool[] = [
     "icon": "🟡",
     "official": true,
     "metrics": {
-      "githubStars": 876,
+      "githubStars": 875,
       "weeklyGrowthPct": 1
     },
     "score": 8.7,
@@ -1032,7 +1032,7 @@ export const toolsFromMarkdown: Tool[] = [
     "icon": "🪿",
     "official": true,
     "metrics": {
-      "githubStars": 46403,
+      "githubStars": 46438,
       "weeklyGrowthPct": 1
     },
     "score": 7.8,
@@ -1119,7 +1119,7 @@ export const toolsFromMarkdown: Tool[] = [
     "official": true,
     "metrics": {
       "npmMonthly": 18883,
-      "githubStars": 1634,
+      "githubStars": 1635,
       "weeklyGrowthPct": 0
     },
     "score": 8.9,
@@ -1247,7 +1247,7 @@ export const toolsFromMarkdown: Tool[] = [
     "official": false,
     "metrics": {
       "githubStars": 125,
-      "weeklyGrowthPct": 1
+      "weeklyGrowthPct": 0
     },
     "score": 7,
     "summary": {
@@ -1396,7 +1396,7 @@ export const toolsFromMarkdown: Tool[] = [
     "metrics": {
       "smitheryCalls": 1170,
       "githubStars": 7,
-      "weeklyGrowthPct": -2
+      "weeklyGrowthPct": -3
     },
     "score": 7.5,
     "summary": {
@@ -1587,7 +1587,7 @@ export const toolsFromMarkdown: Tool[] = [
     "icon": "📇",
     "official": true,
     "metrics": {
-      "githubStars": 2010,
+      "githubStars": 2011,
       "weeklyGrowthPct": 0
     },
     "score": 8,
@@ -1798,7 +1798,7 @@ export const toolsFromMarkdown: Tool[] = [
     "icon": "🦞",
     "official": false,
     "metrics": {
-      "githubStars": 376777,
+      "githubStars": 376831,
       "weeklyGrowthPct": 0
     },
     "score": 7.2,
@@ -2098,7 +2098,7 @@ export const toolsFromMarkdown: Tool[] = [
     "official": false,
     "metrics": {
       "smitheryCalls": 2065,
-      "githubStars": 2988,
+      "githubStars": 2990,
       "weeklyGrowthPct": 1
     },
     "score": 8.7,
