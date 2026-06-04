@@ -15,8 +15,6 @@ metrics:
   githubStars: 221
   weeklyGrowthPct: 1
   _history:
-    - t: '2026-06-01T17:28:44.599Z'
-      v: 5266
     - t: '2026-06-01T21:26:40.181Z'
       v: 5266
     - t: '2026-06-02T03:29:18.916Z'
@@ -39,7 +37,9 @@ metrics:
       v: 5294
     - t: '2026-06-04T09:49:21.609Z'
       v: 5294
-  lastAutoUpdated: '2026-06-04T09:49:21.609Z'
+    - t: '2026-06-04T14:47:13.932Z'
+      v: 5294
+  lastAutoUpdated: '2026-06-04T14:47:13.932Z'
 fetch:
   npm: '@coingecko/coingecko-mcp'
 summary_en: >-
