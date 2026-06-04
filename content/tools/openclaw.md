@@ -9,13 +9,11 @@ score: 7.2
 tagline_en: OpenClaw — open-source agent runtime (open-source counterpart to Claude Code)
 tagline_zh: 'OpenClaw:开源 agent runtime(Claude Code 的开源对标)'
 metrics:
-  githubStars: 376562
+  githubStars: 376630
   weeklyGrowthPct: 0
-  lastPush: '2026-06-03T20:48:58Z'
+  lastPush: '2026-06-04T03:30:55Z'
   archived: false
   _history:
-    - t: '2026-06-01T03:32:12.826Z'
-      v: 3759080
     - t: '2026-06-01T11:22:42.259Z'
       v: 3759740
     - t: '2026-06-01T17:28:48.383Z'
@@ -38,7 +36,9 @@ metrics:
       v: 3765060
     - t: '2026-06-03T20:51:13.892Z'
       v: 3765620
-  lastAutoUpdated: '2026-06-03T20:51:13.892Z'
+    - t: '2026-06-04T03:32:04.377Z'
+      v: 3766300
+  lastAutoUpdated: '2026-06-04T03:32:04.377Z'
 fetch:
   github: OpenClaw/openclaw
 readme:
@@ -57,11 +57,11 @@ readme:
     - >-
       First-class tools — browser, canvas, nodes, cron, sessions, and
       Discord/Slack actions.
-    - Companion apps — macOS menu bar app + iOS/Android nodes.
+    - 'Companion apps — Windows Hub, macOS menu bar app, and iOS/Android nodes.'
     - >-
       Onboarding + skills — onboarding-driven setup with
       bundled/managed/workspace skills.
-  lastFetched: '2026-06-03T20:51:22.822Z'
+  lastFetched: '2026-06-04T03:32:13.074Z'
 repoInfo:
   language: TypeScript
   license: NOASSERTION
@@ -74,7 +74,7 @@ repoInfo:
     - own-your-data
     - personal
   contributors: 364
-  openIssues: 7382
+  openIssues: 7472
   archived: false
   createdAt: '2025-11-24T10:16:47Z'
   defaultBranch: main
