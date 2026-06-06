@@ -16,8 +16,6 @@ metrics:
   lastPush: '2026-04-20T08:19:01Z'
   archived: false
   _history:
-    - t: '2026-06-03T10:50:15.082Z'
-      v: 6200
     - t: '2026-06-03T16:28:30.996Z'
       v: 6210
     - t: '2026-06-03T20:51:12.458Z'
@@ -40,7 +38,9 @@ metrics:
       v: 6250
     - t: '2026-06-06T02:40:59.132Z'
       v: 6260
-  lastAutoUpdated: '2026-06-06T02:40:59.132Z'
+    - t: '2026-06-06T08:28:08.462Z'
+      v: 6260
+  lastAutoUpdated: '2026-06-06T08:28:08.462Z'
 fetch:
   github: krakenfx/kraken-cli
 readme:
@@ -94,7 +94,7 @@ readme:
     - export KRAKEN_API_SECRET="your-secret"
     - kraken balance -o json
     - kraken open-orders -o json
-  lastFetched: '2026-06-06T02:41:05.833Z'
+  lastFetched: '2026-06-06T08:28:15.648Z'
 repoInfo:
   language: Rust
   license: MIT
