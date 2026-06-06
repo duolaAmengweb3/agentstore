@@ -13,8 +13,6 @@ metrics:
   lastPush: '2025-05-04T07:32:50Z'
   archived: false
   _history:
-    - t: '2026-06-03T03:36:48.594Z'
-      v: 310
     - t: '2026-06-03T10:50:16.687Z'
       v: 310
     - t: '2026-06-03T16:28:33.064Z'
@@ -37,7 +35,9 @@ metrics:
       v: 310
     - t: '2026-06-05T19:47:50.237Z'
       v: 310
-  lastAutoUpdated: '2026-06-05T19:47:50.237Z'
+    - t: '2026-06-06T02:41:00.387Z'
+      v: 310
+  lastAutoUpdated: '2026-06-06T02:41:00.387Z'
   weeklyGrowthPct: 0
 fetch:
   github: nearai/near-mcp
@@ -55,7 +55,7 @@ readme:
     npm install -g @anthropic-ai/claude-code
     claude mcp add near-mcp npx @nearai/near-mcp@latest run
     claude
-  lastFetched: '2026-06-05T19:47:58.699Z'
+  lastFetched: '2026-06-06T02:41:07.747Z'
 repoInfo:
   language: TypeScript
   license: MIT
