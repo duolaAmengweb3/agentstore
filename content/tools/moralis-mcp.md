@@ -16,8 +16,6 @@ metrics:
   lastPush: '2025-04-11T00:03:27Z'
   archived: false
   _history:
-    - t: '2026-06-05T09:37:54.009Z'
-      v: 6244
     - t: '2026-06-05T14:38:10.333Z'
       v: 6244
     - t: '2026-06-05T19:47:50.039Z'
@@ -40,7 +38,9 @@ metrics:
       v: 6244
     - t: '2026-06-08T03:29:10.697Z'
       v: 6244
-  lastAutoUpdated: '2026-06-08T03:29:10.697Z'
+    - t: '2026-06-08T10:27:31.097Z'
+      v: 6244
+  lastAutoUpdated: '2026-06-08T10:27:31.097Z'
   weeklyGrowthPct: 0
 fetch:
   github: a6b8/moralis-mcp
@@ -52,7 +52,7 @@ readme:
   installCmd: |-
     # Install dependencies
     npm install
-  lastFetched: '2026-06-08T03:29:18.396Z'
+  lastFetched: '2026-06-08T10:27:40.258Z'
 repoInfo:
   language: JavaScript
   license: null
