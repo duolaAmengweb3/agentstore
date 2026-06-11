@@ -10,11 +10,9 @@ tagline_en: OKX official MCP + CLI — 140 tools across spot / perp / options / 
 tagline_zh: 'OKX 官方 MCP + CLI,140 个工具覆盖现货 / 合约 / 期权 / bot / earn'
 metrics:
   npmMonthly: 5026
-  githubStars: 326
+  githubStars: 327
   weeklyGrowthPct: 0
   _history:
-    - t: '2026-06-08T10:27:31.546Z'
-      v: 8276
     - t: '2026-06-08T15:39:26.416Z'
       v: 8286
     - t: '2026-06-08T20:07:29.533Z'
@@ -37,8 +35,10 @@ metrics:
       v: 8286
     - t: '2026-06-11T03:27:02.877Z'
       v: 8286
-  lastAutoUpdated: '2026-06-11T03:27:02.877Z'
-  lastPush: '2026-06-10T08:18:06Z'
+    - t: '2026-06-11T10:15:18.234Z'
+      v: 8296
+  lastAutoUpdated: '2026-06-11T10:15:18.234Z'
+  lastPush: '2026-06-11T09:22:58Z'
   archived: false
 fetch:
   github: okx/agent-trade-kit
@@ -49,7 +49,7 @@ readme:
     grid bots via the Model Context Protocol.  
   features:
     - >-
-      163 tools across 11 modules (17 sub-modules) — Full trading lifecycle:
+      164 tools across 11 modules (17 sub-modules) — Full trading lifecycle:
       market data → orders → algo orders → account management → earn → trading
       bots → event contracts → news → smart money signals
     - >-
@@ -133,6 +133,13 @@ readme:
         single-asset signal (by coin / by traders), signal history (by coin / by
         traders) — all read-only, split by entry mode for AI-agent
         disambiguation ·
+    - name: outcomes
+      description: >-
+        0 (wrapper) · OKX Outcomes (YES/NO event contracts, formerly OKX
+        Predictions) — CLI-only wrapper that forwards to the external
+        okx-outcomes binary (installed via install.sh from
+        github.com/okx/outcomes-cli). Browse events, account queries (OAuth),
+        CLOB price/orderbook, dry-run-gated trade placement,
   installCmd: >-
     # 1. Install
 
@@ -154,7 +161,7 @@ readme:
 
     okx-trade-mcp setup --client vscode          # writes .mcp.json in current
     directory
-  lastFetched: '2026-06-11T03:27:10.257Z'
+  lastFetched: '2026-06-11T10:15:31.140Z'
 repoInfo:
   language: TypeScript
   license: MIT
