@@ -13,8 +13,6 @@ metrics:
   githubStars: 7
   pypiMonthly: 62
   _history:
-    - t: '2026-06-09T09:32:45.947Z'
-      v: 131
     - t: '2026-06-09T14:38:21.054Z'
       v: 131
     - t: '2026-06-09T20:02:16.533Z'
@@ -37,7 +35,9 @@ metrics:
       v: 130
     - t: '2026-06-12T03:25:41.049Z'
       v: 132
-  lastAutoUpdated: '2026-06-12T03:25:41.049Z'
+    - t: '2026-06-12T10:02:55.833Z'
+      v: 132
+  lastAutoUpdated: '2026-06-12T10:02:55.833Z'
   lastPush: '2025-04-21T08:32:58Z'
   archived: false
   weeklyGrowthPct: 1
@@ -58,7 +58,7 @@ readme:
     - >-
       Claude Desktop Integration — Runs as an MCP server for interactive
       queries.
-  lastFetched: '2026-06-12T03:25:48.009Z'
+  lastFetched: '2026-06-12T10:03:04.197Z'
 repoInfo:
   language: Python
   license: MIT
