@@ -12,12 +12,10 @@ tagline_en: >-
 tagline_zh: 'Drift 官方 Python SDK;已集成 Solana Agent Kit,可被 Eliza / LangChain 直接调用'
 metrics:
   npmMonthly: 2134
-  githubStars: 110
+  githubStars: 111
   lastPush: '2026-04-24T08:02:43Z'
   archived: false
   _history:
-    - t: '2026-06-10T02:53:40.205Z'
-      v: 3234
     - t: '2026-06-10T09:49:02.062Z'
       v: 3234
     - t: '2026-06-10T15:21:52.549Z'
@@ -40,7 +38,9 @@ metrics:
       v: 3234
     - t: '2026-06-12T20:03:13.968Z'
       v: 3234
-  lastAutoUpdated: '2026-06-12T20:03:13.968Z'
+    - t: '2026-06-13T02:52:51.589Z'
+      v: 3244
+  lastAutoUpdated: '2026-06-13T02:52:51.589Z'
   weeklyGrowthPct: 0
 fetch:
   github: drift-labs/driftpy
@@ -49,7 +49,7 @@ readme:
     DriftPy is the Python client for the Drift protocol. It allows you to trade
     and fetch data from Drift using Python.
   installCmd: pip install driftpy
-  lastFetched: '2026-06-12T20:03:23.178Z'
+  lastFetched: '2026-06-13T02:52:58.416Z'
 repoInfo:
   language: Python
   license: null
