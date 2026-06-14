@@ -11,11 +11,9 @@ tagline_zh: '加密"deep research"agent 工具,完全本地运行,148 star'
 metrics:
   githubStars: 159
   weeklyGrowthPct: 0
-  lastPush: '2026-06-10T13:12:15Z'
+  lastPush: '2026-06-14T08:31:46Z'
   archived: false
   _history:
-    - t: '2026-06-11T10:15:19.538Z'
-      v: 1590
     - t: '2026-06-11T15:48:14.994Z'
       v: 1590
     - t: '2026-06-11T20:14:17.620Z'
@@ -38,12 +36,14 @@ metrics:
       v: 1590
     - t: '2026-06-14T03:30:18.113Z'
       v: 1590
-  lastAutoUpdated: '2026-06-14T03:30:18.113Z'
+    - t: '2026-06-14T09:25:26.425Z'
+      v: 1590
+  lastAutoUpdated: '2026-06-14T09:25:26.425Z'
 fetch:
   github: aaronjmars/web3-research-mcp
 readme:
   about: "Deep Research for crypto - free & fully local \U0001F9E0"
-  lastFetched: '2026-06-14T03:30:29.997Z'
+  lastFetched: '2026-06-14T09:25:38.507Z'
 repoInfo:
   language: TypeScript
   license: MIT
@@ -52,7 +52,7 @@ repoInfo:
     - mcp-crypto
     - mcp-server
   contributors: 3
-  openIssues: 0
+  openIssues: 1
   archived: false
   createdAt: '2025-04-11T15:33:16Z'
   defaultBranch: main
