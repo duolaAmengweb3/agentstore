@@ -17,8 +17,6 @@ metrics:
   lastPush: '2026-05-13T20:07:50Z'
   archived: true
   _history:
-    - t: '2026-06-13T13:49:16.382Z'
-      v: 8301
     - t: '2026-06-13T19:17:39.059Z'
       v: 8301
     - t: '2026-06-14T03:30:10.790Z'
@@ -41,12 +39,14 @@ metrics:
       v: 8301
     - t: '2026-06-16T11:02:20.026Z'
       v: 8301
-  lastAutoUpdated: '2026-06-16T11:02:20.026Z'
+    - t: '2026-06-16T16:41:04.040Z'
+      v: 8301
+  lastAutoUpdated: '2026-06-16T16:41:04.040Z'
 fetch:
   github: base/base-mcp
 readme:
   about: This repository has been archived and is no longer maintained.
-  lastFetched: '2026-06-16T11:02:26.936Z'
+  lastFetched: '2026-06-16T16:41:11.541Z'
 repoInfo:
   language: TypeScript
   license: MIT
