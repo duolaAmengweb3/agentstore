@@ -16,8 +16,6 @@ metrics:
   lastPush: '2026-05-07T05:08:04Z'
   archived: false
   _history:
-    - t: '2026-06-15T11:54:05.609Z'
-      v: 290
     - t: '2026-06-15T17:07:47.835Z'
       v: 290
     - t: '2026-06-15T20:50:08.681Z'
@@ -40,7 +38,9 @@ metrics:
       v: 300
     - t: '2026-06-18T03:25:02.148Z'
       v: 300
-  lastAutoUpdated: '2026-06-18T03:25:02.148Z'
+    - t: '2026-06-18T10:13:57.031Z'
+      v: 300
+  lastAutoUpdated: '2026-06-18T10:13:57.031Z'
 fetch:
   github: nirholas/Binance-MCP
 readme:
@@ -57,7 +57,7 @@ readme:
 
     # Build the project
     npm run build
-  lastFetched: '2026-06-18T03:25:08.435Z'
+  lastFetched: '2026-06-18T10:14:06.951Z'
 repoInfo:
   language: TypeScript
   license: Apache-2.0
