@@ -9,12 +9,10 @@ score: 7.9
 tagline_en: Giza verifiable-ML agents (Starknet-focused) — STARK-proof AI decisions
 tagline_zh: 'Giza 可验证 ML agent(Starknet 为主):用 STARK 证明 AI 决策合法'
 metrics:
-  githubStars: 31
+  githubStars: 32
   lastPush: '2024-06-28T10:18:17Z'
   archived: false
   _history:
-    - t: '2026-06-15T03:39:35.975Z'
-      v: 310
     - t: '2026-06-15T11:54:07.929Z'
       v: 310
     - t: '2026-06-15T17:07:50.586Z'
@@ -37,8 +35,10 @@ metrics:
       v: 310
     - t: '2026-06-17T20:06:42.771Z'
       v: 310
-  lastAutoUpdated: '2026-06-17T20:06:42.771Z'
-  weeklyGrowthPct: 0
+    - t: '2026-06-18T03:25:04.413Z'
+      v: 320
+  lastAutoUpdated: '2026-06-18T03:25:04.413Z'
+  weeklyGrowthPct: 3
 fetch:
   github: gizatechxyz/giza-agents
 readme:
@@ -54,7 +54,7 @@ readme:
 
     # Activate Virtual environment on Windows:
     $ .env/Scripts/activate
-  lastFetched: '2026-06-17T20:06:50.867Z'
+  lastFetched: '2026-06-18T03:25:11.415Z'
 repoInfo:
   language: Python
   license: MIT
