@@ -14,11 +14,9 @@ metrics:
   smitheryCalls: 823
   githubStars: 9
   weeklyGrowthPct: 0
-  lastPush: '2026-03-03T05:45:12Z'
-  archived: false
+  lastPush: '2026-06-18T15:30:04Z'
+  archived: true
   _history:
-    - t: '2026-06-15T20:50:13.740Z'
-      v: 90
     - t: '2026-06-16T03:35:03.196Z'
       v: 90
     - t: '2026-06-16T11:02:24.883Z'
@@ -41,13 +39,15 @@ metrics:
       v: 90
     - t: '2026-06-18T14:56:50.803Z'
       v: 90
-  lastAutoUpdated: '2026-06-18T14:56:50.803Z'
+    - t: '2026-06-18T20:18:14.334Z'
+      v: 90
+  lastAutoUpdated: '2026-06-18T20:18:14.334Z'
 fetch:
   github: sv/mcp-paradex-py
 readme:
   about: >-
-    Model Context Protocol (MCP) server implementation for the Paradex trading
-    platform.
+    Up to date supported version can be found here
+    https://github.com/tradeparadex/mcp-paradex-py
   features:
     - Retrieve market data from Paradex
     - Manage trading accounts and vaults
@@ -57,14 +57,14 @@ readme:
     - claude mcp add paradex uvx mcp-paradex
     - npx -y @smithery/cli install @sv/mcp-paradex-py --client claude
   installCmd: claude mcp add paradex uvx mcp-paradex
-  lastFetched: '2026-06-18T14:57:04.751Z'
+  lastFetched: '2026-06-18T20:18:26.618Z'
 repoInfo:
   language: Python
   license: MIT
   topics: []
   contributors: 3
-  openIssues: 2
-  archived: false
+  openIssues: 0
+  archived: true
   createdAt: '2025-03-07T03:32:57Z'
   defaultBranch: main
 summary_en: >-
