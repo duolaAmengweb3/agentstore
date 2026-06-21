@@ -10,13 +10,11 @@ tagline_en: 'TradingView MCP — live crypto / stock screener + advanced TA, 206
 tagline_zh: 'TradingView MCP:实时 crypto / 股票筛选 + 高级 TA 指标,2065 star'
 metrics:
   smitheryCalls: 2065
-  githubStars: 3187
+  githubStars: 3190
   weeklyGrowthPct: 1
-  lastPush: '2026-06-16T18:38:38Z'
+  lastPush: '2026-06-21T17:56:42Z'
   archived: false
   _history:
-    - t: '2026-06-18T20:18:14.985Z'
-      v: 31640
     - t: '2026-06-19T03:48:18.122Z'
       v: 31690
     - t: '2026-06-19T10:19:05.514Z'
@@ -39,27 +37,31 @@ metrics:
       v: 31830
     - t: '2026-06-21T13:58:24.626Z'
       v: 31870
-  lastAutoUpdated: '2026-06-21T13:58:24.626Z'
+    - t: '2026-06-21T19:23:18.523Z'
+      v: 31900
+  lastAutoUpdated: '2026-06-21T19:23:18.523Z'
 fetch:
   github: atilaahmettaner/tradingview-mcp
 readme:
   about: >-
-    The most complete AI-powered trading toolkit for Claude and MCP clients.
-    Backtesting + Live Sentiment + Yahoo Finance + 30+ Technical Analysis Tools
-    — all in one MCP server.
-  lastFetched: '2026-06-21T13:58:32.976Z'
+    TradingView MCP server — real-time market data, technical indicators,
+    screeners, and backtesting for Claude, ChatGPT, Cursor, Copilot, and any MCP
+    client. Stocks, crypto, forex & futures across global exchanges. Backtesting
+    + live sentiment + Yahoo Finance + 30+ technical-analysis tools — the most
+    complete TradingView MCP toolkit, all in one server.
+  lastFetched: '2026-06-21T19:23:31.059Z'
 repoInfo:
   language: Python
   license: MIT
   topics:
     - claude-desktop
     - cryptocurrency
+    - futures
+    - market-data
     - mcp-server
     - mcp-tools
+    - model-context-protocol
     - openclaw
-    - stock-market
-    - trading-mcp
-    - trading-strategies
   contributors: 15
   openIssues: 10
   archived: false
