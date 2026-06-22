@@ -11,11 +11,9 @@ tagline_en: >-
   language
 tagline_zh: 'thirdweb 官方 MCP:合约 + 交易 + 分析,自然语言调用'
 metrics:
-  npmMonthly: 163436
+  npmMonthly: 158291
   githubStars: 123
   _history:
-    - t: '2026-06-19T10:19:05.629Z'
-      v: 165357
     - t: '2026-06-19T14:53:20.030Z'
       v: 165357
     - t: '2026-06-19T19:42:16.505Z'
@@ -38,8 +36,10 @@ metrics:
       v: 164666
     - t: '2026-06-22T03:40:16.134Z'
       v: 164666
-  lastAutoUpdated: '2026-06-22T03:40:16.134Z'
-  weeklyGrowthPct: -0.0
+    - t: '2026-06-22T11:43:57.178Z'
+      v: 159521
+  lastAutoUpdated: '2026-06-22T11:43:57.178Z'
+  weeklyGrowthPct: -4
 fetch:
   npm: thirdweb
 summary_en: >-
