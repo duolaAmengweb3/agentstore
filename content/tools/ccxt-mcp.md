@@ -11,12 +11,10 @@ tagline_zh: 'CCXT 库的 MCP 包装,100+ 交易所统一接口'
 metrics:
   smitheryCalls: 4231
   githubStars: 89
-  weeklyGrowthPct: -1
+  weeklyGrowthPct: 0
   lastPush: '2026-04-23T06:40:21Z'
   archived: false
   _history:
-    - t: '2026-06-19T14:53:15.292Z'
-      v: 900
     - t: '2026-06-19T19:42:10.808Z'
       v: 890
     - t: '2026-06-20T02:51:32.354Z'
@@ -39,7 +37,9 @@ metrics:
       v: 890
     - t: '2026-06-22T11:43:51.262Z'
       v: 890
-  lastAutoUpdated: '2026-06-22T11:43:51.262Z'
+    - t: '2026-06-22T16:45:57.291Z'
+      v: 890
+  lastAutoUpdated: '2026-06-22T16:45:57.291Z'
 fetch:
   github: lazy-dinosaur/ccxt-mcp
 readme:
@@ -53,7 +53,7 @@ readme:
     - Search historical OHLCV data
     - 'Trading Functions:'
     - Create market/limit orders
-  lastFetched: '2026-06-22T11:44:00.850Z'
+  lastFetched: '2026-06-22T16:46:06.955Z'
 repoInfo:
   language: TypeScript
   license: MIT
