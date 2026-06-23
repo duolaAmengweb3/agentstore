@@ -15,8 +15,6 @@ metrics:
   githubStars: 18628
   weeklyGrowthPct: 0
   _history:
-    - t: '2026-06-20T19:17:37.147Z'
-      v: 263878
     - t: '2026-06-21T03:35:47.448Z'
       v: 263868
     - t: '2026-06-21T09:42:07.968Z'
@@ -39,8 +37,10 @@ metrics:
       v: 264633
     - t: '2026-06-23T14:38:08.336Z'
       v: 264585
-  lastAutoUpdated: '2026-06-23T14:38:08.336Z'
-  lastPush: '2026-06-23T14:37:30Z'
+    - t: '2026-06-23T19:54:21.318Z'
+      v: 264585
+  lastAutoUpdated: '2026-06-23T19:54:21.318Z'
+  lastPush: '2026-06-23T19:53:46Z'
   archived: false
 fetch:
   github: elizaOS/eliza
@@ -52,7 +52,7 @@ readme:
     autonomous agents for business process automation, or intelligent game NPCs,
     Eliza provides the tools you need to get started quickly and scale
     effectively.
-  lastFetched: '2026-06-23T14:38:18.315Z'
+  lastFetched: '2026-06-23T19:54:31.732Z'
 repoInfo:
   language: TypeScript
   license: MIT
@@ -66,7 +66,7 @@ repoInfo:
     - discord
     - eliza
   contributors: 9
-  openIssues: 24
+  openIssues: 12
   archived: false
   createdAt: '2024-07-09T07:55:40Z'
   defaultBranch: develop
