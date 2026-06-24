@@ -15,8 +15,6 @@ metrics:
   lastPush: '2026-05-30T05:12:37Z'
   archived: false
   _history:
-    - t: '2026-06-21T03:35:47.754Z'
-      v: 16421
     - t: '2026-06-21T09:42:08.319Z'
       v: 16421
     - t: '2026-06-21T13:58:21.861Z'
@@ -39,7 +37,9 @@ metrics:
       v: 16421
     - t: '2026-06-23T19:54:21.972Z'
       v: 16421
-  lastAutoUpdated: '2026-06-23T19:54:21.972Z'
+    - t: '2026-06-24T02:45:39.718Z'
+      v: 16421
+  lastAutoUpdated: '2026-06-24T02:45:39.718Z'
 fetch:
   github: goat-sdk/goat
 readme:
@@ -91,7 +91,7 @@ readme:
       description: >-
         Bridge tokens on DeBridge · @goat-sdk/plugin-debridge ·
         goat-sdk-plugin-debridge
-  lastFetched: '2026-06-23T19:54:32.185Z'
+  lastFetched: '2026-06-24T02:45:47.187Z'
 repoInfo:
   language: TypeScript
   license: MIT
