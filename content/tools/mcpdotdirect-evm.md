@@ -15,8 +15,6 @@ metrics:
   lastPush: '2026-06-04T22:17:39Z'
   archived: false
   _history:
-    - t: '2026-06-22T20:38:40.381Z'
-      v: 12691
     - t: '2026-06-23T02:45:13.915Z'
       v: 12691
     - t: '2026-06-23T09:29:35.332Z'
@@ -39,7 +37,9 @@ metrics:
       v: 12691
     - t: '2026-06-25T14:15:35.256Z'
       v: 12691
-  lastAutoUpdated: '2026-06-25T14:15:35.256Z'
+    - t: '2026-06-25T19:51:35.692Z'
+      v: 12691
+  lastAutoUpdated: '2026-06-25T19:51:35.692Z'
 fetch:
   github: mcpdotdirect/evm-mcp-server
 readme:
@@ -82,7 +82,7 @@ readme:
       description: Get latest block data · network
     - name: get_transaction
       description: 'Get transaction details · txHash, network'
-  lastFetched: '2026-06-25T14:15:47.782Z'
+  lastFetched: '2026-06-25T19:51:46.385Z'
 repoInfo:
   language: TypeScript
   license: MIT
