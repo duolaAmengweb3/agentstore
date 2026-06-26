@@ -10,12 +10,10 @@ tagline_en: Coinbase Payments MCP — let agents pay with stablecoins via x402
 tagline_zh: 'Coinbase Payments MCP(基于 x402):让 agent 直接用稳定币付款'
 metrics:
   npmMonthly: 3421
-  githubStars: 55
+  githubStars: 56
   lastPush: '2025-10-22T15:44:43Z'
   archived: false
   _history:
-    - t: '2026-06-23T09:29:31.738Z'
-      v: 3971
     - t: '2026-06-23T14:38:07.895Z'
       v: 3971
     - t: '2026-06-23T19:54:20.780Z'
@@ -38,7 +36,9 @@ metrics:
       v: 3971
     - t: '2026-06-26T02:50:45.464Z'
       v: 3971
-  lastAutoUpdated: '2026-06-26T02:50:45.464Z'
+    - t: '2026-06-26T08:55:48.009Z'
+      v: 3981
+  lastAutoUpdated: '2026-06-26T08:55:48.009Z'
   weeklyGrowthPct: 0
 fetch:
   github: coinbase/payments-mcp
@@ -46,7 +46,7 @@ readme:
   about: >-
     Payments MCP is an MCP server & companion wallet app that combines wallets,
     onramps, and payments via x402 into a single solution for agentic commerce.
-  lastFetched: '2026-06-26T02:50:54.273Z'
+  lastFetched: '2026-06-26T08:55:55.510Z'
 repoInfo:
   language: TypeScript
   license: NOASSERTION
