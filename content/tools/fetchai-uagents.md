@@ -16,8 +16,6 @@ metrics:
   lastPush: '2026-06-18T13:51:04Z'
   archived: false
   _history:
-    - t: '2026-06-24T14:17:45.528Z'
-      v: 20641
     - t: '2026-06-24T19:39:06.621Z'
       v: 20641
     - t: '2026-06-25T02:46:08.743Z'
@@ -40,7 +38,9 @@ metrics:
       v: 20651
     - t: '2026-06-27T08:30:38.505Z'
       v: 20661
-  lastAutoUpdated: '2026-06-27T08:30:38.505Z'
+    - t: '2026-06-27T13:22:27.623Z'
+      v: 20661
+  lastAutoUpdated: '2026-06-27T13:22:27.623Z'
   weeklyGrowthPct: 0
 fetch:
   github: fetchai/uAgents
@@ -50,7 +50,7 @@ readme:
     autonomous AI agents in Python. With simple and expressive decorators, you
     can have an agent that performs various tasks on a schedule or takes action
     on various events.
-  lastFetched: '2026-06-27T08:30:49.392Z'
+  lastFetched: '2026-06-27T13:22:35.722Z'
 repoInfo:
   language: Python
   license: Apache-2.0
