@@ -13,8 +13,6 @@ metrics:
   lastPush: '2025-03-27T22:59:59Z'
   archived: false
   _history:
-    - t: '2026-06-27T19:13:04.653Z'
-      v: 480
     - t: '2026-06-28T02:56:10.626Z'
       v: 480
     - t: '2026-06-28T08:45:22.675Z'
@@ -37,7 +35,9 @@ metrics:
       v: 480
     - t: '2026-06-30T14:07:52.753Z'
       v: 490
-  lastAutoUpdated: '2026-06-30T14:07:52.753Z'
+    - t: '2026-06-30T19:47:26.034Z'
+      v: 490
+  lastAutoUpdated: '2026-06-30T19:47:26.034Z'
   weeklyGrowthPct: 2
 fetch:
   github: kukapay/crypto-sentiment-mcp
@@ -83,7 +83,7 @@ readme:
   installCmd: |-
     git clone https://github.com/kukapay/crypto-sentiment-mcp.git
        cd crypto-sentiment-mcp
-  lastFetched: '2026-06-30T14:08:04.009Z'
+  lastFetched: '2026-06-30T19:47:34.875Z'
 repoInfo:
   language: Python
   license: MIT
