@@ -10,12 +10,10 @@ tagline_en: Popular community Hyperliquid MCP wrapping the /info endpoint
 tagline_zh: '社区流行的 HL MCP,封装 /info 端点'
 metrics:
   smitheryCalls: 1821
-  githubStars: 44
+  githubStars: 43
   lastPush: '2025-03-06T16:29:54Z'
   archived: false
   _history:
-    - t: '2026-06-27T02:41:29.577Z'
-      v: 440
     - t: '2026-06-27T08:30:41.715Z'
       v: 440
     - t: '2026-06-27T13:22:29.798Z'
@@ -38,13 +36,15 @@ metrics:
       v: 440
     - t: '2026-06-29T19:49:51.228Z'
       v: 440
-  lastAutoUpdated: '2026-06-29T19:49:51.228Z'
-  weeklyGrowthPct: 0
+    - t: '2026-06-30T02:50:43.753Z'
+      v: 430
+  lastAutoUpdated: '2026-06-30T02:50:43.753Z'
+  weeklyGrowthPct: -2
 fetch:
   github: mektigboy/server-hyperliquid
 readme:
   about: An MCP server implementation that integrates the Hyperliquid SDK.
-  lastFetched: '2026-06-29T19:50:00.578Z'
+  lastFetched: '2026-06-30T02:50:53.836Z'
 repoInfo:
   language: TypeScript
   license: MIT
