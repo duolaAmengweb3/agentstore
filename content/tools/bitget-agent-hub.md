@@ -13,11 +13,9 @@ tagline_zh: 'Bitget 官方 Agent Hub:9 模块 58 个工具(spot/futures/margin/c
 metrics:
   githubStars: 219
   weeklyGrowthPct: 0
-  lastPush: '2026-06-25T06:13:36Z'
+  lastPush: '2026-06-30T05:59:11Z'
   archived: false
   _history:
-    - t: '2026-06-27T08:30:36.356Z'
-      v: 2180
     - t: '2026-06-27T13:22:25.583Z'
       v: 2180
     - t: '2026-06-27T19:13:01.268Z'
@@ -40,49 +38,31 @@ metrics:
       v: 2190
     - t: '2026-06-30T02:50:38.989Z'
       v: 2190
-  lastAutoUpdated: '2026-06-30T02:50:38.989Z'
+    - t: '2026-06-30T09:24:55.311Z'
+      v: 2190
+  lastAutoUpdated: '2026-06-30T09:24:55.311Z'
 fetch:
   github: BitgetLimited/agent_hub
 readme:
-  about: Bitget agent hub
+  about: Bitget Agent Hub — Official Bitget AI Trading and Market Data Ecosystem
   modules:
-    - name: spot
-      count: 13
-      description: ✅
-    - name: futures
-      count: 14
-      description: ✅
-    - name: account
-      count: 8
-      description: ✅
-    - name: margin
-      count: 7
-      description: —
-    - name: copytrading
-      count: 5
-      description: —
-    - name: convert
-      count: 3
-      description: —
-    - name: earn
-      count: 3
-      description: —
-    - name: p2p
-      count: 2
-      description: —
-    - name: broker
-      count: 3
-      description: —
-  installCmd: |-
-    # Install everything and deploy skills to Claude Code (default)
-    npx bitget-hub upgrade-all --target claude
-  lastFetched: '2026-06-30T02:50:47.576Z'
+    - name: _(no arguments)_
+      description: 'Interactive menu — upgrade, rollback, or deploy skills'
+    - name: 'upgrade-all [--target ]'
+      description: Install or update all managed packages to latest
+    - name: 'upgrade [--target ]'
+      description: Install or update one package to latest
+    - name: rollback --to
+      description: Switch a package to a specific published version
+    - name: 'install [pkg] [--target ]'
+      description: Deploy an already-installed package's skills to your AI tools
+  lastFetched: '2026-06-30T09:25:05.526Z'
 repoInfo:
-  language: TypeScript
-  license: null
+  language: JavaScript
+  license: MIT
   topics: []
-  contributors: 0
-  openIssues: 10
+  contributors: 1
+  openIssues: 9
   archived: false
   createdAt: '2026-02-11T11:12:12Z'
   defaultBranch: main
