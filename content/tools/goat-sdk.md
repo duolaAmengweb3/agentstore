@@ -12,11 +12,9 @@ metrics:
   npmMonthly: 6421
   githubStars: 1001
   weeklyGrowthPct: 0
-  lastPush: '2026-05-30T05:12:37Z'
+  lastPush: '2026-07-02T19:10:23Z'
   archived: false
   _history:
-    - t: '2026-06-29T19:49:49.160Z'
-      v: 16431
     - t: '2026-06-30T02:50:41.135Z'
       v: 16431
     - t: '2026-06-30T09:24:57.716Z'
@@ -39,11 +37,16 @@ metrics:
       v: 16431
     - t: '2026-07-02T13:47:13.637Z'
       v: 16431
-  lastAutoUpdated: '2026-07-02T13:47:13.637Z'
+    - t: '2026-07-02T19:16:47.971Z'
+      v: 16431
+  lastAutoUpdated: '2026-07-02T19:16:47.971Z'
 fetch:
   github: goat-sdk/goat
 readme:
-  about: The leading agentic finance toolkit for AI agents
+  about: >-
+    [!WARNING] [Archived] This repository is a read-only historical snapshot. It
+    is no longer actively maintained, and no issues, pull requests, or updates
+    will be accepted. Use as-is.
   modules:
     - name: 0x
       description: Get quotes and swap on 0x · @goat-sdk/plugin-0x
@@ -91,7 +94,7 @@ readme:
       description: >-
         Bridge tokens on DeBridge · @goat-sdk/plugin-debridge ·
         goat-sdk-plugin-debridge
-  lastFetched: '2026-07-02T13:47:23.876Z'
+  lastFetched: '2026-07-02T19:16:55.474Z'
 repoInfo:
   language: TypeScript
   license: MIT
