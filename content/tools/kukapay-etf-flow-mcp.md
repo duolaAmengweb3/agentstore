@@ -13,8 +13,6 @@ metrics:
   lastPush: '2025-04-25T12:12:19Z'
   archived: false
   _history:
-    - t: '2026-07-02T02:46:19.060Z'
-      v: 80
     - t: '2026-07-02T08:48:48.354Z'
       v: 80
     - t: '2026-07-02T13:47:14.682Z'
@@ -37,7 +35,9 @@ metrics:
       v: 80
     - t: '2026-07-04T19:02:36.476Z'
       v: 80
-  lastAutoUpdated: '2026-07-04T19:02:36.476Z'
+    - t: '2026-07-05T02:36:12.238Z'
+      v: 80
+  lastAutoUpdated: '2026-07-05T02:36:12.238Z'
   weeklyGrowthPct: 0
 fetch:
   github: kukapay/etf-flow-mcp
@@ -58,7 +58,7 @@ readme:
   installCmd: |-
     git clone https://github.com/kukapay/etf-flow-mcp.git
        cd etf-flow-mcp
-  lastFetched: '2026-07-04T19:02:45.807Z'
+  lastFetched: '2026-07-05T02:36:23.438Z'
 repoInfo:
   language: Python
   license: MIT

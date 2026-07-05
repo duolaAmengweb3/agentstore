@@ -13,8 +13,6 @@ metrics:
   lastPush: '2025-03-17T22:20:54Z'
   archived: false
   _history:
-    - t: '2026-07-02T02:46:17.158Z'
-      v: 90
     - t: '2026-07-02T08:48:46.604Z'
       v: 90
     - t: '2026-07-02T13:47:12.633Z'
@@ -37,7 +35,9 @@ metrics:
       v: 90
     - t: '2026-07-04T19:02:34.447Z'
       v: 90
-  lastAutoUpdated: '2026-07-04T19:02:34.447Z'
+    - t: '2026-07-05T02:36:10.381Z'
+      v: 90
+  lastAutoUpdated: '2026-07-05T02:36:10.381Z'
   weeklyGrowthPct: 0
 fetch:
   github: dcSpark/mcp-server-defillama
@@ -47,7 +47,7 @@ readme:
     Claude with access to DeFi data via the DefiLlama API. The server enables
     Claude to perform operations like retrieving protocol TVL data, chain TVL
     data, token prices, and stablecoin information.
-  lastFetched: '2026-07-04T19:02:43.069Z'
+  lastFetched: '2026-07-05T02:36:20.789Z'
 repoInfo:
   language: TypeScript
   license: MIT
