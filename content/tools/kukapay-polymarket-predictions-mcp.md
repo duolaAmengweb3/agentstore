@@ -9,12 +9,10 @@ score: 6.8
 tagline_en: 'kukapay''s Polymarket odds query (read-only, no trading)'
 tagline_zh: 'kukapay 的 Polymarket 赔率查询(只读,不交易)'
 metrics:
-  githubStars: 4
+  githubStars: 5
   lastPush: '2025-09-23T08:30:54Z'
   archived: false
   _history:
-    - t: '2026-07-02T08:48:48.559Z'
-      v: 40
     - t: '2026-07-02T13:47:14.937Z'
       v: 40
     - t: '2026-07-02T19:16:49.050Z'
@@ -37,8 +35,10 @@ metrics:
       v: 40
     - t: '2026-07-05T02:36:13.420Z'
       v: 40
-  lastAutoUpdated: '2026-07-05T02:36:13.420Z'
-  weeklyGrowthPct: 0
+    - t: '2026-07-05T08:46:11.127Z'
+      v: 50
+  lastAutoUpdated: '2026-07-05T08:46:11.127Z'
+  weeklyGrowthPct: 25
 fetch:
   github: kukapay/polymarket-predictions-mcp
 readme:
@@ -63,7 +63,7 @@ readme:
     - >-
       Formatted Outputs — Uses tabulate for clean, readable table outputs and
       handles JSON parsing for outcomes and prices.
-  lastFetched: '2026-07-05T02:36:23.654Z'
+  lastFetched: '2026-07-05T08:46:19.226Z'
 repoInfo:
   language: Python
   license: MIT

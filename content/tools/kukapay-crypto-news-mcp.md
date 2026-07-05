@@ -9,12 +9,10 @@ score: 6.8
 tagline_en: Crypto news aggregation feed (multi-source) — 34 stars
 tagline_zh: '加密新闻聚合流(多源),34 star'
 metrics:
-  githubStars: 14
+  githubStars: 15
   lastPush: '2025-12-10T10:47:52Z'
   archived: false
   _history:
-    - t: '2026-07-02T08:48:48.361Z'
-      v: 140
     - t: '2026-07-02T13:47:14.676Z'
       v: 140
     - t: '2026-07-02T19:16:48.820Z'
@@ -37,8 +35,10 @@ metrics:
       v: 140
     - t: '2026-07-05T02:36:12.242Z'
       v: 140
-  lastAutoUpdated: '2026-07-05T02:36:12.242Z'
-  weeklyGrowthPct: 0
+    - t: '2026-07-05T08:46:10.892Z'
+      v: 150
+  lastAutoUpdated: '2026-07-05T08:46:10.892Z'
+  weeklyGrowthPct: 7
 fetch:
   github: kukapay/crypto-news-mcp
 readme:
@@ -55,7 +55,7 @@ readme:
     - >-
       Prompt — News Summary - Generate a prompt to summarize news for a given
       cryptocurrency or topic.
-  lastFetched: '2026-07-05T02:36:23.200Z'
+  lastFetched: '2026-07-05T08:46:18.745Z'
 repoInfo:
   language: Python
   license: MIT

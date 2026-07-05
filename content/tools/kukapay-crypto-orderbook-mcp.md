@@ -10,12 +10,10 @@ tagline_en: kukapay orderbook depth query
 tagline_zh: kukapay 盘口深度查询
 metrics:
   smitheryCalls: 567
-  githubStars: 17
+  githubStars: 18
   lastPush: '2025-05-07T10:18:58Z'
   archived: false
   _history:
-    - t: '2026-07-02T08:48:48.345Z'
-      v: 170
     - t: '2026-07-02T13:47:14.695Z'
       v: 170
     - t: '2026-07-02T19:16:48.825Z'
@@ -38,8 +36,10 @@ metrics:
       v: 170
     - t: '2026-07-05T02:36:12.245Z'
       v: 170
-  lastAutoUpdated: '2026-07-05T02:36:12.245Z'
-  weeklyGrowthPct: 0
+    - t: '2026-07-05T08:46:10.899Z'
+      v: 180
+  lastAutoUpdated: '2026-07-05T08:46:10.899Z'
+  weeklyGrowthPct: 6
 fetch:
   github: kukapay/crypto-orderbook-mcp
 readme:
@@ -55,7 +55,7 @@ readme:
       Cross-Exchange Comparison — Compare order book depth and imbalance across
       multiple exchanges in a unified Markdown table.
     - 'Supported Exchanges — Binance, Kraken, Coinbase, Bitfinex, Okx, Bybit'
-  lastFetched: '2026-07-05T02:36:23.198Z'
+  lastFetched: '2026-07-05T08:46:18.769Z'
 repoInfo:
   language: Python
   license: MIT

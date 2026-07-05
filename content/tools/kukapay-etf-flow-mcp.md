@@ -9,12 +9,10 @@ score: 7.2
 tagline_en: BTC / ETH spot ETF net flows
 tagline_zh: BTC / ETH 现货 ETF 净流入
 metrics:
-  githubStars: 8
+  githubStars: 9
   lastPush: '2025-04-25T12:12:19Z'
   archived: false
   _history:
-    - t: '2026-07-02T08:48:48.354Z'
-      v: 80
     - t: '2026-07-02T13:47:14.682Z'
       v: 80
     - t: '2026-07-02T19:16:48.825Z'
@@ -37,8 +35,10 @@ metrics:
       v: 80
     - t: '2026-07-05T02:36:12.238Z'
       v: 80
-  lastAutoUpdated: '2026-07-05T02:36:12.238Z'
-  weeklyGrowthPct: 0
+    - t: '2026-07-05T08:46:10.907Z'
+      v: 90
+  lastAutoUpdated: '2026-07-05T08:46:10.907Z'
+  weeklyGrowthPct: 13
 fetch:
   github: kukapay/etf-flow-mcp
 readme:
@@ -58,7 +58,7 @@ readme:
   installCmd: |-
     git clone https://github.com/kukapay/etf-flow-mcp.git
        cd etf-flow-mcp
-  lastFetched: '2026-07-05T02:36:23.438Z'
+  lastFetched: '2026-07-05T08:46:18.981Z'
 repoInfo:
   language: Python
   license: MIT

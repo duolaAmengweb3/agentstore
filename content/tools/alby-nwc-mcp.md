@@ -9,12 +9,10 @@ score: 7.6
 tagline_en: Lightning Network MCP via Nostr Wallet Connect — non-custodial payments
 tagline_zh: '闪电网络 MCP(基于 Nostr Wallet Connect),非托管付款'
 metrics:
-  githubStars: 14
+  githubStars: 15
   lastPush: '2025-06-20T09:16:43Z'
   archived: true
   _history:
-    - t: '2026-07-02T08:48:44.742Z'
-      v: 140
     - t: '2026-07-02T13:47:10.423Z'
       v: 140
     - t: '2026-07-02T19:16:44.900Z'
@@ -37,13 +35,15 @@ metrics:
       v: 140
     - t: '2026-07-05T02:36:07.191Z'
       v: 140
-  lastAutoUpdated: '2026-07-05T02:36:07.191Z'
-  weeklyGrowthPct: 0
+    - t: '2026-07-05T08:46:07.291Z'
+      v: 150
+  lastAutoUpdated: '2026-07-05T08:46:07.291Z'
+  weeklyGrowthPct: 7
 fetch:
   github: getalby/nwc-mcp-server
 readme:
   about: Please use Alby MCP instead!
-  lastFetched: '2026-07-05T02:36:17.963Z'
+  lastFetched: '2026-07-05T08:46:13.929Z'
 repoInfo:
   language: TypeScript
   license: null

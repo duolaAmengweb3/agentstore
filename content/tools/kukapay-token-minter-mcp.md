@@ -9,12 +9,10 @@ score: 7
 tagline_en: ERC-20 minting across 21 chains
 tagline_zh: 21 链 ERC-20 铸币 MCP
 metrics:
-  githubStars: 19
+  githubStars: 20
   lastPush: '2025-04-28T12:09:32Z'
   archived: false
   _history:
-    - t: '2026-07-02T08:48:48.933Z'
-      v: 190
     - t: '2026-07-02T13:47:16.297Z'
       v: 190
     - t: '2026-07-02T19:16:49.416Z'
@@ -37,8 +35,10 @@ metrics:
       v: 190
     - t: '2026-07-05T02:36:13.930Z'
       v: 190
-  lastAutoUpdated: '2026-07-05T02:36:13.930Z'
-  weeklyGrowthPct: 0
+    - t: '2026-07-05T08:46:11.506Z'
+      v: 200
+  lastAutoUpdated: '2026-07-05T08:46:11.506Z'
+  weeklyGrowthPct: 5
 fetch:
   github: kukapay/token-minter-mcp
 readme:
@@ -65,7 +65,7 @@ readme:
   installCmd: |-
     git clone https://github.com/kukapay/token-minter-mcp.git
        cd token-minter-mcp/server
-  lastFetched: '2026-07-05T02:36:23.901Z'
+  lastFetched: '2026-07-05T08:46:19.425Z'
 repoInfo:
   language: JavaScript
   license: MIT

@@ -9,12 +9,10 @@ score: 6.9
 tagline_en: Per-wallet multichain history / holdings (Dune-powered)
 tagline_zh: 单钱包多链历史 / 持仓查询(Dune 底层)
 metrics:
-  githubStars: 8
+  githubStars: 9
   lastPush: '2025-06-01T09:39:07Z'
   archived: false
   _history:
-    - t: '2026-07-02T08:48:48.926Z'
-      v: 80
     - t: '2026-07-02T13:47:16.341Z'
       v: 80
     - t: '2026-07-02T19:16:49.446Z'
@@ -37,8 +35,10 @@ metrics:
       v: 80
     - t: '2026-07-05T02:36:13.894Z'
       v: 80
-  lastAutoUpdated: '2026-07-05T02:36:13.894Z'
-  weeklyGrowthPct: 0
+    - t: '2026-07-05T08:46:11.511Z'
+      v: 90
+  lastAutoUpdated: '2026-07-05T08:46:11.511Z'
+  weeklyGrowthPct: 13
 fetch:
   github: kukapay/wallet-inspector-mcp
 readme:
@@ -52,7 +52,7 @@ readme:
     - >-
       Flexible Output — Balances in ASCII tables, activities and transactions in
       structured text.
-  lastFetched: '2026-07-05T02:36:23.903Z'
+  lastFetched: '2026-07-05T08:46:19.461Z'
 repoInfo:
   language: Python
   license: MIT

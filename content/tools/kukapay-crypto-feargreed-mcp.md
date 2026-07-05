@@ -9,12 +9,10 @@ score: 7.1
 tagline_en: Alt.me fear & greed index interface — 53 stars
 tagline_zh: 'Alt.me 恐惧贪婪指数接口,53 star'
 metrics:
-  githubStars: 53
+  githubStars: 54
   lastPush: '2025-05-10T14:16:11Z'
   archived: false
   _history:
-    - t: '2026-07-02T08:48:48.112Z'
-      v: 530
     - t: '2026-07-02T13:47:14.330Z'
       v: 530
     - t: '2026-07-02T19:16:48.594Z'
@@ -37,8 +35,10 @@ metrics:
       v: 530
     - t: '2026-07-05T02:36:11.917Z'
       v: 530
-  lastAutoUpdated: '2026-07-05T02:36:11.917Z'
-  weeklyGrowthPct: 0
+    - t: '2026-07-05T08:46:10.675Z'
+      v: 540
+  lastAutoUpdated: '2026-07-05T08:46:10.675Z'
+  weeklyGrowthPct: 2
 fetch:
   github: kukapay/crypto-feargreed-mcp
 readme:
@@ -61,7 +61,7 @@ readme:
     - >-
       Prompt Generation — Provides a prompt template for interpreting index
       values.
-  lastFetched: '2026-07-05T02:36:22.957Z'
+  lastFetched: '2026-07-05T08:46:18.543Z'
 repoInfo:
   language: Python
   license: MIT
