@@ -9,12 +9,10 @@ score: 7.4
 tagline_en: 'Heurist Mesh — decentralized agent compute MCP, 64 stars'
 tagline_zh: 'Heurist Mesh:去中心化 agent 算力 MCP,64 star'
 metrics:
-  githubStars: 65
+  githubStars: 66
   lastPush: '2026-03-25T17:30:33Z'
   archived: false
   _history:
-    - t: '2026-07-03T02:28:31.673Z'
-      v: 640
     - t: '2026-07-03T08:55:04.460Z'
       v: 640
     - t: '2026-07-03T13:51:55.410Z'
@@ -37,8 +35,10 @@ metrics:
       v: 650
     - t: '2026-07-05T19:08:53.662Z'
       v: 650
-  lastAutoUpdated: '2026-07-05T19:08:53.662Z'
-  weeklyGrowthPct: 2
+    - t: '2026-07-06T02:40:25.147Z'
+      v: 660
+  lastAutoUpdated: '2026-07-06T02:40:25.147Z'
+  weeklyGrowthPct: 3
 fetch:
   github: heurist-network/heurist-mesh-mcp-server
 readme:
@@ -68,7 +68,7 @@ readme:
     - '"mesh-tool-server"'
     - '],'
     - '"HEURIST_API_KEY": "your-api-key-here"  // Update this key'
-  lastFetched: '2026-07-05T19:09:01.295Z'
+  lastFetched: '2026-07-06T02:40:32.645Z'
 repoInfo:
   language: Python
   license: MIT
