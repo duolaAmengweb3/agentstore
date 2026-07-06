@@ -9,12 +9,10 @@ score: 7.8
 tagline_en: Codex.io official MCP — token + market data
 tagline_zh: 'Codex.io 官方 MCP:代币 + 市场数据'
 metrics:
-  githubStars: 26
+  githubStars: 25
   lastPush: '2025-04-05T16:29:23Z'
   archived: false
   _history:
-    - t: '2026-07-03T13:51:52.981Z'
-      v: 240
     - t: '2026-07-03T19:11:32.094Z'
       v: 240
     - t: '2026-07-04T02:26:50.125Z'
@@ -37,8 +35,10 @@ metrics:
       v: 260
     - t: '2026-07-06T10:07:30.759Z'
       v: 260
-  lastAutoUpdated: '2026-07-06T10:07:30.759Z'
-  weeklyGrowthPct: 8
+    - t: '2026-07-06T15:20:24.822Z'
+      v: 250
+  lastAutoUpdated: '2026-07-06T15:20:24.822Z'
+  weeklyGrowthPct: 4
 fetch:
   github: Codex-Data/codex-mcp
 readme:
@@ -55,7 +55,7 @@ readme:
 
     # Build the project
     pnpm build
-  lastFetched: '2026-07-06T10:07:38.768Z'
+  lastFetched: '2026-07-06T15:20:34.561Z'
 repoInfo:
   language: TypeScript
   license: null

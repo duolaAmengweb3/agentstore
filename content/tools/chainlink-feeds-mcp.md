@@ -9,12 +9,10 @@ score: 7.3
 tagline_en: Chainlink onchain price feeds MCP
 tagline_zh: Chainlink 链上价格源 MCP
 metrics:
-  githubStars: 8
+  githubStars: 7
   lastPush: '2025-07-24T13:18:32Z'
   archived: false
   _history:
-    - t: '2026-07-03T13:51:52.747Z'
-      v: 60
     - t: '2026-07-03T19:11:31.731Z'
       v: 60
     - t: '2026-07-04T02:26:49.903Z'
@@ -37,8 +35,10 @@ metrics:
       v: 80
     - t: '2026-07-06T10:07:30.507Z'
       v: 80
-  lastAutoUpdated: '2026-07-06T10:07:30.507Z'
-  weeklyGrowthPct: 33
+    - t: '2026-07-06T15:20:24.596Z'
+      v: 70
+  lastAutoUpdated: '2026-07-06T15:20:24.596Z'
+  weeklyGrowthPct: 17
 fetch:
   github: kukapay/chainlink-feeds-mcp
 readme:
@@ -69,7 +69,7 @@ readme:
   installCmd: |-
     git clone https://github.com/kukapay/chainlink-feeds-mcp.git
        cd chainlink-feeds-mcp
-  lastFetched: '2026-07-06T10:07:38.484Z'
+  lastFetched: '2026-07-06T15:20:34.147Z'
 repoInfo:
   language: JavaScript
   license: MIT

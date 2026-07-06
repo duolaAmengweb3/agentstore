@@ -10,12 +10,10 @@ tagline_en: Binance liquidation real-time stream
 tagline_zh: Binance 清算实时流
 metrics:
   smitheryCalls: 312
-  githubStars: 10
+  githubStars: 9
   lastPush: '2025-05-06T08:53:13Z'
   archived: false
   _history:
-    - t: '2026-07-03T13:51:55.623Z'
-      v: 90
     - t: '2026-07-03T19:11:34.599Z'
       v: 90
     - t: '2026-07-04T02:26:52.370Z'
@@ -38,8 +36,10 @@ metrics:
       v: 100
     - t: '2026-07-06T10:07:32.996Z'
       v: 100
-  lastAutoUpdated: '2026-07-06T10:07:32.996Z'
-  weeklyGrowthPct: 11
+    - t: '2026-07-06T15:20:27.872Z'
+      v: 90
+  lastAutoUpdated: '2026-07-06T15:20:27.872Z'
+  weeklyGrowthPct: 0
 fetch:
   github: kukapay/crypto-liquidations-mcp
 readme:
@@ -62,7 +62,7 @@ readme:
     - >-
       Generates a prompt to analyze liquidation trends across all symbols,
       leveraging the get_latest_liquidations tool.
-  lastFetched: '2026-07-06T10:07:41.649Z'
+  lastFetched: '2026-07-06T15:20:37.863Z'
 repoInfo:
   language: Python
   license: MIT
