@@ -10,13 +10,11 @@ tagline_en: 200+ integrations multi-chain agent toolkit with built-in MCP adapte
 tagline_zh: '200+ 集成的多链 agent 工具包,内置 MCP adapter'
 metrics:
   npmMonthly: 6421
-  githubStars: 1000
+  githubStars: 1002
   weeklyGrowthPct: 0
   lastPush: '2026-07-02T19:10:23Z'
   archived: false
   _history:
-    - t: '2026-07-05T02:36:11.121Z'
-      v: 16421
     - t: '2026-07-05T08:46:10.035Z'
       v: 16421
     - t: '2026-07-05T13:20:34.426Z'
@@ -39,7 +37,9 @@ metrics:
       v: 16421
     - t: '2026-07-07T19:47:31.268Z'
       v: 16421
-  lastAutoUpdated: '2026-07-07T19:47:31.268Z'
+    - t: '2026-07-08T02:10:03.346Z'
+      v: 16441
+  lastAutoUpdated: '2026-07-08T02:10:03.346Z'
 fetch:
   github: goat-sdk/goat
 readme:
@@ -94,7 +94,7 @@ readme:
       description: >-
         Bridge tokens on DeBridge · @goat-sdk/plugin-debridge ·
         goat-sdk-plugin-debridge
-  lastFetched: '2026-07-07T19:47:39.789Z'
+  lastFetched: '2026-07-08T02:10:13.176Z'
 repoInfo:
   language: TypeScript
   license: MIT
