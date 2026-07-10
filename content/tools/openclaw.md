@@ -9,13 +9,11 @@ score: 7.2
 tagline_en: OpenClaw — open-source agent runtime (open-source counterpart to Claude Code)
 tagline_zh: 'OpenClaw:开源 agent runtime(Claude Code 的开源对标)'
 metrics:
-  githubStars: 382343
+  githubStars: 382366
   weeklyGrowthPct: 0
-  lastPush: '2026-07-09T19:35:23Z'
+  lastPush: '2026-07-10T02:28:58Z'
   archived: false
   _history:
-    - t: '2026-07-07T02:36:44.253Z'
-      v: 3819650
     - t: '2026-07-07T09:32:19.296Z'
       v: 3820260
     - t: '2026-07-07T14:19:20.942Z'
@@ -38,11 +36,17 @@ metrics:
       v: 3823130
     - t: '2026-07-09T19:37:04.198Z'
       v: 3823430
-  lastAutoUpdated: '2026-07-09T19:37:04.198Z'
+    - t: '2026-07-10T02:30:42.008Z'
+      v: 3823660
+  lastAutoUpdated: '2026-07-10T02:30:42.008Z'
 fetch:
   github: OpenClaw/openclaw
 readme:
-  about: EXFOLIATE! EXFOLIATE!
+  about: >-
+    OpenClaw is a _personal AI assistant_ you run on your own devices. It
+    answers you on the channels you already use. It can speak and listen on
+    macOS/iOS/Android, and can render a live Canvas you control. The Gateway is
+    just the control plane — the product is the assistant.
   features:
     - >-
       Local-first Gateway — single control plane for sessions, channels, tools,
@@ -61,7 +65,7 @@ readme:
     - >-
       Onboarding + skills — onboarding-driven setup with
       bundled/managed/workspace skills.
-  lastFetched: '2026-07-09T19:37:15.755Z'
+  lastFetched: '2026-07-10T02:30:55.976Z'
 repoInfo:
   language: TypeScript
   license: NOASSERTION
@@ -74,7 +78,7 @@ repoInfo:
     - own-your-data
     - personal
   contributors: 369
-  openIssues: 6293
+  openIssues: 6281
   archived: false
   createdAt: '2025-11-24T10:16:47Z'
   defaultBranch: main
