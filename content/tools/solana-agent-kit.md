@@ -15,8 +15,6 @@ metrics:
   githubStars: 1701
   weeklyGrowthPct: -0.0
   _history:
-    - t: '2026-07-07T09:32:20.920Z'
-      v: 22325
     - t: '2026-07-07T14:19:22.068Z'
       v: 22325
     - t: '2026-07-07T19:47:34.735Z'
@@ -39,7 +37,9 @@ metrics:
       v: 22237
     - t: '2026-07-10T02:30:43.291Z'
       v: 22227
-  lastAutoUpdated: '2026-07-10T02:30:43.291Z'
+    - t: '2026-07-10T09:25:40.242Z'
+      v: 22227
+  lastAutoUpdated: '2026-07-10T09:25:40.242Z'
   lastPush: '2026-05-14T18:46:54Z'
   archived: false
 fetch:
@@ -56,7 +56,7 @@ readme:
     - const keyPair = Keypair.fromSecretKey(bs58.decode("YOUR_SECRET_KEY"))
     - const wallet = new KeypairWallet(keyPair)
     - const agent = new SolanaAgentKit(
-  lastFetched: '2026-07-10T02:30:56.897Z'
+  lastFetched: '2026-07-10T09:25:50.626Z'
 repoInfo:
   language: TypeScript
   license: Apache-2.0
