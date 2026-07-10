@@ -13,8 +13,6 @@ metrics:
   lastPush: '2025-05-06T08:52:14Z'
   archived: false
   _history:
-    - t: '2026-07-07T19:47:32.511Z'
-      v: 200
     - t: '2026-07-08T02:10:04.469Z'
       v: 200
     - t: '2026-07-08T08:18:09.500Z'
@@ -37,7 +35,9 @@ metrics:
       v: 200
     - t: '2026-07-10T14:10:04.990Z'
       v: 200
-  lastAutoUpdated: '2026-07-10T14:10:04.990Z'
+    - t: '2026-07-10T19:20:30.558Z'
+      v: 200
+  lastAutoUpdated: '2026-07-10T19:20:30.558Z'
   weeklyGrowthPct: 0
 fetch:
   github: kukapay/rug-check-mcp
@@ -52,7 +52,7 @@ readme:
     - >-
       Structured Output — Returns detailed token information including name,
       symbol, Snif score, market cap, price, supply, risks, and audit status.
-  lastFetched: '2026-07-10T14:10:14.883Z'
+  lastFetched: '2026-07-10T19:20:41.396Z'
 repoInfo:
   language: Python
   license: MIT
