@@ -12,11 +12,9 @@ tagline_en: >-
 tagline_zh: '加密自治 agent 第一框架:TS 多 agent 模拟,45+ plugin,超一半新 AI crypto 项目在用'
 metrics:
   npmMonthly: 80606
-  githubStars: 18738
+  githubStars: 18739
   weeklyGrowthPct: -0.0
   _history:
-    - t: '2026-07-10T19:20:29.041Z'
-      v: 268439
     - t: '2026-07-11T02:07:31.642Z'
       v: 268439
     - t: '2026-07-11T07:47:07.710Z'
@@ -39,8 +37,10 @@ metrics:
       v: 267966
     - t: '2026-07-13T14:21:43.461Z'
       v: 267986
-  lastAutoUpdated: '2026-07-13T14:21:43.461Z'
-  lastPush: '2026-07-13T14:03:38Z'
+    - t: '2026-07-13T19:17:45.382Z'
+      v: 267996
+  lastAutoUpdated: '2026-07-13T19:17:45.382Z'
+  lastPush: '2026-07-13T19:14:45Z'
   archived: false
 fetch:
   github: elizaOS/eliza
@@ -49,7 +49,7 @@ readme:
   about: >-
     elizaOS is an open-source, local-first operating system for AI agents. Two
     parts:
-  lastFetched: '2026-07-13T14:21:51.725Z'
+  lastFetched: '2026-07-13T19:17:53.883Z'
 repoInfo:
   language: TypeScript
   license: MIT
@@ -63,7 +63,7 @@ repoInfo:
     - discord
     - eliza
   contributors: 26
-  openIssues: 202
+  openIssues: 220
   archived: false
   createdAt: '2024-07-09T07:55:40Z'
   defaultBranch: develop
