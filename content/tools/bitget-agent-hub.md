@@ -16,8 +16,6 @@ metrics:
   lastPush: '2026-06-30T05:59:11Z'
   archived: false
   _history:
-    - t: '2026-07-11T13:06:43.951Z'
-      v: 2180
     - t: '2026-07-11T18:53:54.845Z'
       v: 2180
     - t: '2026-07-12T02:11:35.027Z'
@@ -40,7 +38,9 @@ metrics:
       v: 2180
     - t: '2026-07-14T07:53:39.879Z'
       v: 2180
-  lastAutoUpdated: '2026-07-14T07:53:39.879Z'
+    - t: '2026-07-14T13:21:44.236Z'
+      v: 2180
+  lastAutoUpdated: '2026-07-14T13:21:44.236Z'
 fetch:
   github: BitgetLimited/agent_hub
 readme:
@@ -56,11 +56,19 @@ readme:
       description: Switch a package to a specific published version
     - name: 'install [pkg] [--target ]'
       description: Deploy an already-installed package's skills to your AI tools
-  lastFetched: '2026-07-14T07:53:47.944Z'
+  lastFetched: '2026-07-14T13:21:51.877Z'
 repoInfo:
   language: JavaScript
   license: MIT
-  topics: []
+  topics:
+    - ai-agent
+    - bitget
+    - chatgpt
+    - claude
+    - crypto-trading
+    - cryptocurrency
+    - cursor
+    - mcp
   contributors: 0
   openIssues: 9
   archived: false
