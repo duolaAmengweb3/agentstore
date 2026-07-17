@@ -9,12 +9,10 @@ score: 8.3
 tagline_en: Jupiter official Rust SDK (Swap API V6) — quote → swap two-phase execution
 tagline_zh: 'Jupiter 官方 Rust SDK(Swap API V6):quote → swap 两阶段执行'
 metrics:
-  githubStars: 198
+  githubStars: 199
   lastPush: '2026-05-05T04:08:48Z'
   archived: false
   _history:
-    - t: '2026-07-14T01:58:55.037Z'
-      v: 1970
     - t: '2026-07-14T07:53:42.291Z'
       v: 1970
     - t: '2026-07-14T13:21:46.696Z'
@@ -37,7 +35,9 @@ metrics:
       v: 1980
     - t: '2026-07-16T19:02:01.152Z'
       v: 1980
-  lastAutoUpdated: '2026-07-16T19:02:01.152Z'
+    - t: '2026-07-17T02:09:14.702Z'
+      v: 1990
+  lastAutoUpdated: '2026-07-17T02:09:14.702Z'
   weeklyGrowthPct: 1
 fetch:
   github: jup-ag/jupiter-swap-api-client
@@ -68,7 +68,7 @@ readme:
   installCmd: |-
     [dependencies]
         jupiter-swap-api-client = { git = "https://github.com/jup-ag/jupiter-swap-api-client.git", package = "jupiter-swap-api-client"}
-  lastFetched: '2026-07-16T19:02:09.086Z'
+  lastFetched: '2026-07-17T02:09:23.821Z'
 repoInfo:
   language: Rust
   license: null
