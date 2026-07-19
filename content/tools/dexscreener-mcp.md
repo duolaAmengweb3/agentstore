@@ -13,8 +13,6 @@ metrics:
   lastPush: '2025-01-06T14:59:12Z'
   archived: false
   _history:
-    - t: '2026-07-16T08:03:35.223Z'
-      v: 210
     - t: '2026-07-16T13:39:10.336Z'
       v: 210
     - t: '2026-07-16T19:01:59.822Z'
@@ -37,7 +35,9 @@ metrics:
       v: 210
     - t: '2026-07-19T02:09:38.556Z'
       v: 210
-  lastAutoUpdated: '2026-07-19T02:09:38.556Z'
+    - t: '2026-07-19T08:07:18.887Z'
+      v: 210
+  lastAutoUpdated: '2026-07-19T08:07:18.887Z'
   weeklyGrowthPct: 0
 fetch:
   github: openSVM/dexscreener-mcp-server
@@ -56,7 +56,7 @@ readme:
     npm install
     npm run build
     npm run setup
-  lastFetched: '2026-07-19T02:09:45.519Z'
+  lastFetched: '2026-07-19T08:07:26.702Z'
 repoInfo:
   language: JavaScript
   license: Unlicense
