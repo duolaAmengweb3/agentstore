@@ -15,8 +15,6 @@ metrics:
   githubStars: 18763
   weeklyGrowthPct: 0
   _history:
-    - t: '2026-07-16T02:06:06.375Z'
-      v: 263708
     - t: '2026-07-16T08:03:35.421Z'
       v: 263718
     - t: '2026-07-16T13:39:10.820Z'
@@ -39,8 +37,10 @@ metrics:
       v: 264002
     - t: '2026-07-18T18:55:14.369Z'
       v: 264022
-  lastAutoUpdated: '2026-07-18T18:55:14.369Z'
-  lastPush: '2026-07-18T18:53:20Z'
+    - t: '2026-07-19T02:09:39.083Z'
+      v: 264022
+  lastAutoUpdated: '2026-07-19T02:09:39.083Z'
+  lastPush: '2026-07-19T00:27:27Z'
   archived: false
 fetch:
   github: elizaOS/eliza
@@ -49,7 +49,7 @@ readme:
   about: >-
     elizaOS is an open-source, local-first operating system for AI agents. Two
     parts:
-  lastFetched: '2026-07-18T18:55:21.711Z'
+  lastFetched: '2026-07-19T02:09:45.727Z'
 repoInfo:
   language: TypeScript
   license: MIT
@@ -63,7 +63,7 @@ repoInfo:
     - discord
     - eliza
   contributors: 29
-  openIssues: 262
+  openIssues: 271
   archived: false
   createdAt: '2024-07-09T07:55:40Z'
   defaultBranch: develop
