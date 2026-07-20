@@ -14,8 +14,6 @@ metrics:
   lastPush: '2026-07-16T14:01:20Z'
   archived: false
   _history:
-    - t: '2026-07-17T08:00:37.176Z'
-      v: 1610
     - t: '2026-07-17T13:16:46.345Z'
       v: 1610
     - t: '2026-07-17T18:59:51.598Z'
@@ -38,12 +36,14 @@ metrics:
       v: 1610
     - t: '2026-07-20T02:30:17.740Z'
       v: 1610
-  lastAutoUpdated: '2026-07-20T02:30:17.740Z'
+    - t: '2026-07-20T08:48:43.522Z'
+      v: 1610
+  lastAutoUpdated: '2026-07-20T08:48:43.522Z'
 fetch:
   github: aaronjmars/web3-research-mcp
 readme:
   about: "Deep Research for crypto - free & fully local \U0001F9E0"
-  lastFetched: '2026-07-20T02:30:26.518Z'
+  lastFetched: '2026-07-20T08:48:52.026Z'
 repoInfo:
   language: TypeScript
   license: MIT
