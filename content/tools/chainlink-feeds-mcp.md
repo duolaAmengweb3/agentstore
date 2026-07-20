@@ -13,8 +13,6 @@ metrics:
   lastPush: '2025-07-24T13:18:32Z'
   archived: false
   _history:
-    - t: '2026-07-17T18:59:45.957Z'
-      v: 70
     - t: '2026-07-18T01:58:25.405Z'
       v: 70
     - t: '2026-07-18T07:40:25.059Z'
@@ -37,7 +35,9 @@ metrics:
       v: 70
     - t: '2026-07-20T13:54:49.686Z'
       v: 70
-  lastAutoUpdated: '2026-07-20T13:54:49.686Z'
+    - t: '2026-07-20T19:37:50.617Z'
+      v: 70
+  lastAutoUpdated: '2026-07-20T19:37:50.617Z'
   weeklyGrowthPct: 0
 fetch:
   github: kukapay/chainlink-feeds-mcp
@@ -69,7 +69,7 @@ readme:
   installCmd: |-
     git clone https://github.com/kukapay/chainlink-feeds-mcp.git
        cd chainlink-feeds-mcp
-  lastFetched: '2026-07-20T13:54:57.718Z'
+  lastFetched: '2026-07-20T19:37:59.809Z'
 repoInfo:
   language: JavaScript
   license: MIT
