@@ -11,10 +11,8 @@ tagline_zh: 'OKX 官方 MCP + CLI,140 个工具覆盖现货 / 合约 / 期权 / 
 metrics:
   npmMonthly: 2792
   githubStars: 372
-  weeklyGrowthPct: -3
+  weeklyGrowthPct: -5
   _history:
-    - t: '2026-07-18T07:40:29.075Z'
-      v: 6747
     - t: '2026-07-18T13:02:43.112Z'
       v: 6864
     - t: '2026-07-18T18:55:17.227Z'
@@ -37,8 +35,10 @@ metrics:
       v: 6512
     - t: '2026-07-21T02:08:34.505Z'
       v: 6512
-  lastAutoUpdated: '2026-07-21T02:08:34.505Z'
-  lastPush: '2026-07-15T15:52:00Z'
+    - t: '2026-07-21T08:17:21.981Z'
+      v: 6512
+  lastAutoUpdated: '2026-07-21T08:17:21.981Z'
+  lastPush: '2026-07-21T03:01:40Z'
   archived: false
 fetch:
   github: okx/agent-trade-kit
@@ -49,7 +49,7 @@ readme:
     grid bots via the Model Context Protocol.  
   features:
     - >-
-      164 tools across 11 modules (17 sub-modules) — Full trading lifecycle:
+      167 tools across 11 modules (17 sub-modules) — Full trading lifecycle:
       market data → orders → algo orders → account management → earn → trading
       bots → event contracts → news → smart money signals
     - >-
@@ -116,9 +116,9 @@ readme:
         Currency Deposit/双币赢 (6). Flash Earn (1). Sub-modules: earn.savings,
         earn.onchain, earn.dcd, earn.flash. Included in all. ·
     - name: bot
-      count: 10
+      count: 14
       description: >-
-        Trading bots: Grid (5) and DCA — Spot & Contract (5). Sub-modules:
+        Trading bots: Grid (9) and DCA — Spot & Contract (5). Sub-modules:
         bot.grid, bot.dca ·
     - name: news
       count: 7
@@ -161,7 +161,7 @@ readme:
 
     okx-trade-mcp setup --client vscode          # writes .mcp.json in current
     directory
-  lastFetched: '2026-07-21T02:08:42.249Z'
+  lastFetched: '2026-07-21T08:17:31.542Z'
 repoInfo:
   language: TypeScript
   license: MIT
