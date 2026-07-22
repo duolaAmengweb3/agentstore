@@ -9,13 +9,11 @@ score: 7.2
 tagline_en: OpenClaw — open-source agent runtime (open-source counterpart to Claude Code)
 tagline_zh: 'OpenClaw:开源 agent runtime(Claude Code 的开源对标)'
 metrics:
-  githubStars: 383732
+  githubStars: 383778
   weeklyGrowthPct: 0
-  lastPush: '2026-07-22T01:55:14Z'
+  lastPush: '2026-07-22T08:16:39Z'
   archived: false
   _history:
-    - t: '2026-07-19T08:07:21.598Z'
-      v: 3834290
     - t: '2026-07-19T13:05:01.792Z'
       v: 3834590
     - t: '2026-07-19T18:58:26.129Z'
@@ -38,15 +36,19 @@ metrics:
       v: 3837020
     - t: '2026-07-22T02:06:47.333Z'
       v: 3837320
-  lastAutoUpdated: '2026-07-22T02:06:47.333Z'
+    - t: '2026-07-22T08:18:30.691Z'
+      v: 3837780
+  lastAutoUpdated: '2026-07-22T08:18:30.691Z'
 fetch:
   github: OpenClaw/openclaw
 readme:
   about: >-
-    OpenClaw is a _personal AI assistant_ you run on your own devices. It
-    answers you on the channels you already use. It can speak and listen on
-    macOS/iOS/Android, and can render a live Canvas you control. The Gateway is
-    just the control plane — the product is the assistant.
+    OpenClaw is a _personal AI assistant_ that learns and grows with you,
+    running on your own devices — developed in the open by the OpenClaw
+    Foundation (a non-profit). It answers you on the channels you already use.
+    It can speak and listen on macOS/iOS/Android, and can render a live Canvas
+    you control. The Gateway is just the control plane — the product is the
+    assistant.
   features:
     - >-
       Local-first Gateway — single control plane for sessions, channels, tools,
@@ -65,7 +67,7 @@ readme:
     - >-
       Onboarding + skills — onboarding-driven setup with
       bundled/managed/workspace skills.
-  lastFetched: '2026-07-22T02:06:55.862Z'
+  lastFetched: '2026-07-22T08:18:41.526Z'
 repoInfo:
   language: TypeScript
   license: NOASSERTION
@@ -78,7 +80,7 @@ repoInfo:
     - own-your-data
     - personal
   contributors: 368
-  openIssues: 7023
+  openIssues: 6898
   archived: false
   createdAt: '2025-11-24T10:16:47Z'
   defaultBranch: main
