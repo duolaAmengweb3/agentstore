@@ -13,12 +13,10 @@ tagline_zh: 'Jupiter Ultra:Solana 最佳路由聚合 + RFQ,吞吐 Solana 90% swa
 metrics:
   npmMonthly: 12453
   githubStars: 198
-  weeklyGrowthPct: -0.0
+  weeklyGrowthPct: 0
   lastPush: '2026-05-05T04:08:48Z'
   archived: false
   _history:
-    - t: '2026-07-20T02:30:14.970Z'
-      v: 14443
     - t: '2026-07-20T08:48:40.574Z'
       v: 14433
     - t: '2026-07-20T13:54:52.195Z'
@@ -41,7 +39,9 @@ metrics:
       v: 14433
     - t: '2026-07-22T19:05:54.465Z'
       v: 14433
-  lastAutoUpdated: '2026-07-22T19:05:54.465Z'
+    - t: '2026-07-23T02:13:10.857Z'
+      v: 14433
+  lastAutoUpdated: '2026-07-23T02:13:10.857Z'
 fetch:
   github: jup-ag/jupiter-swap-api-client
 readme:
@@ -71,7 +71,7 @@ readme:
   installCmd: |-
     [dependencies]
         jupiter-swap-api-client = { git = "https://github.com/jup-ag/jupiter-swap-api-client.git", package = "jupiter-swap-api-client"}
-  lastFetched: '2026-07-22T19:06:04.895Z'
+  lastFetched: '2026-07-23T02:13:18.203Z'
 repoInfo:
   language: Rust
   license: null
