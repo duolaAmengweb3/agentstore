@@ -15,8 +15,6 @@ metrics:
   githubStars: 1704
   weeklyGrowthPct: 1
   _history:
-    - t: '2026-07-21T19:12:03.189Z'
-      v: 21538
     - t: '2026-07-22T02:06:48.056Z'
       v: 21538
     - t: '2026-07-22T08:18:31.877Z'
@@ -39,7 +37,9 @@ metrics:
       v: 21529
     - t: '2026-07-24T13:25:25.954Z'
       v: 21701
-  lastAutoUpdated: '2026-07-24T13:25:25.954Z'
+    - t: '2026-07-24T19:17:28.264Z'
+      v: 21701
+  lastAutoUpdated: '2026-07-24T19:17:28.264Z'
   lastPush: '2026-05-14T18:46:54Z'
   archived: false
 fetch:
@@ -56,7 +56,7 @@ readme:
     - const keyPair = Keypair.fromSecretKey(bs58.decode("YOUR_SECRET_KEY"))
     - const wallet = new KeypairWallet(keyPair)
     - const agent = new SolanaAgentKit(
-  lastFetched: '2026-07-24T13:25:38.046Z'
+  lastFetched: '2026-07-24T19:17:40.346Z'
 repoInfo:
   language: TypeScript
   license: Apache-2.0
@@ -68,7 +68,7 @@ repoInfo:
     - solana-langchain
     - web3js
   contributors: 87
-  openIssues: 58
+  openIssues: 59
   archived: false
   createdAt: '2024-11-17T09:10:19Z'
   defaultBranch: v2
