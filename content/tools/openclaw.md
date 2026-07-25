@@ -9,13 +9,11 @@ score: 7.2
 tagline_en: OpenClaw — open-source agent runtime (open-source counterpart to Claude Code)
 tagline_zh: 'OpenClaw:开源 agent runtime(Claude Code 的开源对标)'
 metrics:
-  githubStars: 384048
+  githubStars: 384071
   weeklyGrowthPct: 0
-  lastPush: '2026-07-25T02:08:53Z'
+  lastPush: '2026-07-25T07:58:14Z'
   archived: false
   _history:
-    - t: '2026-07-22T08:18:30.691Z'
-      v: 3837780
     - t: '2026-07-22T13:38:56.410Z'
       v: 3838050
     - t: '2026-07-22T19:05:56.541Z'
@@ -38,21 +36,26 @@ metrics:
       v: 3840240
     - t: '2026-07-25T02:09:06.567Z'
       v: 3840480
-  lastAutoUpdated: '2026-07-25T02:09:06.567Z'
+    - t: '2026-07-25T07:58:55.747Z'
+      v: 3840710
+  lastAutoUpdated: '2026-07-25T07:58:55.747Z'
 fetch:
   github: OpenClaw/openclaw
 readme:
   about: >-
     OpenClaw is a _personal AI assistant_ that learns and grows with you,
     running on your own devices — developed in the open by the OpenClaw
-    Foundation (a non-profit). It answers you on the channels you already use.
-    It can speak and listen on macOS/iOS/Android, and can render a live Canvas
-    you control. The Gateway is just the control plane — the product is the
+    Foundation, a non-profit. It answers you on the channels you already use,
+    can speak and listen on macOS/iOS/Android, and can render a live Canvas you
+    control. The Gateway is just the control plane — the product is the
     assistant.
   features:
     - >-
       Local-first Gateway — single control plane for sessions, channels, tools,
       and events.
+    - >-
+      Multi-channel inbox — 25+ channels through bundled plugins (see the list
+      above), plus macOS, iOS, and Android nodes.
     - >-
       Multi-agent routing — route inbound channels/accounts/peers to isolated
       agents (workspaces + per-agent sessions).
@@ -67,7 +70,10 @@ readme:
     - >-
       Onboarding + skills — onboarding-driven setup with
       bundled/managed/workspace skills.
-  lastFetched: '2026-07-25T02:09:16.688Z'
+  installCmd: |-
+    # macOS / Linux
+    curl -fsSL https://openclaw.ai/install.sh | bash
+  lastFetched: '2026-07-25T07:59:07.460Z'
 repoInfo:
   language: TypeScript
   license: NOASSERTION
@@ -80,7 +86,7 @@ repoInfo:
     - own-your-data
     - personal
   contributors: 368
-  openIssues: 7008
+  openIssues: 6991
   archived: false
   createdAt: '2025-11-24T10:16:47Z'
   defaultBranch: main
