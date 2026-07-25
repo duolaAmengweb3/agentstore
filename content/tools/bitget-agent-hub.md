@@ -16,8 +16,6 @@ metrics:
   lastPush: '2026-06-30T05:59:11Z'
   archived: false
   _history:
-    - t: '2026-07-22T13:38:50.679Z'
-      v: 2180
     - t: '2026-07-22T19:05:51.666Z'
       v: 2180
     - t: '2026-07-23T02:13:08.889Z'
@@ -40,7 +38,9 @@ metrics:
       v: 2180
     - t: '2026-07-25T07:58:50.476Z'
       v: 2180
-  lastAutoUpdated: '2026-07-25T07:58:50.476Z'
+    - t: '2026-07-25T13:12:53.113Z'
+      v: 2180
+  lastAutoUpdated: '2026-07-25T13:12:53.113Z'
 fetch:
   github: BitgetLimited/agent_hub
 readme:
@@ -56,7 +56,7 @@ readme:
       description: Switch a package to a specific published version
     - name: 'install [pkg] [--target ]'
       description: Deploy an already-installed package's skills to your AI tools
-  lastFetched: '2026-07-25T07:58:59.253Z'
+  lastFetched: '2026-07-25T13:13:01.703Z'
 repoInfo:
   language: JavaScript
   license: MIT
