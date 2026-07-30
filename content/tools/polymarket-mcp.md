@@ -13,12 +13,10 @@ tagline_zh: 'Polymarket 预测市场 MCP:54,822 次调用 — 装机量整个加
 metrics:
   smitheryCalls: 54822
   githubStars: 10
-  weeklyGrowthPct: 11
+  weeklyGrowthPct: 0
   lastPush: '2025-11-08T20:08:48Z'
   archived: false
   _history:
-    - t: '2026-07-27T14:20:40.986Z'
-      v: 90
     - t: '2026-07-27T19:18:58.795Z'
       v: 100
     - t: '2026-07-28T02:02:51.232Z'
@@ -41,7 +39,9 @@ metrics:
       v: 100
     - t: '2026-07-30T08:15:11.223Z'
       v: 100
-  lastAutoUpdated: '2026-07-30T08:15:11.223Z'
+    - t: '2026-07-30T13:46:32.158Z'
+      v: 100
+  lastAutoUpdated: '2026-07-30T13:46:32.158Z'
 fetch:
   github: aryankeluskar/polymarket-mcp
 readme:
@@ -65,7 +65,7 @@ readme:
       volume, liquidity, and market health
     - Public Access — No authentication required - uses Polymarket's public APIs
     - Real-time Data — Access to both Gamma Markets API and Data API
-  lastFetched: '2026-07-30T08:15:20.269Z'
+  lastFetched: '2026-07-30T13:46:50.305Z'
 repoInfo:
   language: TypeScript
   license: null
