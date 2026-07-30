@@ -9,12 +9,10 @@ score: 7.1
 tagline_en: Top-coin sentiment index — 47 stars
 tagline_zh: '头部币种情绪指数,47 star'
 metrics:
-  githubStars: 49
+  githubStars: 48
   lastPush: '2025-03-27T22:59:59Z'
   archived: false
   _history:
-    - t: '2026-07-27T02:26:58.053Z'
-      v: 490
     - t: '2026-07-27T09:40:11.346Z'
       v: 490
     - t: '2026-07-27T14:20:38.651Z'
@@ -37,8 +35,10 @@ metrics:
       v: 490
     - t: '2026-07-29T19:05:52.443Z'
       v: 490
-  lastAutoUpdated: '2026-07-29T19:05:52.443Z'
-  weeklyGrowthPct: 0
+    - t: '2026-07-30T01:55:07.892Z'
+      v: 480
+  lastAutoUpdated: '2026-07-30T01:55:07.892Z'
+  weeklyGrowthPct: -2
 fetch:
   github: kukapay/crypto-sentiment-mcp
 readme:
@@ -83,7 +83,7 @@ readme:
   installCmd: |-
     git clone https://github.com/kukapay/crypto-sentiment-mcp.git
        cd crypto-sentiment-mcp
-  lastFetched: '2026-07-29T19:06:04.606Z'
+  lastFetched: '2026-07-30T01:55:17.198Z'
 repoInfo:
   language: Python
   license: MIT
