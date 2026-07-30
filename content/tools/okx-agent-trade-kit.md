@@ -13,8 +13,6 @@ metrics:
   githubStars: 388
   weeklyGrowthPct: 1
   _history:
-    - t: '2026-07-27T19:18:58.577Z'
-      v: 7242
     - t: '2026-07-28T02:02:51.018Z'
       v: 7242
     - t: '2026-07-28T08:24:52.719Z'
@@ -37,7 +35,9 @@ metrics:
       v: 7312
     - t: '2026-07-30T13:46:31.922Z'
       v: 7327
-  lastAutoUpdated: '2026-07-30T13:46:31.922Z'
+    - t: '2026-07-30T19:17:24.430Z'
+      v: 7327
+  lastAutoUpdated: '2026-07-30T19:17:24.430Z'
   lastPush: '2026-07-29T03:51:58Z'
   archived: false
 fetch:
@@ -161,7 +161,7 @@ readme:
 
     okx-trade-mcp setup --client vscode          # writes .mcp.json in current
     directory
-  lastFetched: '2026-07-30T13:46:49.728Z'
+  lastFetched: '2026-07-30T19:17:39.511Z'
 repoInfo:
   language: TypeScript
   license: MIT
