@@ -12,11 +12,9 @@ metrics:
   smitheryCalls: 17711
   githubStars: 42
   weeklyGrowthPct: 0
-  lastPush: '2026-07-31T04:25:34Z'
+  lastPush: '2026-07-31T16:17:16Z'
   archived: false
   _history:
-    - t: '2026-07-28T19:15:19.872Z'
-      v: 420
     - t: '2026-07-29T02:05:23.040Z'
       v: 420
     - t: '2026-07-29T08:30:33.128Z'
@@ -39,7 +37,9 @@ metrics:
       v: 420
     - t: '2026-07-31T13:51:37.056Z'
       v: 420
-  lastAutoUpdated: '2026-07-31T13:51:37.056Z'
+    - t: '2026-07-31T19:16:31.239Z'
+      v: 420
+  lastAutoUpdated: '2026-07-31T19:16:31.239Z'
 fetch:
   github: blockscout/mcp-server
 readme:
@@ -47,7 +47,7 @@ readme:
     The Model Context Protocol (MCP) is an open protocol designed to allow AI
     agents, IDEs, and automation tools to consume, query, and analyze structured
     data through context-aware APIs.
-  lastFetched: '2026-07-31T13:51:47.098Z'
+  lastFetched: '2026-07-31T19:16:40.365Z'
 repoInfo:
   language: Python
   license: NOASSERTION
