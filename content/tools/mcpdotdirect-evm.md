@@ -12,11 +12,9 @@ metrics:
   npmMonthly: 8921
   githubStars: 380
   weeklyGrowthPct: 0
-  lastPush: '2026-06-04T22:17:39Z'
+  lastPush: '2026-08-01T15:41:26Z'
   archived: false
   _history:
-    - t: '2026-07-29T19:05:54.005Z'
-      v: 12721
     - t: '2026-07-30T01:55:09.092Z'
       v: 12721
     - t: '2026-07-30T08:15:10.266Z'
@@ -39,7 +37,9 @@ metrics:
       v: 12721
     - t: '2026-08-01T13:06:45.042Z'
       v: 12721
-  lastAutoUpdated: '2026-08-01T13:06:45.042Z'
+    - t: '2026-08-01T19:00:40.640Z'
+      v: 12721
+  lastAutoUpdated: '2026-08-01T19:00:40.640Z'
 fetch:
   github: mcpdotdirect/evm-mcp-server
 readme:
@@ -82,7 +82,7 @@ readme:
       description: Get latest block data · network
     - name: get_transaction
       description: 'Get transaction details · txHash, network'
-  lastFetched: '2026-08-01T13:06:52.916Z'
+  lastFetched: '2026-08-01T19:00:48.400Z'
 repoInfo:
   language: TypeScript
   license: MIT
@@ -94,7 +94,7 @@ repoInfo:
     - mcp
     - mcp-server
   contributors: 10
-  openIssues: 10
+  openIssues: 11
   archived: false
   createdAt: '2025-03-08T23:00:04Z'
   defaultBranch: main
