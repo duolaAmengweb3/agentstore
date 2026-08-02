@@ -9,12 +9,10 @@ score: 7.7
 tagline_en: 'DexScreener MCP — pair data + charts + new-pool discovery, free API'
 tagline_zh: 'DexScreener MCP:pair 数据 + K 线 + 新池发现,免费 API'
 metrics:
-  githubStars: 21
+  githubStars: 22
   lastPush: '2025-01-06T14:59:12Z'
   archived: false
   _history:
-    - t: '2026-07-30T01:55:06.070Z'
-      v: 210
     - t: '2026-07-30T08:15:07.234Z'
       v: 210
     - t: '2026-07-30T13:46:27.338Z'
@@ -37,8 +35,10 @@ metrics:
       v: 210
     - t: '2026-08-01T19:00:37.886Z'
       v: 210
-  lastAutoUpdated: '2026-08-01T19:00:37.886Z'
-  weeklyGrowthPct: 0
+    - t: '2026-08-02T02:12:35.142Z'
+      v: 220
+  lastAutoUpdated: '2026-08-02T02:12:35.142Z'
+  weeklyGrowthPct: 5
 fetch:
   github: openSVM/dexscreener-mcp-server
 readme:
@@ -56,7 +56,7 @@ readme:
     npm install
     npm run build
     npm run setup
-  lastFetched: '2026-08-01T19:00:45.431Z'
+  lastFetched: '2026-08-02T02:12:45.202Z'
 repoInfo:
   language: JavaScript
   license: Unlicense
