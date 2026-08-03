@@ -12,12 +12,10 @@ tagline_en: >-
 tagline_zh: 'Bitget 官方 Agent Hub:9 模块 58 个工具(spot/futures/margin/copy/earn 等)'
 metrics:
   githubStars: 220
-  weeklyGrowthPct: 0
+  weeklyGrowthPct: -0.0
   lastPush: '2026-06-30T05:59:11Z'
   archived: false
   _history:
-    - t: '2026-07-31T02:13:53.514Z'
-      v: 2200
     - t: '2026-07-31T08:41:16.863Z'
       v: 2210
     - t: '2026-07-31T13:51:37.306Z'
@@ -40,7 +38,9 @@ metrics:
       v: 2200
     - t: '2026-08-02T19:02:01.099Z'
       v: 2200
-  lastAutoUpdated: '2026-08-02T19:02:01.099Z'
+    - t: '2026-08-03T02:14:41.622Z'
+      v: 2200
+  lastAutoUpdated: '2026-08-03T02:14:41.622Z'
 fetch:
   github: BitgetLimited/agent_hub
 readme:
@@ -56,7 +56,7 @@ readme:
       description: Switch a package to a specific published version
     - name: 'install [pkg] [--target ]'
       description: Deploy an already-installed package's skills to your AI tools
-  lastFetched: '2026-08-02T19:02:09.756Z'
+  lastFetched: '2026-08-03T02:14:48.641Z'
 repoInfo:
   language: JavaScript
   license: MIT
