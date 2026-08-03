@@ -9,13 +9,11 @@ score: 7.2
 tagline_en: OpenClaw — open-source agent runtime (open-source counterpart to Claude Code)
 tagline_zh: 'OpenClaw:开源 agent runtime(Claude Code 的开源对标)'
 metrics:
-  githubStars: 384962
+  githubStars: 384992
   weeklyGrowthPct: 0
-  lastPush: '2026-08-03T02:14:42Z'
+  lastPush: '2026-08-03T09:31:59Z'
   archived: false
   _history:
-    - t: '2026-07-31T08:41:20.821Z'
-      v: 3846480
     - t: '2026-07-31T13:51:42.860Z'
       v: 3846850
     - t: '2026-07-31T19:16:36.442Z'
@@ -38,42 +36,25 @@ metrics:
       v: 3849410
     - t: '2026-08-03T02:14:45.789Z'
       v: 3849620
-  lastAutoUpdated: '2026-08-03T02:14:45.789Z'
+    - t: '2026-08-03T09:33:11.472Z'
+      v: 3849920
+  lastAutoUpdated: '2026-08-03T09:33:11.472Z'
 fetch:
   github: OpenClaw/openclaw
 readme:
   about: >-
-    OpenClaw is a _personal AI assistant_ that learns and grows with you,
-    running on your own devices — developed in the open by the OpenClaw
-    Foundation, a non-profit. It answers you on the channels you already use,
-    can speak and listen on macOS/iOS/Android, and can render a live Canvas you
-    control. The Gateway is just the control plane — the product is the
-    assistant.
-  features:
-    - >-
-      Local-first Gateway — single control plane for sessions, channels, tools,
-      and events.
-    - >-
-      Multi-channel inbox — 25+ channels through bundled plugins (see the list
-      above), plus macOS, iOS, and Android nodes.
-    - >-
-      Multi-agent routing — route inbound channels/accounts/peers to isolated
-      agents (workspaces + per-agent sessions).
-    - >-
-      Voice Wake + Talk Mode — wake words on macOS/iOS and continuous voice on
-      Android (ElevenLabs + system TTS fallback).
-    - Live Canvas — agent-driven visual workspace with A2UI.
-    - >-
-      First-class tools — browser, canvas, nodes, cron, sessions, and
-      Discord/Slack actions.
-    - 'Companion apps — Windows Hub, macOS menu bar app, and iOS/Android nodes.'
-    - >-
-      Onboarding + skills — onboarding-driven setup with
-      bundled/managed/workspace skills.
+    OpenClaw is a personal AI assistant that runs on your devices and meets you
+    in the channels you already use. It is designed for a single operator and
+    connects models, tools, messaging channels, and optional companion apps
+    through one Gateway.
+  examples:
+    - openclaw onboard --install-daemon
+    - openclaw gateway status
+    - openclaw dashboard
   installCmd: |-
-    # macOS / Linux
+    # macOS / Linux / WSL2
     curl -fsSL https://openclaw.ai/install.sh | bash
-  lastFetched: '2026-08-03T02:14:54.338Z'
+  lastFetched: '2026-08-03T09:33:25.060Z'
 repoInfo:
   language: TypeScript
   license: NOASSERTION
@@ -86,7 +67,7 @@ repoInfo:
     - own-your-data
     - personal
   contributors: 372
-  openIssues: 5532
+  openIssues: 5479
   archived: false
   createdAt: '2025-11-24T10:16:47Z'
   defaultBranch: main
