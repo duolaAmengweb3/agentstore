@@ -13,8 +13,6 @@ metrics:
   githubStars: 8
   pypiMonthly: 42
   _history:
-    - t: '2026-08-03T02:14:45.108Z'
-      v: 122
     - t: '2026-08-03T09:33:10.416Z'
       v: 123
     - t: '2026-08-03T14:27:10.810Z'
@@ -37,10 +35,12 @@ metrics:
       v: 122
     - t: '2026-08-05T19:22:12.704Z'
       v: 122
-  lastAutoUpdated: '2026-08-05T19:22:12.704Z'
+    - t: '2026-08-06T02:03:44.002Z'
+      v: 122
+  lastAutoUpdated: '2026-08-06T02:03:44.002Z'
   lastPush: '2025-04-21T08:32:58Z'
   archived: false
-  weeklyGrowthPct: 0
+  weeklyGrowthPct: -1
 fetch:
   github: kukapay/funding-rates-mcp
   pypi: funding-rates-mcp
@@ -58,7 +58,7 @@ readme:
     - >-
       Claude Desktop Integration — Runs as an MCP server for interactive
       queries.
-  lastFetched: '2026-08-05T19:22:22.471Z'
+  lastFetched: '2026-08-06T02:03:52.027Z'
 repoInfo:
   language: Python
   license: MIT
