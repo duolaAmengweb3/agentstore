@@ -13,8 +13,6 @@ metrics:
   lastPush: '2025-08-01T09:38:50Z'
   archived: false
   _history:
-    - t: '2026-08-03T09:33:05.471Z'
-      v: 760
     - t: '2026-08-03T14:27:05.987Z'
       v: 760
     - t: '2026-08-03T19:23:50.902Z'
@@ -37,13 +35,15 @@ metrics:
       v: 760
     - t: '2026-08-06T02:03:40.512Z'
       v: 760
-  lastAutoUpdated: '2026-08-06T02:03:40.512Z'
+    - t: '2026-08-06T08:25:33.385Z'
+      v: 760
+  lastAutoUpdated: '2026-08-06T08:25:33.385Z'
   weeklyGrowthPct: 0
 fetch:
   github: AbdelStark/bitcoin-mcp
 readme:
   about: Documentation Try with Claude Try with Goose
-  lastFetched: '2026-08-06T02:03:47.913Z'
+  lastFetched: '2026-08-06T08:25:41.293Z'
 repoInfo:
   language: TypeScript
   license: MIT

@@ -12,12 +12,10 @@ tagline_en: >-
 tagline_zh: 'Rust 单文件二进制,内置 MCP,NDJSON 输出 — 首个真正 AI-native 的 CLI'
 metrics:
   githubStars: 678
-  weeklyGrowthPct: 0
-  lastPush: '2026-08-05T20:11:09Z'
+  weeklyGrowthPct: -0.0
+  lastPush: '2026-08-06T08:23:22Z'
   archived: false
   _history:
-    - t: '2026-08-03T09:33:09.175Z'
-      v: 6780
     - t: '2026-08-03T14:27:09.977Z'
       v: 6790
     - t: '2026-08-03T19:23:54.172Z'
@@ -40,15 +38,17 @@ metrics:
       v: 6780
     - t: '2026-08-06T02:03:43.373Z'
       v: 6780
-  lastAutoUpdated: '2026-08-06T02:03:43.373Z'
+    - t: '2026-08-06T08:25:36.459Z'
+      v: 6780
+  lastAutoUpdated: '2026-08-06T08:25:36.459Z'
 fetch:
   github: krakenfx/kraken-cli
 readme:
   about: 'The first AI-native CLI for trading crypto, stocks, forex, and derivatives.'
   modules:
     - name: market
-      count: 10
-      description: 'No · Ticker, orderbook, OHLC, trades, spreads, asset info'
+      count: 11
+      description: 'No · Ticker, orderbook, OHLC, trades, spreads, asset info, tape library'
     - name: account
       count: 18
       description: 'Yes · Balances, orders, trades, ledgers, positions, exports'
@@ -77,8 +77,18 @@ readme:
       count: 15
       description: Mixed · Spot WebSocket v2 streaming and request/response
     - name: paper
-      count: 10
-      description: No · Spot paper trading simulation with live prices
+      count: 16
+      description: >-
+        No · Spot paper trading simulation with live prices, P&L explanation,
+        and the Autoresearch Lab
+    - name: workspace
+      count: 15
+      description: >-
+        No · Strategy workspaces and recorded sessions: isolated accounts,
+        session windows, decision logs, reports, promotion
+    - name: feedback
+      count: 1
+      description: No · Product feedback upload to Kraken (local DuckDB mirror on success)
     - name: auth
       count: 4
       description: No · Credential management
@@ -94,13 +104,13 @@ readme:
     - export KRAKEN_API_SECRET="your-secret"
     - kraken balance -o json
     - kraken open-orders -o json
-  lastFetched: '2026-08-06T02:03:51.396Z'
+  lastFetched: '2026-08-06T08:25:44.889Z'
 repoInfo:
   language: Rust
   license: MIT
   topics: []
   contributors: 3
-  openIssues: 10
+  openIssues: 9
   archived: false
   createdAt: '2026-03-06T22:18:12Z'
   defaultBranch: main
