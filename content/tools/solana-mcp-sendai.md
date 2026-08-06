@@ -15,8 +15,6 @@ metrics:
   lastPush: '2025-05-20T18:49:30Z'
   archived: false
   _history:
-    - t: '2026-08-03T14:27:13.757Z'
-      v: 14093
     - t: '2026-08-03T19:23:56.928Z'
       v: 14093
     - t: '2026-08-04T02:01:07.601Z'
@@ -39,7 +37,9 @@ metrics:
       v: 14093
     - t: '2026-08-06T08:25:39.609Z'
       v: 14093
-  lastAutoUpdated: '2026-08-06T08:25:39.609Z'
+    - t: '2026-08-06T13:52:23.971Z'
+      v: 14093
+  lastAutoUpdated: '2026-08-06T13:52:23.971Z'
 fetch:
   github: sendaifun/solana-mcp
 readme:
@@ -52,7 +52,7 @@ readme:
     - Execute transactions
     - Query account information
     - Manage Solana wallets
-  lastFetched: '2026-08-06T08:25:48.321Z'
+  lastFetched: '2026-08-06T13:52:36.783Z'
 repoInfo:
   language: Shell
   license: Apache-2.0
