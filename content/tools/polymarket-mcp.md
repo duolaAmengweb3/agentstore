@@ -14,11 +14,9 @@ metrics:
   smitheryCalls: 54822
   githubStars: 10
   weeklyGrowthPct: 0
-  lastPush: '2025-11-08T20:08:48Z'
+  lastPush: '2026-08-07T00:00:13Z'
   archived: false
   _history:
-    - t: '2026-08-04T02:01:06.517Z'
-      v: 100
     - t: '2026-08-04T08:28:30.841Z'
       v: 100
     - t: '2026-08-04T13:57:26.482Z'
@@ -41,15 +39,15 @@ metrics:
       v: 100
     - t: '2026-08-06T23:53:21.263Z'
       v: 100
-  lastAutoUpdated: '2026-08-06T23:53:21.263Z'
+    - t: '2026-08-07T02:24:08.519Z'
+      v: 100
+  lastAutoUpdated: '2026-08-07T02:24:08.519Z'
 fetch:
   github: aryankeluskar/polymarket-mcp
 readme:
   about: >-
-    A comprehensive Model Context Protocol (MCP) server for accessing
-    Polymarket's prediction markets through Claude AI. Build market analysis
-    tools, trading assistants, event outcome analyzers, and educational
-    platforms that make prediction markets more accessible.
+    Access Polymarket's prediction markets through agents like Claude Code or
+    chatbots like ChatGPT. Hit 50k users in March 2026
   features:
     - >-
       Market Discovery — Search and filter prediction markets by tags, volume,
@@ -65,7 +63,7 @@ readme:
       volume, liquidity, and market health
     - Public Access — No authentication required - uses Polymarket's public APIs
     - Real-time Data — Access to both Gamma Markets API and Data API
-  lastFetched: '2026-08-06T23:53:30.858Z'
+  lastFetched: '2026-08-07T02:24:17.673Z'
 repoInfo:
   language: TypeScript
   license: null
