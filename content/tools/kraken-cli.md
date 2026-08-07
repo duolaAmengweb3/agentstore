@@ -13,11 +13,9 @@ tagline_zh: 'Rust 单文件二进制,内置 MCP,NDJSON 输出 — 首个真正 A
 metrics:
   githubStars: 679
   weeklyGrowthPct: 0
-  lastPush: '2026-08-06T08:23:22Z'
+  lastPush: '2026-08-07T12:22:44Z'
   archived: false
   _history:
-    - t: '2026-08-04T13:57:24.069Z'
-      v: 6790
     - t: '2026-08-04T19:23:21.674Z'
       v: 6790
     - t: '2026-08-05T02:00:07.297Z'
@@ -40,7 +38,9 @@ metrics:
       v: 6790
     - t: '2026-08-07T07:06:08.169Z'
       v: 6790
-  lastAutoUpdated: '2026-08-07T07:06:08.169Z'
+    - t: '2026-08-07T12:51:08.422Z'
+      v: 6790
+  lastAutoUpdated: '2026-08-07T12:51:08.422Z'
 fetch:
   github: krakenfx/kraken-cli
 readme:
@@ -104,7 +104,7 @@ readme:
     - export KRAKEN_API_SECRET="your-secret"
     - kraken balance -o json
     - kraken open-orders -o json
-  lastFetched: '2026-08-07T07:06:18.106Z'
+  lastFetched: '2026-08-07T12:51:16.174Z'
 repoInfo:
   language: Rust
   license: MIT
