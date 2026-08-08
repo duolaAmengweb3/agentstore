@@ -13,8 +13,6 @@ metrics:
   lastPush: '2025-08-30T03:22:04Z'
   archived: false
   _history:
-    - t: '2026-08-05T08:27:18.464Z'
-      v: 1040
     - t: '2026-08-05T13:55:01.006Z'
       v: 1040
     - t: '2026-08-05T19:22:08.565Z'
@@ -37,7 +35,9 @@ metrics:
       v: 1040
     - t: '2026-08-08T01:10:45.913Z'
       v: 1040
-  lastAutoUpdated: '2026-08-08T01:10:45.913Z'
+    - t: '2026-08-08T06:41:40.520Z'
+      v: 1040
+  lastAutoUpdated: '2026-08-08T06:41:40.520Z'
   weeklyGrowthPct: 0
 fetch:
   github: TermiX-official/bsc-mcp
@@ -65,7 +65,7 @@ readme:
     - >-
       Real-time wallet monitoring - Track balances and positions across multiple
       tokens
-  lastFetched: '2026-08-08T01:10:53.130Z'
+  lastFetched: '2026-08-08T06:41:49.009Z'
 repoInfo:
   language: TypeScript
   license: null

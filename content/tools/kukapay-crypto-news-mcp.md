@@ -13,8 +13,6 @@ metrics:
   lastPush: '2025-12-10T10:47:52Z'
   archived: false
   _history:
-    - t: '2026-08-05T08:27:21.688Z'
-      v: 160
     - t: '2026-08-05T13:55:04.249Z'
       v: 160
     - t: '2026-08-05T19:22:12.159Z'
@@ -37,7 +35,9 @@ metrics:
       v: 160
     - t: '2026-08-08T01:10:48.487Z'
       v: 160
-  lastAutoUpdated: '2026-08-08T01:10:48.487Z'
+    - t: '2026-08-08T06:41:43.333Z'
+      v: 160
+  lastAutoUpdated: '2026-08-08T06:41:43.333Z'
   weeklyGrowthPct: 0
 fetch:
   github: kukapay/crypto-news-mcp
@@ -55,7 +55,7 @@ readme:
     - >-
       Prompt — News Summary - Generate a prompt to summarize news for a given
       cryptocurrency or topic.
-  lastFetched: '2026-08-08T01:10:56.888Z'
+  lastFetched: '2026-08-08T06:41:53.469Z'
 repoInfo:
   language: Python
   license: MIT
