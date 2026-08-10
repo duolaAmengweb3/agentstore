@@ -15,8 +15,6 @@ metrics:
   lastPush: '2026-04-23T06:40:21Z'
   archived: false
   _history:
-    - t: '2026-08-07T18:46:48.107Z'
-      v: 930
     - t: '2026-08-08T01:10:45.950Z'
       v: 930
     - t: '2026-08-08T06:41:40.510Z'
@@ -39,7 +37,9 @@ metrics:
       v: 930
     - t: '2026-08-10T12:55:17.977Z'
       v: 930
-  lastAutoUpdated: '2026-08-10T12:55:17.977Z'
+    - t: '2026-08-10T18:49:13.032Z'
+      v: 930
+  lastAutoUpdated: '2026-08-10T18:49:13.032Z'
 fetch:
   github: lazy-dinosaur/ccxt-mcp
 readme:
@@ -53,7 +53,7 @@ readme:
     - Search historical OHLCV data
     - 'Trading Functions:'
     - Create market/limit orders
-  lastFetched: '2026-08-10T12:55:26.697Z'
+  lastFetched: '2026-08-10T18:49:23.563Z'
 repoInfo:
   language: TypeScript
   license: MIT
