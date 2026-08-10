@@ -11,12 +11,10 @@ tagline_en: >-
   Orca / Wormhole built in
 tagline_zh: 'Solana 默认 agent framework(SendAI),60+ 动作,Jupiter / Drift / Orca 全内置'
 metrics:
-  npmMonthly: 4747
+  npmMonthly: 4723
   githubStars: 1703
   weeklyGrowthPct: 1
   _history:
-    - t: '2026-08-07T07:06:10.930Z'
-      v: 21610
     - t: '2026-08-07T12:51:10.611Z'
       v: 21572
     - t: '2026-08-07T18:46:52.680Z'
@@ -39,7 +37,9 @@ metrics:
       v: 21777
     - t: '2026-08-10T01:17:44.172Z'
       v: 21777
-  lastAutoUpdated: '2026-08-10T01:17:44.172Z'
+    - t: '2026-08-10T07:20:30.269Z'
+      v: 21753
+  lastAutoUpdated: '2026-08-10T07:20:30.269Z'
   lastPush: '2026-05-14T18:46:54Z'
   archived: false
 fetch:
@@ -56,7 +56,7 @@ readme:
     - const keyPair = Keypair.fromSecretKey(bs58.decode("YOUR_SECRET_KEY"))
     - const wallet = new KeypairWallet(keyPair)
     - const agent = new SolanaAgentKit(
-  lastFetched: '2026-08-10T01:17:53.720Z'
+  lastFetched: '2026-08-10T07:20:41.433Z'
 repoInfo:
   language: TypeScript
   license: Apache-2.0
