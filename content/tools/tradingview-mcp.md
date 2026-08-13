@@ -15,8 +15,6 @@ metrics:
   lastPush: '2026-08-07T16:03:29Z'
   archived: false
   _history:
-    - t: '2026-08-10T01:17:44.383Z'
-      v: 39020
     - t: '2026-08-10T07:20:30.502Z'
       v: 39040
     - t: '2026-08-10T12:55:23.754Z'
@@ -39,7 +37,9 @@ metrics:
       v: 39410
     - t: '2026-08-12T18:56:08.908Z'
       v: 39440
-  lastAutoUpdated: '2026-08-12T18:56:08.908Z'
+    - t: '2026-08-13T01:25:42.573Z'
+      v: 39440
+  lastAutoUpdated: '2026-08-13T01:25:42.573Z'
 fetch:
   github: atilaahmettaner/tradingview-mcp
 readme:
@@ -49,7 +49,7 @@ readme:
     client. Stocks, crypto, forex & futures across global exchanges. Backtesting
     + live sentiment + Yahoo Finance + 37 technical-analysis tools — the most
     complete TradingView MCP toolkit, all in one server.
-  lastFetched: '2026-08-12T18:56:19.020Z'
+  lastFetched: '2026-08-13T01:25:54.935Z'
 repoInfo:
   language: Python
   license: MIT
