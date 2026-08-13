@@ -9,13 +9,11 @@ score: 7.4
 tagline_en: dYdX v4 official SDK (TS / Python / Rust) — no official MCP / agent path
 tagline_zh: 'dYdX v4 官方 SDK(TS / Python / Rust),但无官方 MCP / AI agent 路径'
 metrics:
-  githubStars: 119
-  weeklyGrowthPct: 0
+  githubStars: 120
+  weeklyGrowthPct: 1
   lastPush: '2026-05-15T07:24:09Z'
   archived: false
   _history:
-    - t: '2026-08-10T18:49:14.276Z'
-      v: 1190
     - t: '2026-08-11T01:15:46.684Z'
       v: 1190
     - t: '2026-08-11T06:56:45.927Z'
@@ -38,11 +36,13 @@ metrics:
       v: 1190
     - t: '2026-08-13T12:57:37.663Z'
       v: 1190
-  lastAutoUpdated: '2026-08-13T12:57:37.663Z'
+    - t: '2026-08-13T18:55:12.310Z'
+      v: 1200
+  lastAutoUpdated: '2026-08-13T18:55:12.310Z'
 fetch:
   github: dydxprotocol/v4-clients
 readme:
-  lastFetched: '2026-08-13T12:57:50.617Z'
+  lastFetched: '2026-08-13T18:55:22.350Z'
 repoInfo:
   language: JavaScript
   license: NOASSERTION
