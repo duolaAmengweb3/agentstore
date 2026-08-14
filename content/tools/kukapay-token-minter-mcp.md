@@ -13,8 +13,6 @@ metrics:
   lastPush: '2025-04-28T12:09:32Z'
   archived: false
   _history:
-    - t: '2026-08-11T18:54:48.099Z'
-      v: 210
     - t: '2026-08-12T01:23:46.419Z'
       v: 210
     - t: '2026-08-12T07:15:54.609Z'
@@ -37,7 +35,9 @@ metrics:
       v: 210
     - t: '2026-08-14T12:53:11.402Z'
       v: 210
-  lastAutoUpdated: '2026-08-14T12:53:11.402Z'
+    - t: '2026-08-14T18:45:01.131Z'
+      v: 210
+  lastAutoUpdated: '2026-08-14T18:45:01.131Z'
   weeklyGrowthPct: 0
 fetch:
   github: kukapay/token-minter-mcp
@@ -65,7 +65,7 @@ readme:
   installCmd: |-
     git clone https://github.com/kukapay/token-minter-mcp.git
        cd token-minter-mcp/server
-  lastFetched: '2026-08-14T12:53:20.882Z'
+  lastFetched: '2026-08-14T18:45:12.120Z'
 repoInfo:
   language: JavaScript
   license: MIT
