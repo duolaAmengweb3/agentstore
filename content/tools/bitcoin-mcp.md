@@ -9,12 +9,10 @@ score: 7.4
 tagline_en: Bitcoin + Lightning basic operations MCP — keygen / validate / decode / query
 tagline_zh: 'Bitcoin + Lightning 基础操作 MCP:生成 / 校验 / 解码 / 查询'
 metrics:
-  githubStars: 76
+  githubStars: 77
   lastPush: '2025-08-01T09:38:50Z'
   archived: false
   _history:
-    - t: '2026-08-12T07:15:50.923Z'
-      v: 760
     - t: '2026-08-12T12:56:28.522Z'
       v: 760
     - t: '2026-08-12T18:56:02.945Z'
@@ -37,13 +35,15 @@ metrics:
       v: 760
     - t: '2026-08-15T00:55:22.623Z'
       v: 760
-  lastAutoUpdated: '2026-08-15T00:55:22.623Z'
-  weeklyGrowthPct: 0
+    - t: '2026-08-15T06:27:33.524Z'
+      v: 770
+  lastAutoUpdated: '2026-08-15T06:27:33.524Z'
+  weeklyGrowthPct: 1
 fetch:
   github: AbdelStark/bitcoin-mcp
 readme:
   about: Documentation Try with Claude Try with Goose
-  lastFetched: '2026-08-15T00:55:28.820Z'
+  lastFetched: '2026-08-15T06:27:41.508Z'
 repoInfo:
   language: TypeScript
   license: MIT
