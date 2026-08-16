@@ -13,8 +13,6 @@ metrics:
   lastPush: '2026-08-14T23:11:25Z'
   archived: false
   _history:
-    - t: '2026-08-13T01:25:38.384Z'
-      v: 527360
     - t: '2026-08-13T07:18:11.023Z'
       v: 527420
     - t: '2026-08-13T12:57:38.719Z'
@@ -37,7 +35,9 @@ metrics:
       v: 528300
     - t: '2026-08-15T18:20:14.943Z'
       v: 528440
-  lastAutoUpdated: '2026-08-15T18:20:14.943Z'
+    - t: '2026-08-16T00:58:20.460Z'
+      v: 528440
+  lastAutoUpdated: '2026-08-16T00:58:20.460Z'
   weeklyGrowthPct: 0
 fetch:
   github: block/goose
@@ -45,7 +45,7 @@ readme:
   about: >-
     _your native open source AI agent — desktop app, CLI, and API — for code,
     workflows, and everything in between_
-  lastFetched: '2026-08-15T18:20:24.497Z'
+  lastFetched: '2026-08-16T00:58:27.895Z'
 repoInfo:
   language: Rust
   license: Apache-2.0
@@ -55,7 +55,7 @@ repoInfo:
     - ai-agents
     - mcp
   contributors: 451
-  openIssues: 283
+  openIssues: 285
   archived: false
   createdAt: '2024-08-23T19:03:36Z'
   defaultBranch: main
