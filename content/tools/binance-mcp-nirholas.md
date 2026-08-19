@@ -16,8 +16,6 @@ metrics:
   lastPush: '2026-08-17T03:03:04Z'
   archived: false
   _history:
-    - t: '2026-08-16T18:20:00.723Z'
-      v: 340
     - t: '2026-08-17T00:56:26.063Z'
       v: 340
     - t: '2026-08-17T06:42:05.406Z'
@@ -40,7 +38,9 @@ metrics:
       v: 340
     - t: '2026-08-19T12:34:50.809Z'
       v: 340
-  lastAutoUpdated: '2026-08-19T12:34:50.809Z'
+    - t: '2026-08-19T18:25:55.058Z'
+      v: 340
+  lastAutoUpdated: '2026-08-19T18:25:55.058Z'
 fetch:
   github: nirholas/Binance-MCP
 readme:
@@ -57,7 +57,7 @@ readme:
 
     # Build the project
     npm run build
-  lastFetched: '2026-08-19T12:35:00.038Z'
+  lastFetched: '2026-08-19T18:26:01.632Z'
 repoInfo:
   language: TypeScript
   license: NOASSERTION
@@ -71,7 +71,7 @@ repoInfo:
     - nft
     - npm
   contributors: 4
-  openIssues: 3
+  openIssues: 2
   archived: false
   createdAt: '2026-01-20T12:14:36Z'
   defaultBranch: main
