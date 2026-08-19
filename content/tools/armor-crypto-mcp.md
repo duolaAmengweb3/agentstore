@@ -14,8 +14,6 @@ metrics:
   lastPush: '2025-07-29T15:53:53Z'
   archived: false
   _history:
-    - t: '2026-08-16T06:29:55.585Z'
-      v: 1780
     - t: '2026-08-16T12:27:59.903Z'
       v: 1780
     - t: '2026-08-16T18:20:00.386Z'
@@ -38,12 +36,14 @@ metrics:
       v: 1780
     - t: '2026-08-19T00:55:33.006Z'
       v: 1780
-  lastAutoUpdated: '2026-08-19T00:55:33.006Z'
+    - t: '2026-08-19T06:34:24.037Z'
+      v: 1780
+  lastAutoUpdated: '2026-08-19T06:34:24.037Z'
 fetch:
   github: armorwallet/armor-crypto-mcp
 readme:
   about: Alpha Test version 0.1.24
-  lastFetched: '2026-08-19T00:55:39.646Z'
+  lastFetched: '2026-08-19T06:34:33.065Z'
 repoInfo:
   language: Python
   license: GPL-3.0
