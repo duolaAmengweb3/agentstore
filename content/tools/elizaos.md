@@ -15,8 +15,6 @@ metrics:
   githubStars: 19097
   weeklyGrowthPct: 5
   _history:
-    - t: '2026-08-17T06:42:07.398Z'
-      v: 257904
     - t: '2026-08-17T12:33:01.982Z'
       v: 257924
     - t: '2026-08-17T18:30:22.863Z'
@@ -39,8 +37,10 @@ metrics:
       v: 272060
     - t: '2026-08-20T00:55:01.107Z'
       v: 272060
-  lastAutoUpdated: '2026-08-20T00:55:01.107Z'
-  lastPush: '2026-08-20T00:51:04Z'
+    - t: '2026-08-20T06:36:37.872Z'
+      v: 272060
+  lastAutoUpdated: '2026-08-20T06:36:37.872Z'
+  lastPush: '2026-08-20T06:36:30Z'
   archived: false
 fetch:
   github: elizaOS/eliza
@@ -52,7 +52,7 @@ readme:
     app, the CLI, cloud services, native bridges, and first-party plugins. The
     bootable Linux and Android distributions live in the separate elizaOS/os
     repository.
-  lastFetched: '2026-08-20T00:55:09.803Z'
+  lastFetched: '2026-08-20T06:36:48.050Z'
 repoInfo:
   language: TypeScript
   license: MIT
@@ -66,7 +66,7 @@ repoInfo:
     - discord
     - eliza
   contributors: 106
-  openIssues: 376
+  openIssues: 251
   archived: false
   createdAt: '2024-07-09T07:55:40Z'
   defaultBranch: develop
