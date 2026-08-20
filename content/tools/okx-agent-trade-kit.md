@@ -13,8 +13,6 @@ metrics:
   githubStars: 404
   weeklyGrowthPct: -0.0
   _history:
-    - t: '2026-08-17T00:56:30.380Z'
-      v: 7393
     - t: '2026-08-17T06:42:10.219Z'
       v: 7393
     - t: '2026-08-17T12:33:05.701Z'
@@ -37,8 +35,10 @@ metrics:
       v: 7357
     - t: '2026-08-19T18:25:59.782Z'
       v: 7357
-  lastAutoUpdated: '2026-08-19T18:25:59.782Z'
-  lastPush: '2026-07-29T03:51:58Z'
+    - t: '2026-08-20T00:55:04.139Z'
+      v: 7357
+  lastAutoUpdated: '2026-08-20T00:55:04.139Z'
+  lastPush: '2026-08-19T23:57:41Z'
   archived: false
 fetch:
   github: okx/agent-trade-kit
@@ -161,7 +161,7 @@ readme:
 
     okx-trade-mcp setup --client vscode          # writes .mcp.json in current
     directory
-  lastFetched: '2026-08-19T18:26:10.814Z'
+  lastFetched: '2026-08-20T00:55:13.684Z'
 repoInfo:
   language: TypeScript
   license: MIT
