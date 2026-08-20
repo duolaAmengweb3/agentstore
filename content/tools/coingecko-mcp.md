@@ -11,12 +11,10 @@ tagline_en: >-
   for agents
 tagline_zh: 'CoinGecko 官方 MCP:15k 币 + 200+ 网络,agent 查价第一站'
 metrics:
-  npmMonthly: 2531
+  npmMonthly: 2202
   githubStars: 221
-  weeklyGrowthPct: -0.0
+  weeklyGrowthPct: -7
   _history:
-    - t: '2026-08-17T12:33:01.304Z'
-      v: 4747
     - t: '2026-08-17T18:30:20.750Z'
       v: 4747
     - t: '2026-08-18T00:54:34.225Z'
@@ -39,7 +37,9 @@ metrics:
       v: 4741
     - t: '2026-08-20T06:36:37.194Z'
       v: 4741
-  lastAutoUpdated: '2026-08-20T06:36:37.194Z'
+    - t: '2026-08-20T12:36:27.580Z'
+      v: 4412
+  lastAutoUpdated: '2026-08-20T12:36:27.580Z'
 fetch:
   npm: '@coingecko/coingecko-mcp'
 summary_en: >-
