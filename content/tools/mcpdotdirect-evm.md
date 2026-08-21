@@ -10,13 +10,11 @@ tagline_en: 'Generic EVM MCP — any chain, any wallet, ERC-20 support, 374 star
 tagline_zh: '通用 EVM MCP:任意 EVM 链 + 任意钱包 + ERC-20 + 签名,374 star'
 metrics:
   npmMonthly: 8921
-  githubStars: 382
+  githubStars: 383
   weeklyGrowthPct: 0
   lastPush: '2026-08-01T15:41:26Z'
   archived: false
   _history:
-    - t: '2026-08-18T12:34:10.175Z'
-      v: 12731
     - t: '2026-08-18T18:29:13.508Z'
       v: 12731
     - t: '2026-08-19T00:55:37.339Z'
@@ -39,7 +37,9 @@ metrics:
       v: 12741
     - t: '2026-08-21T06:36:18.135Z'
       v: 12741
-  lastAutoUpdated: '2026-08-21T06:36:18.135Z'
+    - t: '2026-08-21T12:35:32.954Z'
+      v: 12751
+  lastAutoUpdated: '2026-08-21T12:35:32.954Z'
 fetch:
   github: mcpdotdirect/evm-mcp-server
 readme:
@@ -82,7 +82,7 @@ readme:
       description: Get latest block data · network
     - name: get_transaction
       description: 'Get transaction details · txHash, network'
-  lastFetched: '2026-08-21T06:36:28.003Z'
+  lastFetched: '2026-08-21T12:35:43.501Z'
 repoInfo:
   language: TypeScript
   license: MIT
