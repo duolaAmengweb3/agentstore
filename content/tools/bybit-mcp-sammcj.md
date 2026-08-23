@@ -14,8 +14,6 @@ metrics:
   lastPush: '2025-05-26T07:20:06Z'
   archived: true
   _history:
-    - t: '2026-08-20T06:36:36.681Z'
-      v: 160
     - t: '2026-08-20T12:36:26.340Z'
       v: 160
     - t: '2026-08-20T18:30:36.000Z'
@@ -38,7 +36,9 @@ metrics:
       v: 160
     - t: '2026-08-23T00:59:30.763Z'
       v: 160
-  lastAutoUpdated: '2026-08-23T00:59:30.763Z'
+    - t: '2026-08-23T06:31:29.080Z'
+      v: 160
+  lastAutoUpdated: '2026-08-23T06:31:29.080Z'
   weeklyGrowthPct: 0
 fetch:
   github: sammcj/bybit-mcp
@@ -66,7 +66,7 @@ readme:
     - cp .env.example .env
     - code .env
   installCmd: pnpm i
-  lastFetched: '2026-08-23T00:59:38.972Z'
+  lastFetched: '2026-08-23T06:31:36.274Z'
 repoInfo:
   language: TypeScript
   license: MIT
