@@ -13,8 +13,6 @@ metrics:
   lastPush: '2024-06-28T10:18:17Z'
   archived: false
   _history:
-    - t: '2026-08-23T00:59:32.508Z'
-      v: 320
     - t: '2026-08-23T06:31:30.926Z'
       v: 320
     - t: '2026-08-23T12:28:57.106Z'
@@ -37,7 +35,9 @@ metrics:
       v: 320
     - t: '2026-08-25T18:31:49.233Z'
       v: 320
-  lastAutoUpdated: '2026-08-25T18:31:49.233Z'
+    - t: '2026-08-26T00:58:23.042Z'
+      v: 320
+  lastAutoUpdated: '2026-08-26T00:58:23.042Z'
   weeklyGrowthPct: 0
 fetch:
   github: gizatechxyz/giza-agents
@@ -54,7 +54,7 @@ readme:
 
     # Activate Virtual environment on Windows:
     $ .env/Scripts/activate
-  lastFetched: '2026-08-25T18:31:59.330Z'
+  lastFetched: '2026-08-26T00:58:31.483Z'
 repoInfo:
   language: Python
   license: MIT
