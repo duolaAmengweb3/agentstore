@@ -9,13 +9,11 @@ score: 7.8
 tagline_en: Armor commercial managed wallet + swap + strategic planning
 tagline_zh: Armor 商业托管钱包 + swap + 策略规划
 metrics:
-  githubStars: 179
-  weeklyGrowthPct: 0
+  githubStars: 178
+  weeklyGrowthPct: -1
   lastPush: '2025-07-29T15:53:53Z'
   archived: false
   _history:
-    - t: '2026-08-24T06:44:09.505Z'
-      v: 1790
     - t: '2026-08-24T12:37:44.535Z'
       v: 1790
     - t: '2026-08-24T18:31:31.089Z'
@@ -38,12 +36,14 @@ metrics:
       v: 1790
     - t: '2026-08-27T06:50:12.734Z'
       v: 1790
-  lastAutoUpdated: '2026-08-27T06:50:12.734Z'
+    - t: '2026-08-27T21:36:58.044Z'
+      v: 1780
+  lastAutoUpdated: '2026-08-27T21:36:58.044Z'
 fetch:
   github: armorwallet/armor-crypto-mcp
 readme:
   about: Alpha Test version 0.1.24
-  lastFetched: '2026-08-27T06:50:19.779Z'
+  lastFetched: '2026-08-27T21:37:05.711Z'
 repoInfo:
   language: Python
   license: GPL-3.0

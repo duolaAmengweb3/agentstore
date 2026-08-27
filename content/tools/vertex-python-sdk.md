@@ -16,8 +16,6 @@ metrics:
   lastPush: '2025-05-01T15:55:14Z'
   archived: false
   _history:
-    - t: '2026-08-24T06:44:15.913Z'
-      v: 643
     - t: '2026-08-24T12:37:52.295Z'
       v: 643
     - t: '2026-08-24T18:31:38.755Z'
@@ -40,14 +38,16 @@ metrics:
       v: 643
     - t: '2026-08-27T06:50:19.077Z'
       v: 643
-  lastAutoUpdated: '2026-08-27T06:50:19.077Z'
+    - t: '2026-08-27T21:37:04.922Z'
+      v: 643
+  lastAutoUpdated: '2026-08-27T21:37:04.922Z'
   weeklyGrowthPct: 0
 fetch:
   github: vertex-protocol/vertex-python-sdk
 readme:
   about: This is the Python SDK for the Vertex Protocol API.
   installCmd: pip install vertex-protocol
-  lastFetched: '2026-08-27T06:50:28.329Z'
+  lastFetched: '2026-08-27T21:37:13.737Z'
 repoInfo:
   language: Python
   license: null

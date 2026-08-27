@@ -10,12 +10,10 @@ tagline_en: kukapay Hyperliquid info query — 27 stars
 tagline_zh: 'kukapay HL 信息查询,27 star'
 metrics:
   smitheryCalls: 1023
-  githubStars: 30
+  githubStars: 29
   lastPush: '2025-05-31T08:00:16Z'
   archived: false
   _history:
-    - t: '2026-08-24T06:44:13.600Z'
-      v: 300
     - t: '2026-08-24T12:37:49.375Z'
       v: 300
     - t: '2026-08-24T18:31:36.226Z'
@@ -38,8 +36,10 @@ metrics:
       v: 300
     - t: '2026-08-27T06:50:16.837Z'
       v: 300
-  lastAutoUpdated: '2026-08-27T06:50:16.837Z'
-  weeklyGrowthPct: 0
+    - t: '2026-08-27T21:37:01.940Z'
+      v: 290
+  lastAutoUpdated: '2026-08-27T21:37:01.940Z'
+  weeklyGrowthPct: -3
 fetch:
   github: kukapay/hyperliquid-info-mcp
 readme:
@@ -65,7 +65,7 @@ readme:
     - >-
       get_user_order_by_oid & get_user_order_by_cloid — Retrieve specific order
       details by order ID or client order ID.
-  lastFetched: '2026-08-27T06:50:25.277Z'
+  lastFetched: '2026-08-27T21:37:10.930Z'
 repoInfo:
   language: Python
   license: MIT
