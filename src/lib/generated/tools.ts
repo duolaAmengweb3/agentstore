@@ -2090,8 +2090,8 @@ export const toolsFromMarkdown: Tool[] = [
     "name": "Toreva",
     "author": "Toreva",
     "tagline": {
-      "en": "User-controlled goals and non-custodial Solana execution for AI agents",
-      "zh": "面向 AI agent 的用户可控目标与非托管 Solana 执行层"
+      "en": "Durable goals and governed plans for AI agents",
+      "zh": "面向 AI agent 的持久目标与受控计划"
     },
     "category": "framework",
     "icon": "🎯",
@@ -2099,8 +2099,8 @@ export const toolsFromMarkdown: Tool[] = [
     "metrics": {},
     "score": 7,
     "summary": {
-      "en": "Keep and hand off goals between agents, inspect strategies and receipts, and request governed execution without giving the agent custody.",
-      "zh": "跨 agent 保存和交接目标，查看策略与回执，并在不把资产托管权交给 agent 的前提下请求受控执行。"
+      "en": "Turn an outcome and its constraints into a plan you can review, refine, and reopen after the chat.",
+      "zh": "将目标和约束转化为可审查、可完善，并可在聊天结束后重新打开的计划。"
     }
   },
   {
