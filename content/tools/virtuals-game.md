@@ -11,13 +11,11 @@ tagline_en: >-
   agents Butler / Ethy
 tagline_zh: 'Virtuals GAME framework:Agent 经济生态,$3 亿 agentic GDP,Butler / Ethy 等明星 agent'
 metrics:
-  githubStars: 92
-  weeklyGrowthPct: 0
+  githubStars: 93
+  weeklyGrowthPct: 1
   lastPush: '2026-03-06T15:30:04Z'
   archived: false
   _history:
-    - t: '2026-08-24T12:37:52.318Z'
-      v: 920
     - t: '2026-08-24T18:31:38.716Z'
       v: 920
     - t: '2026-08-25T00:57:14.555Z'
@@ -40,11 +38,13 @@ metrics:
       v: 920
     - t: '2026-08-27T21:37:04.948Z'
       v: 920
-  lastAutoUpdated: '2026-08-27T21:37:04.948Z'
+    - t: '2026-08-28T08:37:55.398Z'
+      v: 930
+  lastAutoUpdated: '2026-08-28T08:37:55.398Z'
 fetch:
   github: game-by-virtuals/game-node
 readme:
-  lastFetched: '2026-08-27T21:37:13.744Z'
+  lastFetched: '2026-08-28T08:38:04.777Z'
 repoInfo:
   language: TypeScript
   license: MIT
