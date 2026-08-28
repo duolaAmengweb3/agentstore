@@ -9,13 +9,11 @@ score: 7.2
 tagline_en: OpenClaw — open-source agent runtime (open-source counterpart to Claude Code)
 tagline_zh: 'OpenClaw:开源 agent runtime(Claude Code 的开源对标)'
 metrics:
-  githubStars: 387885
+  githubStars: 387928
   weeklyGrowthPct: 0
-  lastPush: '2026-08-28T08:36:53Z'
+  lastPush: '2026-08-28T21:39:30Z'
   archived: false
   _history:
-    - t: '2026-08-24T18:31:37.149Z'
-      v: 3873770
     - t: '2026-08-25T00:57:13.177Z'
       v: 3874390
     - t: '2026-08-25T06:36:29.429Z'
@@ -38,15 +36,20 @@ metrics:
       v: 3878310
     - t: '2026-08-28T08:37:53.606Z'
       v: 3878850
-  lastAutoUpdated: '2026-08-28T08:37:53.606Z'
+    - t: '2026-08-28T21:39:44.464Z'
+      v: 3879280
+  lastAutoUpdated: '2026-08-28T21:39:44.464Z'
 fetch:
   github: OpenClaw/openclaw
 readme:
   about: >-
-    OpenClaw is a personal AI assistant that runs on your devices and meets you
-    in the channels you already use. It is designed for a single operator and
-    connects models, tools, messaging channels, and optional companion apps
-    through one Gateway.
+    OpenClaw is an AI assistant that runs on your devices and meets you in the
+    channels you already use. It connects models, tools, messaging channels, and
+    optional companion apps through one Gateway, for a single operator or for a
+    team whose members trust each other: the same gateway runs as a personal
+    assistant on one laptop or as a shared team deployment, and configuration is
+    the only difference. The architecture case — trusted gateway, untrusted
+    execution, deterministic policy — is in Why OpenCl
   examples:
     - openclaw onboard --install-daemon
     - openclaw gateway status
@@ -54,7 +57,7 @@ readme:
   installCmd: |-
     # macOS / Linux / WSL2
     curl -fsSL https://openclaw.ai/install.sh | bash
-  lastFetched: '2026-08-28T08:38:03.258Z'
+  lastFetched: '2026-08-28T21:39:56.166Z'
 repoInfo:
   language: TypeScript
   license: NOASSERTION
@@ -67,7 +70,7 @@ repoInfo:
     - own-your-data
     - personal
   contributors: 376
-  openIssues: 5738
+  openIssues: 5783
   archived: false
   createdAt: '2025-11-24T10:16:47Z'
   defaultBranch: main
