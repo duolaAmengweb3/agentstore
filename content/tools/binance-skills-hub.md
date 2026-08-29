@@ -14,8 +14,6 @@ metrics:
   lastPush: '2026-08-28T03:29:03Z'
   archived: false
   _history:
-    - t: '2026-08-25T00:57:07.843Z'
-      v: 9800
     - t: '2026-08-25T06:36:24.362Z'
       v: 9810
     - t: '2026-08-25T12:36:51.907Z'
@@ -38,7 +36,9 @@ metrics:
       v: 9900
     - t: '2026-08-28T21:39:39.049Z'
       v: 9930
-  lastAutoUpdated: '2026-08-28T21:39:39.049Z'
+    - t: '2026-08-29T05:16:33.379Z'
+      v: 9930
+  lastAutoUpdated: '2026-08-29T05:16:33.379Z'
 fetch:
   github: binance/binance-skills-hub
 readme:
@@ -47,7 +47,7 @@ readme:
     access to crypto: both centralized and decentralized. Search tokens, execute
     trades, track wallets, monitor signals, and interact with DeFi protocols,
     all through natural language.
-  lastFetched: '2026-08-28T21:39:48.203Z'
+  lastFetched: '2026-08-29T05:16:41.866Z'
 repoInfo:
   language: Python
   license: null
