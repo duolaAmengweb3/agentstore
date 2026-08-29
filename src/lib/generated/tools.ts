@@ -209,7 +209,7 @@ export const toolsFromMarkdown: Tool[] = [
     "icon": "🟡",
     "official": true,
     "metrics": {
-      "githubStars": 993,
+      "githubStars": 994,
       "weeklyGrowthPct": 1
     },
     "score": 8.7,
@@ -444,7 +444,7 @@ export const toolsFromMarkdown: Tool[] = [
     "official": true,
     "metrics": {
       "npmMonthly": 3102,
-      "githubStars": 3,
+      "githubStars": 4,
       "weeklyGrowthPct": 0
     },
     "score": 8.1,
@@ -527,7 +527,7 @@ export const toolsFromMarkdown: Tool[] = [
     "official": true,
     "metrics": {
       "npmMonthly": 43783,
-      "githubStars": 1293,
+      "githubStars": 1294,
       "weeklyGrowthPct": 2
     },
     "score": 9.2,
@@ -842,7 +842,7 @@ export const toolsFromMarkdown: Tool[] = [
     "official": true,
     "metrics": {
       "npmMonthly": 100188,
-      "githubStars": 19203,
+      "githubStars": 19211,
       "weeklyGrowthPct": 0
     },
     "score": 9.3,
@@ -1032,7 +1032,7 @@ export const toolsFromMarkdown: Tool[] = [
     "icon": "🪿",
     "official": true,
     "metrics": {
-      "githubStars": 53642,
+      "githubStars": 53657,
       "weeklyGrowthPct": 0
     },
     "score": 7.8,
@@ -1183,7 +1183,7 @@ export const toolsFromMarkdown: Tool[] = [
     "icon": "🦑",
     "official": true,
     "metrics": {
-      "githubStars": 699,
+      "githubStars": 698,
       "weeklyGrowthPct": 1
     },
     "score": 9.1,
@@ -1798,7 +1798,7 @@ export const toolsFromMarkdown: Tool[] = [
     "icon": "🦞",
     "official": false,
     "metrics": {
-      "githubStars": 387959,
+      "githubStars": 388001,
       "weeklyGrowthPct": 0
     },
     "score": 7.2,
@@ -2010,7 +2010,7 @@ export const toolsFromMarkdown: Tool[] = [
     "official": true,
     "metrics": {
       "npmMonthly": 3622,
-      "githubStars": 1711,
+      "githubStars": 1712,
       "weeklyGrowthPct": 1
     },
     "score": 9.1,
@@ -2098,8 +2098,8 @@ export const toolsFromMarkdown: Tool[] = [
     "official": false,
     "metrics": {
       "smitheryCalls": 2065,
-      "githubStars": 4282,
-      "weeklyGrowthPct": 1
+      "githubStars": 4293,
+      "weeklyGrowthPct": 2
     },
     "score": 8.7,
     "summary": {
