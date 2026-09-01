@@ -12,11 +12,9 @@ tagline_en: >-
 tagline_zh: 'Solana 默认 agent framework(SendAI),60+ 动作,Jupiter / Drift / Orca 全内置'
 metrics:
   npmMonthly: 3631
-  githubStars: 1712
+  githubStars: 1711
   weeklyGrowthPct: 0
   _history:
-    - t: '2026-08-28T08:37:55.013Z'
-      v: 20747
     - t: '2026-08-28T21:39:45.867Z'
       v: 20736
     - t: '2026-08-29T05:16:39.636Z'
@@ -39,7 +37,9 @@ metrics:
       v: 20751
     - t: '2026-08-31T22:18:37.777Z'
       v: 20751
-  lastAutoUpdated: '2026-08-31T22:18:37.777Z'
+    - t: '2026-09-01T03:10:07.076Z'
+      v: 20741
+  lastAutoUpdated: '2026-09-01T03:10:07.076Z'
   lastPush: '2026-05-14T18:46:54Z'
   archived: false
 fetch:
@@ -56,7 +56,7 @@ readme:
     - const keyPair = Keypair.fromSecretKey(bs58.decode("YOUR_SECRET_KEY"))
     - const wallet = new KeypairWallet(keyPair)
     - const agent = new SolanaAgentKit(
-  lastFetched: '2026-08-31T22:18:48.835Z'
+  lastFetched: '2026-09-01T03:10:17.212Z'
 repoInfo:
   language: TypeScript
   license: Apache-2.0
