@@ -10,11 +10,9 @@ tagline_en: OKX official MCP + CLI — 140 tools across spot / perp / options / 
 tagline_zh: 'OKX 官方 MCP + CLI,140 个工具覆盖现货 / 合约 / 期权 / bot / earn'
 metrics:
   npmMonthly: 3378
-  githubStars: 416
+  githubStars: 417
   weeklyGrowthPct: 0
   _history:
-    - t: '2026-08-28T21:39:44.864Z'
-      v: 7537
     - t: '2026-08-29T05:16:38.972Z'
       v: 7547
     - t: '2026-08-29T12:08:38.065Z'
@@ -37,8 +35,10 @@ metrics:
       v: 7538
     - t: '2026-09-01T03:10:06.077Z'
       v: 7538
-  lastAutoUpdated: '2026-09-01T03:10:06.077Z'
-  lastPush: '2026-08-21T09:48:03Z'
+    - t: '2026-09-01T10:57:49.054Z'
+      v: 7548
+  lastAutoUpdated: '2026-09-01T10:57:49.054Z'
+  lastPush: '2026-09-01T07:46:59Z'
   archived: false
 fetch:
   github: okx/agent-trade-kit
@@ -133,13 +133,6 @@ readme:
         single-asset signal (by coin / by traders), signal history (by coin / by
         traders) — all read-only, split by entry mode for AI-agent
         disambiguation ·
-    - name: outcomes
-      description: >-
-        0 (wrapper) · OKX Outcomes (YES/NO event contracts, formerly OKX
-        Predictions) — CLI-only wrapper that forwards to the external
-        okx-outcomes binary (installed via install.sh from
-        github.com/okx/outcomes-cli). Browse events, account queries (OAuth),
-        CLOB price/orderbook, dry-run-gated trade placement,
   installCmd: >-
     # 1. Install
 
@@ -161,7 +154,7 @@ readme:
 
     okx-trade-mcp setup --client vscode          # writes .mcp.json in current
     directory
-  lastFetched: '2026-09-01T03:10:15.952Z'
+  lastFetched: '2026-09-01T10:58:05.224Z'
 repoInfo:
   language: TypeScript
   license: MIT
