@@ -13,8 +13,6 @@ metrics:
   lastPush: '2025-08-01T09:38:50Z'
   archived: false
   _history:
-    - t: '2026-09-01T15:57:03.403Z'
-      v: 760
     - t: '2026-09-01T20:25:08.254Z'
       v: 760
     - t: '2026-09-02T02:29:00.044Z'
@@ -37,13 +35,15 @@ metrics:
       v: 760
     - t: '2026-09-04T10:24:38.314Z'
       v: 760
-  lastAutoUpdated: '2026-09-04T10:24:38.314Z'
+    - t: '2026-09-04T15:37:39.242Z'
+      v: 760
+  lastAutoUpdated: '2026-09-04T15:37:39.242Z'
   weeklyGrowthPct: 0
 fetch:
   github: AbdelStark/bitcoin-mcp
 readme:
   about: Documentation Try with Claude Try with Goose
-  lastFetched: '2026-09-04T10:24:47.161Z'
+  lastFetched: '2026-09-04T15:37:47.936Z'
 repoInfo:
   language: TypeScript
   license: MIT
@@ -55,7 +55,7 @@ repoInfo:
     - lightning-network
     - mcp-server
   contributors: 5
-  openIssues: 5
+  openIssues: 6
   archived: false
   createdAt: '2025-02-05T17:03:12Z'
   defaultBranch: main
