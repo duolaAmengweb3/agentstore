@@ -9,13 +9,11 @@ score: 7.2
 tagline_en: OpenClaw — open-source agent runtime (open-source counterpart to Claude Code)
 tagline_zh: 'OpenClaw:开源 agent runtime(Claude Code 的开源对标)'
 metrics:
-  githubStars: 389058
+  githubStars: 389089
   weeklyGrowthPct: 0
-  lastPush: '2026-09-07T02:27:39Z'
+  lastPush: '2026-09-07T11:22:27Z'
   archived: false
   _history:
-    - t: '2026-09-04T10:24:43.853Z'
-      v: 3888090
     - t: '2026-09-04T15:37:43.988Z'
       v: 3888310
     - t: '2026-09-04T20:09:58.813Z'
@@ -38,18 +36,18 @@ metrics:
       v: 3890380
     - t: '2026-09-07T02:27:54.236Z'
       v: 3890580
-  lastAutoUpdated: '2026-09-07T02:27:54.236Z'
+    - t: '2026-09-07T11:22:54.725Z'
+      v: 3890890
+  lastAutoUpdated: '2026-09-07T11:22:54.725Z'
 fetch:
   github: OpenClaw/openclaw
 readme:
   about: >-
-    OpenClaw is an AI assistant that runs on your devices and meets you in the
-    channels you already use. It connects models, tools, messaging channels, and
-    optional companion apps through one Gateway, for a single operator or for a
-    team whose members trust each other: the same gateway runs as a personal
-    assistant on one laptop or as a shared team deployment, and configuration is
-    the only difference. The architecture case — trusted gateway, untrusted
-    execution, deterministic policy — is in Why OpenCl
+    OpenClaw is an open-source AI assistant that runs on your own computer and
+    meets you in the channels you already use: Discord, iMessage, Slack, Teams,
+    Telegram, WhatsApp, and 20+ more, plus native apps for macOS, iOS, Android,
+    Windows, and Linux. One Gateway runs it as a personal assistant on a laptop
+    or as a shared team deployment; configuration is the only difference.
   examples:
     - openclaw onboard --install-daemon
     - openclaw gateway status
@@ -57,7 +55,7 @@ readme:
   installCmd: |-
     # macOS / Linux / WSL2
     curl -fsSL https://openclaw.ai/install.sh | bash
-  lastFetched: '2026-09-07T02:28:04.779Z'
+  lastFetched: '2026-09-07T11:23:07.210Z'
 repoInfo:
   language: TypeScript
   license: NOASSERTION
@@ -70,7 +68,7 @@ repoInfo:
     - own-your-data
     - personal
   contributors: 377
-  openIssues: 6237
+  openIssues: 6303
   archived: false
   createdAt: '2025-11-24T10:16:47Z'
   defaultBranch: main
