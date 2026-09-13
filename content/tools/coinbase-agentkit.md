@@ -15,8 +15,6 @@ metrics:
   githubStars: 1309
   weeklyGrowthPct: 1
   _history:
-    - t: '2026-09-10T02:43:04.057Z'
-      v: 52444
     - t: '2026-09-10T10:25:34.019Z'
       v: 52444
     - t: '2026-09-10T15:42:01.131Z'
@@ -39,7 +37,9 @@ metrics:
       v: 53127
     - t: '2026-09-12T20:03:28.133Z'
       v: 53127
-  lastAutoUpdated: '2026-09-12T20:03:28.133Z'
+    - t: '2026-09-13T02:43:36.831Z'
+      v: 53127
+  lastAutoUpdated: '2026-09-13T02:43:36.831Z'
   lastPush: '2026-09-03T17:58:06Z'
   archived: false
 fetch:
@@ -47,7 +47,7 @@ fetch:
   npm: '@coinbase/agentkit'
 readme:
   about: Every agent deserves a wallet.
-  lastFetched: '2026-09-12T20:03:37.692Z'
+  lastFetched: '2026-09-13T02:43:44.080Z'
 repoInfo:
   language: TypeScript
   license: NOASSERTION
