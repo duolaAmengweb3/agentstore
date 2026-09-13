@@ -14,8 +14,6 @@ metrics:
   lastPush: '2025-05-06T08:53:13Z'
   archived: false
   _history:
-    - t: '2026-09-10T20:20:24.202Z'
-      v: 80
     - t: '2026-09-11T02:36:14.282Z'
       v: 80
     - t: '2026-09-11T10:27:59.330Z'
@@ -38,7 +36,9 @@ metrics:
       v: 80
     - t: '2026-09-13T15:29:01.734Z'
       v: 80
-  lastAutoUpdated: '2026-09-13T15:29:01.734Z'
+    - t: '2026-09-13T20:10:06.482Z'
+      v: 80
+  lastAutoUpdated: '2026-09-13T20:10:06.482Z'
   weeklyGrowthPct: 0
 fetch:
   github: kukapay/crypto-liquidations-mcp
@@ -62,7 +62,7 @@ readme:
     - >-
       Generates a prompt to analyze liquidation trends across all symbols,
       leveraging the get_latest_liquidations tool.
-  lastFetched: '2026-09-13T15:29:11.242Z'
+  lastFetched: '2026-09-13T20:10:16.575Z'
 repoInfo:
   language: Python
   license: MIT
