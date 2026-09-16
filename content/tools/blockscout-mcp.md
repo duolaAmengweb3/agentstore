@@ -11,12 +11,10 @@ tagline_zh: 'Blockscout 官方 MCP,60+ 链的链上浏览器'
 metrics:
   smitheryCalls: 17711
   githubStars: 46
-  weeklyGrowthPct: 0
+  weeklyGrowthPct: -2
   lastPush: '2026-09-08T03:19:30Z'
   archived: false
   _history:
-    - t: '2026-09-13T20:10:03.712Z'
-      v: 460
     - t: '2026-09-14T02:58:47.009Z'
       v: 470
     - t: '2026-09-14T11:32:23.151Z'
@@ -39,7 +37,9 @@ metrics:
       v: 460
     - t: '2026-09-16T15:57:55.511Z'
       v: 460
-  lastAutoUpdated: '2026-09-16T15:57:55.511Z'
+    - t: '2026-09-16T20:46:10.468Z'
+      v: 460
+  lastAutoUpdated: '2026-09-16T20:46:10.468Z'
 fetch:
   github: blockscout/mcp-server
 readme:
@@ -47,7 +47,7 @@ readme:
     The Model Context Protocol (MCP) is an open protocol designed to allow AI
     agents, IDEs, and automation tools to consume, query, and analyze structured
     data through context-aware APIs.
-  lastFetched: '2026-09-16T15:58:05.333Z'
+  lastFetched: '2026-09-16T20:46:20.564Z'
 repoInfo:
   language: Python
   license: NOASSERTION
