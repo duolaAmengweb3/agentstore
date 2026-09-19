@@ -16,8 +16,6 @@ metrics:
   lastPush: '2026-06-23T08:14:03Z'
   archived: true
   _history:
-    - t: '2026-09-16T15:57:57.260Z'
-      v: 3234
     - t: '2026-09-16T20:46:12.428Z'
       v: 3234
     - t: '2026-09-17T03:00:23.735Z'
@@ -40,7 +38,9 @@ metrics:
       v: 3234
     - t: '2026-09-19T10:09:58.995Z'
       v: 3234
-  lastAutoUpdated: '2026-09-19T10:09:58.995Z'
+    - t: '2026-09-19T15:12:32.343Z'
+      v: 3234
+  lastAutoUpdated: '2026-09-19T15:12:32.343Z'
   weeklyGrowthPct: 0
 fetch:
   github: drift-labs/driftpy
@@ -49,7 +49,7 @@ readme:
     DriftPy is the Python client for the Drift protocol. It allows you to trade
     and fetch data from Drift using Python.
   installCmd: pip install driftpy
-  lastFetched: '2026-09-19T10:10:08.501Z'
+  lastFetched: '2026-09-19T15:12:40.194Z'
 repoInfo:
   language: Python
   license: null
