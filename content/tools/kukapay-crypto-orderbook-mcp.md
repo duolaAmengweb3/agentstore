@@ -14,8 +14,6 @@ metrics:
   lastPush: '2025-05-07T10:18:58Z'
   archived: false
   _history:
-    - t: '2026-09-16T10:42:18.154Z'
-      v: 160
     - t: '2026-09-16T15:57:59.252Z'
       v: 160
     - t: '2026-09-16T20:46:14.282Z'
@@ -38,7 +36,9 @@ metrics:
       v: 160
     - t: '2026-09-19T02:46:40.388Z'
       v: 160
-  lastAutoUpdated: '2026-09-19T02:46:40.388Z'
+    - t: '2026-09-19T10:10:00.487Z'
+      v: 160
+  lastAutoUpdated: '2026-09-19T10:10:00.487Z'
   weeklyGrowthPct: 0
 fetch:
   github: kukapay/crypto-orderbook-mcp
@@ -55,7 +55,7 @@ readme:
       Cross-Exchange Comparison — Compare order book depth and imbalance across
       multiple exchanges in a unified Markdown table.
     - 'Supported Exchanges — Binance, Kraken, Coinbase, Bitfinex, Okx, Bybit'
-  lastFetched: '2026-09-19T02:46:49.735Z'
+  lastFetched: '2026-09-19T10:10:10.760Z'
 repoInfo:
   language: Python
   license: MIT
