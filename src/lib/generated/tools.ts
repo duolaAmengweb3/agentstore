@@ -2042,6 +2042,22 @@ export const toolsFromMarkdown: Tool[] = [
     }
   },
   {
+    "slug": "sparkforge",
+    "name": "SparkForge",
+    "author": "unknown",
+    "tagline": {
+      "en": "Access a versatile collection of tools for media generation, web scraping, and cryptocurrency research. Convert between data formats, summar",
+      "zh": "Access a versatile collection of tools for media generation, web scraping, and cryptocurrency research. Convert between data formats, summar"
+    },
+    "category": "data",
+    "icon": "📊",
+    "official": false,
+    "metrics": {
+      "smitheryCalls": 219896
+    },
+    "score": 7
+  },
+  {
     "slug": "strale-mcp",
     "name": "Strale",
     "author": "strale-io",
