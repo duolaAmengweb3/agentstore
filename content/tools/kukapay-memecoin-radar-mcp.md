@@ -13,8 +13,6 @@ metrics:
   lastPush: '2025-06-15T02:39:39Z'
   archived: false
   _history:
-    - t: '2026-09-19T19:55:51.022Z'
-      v: 30
     - t: '2026-09-20T02:58:39.338Z'
       v: 30
     - t: '2026-09-20T10:28:37.048Z'
@@ -37,7 +35,9 @@ metrics:
       v: 30
     - t: '2026-09-22T16:07:37.094Z'
       v: 30
-  lastAutoUpdated: '2026-09-22T16:07:37.094Z'
+    - t: '2026-09-22T20:46:53.134Z'
+      v: 30
+  lastAutoUpdated: '2026-09-22T20:46:53.134Z'
   weeklyGrowthPct: 0
 fetch:
   github: kukapay/memecoin-radar-mcp
@@ -65,7 +65,7 @@ readme:
   installCmd: |-
     git clone https://github.com/kukapay/memecoin-radar-mcp.git
        cd memecoin-radar-mcp
-  lastFetched: '2026-09-22T16:07:45.659Z'
+  lastFetched: '2026-09-22T20:47:04.491Z'
 repoInfo:
   language: Python
   license: MIT
