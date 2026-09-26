@@ -12,12 +12,10 @@ tagline_en: >-
 tagline_zh: 'Rust 单文件二进制,内置 MCP,NDJSON 输出 — 首个真正 AI-native 的 CLI'
 metrics:
   githubStars: 734
-  weeklyGrowthPct: 1
+  weeklyGrowthPct: 0
   lastPush: '2026-08-07T13:43:41Z'
   archived: false
   _history:
-    - t: '2026-09-23T10:38:15.288Z'
-      v: 7300
     - t: '2026-09-23T15:57:29.033Z'
       v: 7310
     - t: '2026-09-23T20:58:34.142Z'
@@ -40,7 +38,9 @@ metrics:
       v: 7340
     - t: '2026-09-26T03:07:17.909Z'
       v: 7340
-  lastAutoUpdated: '2026-09-26T03:07:17.909Z'
+    - t: '2026-09-26T10:40:22.165Z'
+      v: 7340
+  lastAutoUpdated: '2026-09-26T10:40:22.165Z'
 fetch:
   github: krakenfx/kraken-cli
 readme:
@@ -104,7 +104,7 @@ readme:
     - export KRAKEN_API_SECRET="your-secret"
     - kraken balance -o json
     - kraken open-orders -o json
-  lastFetched: '2026-09-26T03:07:25.727Z'
+  lastFetched: '2026-09-26T10:40:30.611Z'
 repoInfo:
   language: Rust
   license: MIT

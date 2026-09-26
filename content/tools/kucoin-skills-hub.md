@@ -13,8 +13,6 @@ metrics:
   lastPush: '2026-03-17T15:34:46Z'
   archived: false
   _history:
-    - t: '2026-09-23T10:38:15.291Z'
-      v: 280
     - t: '2026-09-23T15:57:29.069Z'
       v: 280
     - t: '2026-09-23T20:58:34.144Z'
@@ -37,7 +35,9 @@ metrics:
       v: 280
     - t: '2026-09-26T03:07:17.902Z'
       v: 280
-  lastAutoUpdated: '2026-09-26T03:07:17.902Z'
+    - t: '2026-09-26T10:40:22.098Z'
+      v: 280
+  lastAutoUpdated: '2026-09-26T10:40:22.098Z'
   weeklyGrowthPct: 0
 fetch:
   github: Kucoin/kucoin-skills-hub
@@ -51,7 +51,7 @@ readme:
       npx skills add https://github.com/Kucoin/kucoin-skills-hub --full-depth
       --skill spot
   installCmd: 'npx skills add https://github.com/Kucoin/kucoin-skills-hub --full-depth'
-  lastFetched: '2026-09-26T03:07:25.753Z'
+  lastFetched: '2026-09-26T10:40:30.659Z'
 repoInfo:
   language: null
   license: MIT
