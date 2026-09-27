@@ -13,8 +13,6 @@ metrics:
   lastPush: '2026-09-25T10:44:04Z'
   archived: false
   _history:
-    - t: '2026-09-24T10:58:21.760Z'
-      v: 480
     - t: '2026-09-24T16:20:43.131Z'
       v: 480
     - t: '2026-09-24T21:03:23.233Z'
@@ -37,7 +35,9 @@ metrics:
       v: 480
     - t: '2026-09-27T03:13:40.858Z'
       v: 480
-  lastAutoUpdated: '2026-09-27T03:13:40.858Z'
+    - t: '2026-09-27T11:14:06.662Z'
+      v: 480
+  lastAutoUpdated: '2026-09-27T11:14:06.662Z'
   weeklyGrowthPct: 0
 fetch:
   github: pancakeswap/pancakeswap-ai
@@ -57,7 +57,7 @@ readme:
     links
 
     /plugin install pancakeswap-farming   # Farming planner
-  lastFetched: '2026-09-27T03:13:50.247Z'
+  lastFetched: '2026-09-27T11:14:16.074Z'
 repoInfo:
   language: JavaScript
   license: null
