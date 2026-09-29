@@ -13,11 +13,9 @@ tagline_zh: 'GMX 官方 agent skills:开合约(100x)/ LP / swap / 查持仓,支�
 metrics:
   githubStars: 11
   weeklyGrowthPct: 0
-  lastPush: '2026-03-20T08:59:28Z'
+  lastPush: '2026-09-29T13:26:32Z'
   archived: false
   _history:
-    - t: '2026-09-26T10:40:21.452Z'
-      v: 110
     - t: '2026-09-26T15:35:20.837Z'
       v: 110
     - t: '2026-09-26T20:33:25.391Z'
@@ -40,7 +38,9 @@ metrics:
       v: 110
     - t: '2026-09-29T11:59:05.152Z'
       v: 110
-  lastAutoUpdated: '2026-09-29T11:59:05.152Z'
+    - t: '2026-09-29T17:54:47.776Z'
+      v: 110
+  lastAutoUpdated: '2026-09-29T17:54:47.776Z'
 fetch:
   github: gmx-io/gmx-ai
 readme:
@@ -48,7 +48,7 @@ readme:
   installCmd: |-
     /plugin marketplace add gmx-io/gmx-ai
     /plugin install gmx-io@gmx-ai
-  lastFetched: '2026-09-29T11:59:14.545Z'
+  lastFetched: '2026-09-29T17:54:57.714Z'
 repoInfo:
   language: null
   license: MIT
@@ -61,7 +61,7 @@ repoInfo:
     - liquidity
     - trading
   contributors: 1
-  openIssues: 1
+  openIssues: 2
   archived: false
   createdAt: '2026-03-04T09:28:08Z'
   defaultBranch: main
