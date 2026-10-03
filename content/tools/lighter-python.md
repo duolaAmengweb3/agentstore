@@ -14,8 +14,6 @@ metrics:
   lastPush: '2026-09-30T09:13:07Z'
   archived: false
   _history:
-    - t: '2026-09-30T11:47:15.961Z'
-      v: 3707
     - t: '2026-09-30T17:27:43.511Z'
       v: 3707
     - t: '2026-09-30T21:47:01.242Z'
@@ -38,14 +36,16 @@ metrics:
       v: 3707
     - t: '2026-10-03T10:58:47.633Z'
       v: 3697
-  lastAutoUpdated: '2026-10-03T10:58:47.633Z'
+    - t: '2026-10-03T15:35:34.202Z'
+      v: 3697
+  lastAutoUpdated: '2026-10-03T15:35:34.202Z'
   weeklyGrowthPct: -0.0
 fetch:
   github: elliottech/lighter-python
 readme:
   about: Python SDK for Lighter (zkLighter perpetuals exchange).
   installCmd: 'pip install git+https://github.com/elliottech/zklighter-perps-python.git'
-  lastFetched: '2026-10-03T10:58:57.406Z'
+  lastFetched: '2026-10-03T15:35:43.927Z'
 repoInfo:
   language: Python
   license: Apache-2.0
