@@ -13,8 +13,6 @@ metrics:
   lastPush: '2025-04-05T16:29:23Z'
   archived: false
   _history:
-    - t: '2026-09-30T21:46:57.190Z'
-      v: 250
     - t: '2026-10-01T03:42:13.050Z'
       v: 250
     - t: '2026-10-01T12:16:32.515Z'
@@ -37,7 +35,9 @@ metrics:
       v: 250
     - t: '2026-10-03T20:29:50.718Z'
       v: 250
-  lastAutoUpdated: '2026-10-03T20:29:50.718Z'
+    - t: '2026-10-04T03:53:31.982Z'
+      v: 250
+  lastAutoUpdated: '2026-10-04T03:53:31.982Z'
   weeklyGrowthPct: 0
 fetch:
   github: Codex-Data/codex-mcp
@@ -55,7 +55,7 @@ readme:
 
     # Build the project
     pnpm build
-  lastFetched: '2026-10-03T20:29:58.052Z'
+  lastFetched: '2026-10-04T03:53:40.016Z'
 repoInfo:
   language: TypeScript
   license: null

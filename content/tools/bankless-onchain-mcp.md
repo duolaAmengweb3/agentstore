@@ -14,8 +14,6 @@ metrics:
   lastPush: '2026-05-05T11:48:39Z'
   archived: false
   _history:
-    - t: '2026-09-30T21:46:56.162Z'
-      v: 3671
     - t: '2026-10-01T03:42:11.048Z'
       v: 3671
     - t: '2026-10-01T12:16:31.043Z'
@@ -38,7 +36,9 @@ metrics:
       v: 3671
     - t: '2026-10-03T20:29:49.751Z'
       v: 3671
-  lastAutoUpdated: '2026-10-03T20:29:49.751Z'
+    - t: '2026-10-04T03:53:30.741Z'
+      v: 3671
+  lastAutoUpdated: '2026-10-04T03:53:30.741Z'
   weeklyGrowthPct: 0
 fetch:
   github: Bankless/onchain-mcp
@@ -47,7 +47,7 @@ readme:
     MCP (Model Context Protocol) server for blockchain data interaction through
     the Bankless API.
   installCmd: npm install @bankless/onchain-mcp
-  lastFetched: '2026-10-03T20:29:56.297Z'
+  lastFetched: '2026-10-04T03:53:38.092Z'
 repoInfo:
   language: TypeScript
   license: null
