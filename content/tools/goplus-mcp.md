@@ -17,8 +17,6 @@ metrics:
   lastPush: '2025-05-29T04:31:38Z'
   archived: false
   _history:
-    - t: '2026-10-02T11:45:15.493Z'
-      v: 3491
     - t: '2026-10-02T17:17:35.332Z'
       v: 3491
     - t: '2026-10-02T21:43:31.435Z'
@@ -41,7 +39,9 @@ metrics:
       v: 3491
     - t: '2026-10-05T03:38:49.177Z'
       v: 3491
-  lastAutoUpdated: '2026-10-05T03:38:49.177Z'
+    - t: '2026-10-05T13:22:19.187Z'
+      v: 3491
+  lastAutoUpdated: '2026-10-05T13:22:19.187Z'
 fetch:
   github: GoPlusSecurity/goplus-mcp
 readme:
@@ -52,7 +52,7 @@ readme:
     Through this server, LLM Client can directly access and analyze blockchain
     security data, helping users with token security analysis, address risk
     assessment, and comprehensive Web3 security checks.
-  lastFetched: '2026-10-05T03:38:58.400Z'
+  lastFetched: '2026-10-05T13:22:31.312Z'
 repoInfo:
   language: TypeScript
   license: Apache-2.0
