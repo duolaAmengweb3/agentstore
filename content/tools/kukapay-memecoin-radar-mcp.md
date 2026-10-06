@@ -9,12 +9,10 @@ score: 7.6
 tagline_en: Solana memecoin trend + KOL trade detection
 tagline_zh: Solana memecoin 趋势 + KOL 交易检测
 metrics:
-  githubStars: 3
+  githubStars: 4
   lastPush: '2025-06-15T02:39:39Z'
   archived: false
   _history:
-    - t: '2026-10-03T10:58:47.163Z'
-      v: 30
     - t: '2026-10-03T15:35:33.733Z'
       v: 30
     - t: '2026-10-03T20:29:52.881Z'
@@ -37,8 +35,10 @@ metrics:
       v: 30
     - t: '2026-10-06T12:37:23.754Z'
       v: 30
-  lastAutoUpdated: '2026-10-06T12:37:23.754Z'
-  weeklyGrowthPct: 0
+    - t: '2026-10-06T22:11:12.904Z'
+      v: 40
+  lastAutoUpdated: '2026-10-06T22:11:12.904Z'
+  weeklyGrowthPct: 33
 fetch:
   github: kukapay/memecoin-radar-mcp
 readme:
@@ -65,7 +65,7 @@ readme:
   installCmd: |-
     git clone https://github.com/kukapay/memecoin-radar-mcp.git
        cd memecoin-radar-mcp
-  lastFetched: '2026-10-06T12:37:34.828Z'
+  lastFetched: '2026-10-06T22:11:23.421Z'
 repoInfo:
   language: Python
   license: MIT
