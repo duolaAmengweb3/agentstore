@@ -15,8 +15,6 @@ metrics:
   githubStars: 89
   weeklyGrowthPct: 16
   _history:
-    - t: '2026-10-05T23:37:00.150Z'
-      v: 17537
     - t: '2026-10-06T04:26:53.151Z'
       v: 17537
     - t: '2026-10-06T12:37:25.608Z'
@@ -39,7 +37,9 @@ metrics:
       v: 20343
     - t: '2026-10-09T12:32:11.039Z'
       v: 20343
-  lastAutoUpdated: '2026-10-09T12:32:11.039Z'
+    - t: '2026-10-09T22:08:26.880Z'
+      v: 20343
+  lastAutoUpdated: '2026-10-09T22:08:26.880Z'
 fetch:
   npm: '@phantom/mcp-server'
 summary_en: >-
