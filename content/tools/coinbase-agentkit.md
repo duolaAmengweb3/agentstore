@@ -12,11 +12,9 @@ tagline_en: >-
 tagline_zh: 'Coinbase 官方:给 AI agent 一个钱包(EVM + Solana + Base),50+ 动作'
 metrics:
   npmMonthly: 28786
-  githubStars: 1326
+  githubStars: 1327
   weeklyGrowthPct: -5
   _history:
-    - t: '2026-10-07T22:33:01.894Z'
-      v: 44302
     - t: '2026-10-08T04:06:10.893Z'
       v: 44302
     - t: '2026-10-08T12:40:04.818Z'
@@ -39,7 +37,9 @@ metrics:
       v: 43823
     - t: '2026-10-11T03:31:06.284Z'
       v: 42046
-  lastAutoUpdated: '2026-10-11T03:31:06.284Z'
+    - t: '2026-10-11T11:58:33.617Z'
+      v: 42056
+  lastAutoUpdated: '2026-10-11T11:58:33.617Z'
   lastPush: '2026-09-03T17:58:06Z'
   archived: false
 fetch:
@@ -47,13 +47,13 @@ fetch:
   npm: '@coinbase/agentkit'
 readme:
   about: Every agent deserves a wallet.
-  lastFetched: '2026-10-11T03:31:15.210Z'
+  lastFetched: '2026-10-11T11:58:42.467Z'
 repoInfo:
   language: TypeScript
   license: NOASSERTION
   topics: []
   contributors: 89
-  openIssues: 409
+  openIssues: 410
   archived: false
   createdAt: '2024-10-31T20:40:22Z'
   defaultBranch: main

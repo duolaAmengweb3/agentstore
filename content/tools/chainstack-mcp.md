@@ -11,11 +11,9 @@ tagline_zh: 'Chainstack 官方 MCP:多链 RPC + developer portal(EVM + Solana)'
 metrics:
   npmMonthly: 3102
   githubStars: 4
-  lastPush: '2026-10-06T06:30:21Z'
+  lastPush: '2026-10-11T05:52:38Z'
   archived: false
   _history:
-    - t: '2026-10-07T22:33:01.730Z'
-      v: 3142
     - t: '2026-10-08T04:06:10.702Z'
       v: 3142
     - t: '2026-10-08T12:40:04.615Z'
@@ -38,7 +36,9 @@ metrics:
       v: 3142
     - t: '2026-10-11T03:31:06.198Z'
       v: 3142
-  lastAutoUpdated: '2026-10-11T03:31:06.198Z'
+    - t: '2026-10-11T11:58:33.497Z'
+      v: 3142
+  lastAutoUpdated: '2026-10-11T11:58:33.497Z'
   weeklyGrowthPct: 0
 fetch:
   github: chainstacklabs/mcp-server
@@ -50,7 +50,7 @@ readme:
   examples:
     - get mcp.chainstack.com
   installCmd: get mcp.chainstack.com
-  lastFetched: '2026-10-11T03:31:14.718Z'
+  lastFetched: '2026-10-11T11:58:41.898Z'
 repoInfo:
   language: null
   license: MIT
