@@ -10,12 +10,10 @@ tagline_en: Bankless official onchain MCP — portfolio + protocols + governance
 tagline_zh: 'Bankless 官方链上 MCP:portfolio + 协议 + 治理'
 metrics:
   npmMonthly: 2871
-  githubStars: 79
+  githubStars: 78
   lastPush: '2026-05-05T11:48:39Z'
   archived: false
   _history:
-    - t: '2026-10-09T04:11:11.786Z'
-      v: 3661
     - t: '2026-10-09T12:27:04.571Z'
       v: 3661
     - t: '2026-10-09T22:08:20.886Z'
@@ -38,8 +36,10 @@ metrics:
       v: 3661
     - t: '2026-10-12T03:55:03.815Z'
       v: 3661
-  lastAutoUpdated: '2026-10-12T03:55:03.815Z'
-  weeklyGrowthPct: 0
+    - t: '2026-10-12T14:12:01.177Z'
+      v: 3651
+  lastAutoUpdated: '2026-10-12T14:12:01.177Z'
+  weeklyGrowthPct: -0.0
 fetch:
   github: Bankless/onchain-mcp
 readme:
@@ -47,7 +47,7 @@ readme:
     MCP (Model Context Protocol) server for blockchain data interaction through
     the Bankless API.
   installCmd: npm install @bankless/onchain-mcp
-  lastFetched: '2026-10-12T03:55:11.685Z'
+  lastFetched: '2026-10-12T14:12:10.365Z'
 repoInfo:
   language: TypeScript
   license: null
