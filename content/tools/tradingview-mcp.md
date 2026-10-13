@@ -10,13 +10,11 @@ tagline_en: 'TradingView MCP — live crypto / stock screener + advanced TA, 206
 tagline_zh: 'TradingView MCP:实时 crypto / 股票筛选 + 高级 TA 指标,2065 star'
 metrics:
   smitheryCalls: 2065
-  githubStars: 5045
+  githubStars: 5050
   weeklyGrowthPct: 1
-  lastPush: '2026-10-11T20:17:05Z'
+  lastPush: '2026-10-13T21:42:14Z'
   archived: false
   _history:
-    - t: '2026-10-10T03:56:48.405Z'
-      v: 49920
     - t: '2026-10-10T11:46:06.423Z'
       v: 49960
     - t: '2026-10-10T16:49:05.806Z'
@@ -39,17 +37,16 @@ metrics:
       v: 50370
     - t: '2026-10-13T13:23:00.129Z'
       v: 50450
-  lastAutoUpdated: '2026-10-13T13:23:00.129Z'
+    - t: '2026-10-13T22:12:18.818Z'
+      v: 50500
+  lastAutoUpdated: '2026-10-13T22:12:18.818Z'
 fetch:
   github: atilaahmettaner/tradingview-mcp
 readme:
   about: >-
-    TradingView MCP server — real-time market data, technical indicators,
-    screeners, and backtesting for Claude, ChatGPT, Cursor, Copilot, and any MCP
-    client. Stocks, crypto, forex & futures across global exchanges. Backtesting
-    + live sentiment + Yahoo Finance + 37 technical-analysis tools — the most
-    complete TradingView MCP toolkit, all in one server.
-  lastFetched: '2026-10-13T13:23:15.699Z'
+    15 seconds, real output (market data as of 13 Oct 2026) · this server,
+    hosted as TradingMCP · watch in full quality
+  lastFetched: '2026-10-13T22:12:30.889Z'
 repoInfo:
   language: Python
   license: MIT
@@ -63,7 +60,7 @@ repoInfo:
     - model-context-protocol
     - openclaw
   contributors: 23
-  openIssues: 12
+  openIssues: 10
   archived: false
   createdAt: '2025-08-08T22:34:03Z'
   defaultBranch: main
