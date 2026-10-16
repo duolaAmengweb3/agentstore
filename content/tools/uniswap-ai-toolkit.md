@@ -14,8 +14,6 @@ metrics:
   lastPush: '2026-10-14T16:21:18Z'
   archived: false
   _history:
-    - t: '2026-10-13T00:03:28.482Z'
-      v: 420
     - t: '2026-10-13T13:23:00.155Z'
       v: 420
     - t: '2026-10-13T22:12:18.834Z'
@@ -38,7 +36,9 @@ metrics:
       v: 420
     - t: '2026-10-16T02:47:51.668Z'
       v: 420
-  lastAutoUpdated: '2026-10-16T02:47:51.668Z'
+    - t: '2026-10-16T10:31:48.848Z'
+      v: 420
+  lastAutoUpdated: '2026-10-16T10:31:48.848Z'
 fetch:
   github: Uniswap/ai-toolkit
 readme:
@@ -61,7 +61,7 @@ readme:
     - >-
       Standardized Patterns — Create a common toolset of Claude Code commands
       and agents shared by everyone at Uniswap
-  lastFetched: '2026-10-16T02:48:03.066Z'
+  lastFetched: '2026-10-16T10:31:59.514Z'
 repoInfo:
   language: TypeScript
   license: MIT
