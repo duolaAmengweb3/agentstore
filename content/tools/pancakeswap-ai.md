@@ -10,11 +10,9 @@ tagline_en: 'PancakeSwap official AI — planner-only mode, never executes on yo
 tagline_zh: 'PancakeSwap 官方 AI(BNB 链):Planner-only 模式,只给计划不下单'
 metrics:
   githubStars: 48
-  lastPush: '2026-10-16T20:51:13Z'
+  lastPush: '2026-10-17T17:35:35Z'
   archived: false
   _history:
-    - t: '2026-10-14T21:13:03.048Z'
-      v: 480
     - t: '2026-10-15T02:50:48.552Z'
       v: 480
     - t: '2026-10-15T10:44:30.647Z'
@@ -37,7 +35,9 @@ metrics:
       v: 480
     - t: '2026-10-17T14:50:04.751Z'
       v: 480
-  lastAutoUpdated: '2026-10-17T14:50:04.751Z'
+    - t: '2026-10-17T19:58:48.431Z'
+      v: 480
+  lastAutoUpdated: '2026-10-17T19:58:48.431Z'
   weeklyGrowthPct: 0
 fetch:
   github: pancakeswap/pancakeswap-ai
@@ -57,13 +57,13 @@ readme:
     links
 
     /plugin install pancakeswap-farming   # Farming planner
-  lastFetched: '2026-10-17T14:50:13.489Z'
+  lastFetched: '2026-10-17T19:58:57.670Z'
 repoInfo:
   language: JavaScript
   license: null
   topics: []
   contributors: 6
-  openIssues: 19
+  openIssues: 20
   archived: false
   createdAt: '2026-02-27T15:28:59Z'
   defaultBranch: main
