@@ -10,11 +10,9 @@ tagline_en: OKX official MCP + CLI — 140 tools across spot / perp / options / 
 tagline_zh: 'OKX 官方 MCP + CLI,140 个工具覆盖现货 / 合约 / 期权 / bot / earn'
 metrics:
   npmMonthly: 4190
-  githubStars: 480
-  weeklyGrowthPct: -5
+  githubStars: 481
+  weeklyGrowthPct: -4
   _history:
-    - t: '2026-10-16T10:31:47.701Z'
-      v: 9420
     - t: '2026-10-16T15:56:56.458Z'
       v: 9420
     - t: '2026-10-16T20:24:38.194Z'
@@ -37,8 +35,10 @@ metrics:
       v: 8990
     - t: '2026-10-19T02:54:14.442Z'
       v: 8990
-  lastAutoUpdated: '2026-10-19T02:54:14.442Z'
-  lastPush: '2026-10-14T07:06:45Z'
+    - t: '2026-10-19T11:52:53.986Z'
+      v: 9000
+  lastAutoUpdated: '2026-10-19T11:52:53.986Z'
+  lastPush: '2026-10-19T07:05:35Z'
   archived: false
 fetch:
   github: okx/agent-trade-kit
@@ -49,7 +49,7 @@ readme:
     grid bots via the Model Context Protocol.  
   features:
     - >-
-      167 tools across 11 modules (17 sub-modules) — Full trading lifecycle:
+      170 tools across 11 modules (17 sub-modules) — Full trading lifecycle:
       market data → orders → algo orders → account management → earn → trading
       bots → event contracts → news → smart money signals
     - >-
@@ -116,9 +116,9 @@ readme:
         Currency Deposit/双币赢 (6). Flash Earn (1). Sub-modules: earn.savings,
         earn.onchain, earn.dcd, earn.flash. Included in all. ·
     - name: bot
-      count: 14
+      count: 17
       description: >-
-        Trading bots: Grid (9) and DCA — Spot & Contract (5). Sub-modules:
+        Trading bots: Grid (9) and DCA — Spot & Contract (8). Sub-modules:
         bot.grid, bot.dca ·
     - name: news
       count: 7
@@ -154,7 +154,7 @@ readme:
 
     okx-trade-mcp setup --client vscode          # writes .mcp.json in current
     directory
-  lastFetched: '2026-10-19T02:54:23.547Z'
+  lastFetched: '2026-10-19T11:53:04.608Z'
 repoInfo:
   language: TypeScript
   license: MIT
@@ -165,7 +165,7 @@ repoInfo:
     - model-context-protocol
     - okx
     - typescript
-  contributors: 1
+  contributors: 2
   openIssues: 4
   archived: false
   createdAt: '2026-03-03T11:35:24Z'
