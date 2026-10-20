@@ -15,8 +15,6 @@ metrics:
   lastPush: '2026-10-16T21:41:54Z'
   archived: false
   _history:
-    - t: '2026-10-17T02:39:33.043Z'
-      v: 50750
     - t: '2026-10-17T10:01:40.321Z'
       v: 50770
     - t: '2026-10-17T14:50:05.385Z'
@@ -39,14 +37,16 @@ metrics:
       v: 50860
     - t: '2026-10-20T03:04:14.292Z'
       v: 50860
-  lastAutoUpdated: '2026-10-20T03:04:14.292Z'
+    - t: '2026-10-20T10:49:21.978Z'
+      v: 50860
+  lastAutoUpdated: '2026-10-20T10:49:21.978Z'
 fetch:
   github: atilaahmettaner/tradingview-mcp
 readme:
   about: >-
     15 seconds, real output (market data as of 13 Oct 2026) · this server,
     hosted as TradingMCP · watch in full quality
-  lastFetched: '2026-10-20T03:04:23.572Z'
+  lastFetched: '2026-10-20T10:49:33.225Z'
 repoInfo:
   language: Python
   license: MIT
@@ -60,7 +60,7 @@ repoInfo:
     - model-context-protocol
     - openclaw
   contributors: 23
-  openIssues: 9
+  openIssues: 10
   archived: false
   createdAt: '2025-08-08T22:34:03Z'
   defaultBranch: main
