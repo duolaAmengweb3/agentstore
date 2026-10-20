@@ -11,11 +11,9 @@ tagline_zh: 'Helius 官方 MCP(Solana):60 个工具覆盖 RPC / tx / webhook / s
 metrics:
   npmMonthly: 5621
   githubStars: 29
-  lastPush: '2026-10-18T20:17:49Z'
+  lastPush: '2026-10-20T19:57:39Z'
   archived: false
   _history:
-    - t: '2026-10-17T14:50:01.737Z'
-      v: 5911
     - t: '2026-10-17T19:58:45.949Z'
       v: 5911
     - t: '2026-10-18T02:40:45.837Z'
@@ -38,7 +36,9 @@ metrics:
       v: 5911
     - t: '2026-10-20T16:13:03.463Z'
       v: 5911
-  lastAutoUpdated: '2026-10-20T16:13:03.463Z'
+    - t: '2026-10-20T21:09:13.010Z'
+      v: 5911
+  lastAutoUpdated: '2026-10-20T21:09:13.010Z'
   weeklyGrowthPct: 0
 fetch:
   github: helius-labs/core-ai
@@ -54,7 +54,7 @@ readme:
     npm install -g helius-cli
     # or
     pnpm add -g helius-cli
-  lastFetched: '2026-10-20T16:13:13.390Z'
+  lastFetched: '2026-10-20T21:09:25.367Z'
 repoInfo:
   language: TypeScript
   license: MIT
@@ -65,7 +65,7 @@ repoInfo:
     - mcp
     - solana
   contributors: 13
-  openIssues: 1
+  openIssues: 2
   archived: false
   createdAt: '2026-02-05T10:18:06Z'
   defaultBranch: main
