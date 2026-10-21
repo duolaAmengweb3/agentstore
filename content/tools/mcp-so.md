@@ -13,8 +13,6 @@ metrics:
   lastPush: '2025-03-26T16:29:02Z'
   archived: false
   _history:
-    - t: '2026-10-18T15:15:23.403Z'
-      v: 21090
     - t: '2026-10-18T19:58:24.926Z'
       v: 21090
     - t: '2026-10-19T02:54:13.616Z'
@@ -37,7 +35,9 @@ metrics:
       v: 21090
     - t: '2026-10-21T16:28:12.964Z'
       v: 21110
-  lastAutoUpdated: '2026-10-21T16:28:12.964Z'
+    - t: '2026-10-21T21:08:04.618Z'
+      v: 21110
+  lastAutoUpdated: '2026-10-21T21:08:04.618Z'
   weeklyGrowthPct: 0
 fetch:
   github: chatmcp/mcp-directory
@@ -54,7 +54,7 @@ readme:
   installCmd: |-
     git clone https://github.com/chatmcp/mcp-directory.git
     cd mcp-directory
-  lastFetched: '2026-10-21T16:28:23.199Z'
+  lastFetched: '2026-10-21T21:08:15.034Z'
 repoInfo:
   language: TypeScript
   license: Apache-2.0
@@ -65,7 +65,7 @@ repoInfo:
     - mcp-servers
     - mcp-servers-directory
   contributors: 2
-  openIssues: 3767
+  openIssues: 3784
   archived: false
   createdAt: '2024-12-06T02:22:42Z'
   defaultBranch: main
