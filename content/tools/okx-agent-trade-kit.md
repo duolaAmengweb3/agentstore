@@ -11,10 +11,8 @@ tagline_zh: 'OKX 官方 MCP + CLI,140 个工具覆盖现货 / 合约 / 期权 / 
 metrics:
   npmMonthly: 4271
   githubStars: 483
-  weeklyGrowthPct: -3
+  weeklyGrowthPct: 1
   _history:
-    - t: '2026-10-17T19:58:48.184Z'
-      v: 9410
     - t: '2026-10-18T02:40:48.097Z'
       v: 8970
     - t: '2026-10-18T10:14:29.927Z'
@@ -37,7 +35,9 @@ metrics:
       v: 9091
     - t: '2026-10-20T21:09:18.645Z'
       v: 9101
-  lastAutoUpdated: '2026-10-20T21:09:18.645Z'
+    - t: '2026-10-21T02:58:44.971Z'
+      v: 9101
+  lastAutoUpdated: '2026-10-21T02:58:44.971Z'
   lastPush: '2026-10-19T07:05:35Z'
   archived: false
 fetch:
@@ -154,7 +154,7 @@ readme:
 
     okx-trade-mcp setup --client vscode          # writes .mcp.json in current
     directory
-  lastFetched: '2026-10-20T21:09:29.270Z'
+  lastFetched: '2026-10-21T02:58:54.842Z'
 repoInfo:
   language: TypeScript
   license: MIT
