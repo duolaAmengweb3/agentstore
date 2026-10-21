@@ -11,13 +11,11 @@ tagline_en: >-
   pay
 tagline_zh: '社区最全的币安 MCP:478+ 个 endpoint 覆盖现货 / margin / staking / NFT / pay'
 metrics:
-  githubStars: 39
-  weeklyGrowthPct: 0
+  githubStars: 40
+  weeklyGrowthPct: 3
   lastPush: '2026-09-15T08:00:24Z'
   archived: false
   _history:
-    - t: '2026-10-18T10:14:24.821Z'
-      v: 390
     - t: '2026-10-18T15:15:18.356Z'
       v: 390
     - t: '2026-10-18T19:58:20.788Z'
@@ -40,7 +38,9 @@ metrics:
       v: 390
     - t: '2026-10-21T11:01:27.515Z'
       v: 390
-  lastAutoUpdated: '2026-10-21T11:01:27.515Z'
+    - t: '2026-10-21T16:28:07.653Z'
+      v: 400
+  lastAutoUpdated: '2026-10-21T16:28:07.653Z'
 fetch:
   github: nirholas/Binance-MCP
 readme:
@@ -57,7 +57,7 @@ readme:
 
     # Build the project
     npm run build
-  lastFetched: '2026-10-21T11:01:35.696Z'
+  lastFetched: '2026-10-21T16:28:16.609Z'
 repoInfo:
   language: TypeScript
   license: NOASSERTION

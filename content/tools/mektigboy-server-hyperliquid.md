@@ -14,8 +14,6 @@ metrics:
   lastPush: '2025-03-06T16:29:54Z'
   archived: false
   _history:
-    - t: '2026-10-18T10:14:29.526Z'
-      v: 440
     - t: '2026-10-18T15:15:23.650Z'
       v: 440
     - t: '2026-10-18T19:58:25.105Z'
@@ -38,13 +36,15 @@ metrics:
       v: 440
     - t: '2026-10-21T11:01:32.860Z'
       v: 440
-  lastAutoUpdated: '2026-10-21T11:01:32.860Z'
+    - t: '2026-10-21T16:28:13.243Z'
+      v: 440
+  lastAutoUpdated: '2026-10-21T16:28:13.243Z'
   weeklyGrowthPct: 0
 fetch:
   github: mektigboy/server-hyperliquid
 readme:
   about: An MCP server implementation that integrates the Hyperliquid SDK.
-  lastFetched: '2026-10-21T11:01:42.934Z'
+  lastFetched: '2026-10-21T16:28:23.412Z'
 repoInfo:
   language: TypeScript
   license: MIT
