@@ -2086,6 +2086,24 @@ export const toolsFromMarkdown: Tool[] = [
     }
   },
   {
+    "slug": "toreva",
+    "name": "Toreva",
+    "author": "Toreva",
+    "tagline": {
+      "en": "Durable goals and governed plans for AI agents",
+      "zh": "面向 AI agent 的持久目标与受控计划"
+    },
+    "category": "framework",
+    "icon": "🎯",
+    "official": true,
+    "metrics": {},
+    "score": 7,
+    "summary": {
+      "en": "Turn an outcome and its constraints into a plan you can review, refine, and reopen after the chat.",
+      "zh": "将目标和约束转化为可审查、可完善，并可在聊天结束后重新打开的计划。"
+    }
+  },
+  {
     "slug": "tradingview-mcp",
     "name": "TradingView MCP",
     "author": "atilaahmettaner",
