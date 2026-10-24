@@ -14,8 +14,6 @@ metrics:
   lastPush: '2025-05-07T17:24:04Z'
   archived: false
   _history:
-    - t: '2026-10-21T11:01:32.312Z'
-      v: 580
     - t: '2026-10-21T16:28:12.781Z'
       v: 580
     - t: '2026-10-21T21:08:04.358Z'
@@ -38,7 +36,9 @@ metrics:
       v: 580
     - t: '2026-10-24T02:57:57.023Z'
       v: 580
-  lastAutoUpdated: '2026-10-24T02:57:57.023Z'
+    - t: '2026-10-24T10:08:20.714Z'
+      v: 580
+  lastAutoUpdated: '2026-10-24T10:08:20.714Z'
   weeklyGrowthPct: 0
 fetch:
   github: kukapay/whale-tracker-mcp
@@ -67,7 +67,7 @@ readme:
       to the Whale Alert API.
   examples:
     - mcp dev whale_tracker.py --with-editable .
-  lastFetched: '2026-10-24T02:58:08.197Z'
+  lastFetched: '2026-10-24T10:08:33.824Z'
 repoInfo:
   language: Python
   license: MIT
