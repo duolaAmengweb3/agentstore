@@ -9,12 +9,10 @@ score: 7.8
 tagline_en: 'Block''s open-source on-device AI agent, MCP-capable'
 tagline_zh: 'Block 开源的本机 AI agent,支持 MCP'
 metrics:
-  githubStars: 55618
-  lastPush: '2026-10-23T17:43:37Z'
+  githubStars: 55630
+  lastPush: '2026-10-24T12:49:58Z'
   archived: false
   _history:
-    - t: '2026-10-21T16:28:10.865Z'
-      v: 554940
     - t: '2026-10-21T21:08:02.323Z'
       v: 555090
     - t: '2026-10-22T03:04:31.438Z'
@@ -37,7 +35,9 @@ metrics:
       v: 555990
     - t: '2026-10-24T10:08:18.723Z'
       v: 556180
-  lastAutoUpdated: '2026-10-24T10:08:18.723Z'
+    - t: '2026-10-24T15:15:23.078Z'
+      v: 556300
+  lastAutoUpdated: '2026-10-24T15:15:23.078Z'
   weeklyGrowthPct: 0
 fetch:
   github: block/goose
@@ -45,7 +45,7 @@ readme:
   about: >-
     _your native open source AI agent — desktop app, CLI, and API — for code,
     workflows, and everything in between_
-  lastFetched: '2026-10-24T10:08:30.812Z'
+  lastFetched: '2026-10-24T15:15:32.243Z'
 repoInfo:
   language: Rust
   license: Apache-2.0
