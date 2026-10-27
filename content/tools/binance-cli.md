@@ -9,12 +9,10 @@ score: 6.9
 tagline_en: Binance official traditional CLI — 23 modules but not agent-native
 tagline_zh: '币安官方传统 CLI,23 模块但不是 agent 原生(输出非 machine-first)'
 metrics:
-  githubStars: 72
+  githubStars: 73
   lastPush: '2026-10-20T10:18:58Z'
   archived: false
   _history:
-    - t: '2026-10-24T02:57:52.694Z'
-      v: 720
     - t: '2026-10-24T10:08:14.819Z'
       v: 720
     - t: '2026-10-24T15:15:20.178Z'
@@ -37,14 +35,16 @@ metrics:
       v: 720
     - t: '2026-10-27T03:22:49.975Z'
       v: 720
-  lastAutoUpdated: '2026-10-27T03:22:49.975Z'
-  weeklyGrowthPct: 0
+    - t: '2026-10-27T11:27:30.620Z'
+      v: 730
+  lastAutoUpdated: '2026-10-27T11:27:30.620Z'
+  weeklyGrowthPct: 1
 fetch:
   github: binance/binance-cli
 readme:
   about: A simple CLI that interacts with the Binance API
   installCmd: npm uninstall -g @binance/binance-cli
-  lastFetched: '2026-10-27T03:22:58.101Z'
+  lastFetched: '2026-10-27T11:27:40.032Z'
 repoInfo:
   language: Rust
   license: null
