@@ -10,11 +10,9 @@ tagline_en: OKX official MCP + CLI — 140 tools across spot / perp / options / 
 tagline_zh: 'OKX 官方 MCP + CLI,140 个工具覆盖现货 / 合约 / 期权 / bot / earn'
 metrics:
   npmMonthly: 4251
-  githubStars: 491
+  githubStars: 492
   weeklyGrowthPct: 4
   _history:
-    - t: '2026-10-25T02:50:47.496Z'
-      v: 8844
     - t: '2026-10-25T10:33:37.211Z'
       v: 8844
     - t: '2026-10-25T15:25:50.410Z'
@@ -37,8 +35,10 @@ metrics:
       v: 9161
     - t: '2026-10-28T03:39:02.329Z'
       v: 9161
-  lastAutoUpdated: '2026-10-28T03:39:02.329Z'
-  lastPush: '2026-10-19T07:05:35Z'
+    - t: '2026-10-28T11:58:41.118Z'
+      v: 9171
+  lastAutoUpdated: '2026-10-28T11:58:41.118Z'
+  lastPush: '2026-10-28T08:23:02Z'
   archived: false
 fetch:
   github: okx/agent-trade-kit
@@ -116,9 +116,9 @@ readme:
         Currency Deposit/双币赢 (6). Flash Earn (1). Sub-modules: earn.savings,
         earn.onchain, earn.dcd, earn.flash. Included in all. ·
     - name: bot
-      count: 17
+      count: 18
       description: >-
-        Trading bots: Grid (9) and DCA — Spot & Contract (8). Sub-modules:
+        Trading bots: Grid (9) and DCA — Spot & Contract (9). Sub-modules:
         bot.grid, bot.dca ·
     - name: news
       count: 7
@@ -154,7 +154,7 @@ readme:
 
     okx-trade-mcp setup --client vscode          # writes .mcp.json in current
     directory
-  lastFetched: '2026-10-28T03:39:12.342Z'
+  lastFetched: '2026-10-28T11:58:52.842Z'
 repoInfo:
   language: TypeScript
   license: MIT
