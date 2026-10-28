@@ -13,11 +13,9 @@ tagline_zh: 'Rust 单文件二进制,内置 MCP,NDJSON 输出 — 首个真正 A
 metrics:
   githubStars: 781
   weeklyGrowthPct: 0
-  lastPush: '2026-10-27T15:29:49Z'
+  lastPush: '2026-10-28T15:25:31Z'
   archived: false
   _history:
-    - t: '2026-10-25T10:33:35.441Z'
-      v: 7780
     - t: '2026-10-25T15:25:48.549Z'
       v: 7780
     - t: '2026-10-25T20:17:43.691Z'
@@ -40,7 +38,9 @@ metrics:
       v: 7810
     - t: '2026-10-28T11:58:38.617Z'
       v: 7810
-  lastAutoUpdated: '2026-10-28T11:58:38.617Z'
+    - t: '2026-10-28T18:05:03.215Z'
+      v: 7810
+  lastAutoUpdated: '2026-10-28T18:05:03.215Z'
 fetch:
   github: krakenfx/kraken-cli
 readme:
@@ -74,27 +74,28 @@ readme:
       count: 9
       description: Mixed · Futures WebSocket streaming
     - name: websocket
-      count: 15
+      count: 17
       description: Mixed · Spot WebSocket v2 streaming and request/response
     - name: paper
-      count: 16
+      count: 17
       description: >-
         No · Spot paper trading simulation with live prices, P&L explanation,
         and the Autoresearch Lab
     - name: workspace
-      count: 15
+      count: 25
       description: >-
-        No · Strategy workspaces and recorded sessions: isolated accounts,
-        session windows, decision logs, reports, promotion
+        No · Strategy workspaces, recorded sessions, recipes, and extension
+        scaffolds: isolated accounts, session windows, decision logs, reports,
+        promotion
     - name: feedback
       count: 1
-      description: No · Product feedback upload to Kraken (local DuckDB mirror on success)
+      description: No · Product feedback upload to Kraken
     - name: auth
-      count: 4
-      description: No · Credential management
+      count: 6
+      description: Mixed · Browser sign-in and credential management
     - name: utility
-      count: 2
-      description: No · Interactive setup and REPL shell
+      count: 1
+      description: No · Interactive setup (the REPL is the kraken-shell binary)
   examples:
     - kraken ticker BTCUSD -o json
     - kraken orderbook BTCUSD --count 10 -o json
@@ -104,13 +105,13 @@ readme:
     - export KRAKEN_API_SECRET="your-secret"
     - kraken balance -o json
     - kraken open-orders -o json
-  lastFetched: '2026-10-28T11:58:49.709Z'
+  lastFetched: '2026-10-28T18:05:13.943Z'
 repoInfo:
   language: Rust
   license: MIT
   topics: []
   contributors: 4
-  openIssues: 15
+  openIssues: 14
   archived: false
   createdAt: '2026-03-06T22:18:12Z'
   defaultBranch: main
