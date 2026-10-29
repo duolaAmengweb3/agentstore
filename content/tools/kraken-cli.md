@@ -11,13 +11,11 @@ tagline_en: >-
   AI-native CLI
 tagline_zh: 'Rust 单文件二进制,内置 MCP,NDJSON 输出 — 首个真正 AI-native 的 CLI'
 metrics:
-  githubStars: 782
+  githubStars: 783
   weeklyGrowthPct: 1
-  lastPush: '2026-10-28T15:25:31Z'
+  lastPush: '2026-10-29T10:32:10Z'
   archived: false
   _history:
-    - t: '2026-10-25T20:17:43.691Z'
-      v: 7780
     - t: '2026-10-26T02:49:16.803Z'
       v: 7790
     - t: '2026-10-26T12:06:52.395Z'
@@ -40,11 +38,18 @@ metrics:
       v: 7810
     - t: '2026-10-29T03:59:09.657Z'
       v: 7820
-  lastAutoUpdated: '2026-10-29T03:59:09.657Z'
+    - t: '2026-10-29T12:08:38.300Z'
+      v: 7830
+  lastAutoUpdated: '2026-10-29T12:08:38.300Z'
 fetch:
   github: krakenfx/kraken-cli
 readme:
-  about: 'The first AI-native CLI for trading crypto, stocks, forex, and derivatives.'
+  about: >-
+    Trade on Kraken from your terminal, or let your AI agent trade for you. One
+    install covers crypto, tokenized U.S. stocks and ETFs (for non-U.S.
+    customers), forex, and futures. Every command can answer in JSON. A built-in
+    MCP server connects the CLI to Claude, Cursor, Codex and other agents, and
+    paper trading runs on live prices with no account.
   modules:
     - name: market
       count: 11
@@ -85,33 +90,24 @@ readme:
       count: 25
       description: >-
         No · Strategy workspaces, recorded sessions, recipes, and extension
-        scaffolds: isolated accounts, session windows, decision logs, reports,
-        promotion
+        scaffolds: per-strategy ledgers, session windows, decision logs,
+        reports, promotion
     - name: feedback
       count: 1
       description: No · Product feedback upload to Kraken
     - name: auth
       count: 6
-      description: Mixed · Browser sign-in and credential management
+      description: Mixed · OAuth browser sign-in and credential management
     - name: utility
       count: 1
       description: No · Interactive setup (the REPL is the kraken-shell binary)
-  examples:
-    - kraken ticker BTCUSD -o json
-    - kraken orderbook BTCUSD --count 10 -o json
-    - kraken trades BTCUSD --count 20 -o json
-    - kraken ohlc BTCUSD --interval 60 -o json
-    - export KRAKEN_API_KEY="your-key"
-    - export KRAKEN_API_SECRET="your-secret"
-    - kraken balance -o json
-    - kraken open-orders -o json
-  lastFetched: '2026-10-29T03:59:19.019Z'
+  lastFetched: '2026-10-29T12:08:49.329Z'
 repoInfo:
   language: Rust
   license: MIT
   topics: []
-  contributors: 4
-  openIssues: 14
+  contributors: 5
+  openIssues: 3
   archived: false
   createdAt: '2026-03-06T22:18:12Z'
   defaultBranch: main
