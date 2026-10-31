@@ -13,8 +13,6 @@ metrics:
   lastPush: '2025-06-20T09:16:43Z'
   archived: true
   _history:
-    - t: '2026-10-27T21:43:24.207Z'
-      v: 150
     - t: '2026-10-28T03:38:56.500Z'
       v: 150
     - t: '2026-10-28T11:58:34.222Z'
@@ -37,13 +35,15 @@ metrics:
       v: 150
     - t: '2026-10-31T03:45:04.989Z'
       v: 150
-  lastAutoUpdated: '2026-10-31T03:45:04.989Z'
+    - t: '2026-10-31T11:34:36.440Z'
+      v: 150
+  lastAutoUpdated: '2026-10-31T11:34:36.440Z'
   weeklyGrowthPct: 0
 fetch:
   github: getalby/nwc-mcp-server
 readme:
   about: Please use Alby MCP instead!
-  lastFetched: '2026-10-31T03:45:14.853Z'
+  lastFetched: '2026-10-31T11:34:45.053Z'
 repoInfo:
   language: TypeScript
   license: null
