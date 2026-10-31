@@ -14,8 +14,6 @@ metrics:
   lastPush: '2026-10-26T09:37:33Z'
   archived: false
   _history:
-    - t: '2026-10-28T11:58:36.152Z'
-      v: 3142
     - t: '2026-10-28T18:05:00.068Z'
       v: 3142
     - t: '2026-10-29T03:59:07.292Z'
@@ -38,7 +36,9 @@ metrics:
       v: 3152
     - t: '2026-10-31T16:41:41.940Z'
       v: 3152
-  lastAutoUpdated: '2026-10-31T16:41:41.940Z'
+    - t: '2026-10-31T20:53:36.637Z'
+      v: 3152
+  lastAutoUpdated: '2026-10-31T20:53:36.637Z'
   weeklyGrowthPct: 0
 fetch:
   github: chainstacklabs/mcp-server
@@ -50,7 +50,7 @@ readme:
   examples:
     - get mcp.chainstack.com
   installCmd: get mcp.chainstack.com
-  lastFetched: '2026-10-31T16:41:48.758Z'
+  lastFetched: '2026-10-31T20:53:44.383Z'
 repoInfo:
   language: null
   license: MIT

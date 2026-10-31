@@ -15,8 +15,6 @@ metrics:
   githubStars: 19743
   weeklyGrowthPct: 0
   _history:
-    - t: '2026-10-28T11:58:37.024Z'
-      v: 225601
     - t: '2026-10-28T18:05:01.655Z'
       v: 225422
     - t: '2026-10-29T03:59:08.422Z'
@@ -39,8 +37,10 @@ metrics:
       v: 226372
     - t: '2026-10-31T16:41:42.629Z'
       v: 226372
-  lastAutoUpdated: '2026-10-31T16:41:42.629Z'
-  lastPush: '2026-10-31T15:56:08Z'
+    - t: '2026-10-31T20:53:37.620Z'
+      v: 226372
+  lastAutoUpdated: '2026-10-31T20:53:37.620Z'
+  lastPush: '2026-10-31T20:43:43Z'
   archived: false
 fetch:
   github: elizaOS/eliza
@@ -51,7 +51,7 @@ readme:
     autonomous AI agents. This monorepo contains the core runtime, the Eliza
     app, the CLI, cloud services, native bridges, and first-party plugins. Linux
     and Android distribution tooling lives in packages/os.
-  lastFetched: '2026-10-31T16:41:50.378Z'
+  lastFetched: '2026-10-31T20:53:45.887Z'
 repoInfo:
   language: TypeScript
   license: MIT
@@ -64,8 +64,8 @@ repoInfo:
     - crypto
     - discord
     - eliza
-  contributors: 171
-  openIssues: 166
+  contributors: 170
+  openIssues: 176
   archived: false
   createdAt: '2024-07-09T07:55:40Z'
   defaultBranch: develop
