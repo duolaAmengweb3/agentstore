@@ -16,8 +16,6 @@ metrics:
   lastPush: '2026-10-29T10:32:10Z'
   archived: false
   _history:
-    - t: '2026-10-29T22:20:35.714Z'
-      v: 7850
     - t: '2026-10-30T04:00:32.067Z'
       v: 7870
     - t: '2026-10-30T11:59:37.429Z'
@@ -40,7 +38,9 @@ metrics:
       v: 7910
     - t: '2026-11-01T21:36:32.782Z'
       v: 7920
-  lastAutoUpdated: '2026-11-01T21:36:32.782Z'
+    - t: '2026-11-02T03:57:51.700Z'
+      v: 7920
+  lastAutoUpdated: '2026-11-02T03:57:51.700Z'
 fetch:
   github: krakenfx/kraken-cli
 readme:
@@ -101,7 +101,7 @@ readme:
     - name: utility
       count: 1
       description: No · Interactive setup (the REPL is the kraken-shell binary)
-  lastFetched: '2026-11-01T21:36:40.743Z'
+  lastFetched: '2026-11-02T03:58:03.441Z'
 repoInfo:
   language: Rust
   license: MIT
