@@ -14,8 +14,6 @@ metrics:
   lastPush: '2026-10-31T15:30:58Z'
   archived: false
   _history:
-    - t: '2026-10-30T17:54:41.892Z'
-      v: 1700
     - t: '2026-10-30T21:52:49.900Z'
       v: 1700
     - t: '2026-10-31T03:45:13.933Z'
@@ -38,14 +36,16 @@ metrics:
       v: 1710
     - t: '2026-11-03T00:21:39.399Z'
       v: 1710
-  lastAutoUpdated: '2026-11-03T00:21:39.399Z'
+    - t: '2026-11-03T13:29:00.464Z'
+      v: 1710
+  lastAutoUpdated: '2026-11-03T13:29:00.464Z'
 fetch:
   github: aaronjmars/web3-research-mcp
 readme:
   about: >-
     Local MCP server for deep crypto token research across CoinGecko, DeFiLlama
     and web search. Free, no API key.
-  lastFetched: '2026-11-03T00:21:51.031Z'
+  lastFetched: '2026-11-03T13:29:19.480Z'
 repoInfo:
   language: TypeScript
   license: MIT
