@@ -11,11 +11,9 @@ tagline_zh: 'Lighter(ETH zkRollup perp)官方 Python SDK,含链上 signer'
 metrics:
   npmMonthly: 287
   githubStars: 341
-  lastPush: '2026-10-28T20:34:31Z'
+  lastPush: '2026-11-04T15:48:48Z'
   archived: false
   _history:
-    - t: '2026-10-31T16:41:44.561Z'
-      v: 3697
     - t: '2026-10-31T20:53:39.909Z'
       v: 3697
     - t: '2026-11-01T03:53:55.127Z'
@@ -38,20 +36,22 @@ metrics:
       v: 3697
     - t: '2026-11-04T13:39:57.179Z'
       v: 3697
-  lastAutoUpdated: '2026-11-04T13:39:57.179Z'
+    - t: '2026-11-04T23:06:04.879Z'
+      v: 3697
+  lastAutoUpdated: '2026-11-04T23:06:04.879Z'
   weeklyGrowthPct: 0
 fetch:
   github: elliottech/lighter-python
 readme:
   about: Python SDK for Lighter (zkLighter perpetuals exchange).
   installCmd: 'pip install git+https://github.com/elliottech/zklighter-perps-python.git'
-  lastFetched: '2026-11-04T13:40:09.550Z'
+  lastFetched: '2026-11-04T23:06:14.363Z'
 repoInfo:
   language: Python
   license: Apache-2.0
   topics: []
   contributors: 20
-  openIssues: 55
+  openIssues: 56
   archived: false
   createdAt: '2025-02-03T09:58:17Z'
   defaultBranch: main
