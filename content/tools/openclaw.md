@@ -9,13 +9,11 @@ score: 7.2
 tagline_en: OpenClaw — open-source agent runtime (open-source counterpart to Claude Code)
 tagline_zh: 'OpenClaw:开源 agent runtime(Claude Code 的开源对标)'
 metrics:
-  githubStars: 393861
+  githubStars: 393869
   weeklyGrowthPct: 0
-  lastPush: '2026-11-03T22:47:32Z'
+  lastPush: '2026-11-04T04:30:04Z'
   archived: false
   _history:
-    - t: '2026-10-31T03:45:12.325Z'
-      v: 3934950
     - t: '2026-10-31T11:34:42.809Z'
       v: 3935200
     - t: '2026-10-31T16:41:45.145Z'
@@ -38,7 +36,9 @@ metrics:
       v: 3938130
     - t: '2026-11-03T22:47:53.517Z'
       v: 3938610
-  lastAutoUpdated: '2026-11-03T22:47:53.517Z'
+    - t: '2026-11-04T04:30:23.795Z'
+      v: 3938690
+  lastAutoUpdated: '2026-11-04T04:30:23.795Z'
 fetch:
   github: OpenClaw/openclaw
 readme:
@@ -46,8 +46,8 @@ readme:
     OpenClaw is an open-source AI assistant that runs on your own computer and
     meets you in the channels you already use: Discord, iMessage, Slack, Teams,
     Telegram, WhatsApp, and 20+ more, plus native apps for macOS, iOS, Android,
-    Windows, and Linux. One Gateway runs it as a personal assistant on a laptop
-    or as a shared team deployment; configuration is the only difference.
+    Windows, and Linux. One Gateway runs it as a personal claw on a laptop or as
+    a shared multiplayer claw; configuration is the only difference.
   examples:
     - openclaw onboard --install-daemon
     - openclaw gateway status
@@ -55,7 +55,7 @@ readme:
   installCmd: |-
     # macOS / Linux / WSL2
     curl -fsSL https://openclaw.ai/install.sh | bash
-  lastFetched: '2026-11-03T22:48:07.166Z'
+  lastFetched: '2026-11-04T04:30:35.486Z'
 repoInfo:
   language: TypeScript
   license: MIT
@@ -67,8 +67,8 @@ repoInfo:
     - openclaw
     - own-your-data
     - personal
-  contributors: 385
-  openIssues: 7747
+  contributors: 386
+  openIssues: 7766
   archived: false
   createdAt: '2025-11-24T10:16:47Z'
   defaultBranch: main
