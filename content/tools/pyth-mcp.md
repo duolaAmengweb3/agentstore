@@ -13,8 +13,6 @@ metrics:
   lastPush: '2025-10-15T15:25:30Z'
   archived: false
   _history:
-    - t: '2026-10-31T20:53:41.107Z'
-      v: 50
     - t: '2026-11-01T03:53:56.604Z'
       v: 50
     - t: '2026-11-01T12:32:12.761Z'
@@ -37,7 +35,9 @@ metrics:
       v: 50
     - t: '2026-11-04T23:06:06.348Z'
       v: 50
-  lastAutoUpdated: '2026-11-04T23:06:06.348Z'
+    - t: '2026-11-05T04:46:27.288Z'
+      v: 50
+  lastAutoUpdated: '2026-11-05T04:46:27.288Z'
   weeklyGrowthPct: 0
 fetch:
   github: itsOmSarraf/pyth-network-mcp
@@ -46,7 +46,7 @@ readme:
     An MCP server that provides real-time access to Pyth Network's decentralized
     oracle price feeds via the Hermes API, optimized for seamless integration
     into AI agents and autonomous systems.
-  lastFetched: '2026-11-04T23:06:16.180Z'
+  lastFetched: '2026-11-05T04:46:38.269Z'
 repoInfo:
   language: Python
   license: MIT
