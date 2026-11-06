@@ -14,8 +14,6 @@ metrics:
   lastPush: '2026-10-29T19:59:57Z'
   archived: false
   _history:
-    - t: '2026-11-02T14:33:35.015Z'
-      v: 1190
     - t: '2026-11-03T00:21:34.074Z'
       v: 1190
     - t: '2026-11-03T13:28:52.532Z'
@@ -38,11 +36,13 @@ metrics:
       v: 1190
     - t: '2026-11-06T13:37:49.105Z'
       v: 1190
-  lastAutoUpdated: '2026-11-06T13:37:49.105Z'
+    - t: '2026-11-06T22:38:08.920Z'
+      v: 1190
+  lastAutoUpdated: '2026-11-06T22:38:08.920Z'
 fetch:
   github: dydxprotocol/v4-clients
 readme:
-  lastFetched: '2026-11-06T13:38:00.707Z'
+  lastFetched: '2026-11-06T22:38:17.649Z'
 repoInfo:
   language: JavaScript
   license: NOASSERTION
