@@ -11,12 +11,10 @@ tagline_en: >-
   new AI crypto projects in 2026
 tagline_zh: '加密自治 agent 第一框架:TS 多 agent 模拟,45+ plugin,超一半新 AI crypto 项目在用'
 metrics:
-  npmMonthly: 27074
-  githubStars: 19780
-  weeklyGrowthPct: 0
+  npmMonthly: 28034
+  githubStars: 19782
+  weeklyGrowthPct: 1
   _history:
-    - t: '2026-11-03T00:21:34.320Z'
-      v: 224613
     - t: '2026-11-03T13:28:52.637Z'
       v: 223856
     - t: '2026-11-03T22:47:49.750Z'
@@ -39,8 +37,10 @@ metrics:
       v: 224834
     - t: '2026-11-06T22:38:09.041Z'
       v: 224874
-  lastAutoUpdated: '2026-11-06T22:38:09.041Z'
-  lastPush: '2026-11-06T22:16:44Z'
+    - t: '2026-11-07T04:14:12.708Z'
+      v: 225854
+  lastAutoUpdated: '2026-11-07T04:14:12.708Z'
+  lastPush: '2026-11-07T04:13:33Z'
   archived: false
 fetch:
   github: elizaOS/eliza
@@ -51,7 +51,7 @@ readme:
     autonomous AI agents. This monorepo contains the core runtime, the Eliza
     app, the CLI, cloud services, native bridges, and first-party plugins. Linux
     and Android distribution tooling lives in packages/os.
-  lastFetched: '2026-11-06T22:38:17.992Z'
+  lastFetched: '2026-11-07T04:14:22.450Z'
 repoInfo:
   language: TypeScript
   license: MIT
@@ -64,8 +64,8 @@ repoInfo:
     - crypto
     - discord
     - eliza
-  contributors: 171
-  openIssues: 463
+  contributors: 173
+  openIssues: 531
   archived: false
   createdAt: '2024-07-09T07:55:40Z'
   defaultBranch: develop
