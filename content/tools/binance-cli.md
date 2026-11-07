@@ -13,8 +13,6 @@ metrics:
   lastPush: '2026-11-06T07:46:00Z'
   archived: false
   _history:
-    - t: '2026-11-03T13:28:49.667Z'
-      v: 750
     - t: '2026-11-03T22:47:46.356Z'
       v: 750
     - t: '2026-11-04T04:30:17.531Z'
@@ -37,14 +35,16 @@ metrics:
       v: 750
     - t: '2026-11-07T04:14:10.090Z'
       v: 750
-  lastAutoUpdated: '2026-11-07T04:14:10.090Z'
+    - t: '2026-11-07T12:17:54.649Z'
+      v: 750
+  lastAutoUpdated: '2026-11-07T12:17:54.649Z'
   weeklyGrowthPct: 0
 fetch:
   github: binance/binance-cli
 readme:
   about: A simple CLI that interacts with the Binance API
   installCmd: npm uninstall -g @binance/binance-cli
-  lastFetched: '2026-11-07T04:14:19.428Z'
+  lastFetched: '2026-11-07T12:18:02.376Z'
 repoInfo:
   language: Rust
   license: null
