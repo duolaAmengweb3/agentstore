@@ -10,12 +10,10 @@ tagline_en: Helius official MCP (Solana) — 60 tools across RPC / tx / webhooks
 tagline_zh: 'Helius 官方 MCP(Solana):60 个工具覆盖 RPC / tx / webhook / stream'
 metrics:
   npmMonthly: 5621
-  githubStars: 29
+  githubStars: 30
   lastPush: '2026-11-06T13:28:05Z'
   archived: false
   _history:
-    - t: '2026-11-03T22:47:51.089Z'
-      v: 5911
     - t: '2026-11-04T04:30:21.268Z'
       v: 5911
     - t: '2026-11-04T13:39:55.346Z'
@@ -38,7 +36,9 @@ metrics:
       v: 5911
     - t: '2026-11-07T12:17:57.744Z'
       v: 5911
-  lastAutoUpdated: '2026-11-07T12:17:57.744Z'
+    - t: '2026-11-07T21:20:41.322Z'
+      v: 5921
+  lastAutoUpdated: '2026-11-07T21:20:41.322Z'
   weeklyGrowthPct: 0
 fetch:
   github: helius-labs/core-ai
@@ -54,7 +54,7 @@ readme:
     npm install -g helius-cli
     # or
     pnpm add -g helius-cli
-  lastFetched: '2026-11-07T12:18:06.039Z'
+  lastFetched: '2026-11-07T21:20:49.911Z'
 repoInfo:
   language: TypeScript
   license: MIT
