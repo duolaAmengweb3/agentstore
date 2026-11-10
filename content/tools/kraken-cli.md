@@ -16,8 +16,6 @@ metrics:
   lastPush: '2026-10-29T10:32:10Z'
   archived: false
   _history:
-    - t: '2026-11-06T04:45:47.311Z'
-      v: 8020
     - t: '2026-11-06T13:37:50.746Z'
       v: 8020
     - t: '2026-11-06T22:38:10.261Z'
@@ -40,7 +38,9 @@ metrics:
       v: 8040
     - t: '2026-11-10T01:05:00.561Z'
       v: 8070
-  lastAutoUpdated: '2026-11-10T01:05:00.561Z'
+    - t: '2026-11-10T14:09:50.845Z'
+      v: 8070
+  lastAutoUpdated: '2026-11-10T14:09:50.845Z'
 fetch:
   github: krakenfx/kraken-cli
 readme:
@@ -101,13 +101,21 @@ readme:
     - name: utility
       count: 1
       description: No · Interactive setup (the REPL is the kraken-shell binary)
-  lastFetched: '2026-11-10T01:05:10.364Z'
+  lastFetched: '2026-11-10T14:10:04.693Z'
 repoInfo:
   language: Rust
   license: MIT
-  topics: []
+  topics:
+    - ai-agents
+    - algorithmic-trading
+    - claude
+    - claude-code
+    - cli
+    - codex
+    - crypto
+    - cryptocurrency
   contributors: 5
-  openIssues: 6
+  openIssues: 7
   archived: false
   createdAt: '2026-03-06T22:18:12Z'
   defaultBranch: main
