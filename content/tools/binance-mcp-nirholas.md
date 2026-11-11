@@ -13,11 +13,9 @@ tagline_zh: '社区最全的币安 MCP:478+ 个 endpoint 覆盖现货 / margin /
 metrics:
   githubStars: 40
   weeklyGrowthPct: 0
-  lastPush: '2026-11-10T16:52:03Z'
+  lastPush: '2026-11-11T15:14:38Z'
   archived: false
   _history:
-    - t: '2026-11-07T12:17:54.681Z'
-      v: 400
     - t: '2026-11-07T21:20:38.432Z'
       v: 400
     - t: '2026-11-08T03:57:41.544Z'
@@ -40,7 +38,9 @@ metrics:
       v: 400
     - t: '2026-11-11T13:25:49.231Z'
       v: 400
-  lastAutoUpdated: '2026-11-11T13:25:49.231Z'
+    - t: '2026-11-11T23:57:23.240Z'
+      v: 400
+  lastAutoUpdated: '2026-11-11T23:57:23.240Z'
 fetch:
   github: nirholas/Binance-MCP
 readme:
@@ -57,19 +57,19 @@ readme:
 
     # Build the project
     npm run build
-  lastFetched: '2026-11-11T13:26:01.228Z'
+  lastFetched: '2026-11-11T23:57:30.599Z'
 repoInfo:
   language: TypeScript
   license: NOASSERTION
   topics:
-    - algo
-    - api
     - binance
+    - claude-code-plugin
     - crypto
-    - cryptocurrency
-    - mining
-    - nft
-    - npm
+    - exchange
+    - mcp-server
+    - model-context-protocol
+    - trading
+    - typescript
   contributors: 4
   openIssues: 1
   archived: false
