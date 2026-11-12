@@ -14,8 +14,6 @@ metrics:
   lastPush: '2025-10-22T15:44:43Z'
   archived: false
   _history:
-    - t: '2026-11-08T12:37:58.216Z'
-      v: 4011
     - t: '2026-11-08T21:35:08.681Z'
       v: 4011
     - t: '2026-11-09T04:12:42.134Z'
@@ -38,7 +36,9 @@ metrics:
       v: 4011
     - t: '2026-11-12T14:49:21.333Z'
       v: 4011
-  lastAutoUpdated: '2026-11-12T14:49:21.333Z'
+    - t: '2026-11-12T23:06:00.520Z'
+      v: 4011
+  lastAutoUpdated: '2026-11-12T23:06:00.520Z'
   weeklyGrowthPct: 0
 fetch:
   github: coinbase/payments-mcp
@@ -46,7 +46,7 @@ readme:
   about: >-
     Payments MCP is an MCP server & companion wallet app that combines wallets,
     onramps, and payments via x402 into a single solution for agentic commerce.
-  lastFetched: '2026-11-12T14:49:32.313Z'
+  lastFetched: '2026-11-12T23:06:09.526Z'
 repoInfo:
   language: TypeScript
   license: NOASSERTION
