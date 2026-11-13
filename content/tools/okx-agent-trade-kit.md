@@ -13,8 +13,6 @@ metrics:
   githubStars: 509
   weeklyGrowthPct: 2
   _history:
-    - t: '2026-11-08T21:35:12.518Z'
-      v: 10606
     - t: '2026-11-09T04:12:46.203Z'
       v: 10606
     - t: '2026-11-09T14:56:47.370Z'
@@ -37,8 +35,10 @@ metrics:
       v: 10866
     - t: '2026-11-12T23:06:04.568Z'
       v: 10866
-  lastAutoUpdated: '2026-11-12T23:06:04.568Z'
-  lastPush: '2026-11-10T11:05:47Z'
+    - t: '2026-11-13T04:42:24.808Z'
+      v: 10866
+  lastAutoUpdated: '2026-11-13T04:42:24.808Z'
+  lastPush: '2026-11-13T01:47:29Z'
   archived: false
 fetch:
   github: okx/agent-trade-kit
@@ -116,10 +116,11 @@ readme:
         Currency Deposit/双币赢 (6). Flash Earn (1). Sub-modules: earn.savings,
         earn.onchain, earn.dcd, earn.flash. Included in all. ·
     - name: bot
-      count: 18
+      count: 26
       description: >-
-        Trading bots: Grid (9) and DCA — Spot & Contract (9). Sub-modules:
-        bot.grid, bot.dca ·
+        Trading bots: Grid (9), DCA — Spot & Contract (9) and Smart Portfolio
+        (8). Sub-modules: bot.grid, bot.dca, bot.smartportfolio. Recurring Buy
+        is available as CLI-only okx bot recurring commands (no MCP tools) ·
     - name: news
       count: 7
       description: >-
@@ -154,7 +155,7 @@ readme:
 
     okx-trade-mcp setup --client vscode          # writes .mcp.json in current
     directory
-  lastFetched: '2026-11-12T23:06:15.165Z'
+  lastFetched: '2026-11-13T04:42:39.251Z'
 repoInfo:
   language: TypeScript
   license: MIT

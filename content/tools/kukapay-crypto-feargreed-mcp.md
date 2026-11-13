@@ -13,8 +13,6 @@ metrics:
   lastPush: '2025-05-10T14:16:11Z'
   archived: false
   _history:
-    - t: '2026-11-08T21:35:10.405Z'
-      v: 520
     - t: '2026-11-09T04:12:44.182Z'
       v: 520
     - t: '2026-11-09T14:56:45.287Z'
@@ -37,7 +35,9 @@ metrics:
       v: 520
     - t: '2026-11-12T23:06:02.760Z'
       v: 520
-  lastAutoUpdated: '2026-11-12T23:06:02.760Z'
+    - t: '2026-11-13T04:42:21.623Z'
+      v: 520
+  lastAutoUpdated: '2026-11-13T04:42:21.623Z'
   weeklyGrowthPct: 0
 fetch:
   github: kukapay/crypto-feargreed-mcp
@@ -61,7 +61,7 @@ readme:
     - >-
       Prompt Generation — Provides a prompt template for interpreting index
       values.
-  lastFetched: '2026-11-12T23:06:12.781Z'
+  lastFetched: '2026-11-13T04:42:35.120Z'
 repoInfo:
   language: Python
   license: MIT
