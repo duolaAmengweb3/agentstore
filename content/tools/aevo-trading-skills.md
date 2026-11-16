@@ -16,8 +16,6 @@ metrics:
   lastPush: '2026-03-10T13:19:03Z'
   archived: false
   _history:
-    - t: '2026-11-12T05:58:22.872Z'
-      v: 10
     - t: '2026-11-12T14:49:18.264Z'
       v: 10
     - t: '2026-11-12T23:05:58.600Z'
@@ -40,7 +38,9 @@ metrics:
       v: 10
     - t: '2026-11-15T22:24:11.687Z'
       v: 10
-  lastAutoUpdated: '2026-11-15T22:24:11.687Z'
+    - t: '2026-11-16T04:24:14.484Z'
+      v: 10
+  lastAutoUpdated: '2026-11-16T04:24:14.484Z'
 fetch:
   github: ribbon-finance/aevo-trading-skills
 readme:
@@ -49,7 +49,7 @@ readme:
     Connects any MCP-compatible client to AEVO's 45 tools for market data,
     portfolio management, order execution, risk analysis, and options
     strategies.
-  lastFetched: '2026-11-15T22:24:19.969Z'
+  lastFetched: '2026-11-16T04:24:22.286Z'
 repoInfo:
   language: null
   license: null
