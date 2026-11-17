@@ -10,13 +10,11 @@ tagline_en: Solana Agent Kit exposed as an MCP server
 tagline_zh: Solana Agent Kit 的 MCP 服务器版本
 metrics:
   npmMonthly: 12483
-  githubStars: 167
-  weeklyGrowthPct: 0
+  githubStars: 166
+  weeklyGrowthPct: -0.0
   lastPush: '2025-05-20T18:49:30Z'
   archived: false
   _history:
-    - t: '2026-11-13T04:42:26.210Z'
-      v: 14153
     - t: '2026-11-13T13:47:56.883Z'
       v: 14153
     - t: '2026-11-13T23:09:30.762Z'
@@ -39,7 +37,9 @@ metrics:
       v: 14153
     - t: '2026-11-17T01:27:27.221Z'
       v: 14153
-  lastAutoUpdated: '2026-11-17T01:27:27.221Z'
+    - t: '2026-11-17T15:23:26.999Z'
+      v: 14143
+  lastAutoUpdated: '2026-11-17T15:23:26.999Z'
 fetch:
   github: sendaifun/solana-mcp
 readme:
@@ -52,7 +52,7 @@ readme:
     - Execute transactions
     - Query account information
     - Manage Solana wallets
-  lastFetched: '2026-11-17T01:27:37.834Z'
+  lastFetched: '2026-11-17T15:23:39.963Z'
 repoInfo:
   language: Shell
   license: Apache-2.0
