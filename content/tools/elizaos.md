@@ -12,11 +12,9 @@ tagline_en: >-
 tagline_zh: '加密自治 agent 第一框架:TS 多 agent 模拟,45+ plugin,超一半新 AI crypto 项目在用'
 metrics:
   npmMonthly: 45344
-  githubStars: 19906
+  githubStars: 19907
   weeklyGrowthPct: 4
   _history:
-    - t: '2026-11-15T22:24:14.343Z'
-      v: 234860
     - t: '2026-11-16T04:24:16.797Z'
       v: 234870
     - t: '2026-11-16T14:32:53.127Z'
@@ -39,21 +37,24 @@ metrics:
       v: 241812
     - t: '2026-11-20T14:46:16.242Z'
       v: 244404
-  lastAutoUpdated: '2026-11-20T14:46:16.242Z'
-  lastPush: '2026-11-20T10:34:38Z'
+    - t: '2026-11-20T23:35:17.065Z'
+      v: 244414
+  lastAutoUpdated: '2026-11-20T23:35:17.065Z'
+  lastPush: '2026-11-20T23:29:26Z'
   archived: false
 fetch:
   github: elizaOS/eliza
   npm: '@elizaos/core'
 readme:
   about: >-
-    elizaOS is an open-source TypeScript framework and product stack for
-    autonomous AI agents. This monorepo contains the core runtime, the Eliza
-    app, the CLI, cloud services, native bridges, and first-party plugins.
-    Android distribution tooling lives in packages/os.
-  lastFetched: '2026-11-20T14:46:27.898Z'
+    This workspace specifies Eliza v4 on Vibestack: the kernel, the agent host,
+    the device image, the cloud services and the assistant plugins. Agents run
+    on the device; the cloud serves identity, billing and model access. The
+    specification covers requirements, Quint models, and the generated contracts
+    for the VibeLang and Effect implementation.
+  lastFetched: '2026-11-20T23:35:26.520Z'
 repoInfo:
-  language: TypeScript
+  language: Java
   license: MIT
   topics:
     - agent
@@ -64,11 +65,11 @@ repoInfo:
     - crypto
     - discord
     - eliza
-  contributors: 182
-  openIssues: 142
+  contributors: 1
+  openIssues: 135
   archived: false
   createdAt: '2024-07-09T07:55:40Z'
-  defaultBranch: develop
+  defaultBranch: vibestack
 summary_en: >-
   By Shaw. In April 2026 the team announced Eliza Labs is winding down and going
   back to basics with v3 in beta — bumpy trajectory but massive ecosystem. 18+

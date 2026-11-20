@@ -12,11 +12,9 @@ metrics:
   smitheryCalls: 2065
   githubStars: 5317
   weeklyGrowthPct: 0
-  lastPush: '2026-11-15T13:20:34Z'
+  lastPush: '2026-11-20T19:05:01Z'
   archived: false
   _history:
-    - t: '2026-11-15T22:24:19.100Z'
-      v: 52930
     - t: '2026-11-16T04:24:21.550Z'
       v: 52950
     - t: '2026-11-16T14:32:58.745Z'
@@ -39,14 +37,16 @@ metrics:
       v: 53150
     - t: '2026-11-20T14:46:21.848Z'
       v: 53170
-  lastAutoUpdated: '2026-11-20T14:46:21.848Z'
+    - t: '2026-11-20T23:35:21.530Z'
+      v: 53170
+  lastAutoUpdated: '2026-11-20T23:35:21.530Z'
 fetch:
   github: atilaahmettaner/tradingview-mcp
 readme:
   about: >-
     15 seconds, real output (market data as of 13 Oct 2026) · this server,
     hosted as TradingMCP · watch in full quality
-  lastFetched: '2026-11-20T14:46:34.759Z'
+  lastFetched: '2026-11-20T23:35:32.607Z'
 repoInfo:
   language: Python
   license: MIT
@@ -60,7 +60,7 @@ repoInfo:
     - model-context-protocol
     - openclaw
   contributors: 27
-  openIssues: 8
+  openIssues: 7
   archived: false
   createdAt: '2025-08-08T22:34:03Z'
   defaultBranch: main

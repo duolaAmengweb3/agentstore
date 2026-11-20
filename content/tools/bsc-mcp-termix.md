@@ -9,12 +9,10 @@ score: 7.3
 tagline_en: BNB Chain MCP — send BNB / BEP-20 / deploy contracts
 tagline_zh: 'BNB 链 MCP:发 BNB / BEP-20 / 部署合约'
 metrics:
-  githubStars: 105
+  githubStars: 106
   lastPush: '2025-08-30T03:22:04Z'
   archived: false
   _history:
-    - t: '2026-11-15T22:24:13.194Z'
-      v: 1050
     - t: '2026-11-16T04:24:15.658Z'
       v: 1050
     - t: '2026-11-16T14:32:51.743Z'
@@ -37,8 +35,10 @@ metrics:
       v: 1050
     - t: '2026-11-20T14:46:14.864Z'
       v: 1050
-  lastAutoUpdated: '2026-11-20T14:46:14.864Z'
-  weeklyGrowthPct: 0
+    - t: '2026-11-20T23:35:15.972Z'
+      v: 1060
+  lastAutoUpdated: '2026-11-20T23:35:15.972Z'
+  weeklyGrowthPct: 1
 fetch:
   github: TermiX-official/bsc-mcp
 readme:
@@ -65,7 +65,7 @@ readme:
     - >-
       Real-time wallet monitoring - Track balances and positions across multiple
       tokens
-  lastFetched: '2026-11-20T14:46:25.153Z'
+  lastFetched: '2026-11-20T23:35:24.137Z'
 repoInfo:
   language: TypeScript
   license: null
