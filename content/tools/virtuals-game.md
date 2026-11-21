@@ -16,8 +16,6 @@ metrics:
   lastPush: '2026-03-06T15:30:04Z'
   archived: false
   _history:
-    - t: '2026-11-16T14:32:59.133Z'
-      v: 920
     - t: '2026-11-17T01:27:27.562Z'
       v: 920
     - t: '2026-11-17T15:23:27.330Z'
@@ -40,11 +38,13 @@ metrics:
       v: 920
     - t: '2026-11-21T05:16:37.119Z'
       v: 920
-  lastAutoUpdated: '2026-11-21T05:16:37.119Z'
+    - t: '2026-11-21T14:01:44.122Z'
+      v: 920
+  lastAutoUpdated: '2026-11-21T14:01:44.122Z'
 fetch:
   github: game-by-virtuals/game-node
 readme:
-  lastFetched: '2026-11-21T05:16:46.890Z'
+  lastFetched: '2026-11-21T14:01:54.624Z'
 repoInfo:
   language: TypeScript
   license: MIT
