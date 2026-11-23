@@ -11,12 +11,10 @@ tagline_en: >-
   new AI crypto projects in 2026
 tagline_zh: '加密自治 agent 第一框架:TS 多 agent 模拟,45+ plugin,超一半新 AI crypto 项目在用'
 metrics:
-  npmMonthly: 48545
-  githubStars: 19911
-  weeklyGrowthPct: 4
+  npmMonthly: 49070
+  githubStars: 19913
+  weeklyGrowthPct: 3
   _history:
-    - t: '2026-11-19T05:35:37.005Z'
-      v: 238887
     - t: '2026-11-19T15:05:30.887Z'
       v: 241812
     - t: '2026-11-20T00:11:13.972Z'
@@ -39,8 +37,10 @@ metrics:
       v: 247665
     - t: '2026-11-23T05:19:26.667Z'
       v: 247655
-  lastAutoUpdated: '2026-11-23T05:19:26.667Z'
-  lastPush: '2026-11-23T05:19:04Z'
+    - t: '2026-11-23T17:09:08.355Z'
+      v: 248200
+  lastAutoUpdated: '2026-11-23T17:09:08.355Z'
+  lastPush: '2026-11-23T17:04:35Z'
   archived: false
 fetch:
   github: elizaOS/eliza
@@ -52,7 +52,7 @@ readme:
     on the device; the cloud serves identity, billing and model access. The
     specification covers requirements, Quint models, and the generated contracts
     for the VibeLang and Effect implementation.
-  lastFetched: '2026-11-23T05:19:35.663Z'
+  lastFetched: '2026-11-23T17:09:20.787Z'
 repoInfo:
   language: Java
   license: MIT
@@ -66,7 +66,7 @@ repoInfo:
     - discord
     - eliza
   contributors: 3
-  openIssues: 17
+  openIssues: 16
   archived: false
   createdAt: '2024-07-09T07:55:40Z'
   defaultBranch: vibestack
