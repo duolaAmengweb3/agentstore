@@ -10,12 +10,10 @@ tagline_en: 'kukapay whale tracker — Whale Alert API wrapper, 52 stars'
 tagline_zh: 'kukapay 鲸鱼追踪:Whale Alert API 封装,52 star'
 metrics:
   smitheryCalls: 421
-  githubStars: 58
+  githubStars: 59
   lastPush: '2025-05-07T17:24:04Z'
   archived: false
   _history:
-    - t: '2026-11-19T15:05:33.963Z'
-      v: 580
     - t: '2026-11-20T00:11:16.192Z'
       v: 580
     - t: '2026-11-20T14:46:19.355Z'
@@ -38,8 +36,10 @@ metrics:
       v: 580
     - t: '2026-11-23T17:09:11.394Z'
       v: 580
-  lastAutoUpdated: '2026-11-23T17:09:11.394Z'
-  weeklyGrowthPct: 0
+    - t: '2026-11-24T03:43:16.413Z'
+      v: 590
+  lastAutoUpdated: '2026-11-24T03:43:16.413Z'
+  weeklyGrowthPct: 2
 fetch:
   github: kukapay/whale-tracker-mcp
 readme:
@@ -67,7 +67,7 @@ readme:
       to the Whale Alert API.
   examples:
     - mcp dev whale_tracker.py --with-editable .
-  lastFetched: '2026-11-23T17:09:25.613Z'
+  lastFetched: '2026-11-24T03:43:25.893Z'
 repoInfo:
   language: Python
   license: MIT
