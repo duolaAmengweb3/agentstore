@@ -15,8 +15,6 @@ metrics:
   lastPush: '2026-11-20T19:05:01Z'
   archived: false
   _history:
-    - t: '2026-11-20T14:46:21.848Z'
-      v: 53170
     - t: '2026-11-20T23:35:21.530Z'
       v: 53170
     - t: '2026-11-21T05:16:36.848Z'
@@ -39,14 +37,16 @@ metrics:
       v: 53310
     - t: '2026-11-24T16:52:05.451Z'
       v: 53330
-  lastAutoUpdated: '2026-11-24T16:52:05.451Z'
+    - t: '2026-11-25T01:50:32.982Z'
+      v: 53330
+  lastAutoUpdated: '2026-11-25T01:50:32.982Z'
 fetch:
   github: atilaahmettaner/tradingview-mcp
 readme:
   about: >-
     15 seconds, real output (market data as of 13 Oct 2026) · this server,
     hosted as TradingMCP · watch in full quality
-  lastFetched: '2026-11-24T16:52:20.758Z'
+  lastFetched: '2026-11-25T01:50:43.949Z'
 repoInfo:
   language: Python
   license: MIT

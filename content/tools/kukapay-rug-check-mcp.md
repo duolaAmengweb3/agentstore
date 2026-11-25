@@ -9,12 +9,10 @@ score: 7.2
 tagline_en: Solana rug detection via RugCheck.xyz — 19 stars
 tagline_zh: 'Solana rug 检测(通过 RugCheck.xyz),19 star'
 metrics:
-  githubStars: 22
+  githubStars: 23
   lastPush: '2025-05-06T08:52:14Z'
   archived: false
   _history:
-    - t: '2026-11-20T14:46:18.660Z'
-      v: 220
     - t: '2026-11-20T23:35:19.041Z'
       v: 220
     - t: '2026-11-21T05:16:34.788Z'
@@ -37,8 +35,10 @@ metrics:
       v: 220
     - t: '2026-11-24T16:52:02.721Z'
       v: 220
-  lastAutoUpdated: '2026-11-24T16:52:02.721Z'
-  weeklyGrowthPct: 0
+    - t: '2026-11-25T01:50:30.545Z'
+      v: 230
+  lastAutoUpdated: '2026-11-25T01:50:30.545Z'
+  weeklyGrowthPct: 5
 fetch:
   github: kukapay/rug-check-mcp
 readme:
@@ -52,7 +52,7 @@ readme:
     - >-
       Structured Output — Returns detailed token information including name,
       symbol, Snif score, market cap, price, supply, risks, and audit status.
-  lastFetched: '2026-11-24T16:52:16.748Z'
+  lastFetched: '2026-11-25T01:50:40.931Z'
 repoInfo:
   language: Python
   license: MIT
