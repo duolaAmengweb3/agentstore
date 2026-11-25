@@ -9,12 +9,10 @@ score: 8.9
 tagline_en: OKX official MCP + CLI — 140 tools across spot / perp / options / bots / earn
 tagline_zh: 'OKX 官方 MCP + CLI,140 个工具覆盖现货 / 合约 / 期权 / bot / earn'
 metrics:
-  npmMonthly: 6802
+  npmMonthly: 6879
   githubStars: 520
   weeklyGrowthPct: -2
   _history:
-    - t: '2026-11-20T23:35:20.536Z'
-      v: 12285
     - t: '2026-11-21T05:16:36.039Z'
       v: 12285
     - t: '2026-11-21T14:01:42.710Z'
@@ -37,8 +35,10 @@ metrics:
       v: 11992
     - t: '2026-11-25T01:50:32.077Z'
       v: 12002
-  lastAutoUpdated: '2026-11-25T01:50:32.077Z'
-  lastPush: '2026-11-17T10:54:13Z'
+    - t: '2026-11-25T16:40:23.090Z'
+      v: 12079
+  lastAutoUpdated: '2026-11-25T16:40:23.090Z'
+  lastPush: '2026-11-25T03:53:06Z'
   archived: false
 fetch:
   github: okx/agent-trade-kit
@@ -49,7 +49,7 @@ readme:
     grid bots via the Model Context Protocol.  
   features:
     - >-
-      170 tools across 11 modules (17 sub-modules) — Full trading lifecycle:
+      174 tools across 11 modules (17 sub-modules) — Full trading lifecycle:
       market data → orders → algo orders → account management → earn → trading
       bots → event contracts → news → smart money signals
     - >-
@@ -116,10 +116,10 @@ readme:
         Currency Deposit/双币赢 (6). Flash Earn (1). Sub-modules: earn.savings,
         earn.onchain, earn.dcd, earn.flash. Included in all. ·
     - name: bot
-      count: 26
+      count: 30
       description: >-
         Trading bots: Grid (9), DCA — Spot & Contract (9) and Smart Portfolio
-        (8). Sub-modules: bot.grid, bot.dca, bot.smartportfolio. Recurring Buy
+        (12). Sub-modules: bot.grid, bot.dca, bot.smartportfolio. Recurring Buy
         is available as CLI-only okx bot recurring commands (no MCP tools) ·
     - name: news
       count: 7
@@ -155,7 +155,7 @@ readme:
 
     okx-trade-mcp setup --client vscode          # writes .mcp.json in current
     directory
-  lastFetched: '2026-11-25T01:50:42.354Z'
+  lastFetched: '2026-11-25T16:40:36.196Z'
 repoInfo:
   language: TypeScript
   license: MIT

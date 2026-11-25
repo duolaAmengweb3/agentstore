@@ -11,12 +11,10 @@ tagline_en: >-
   new AI crypto projects in 2026
 tagline_zh: '加密自治 agent 第一框架:TS 多 agent 模拟,45+ plugin,超一半新 AI crypto 项目在用'
 metrics:
-  npmMonthly: 51655
-  githubStars: 19918
-  weeklyGrowthPct: 3
+  npmMonthly: 54587
+  githubStars: 19919
+  weeklyGrowthPct: 4
   _history:
-    - t: '2026-11-20T23:35:17.065Z'
-      v: 244414
     - t: '2026-11-21T05:16:33.020Z'
       v: 244444
     - t: '2026-11-21T14:01:39.757Z'
@@ -39,8 +37,10 @@ metrics:
       v: 250815
     - t: '2026-11-25T01:50:28.289Z'
       v: 250835
-  lastAutoUpdated: '2026-11-25T01:50:28.289Z'
-  lastPush: '2026-11-25T01:50:10Z'
+    - t: '2026-11-25T16:40:18.675Z'
+      v: 253777
+  lastAutoUpdated: '2026-11-25T16:40:18.675Z'
+  lastPush: '2026-11-25T16:30:30Z'
   archived: false
 fetch:
   github: elizaOS/eliza
@@ -52,7 +52,7 @@ readme:
     on the device; the cloud serves identity, billing and model access. The
     specification covers requirements, Quint models, and the generated contracts
     for the VibeLang and Effect implementation.
-  lastFetched: '2026-11-25T01:50:37.848Z'
+  lastFetched: '2026-11-25T16:40:30.169Z'
 repoInfo:
   language: Java
   license: MIT
@@ -66,10 +66,10 @@ repoInfo:
     - discord
     - eliza
   contributors: 6
-  openIssues: 13
+  openIssues: 21
   archived: false
   createdAt: '2024-07-09T07:55:40Z'
-  defaultBranch: main
+  defaultBranch: develop
 summary_en: >-
   By Shaw. In April 2026 the team announced Eliza Labs is winding down and going
   back to basics with v3 in beta — bumpy trajectory but massive ecosystem. 18+
