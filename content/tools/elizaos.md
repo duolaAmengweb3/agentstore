@@ -15,8 +15,6 @@ metrics:
   githubStars: 19927
   weeklyGrowthPct: 4
   _history:
-    - t: '2026-11-22T13:55:52.127Z'
-      v: 247665
     - t: '2026-11-22T23:06:49.847Z'
       v: 247665
     - t: '2026-11-23T05:19:26.667Z'
@@ -39,8 +37,10 @@ metrics:
       v: 255042
     - t: '2026-11-27T15:58:51.060Z'
       v: 256772
-  lastAutoUpdated: '2026-11-27T15:58:51.060Z'
-  lastPush: '2026-11-27T11:30:48Z'
+    - t: '2026-11-28T00:58:00.983Z'
+      v: 256772
+  lastAutoUpdated: '2026-11-28T00:58:00.983Z'
+  lastPush: '2026-11-28T00:48:14Z'
   archived: false
 fetch:
   github: elizaOS/eliza
@@ -52,7 +52,7 @@ readme:
     on the device; the cloud serves identity, billing and model access. The
     specification covers requirements, Quint models, and the generated contracts
     for the VibeLang and Effect implementation.
-  lastFetched: '2026-11-27T15:58:59.863Z'
+  lastFetched: '2026-11-28T00:58:08.597Z'
 repoInfo:
   language: Java
   license: MIT
@@ -66,7 +66,7 @@ repoInfo:
     - discord
     - eliza
   contributors: 15
-  openIssues: 9
+  openIssues: 13
   archived: false
   createdAt: '2024-07-09T07:55:40Z'
   defaultBranch: develop
